@@ -5,3 +5,5 @@ antrian-render.txt text eol=crlf
 *.png binary
 *.jpg binary
 *.xlsx binary
+# skrip bash wajib LF (CRLF membuat bash gagal)
+*.sh text eol=lf
