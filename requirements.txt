@@ -1,0 +1,4 @@
+# TTS sementara (suara placeholder, bukan untuk tayang komersial)
+edge-tts
+# generator Excel rancangan (rancangan/sumber/buat_excel.py)
+openpyxl
