@@ -95,7 +95,25 @@ kecuali video tipografi), 30 fps, AAC 48 kHz, -14 LUFS, plus `<folder>.srt`. Fol
 | `sfx-kustom/` | SFX milik sendiri/berlisensi → dipakai sebagai `'file:nama'` |
 | `rancangan/` | Excel rancangan iklan (flow semua modul, 22 video modul, 32 video pendek, 48 konsep meme, bank sound, efek VO, opsi TTS, kalender) + generator `rancangan/sumber/` |
 | `RENDER.bat`, `antrian-render.txt` | Antrean render tanpa AI |
+| `RENDER-SALES.bat`, `sales/` | Versi video per sales dari `sales/daftar-sales.xlsx` (`lib/sales.js`, `lib/baca_sales.py`, `lib/buat_template_sales.py`) |
 | `BRIEF-AGEN.md`, `PUSTAKA-GAYA.md`, `CONTEXT.md` | Referensi API kit · pustaka gaya · konteks untuk AI |
+
+## Versi per sales (nama + nomor WhatsApp di penutup video)
+
+1. Klik dua kali **`RENDER-SALES.bat`** — bila belum ada, `sales/daftar-sales.xlsx` dibuat dulu.
+2. Isi Excel itu: sheet **Sales** (Nama, No. WhatsApp, Aktif = Ya), sheet **Video** (video yang dibuatkan versi sales +
+   format 9:16/16:9), sheet **Pengaturan** (teks kontak di layar, pola nama file). Simpan.
+3. Klik dua kali `RENDER-SALES.bat` lagi. Hasil di folder video yang sama, mis.
+   `out/t01-stomp/t01-stomp-9x16-081234567890.mp4`.
+
+Cara kerjanya: kontak umum `support@privasimu.com · 0851 8318 2722` di penutup diganti `{nama} · WA {telp}`
+(parameter `&kontak=` dibaca `lib/engine.js`/`lib/kit.js`), dan **hanya bagian akhir** video (sejak keyframe terakhir
+sebelum kontak muncul) yang dirender ulang lalu disambung ke video dasar tanpa encode ulang; suara tetap. ± 20–60 detik
+per video per format per sales. Versi yang sudah jadi dilewati otomatis (`out/<folder>/sales-info.json`), jadi menambah
+sales baru hanya merender sales itu. Video dasar harus sudah dirender (`RENDER.bat`). Opsi: `RENDER-SALES.bat t01-stomp
+--fmt=16x9 --paksa`. A22 tidak punya nomor kontak di CTA-nya (bawaan: tidak dibuatkan versi sales).
+
+`sales/daftar-sales.xlsx` berisi data pribadi (nama & nomor HP) dan **tidak ikut repo git**.
 
 ## Memasang VN dari tim
 

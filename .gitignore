@@ -18,3 +18,6 @@ Thumbs.db
 
 # dependensi npm (npm install)
 node_modules/
+
+# data sales (nama & nomor HP = data pribadi) - jangan masuk repo publik
+sales/*.xlsx

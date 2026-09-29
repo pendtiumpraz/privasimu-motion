@@ -214,6 +214,26 @@ dari `sfx-kustom/`.
 - Opsi: `lead` `pluck|keys|bell|chip`, `drums` `full|light|chip|none`, `sonic: true` = sonic logo "Pri-va-si-mu"
   (sol-mi-re-do).
 
+## 5b. Versi per sales
+
+- `RENDER-SALES.bat` → `lib/sales.js` membaca `sales/daftar-sales.xlsx` (lewat `lib/baca_sales.py`; template dibuat
+  `lib/buat_template_sales.py`). Excel ini berisi data pribadi (nama & nomor HP sales) → di `.gitignore`, jangan
+  pernah di-commit (repo publik) atau disalin ke tempat lain.
+- Mekanisme: halaman menerima `&kontak={"penuh","nomor"}`. `lib/engine.js` (`MG.kontak`, `applyKontak` di `boot`) dan
+  `lib/kit.js` (`deepKontak` di `run`, sebelum teks dipecah per huruf) mengganti
+  `support@privasimu.com · 0851 8318 2722` dan `0851 8318 2722`. Tanpa parameter, halaman tidak berubah. Jangan mengubah
+  teks kontak umum tanpa memperbarui pola di `engine.js`.
+- `sales.js` per video/format:
+  1. cari detik pertama kontak terlihat (scan DOM di halaman);
+  2. cari keyframe terakhir sebelumnya (paket berflag K via ffprobe);
+  3. kepala video dasar dipotong dengan muxer segment (tanpa encode);
+  4. render ekor sejak keyframe itu dengan kontak sales;
+  5. concat + audio dasar;
+  6. verifikasi durasi, jumlah frame (harus sama persis) dan decode.
+  Catatan & cache analisis di `out/<folder>/sales-info.json`. Hasil `<pola>.mp4` di `out/<folder>/`.
+- Nomor dinormalkan (0812…, +62…, 62… → 0812-3456-7890); nama dipotong `maks_huruf_nama`. Video tanpa kontak di CTA
+  (A22) dilewati. Sales sebaiknya sudah setuju nomornya ditampilkan.
+
 ## 6. Formula iklan (dari `rancangan/Rancangan-Iklan-Video-Privasimu.xlsx`)
 
 **Hook** wajib di 0–3 detik, salah satu dari 4 jenis:
@@ -262,6 +282,8 @@ Semua 17 video di `README.md` sudah dirender (hasil di `out/`, tidak ikut git). 
 - **Ganti teks VO:** edit `vo` → `--audio-only` → `cek-cue` (cue `w:` harus tetap ada) → QA still → `RENDER.bat`
   (otomatis dirender ulang karena sumber berubah).
 - **Pasang VN:** taruh file di `vn/` → `RENDER.bat` (otomatis).
+- **Versi per sales:** isi `sales/daftar-sales.xlsx` → `RENDER-SALES.bat` (lihat 5b). Untuk menguji tanpa menyentuh data
+  pengguna, salin Excel ke file lain lalu `node lib/sales.js <folder> --fmt=9x16 --excel=sales/_uji.xlsx`, lalu hapus hasil uji.
 - **Cek status semua:** `for f in $(grep -v '^#' antrian-render.txt | tr -d '\r'); do node lib/status-render.js $f; done`.
 
 ## 9. Pelajaran teknis (jebakan yang pernah terjadi)
@@ -292,6 +314,8 @@ Semua 17 video di `README.md` sudah dirender (hasil di `out/`, tidak ikut git). 
 - Backslash di heredoc bash → Python bisa berubah jadi newline. Untuk kode berisi `\`, pakai tool Write/Edit.
 - `.bat` yang sedang berjalan dibaca ulang dari disk per baris → jangan diedit saat berjalan.
 - Filter drawtext FFmpeg: hindari `:` di label.
+- `ffprobe … -of csv=p=0` bisa mencetak koma di akhir (`8.333333,`) → ambil kolom pertama, jangan `Number(baris)`.
+- `-shortest` saat mux bisa membuang frame terakhir bila audio 2 ms lebih pendek → untuk versi sales tidak dipakai.
 
 ## 10. Ide lanjutan (belum dikerjakan)
 

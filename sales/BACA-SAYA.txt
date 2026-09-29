@@ -1,0 +1,13 @@
+VERSI VIDEO PER SALES
+
+1. Klik dua kali RENDER-SALES.bat (di folder motion). Kalau sales\daftar-sales.xlsx belum ada, file itu dibuat dulu.
+2. Buka sales\daftar-sales.xlsx:
+   - sheet Sales: isi Nama + No. WhatsApp, ubah Aktif menjadi Ya
+   - sheet Video: pilih video (Versi sales = Ya) dan format (9:16 / 16:9)
+   - sheet Pengaturan: teks kontak di layar & pola nama file (opsional)
+3. Simpan, lalu klik dua kali RENDER-SALES.bat lagi.
+
+Hasil ada di folder video yang sama, mis. out\t01-stomp\t01-stomp-9x16-081234567890.mp4
+Video dasar harus sudah dirender (RENDER.bat). Versi yang sudah jadi dilewati otomatis.
+
+PRIVASI: daftar-sales.xlsx berisi data pribadi (nama & nomor HP) dan sengaja TIDAK ikut repo git.
