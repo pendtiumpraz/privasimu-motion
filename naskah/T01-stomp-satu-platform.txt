@@ -1,0 +1,61 @@
+NASKAH T01 — "SATU PLATFORM" (GAYA STOMP)
+================================================================
+Jenis      : IKLAN TOOLS, gaya STOMP (tipografi menghentak di tiap ketukan, potong keras, kilat di tiap clap)
+Durasi     : ± 41 detik
+Format     : 16:9 dan 9:16
+Sasaran    : DPO/PPDP, tim legal & kepatuhan, manajemen yang masih mengandalkan spreadsheet
+Hook       : anomali + relate — "12 SPREADSHEET. 7 FOLDER. 3 GRUP CHAT. 1 DPO." (tanpa suara, hanya hentakan)
+Pengisi    : 1 suara, HANYA 2 bagian (sisanya murni musik stomp)
+Video      : SUDAH DIRAKIT (folder motion/t01-stomp). Suara sementara = TTS; VN tim bisa dipasang kapan saja
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Hanya dua file: T01_S2 dan T01_S7 (nomor mengikuti urutan scene; scene lain tanpa suara).
+2. Baca PERSIS sesuai teks VO. Tulisan di layar disinkronkan ke kata-kata ini.
+3. S2 pendek dan tegas (seperti menghentikan kekacauan). S7 hangat dan yakin.
+4. Lafal: "UU PDP" (u-u pe-de-pe), "Privasimu Nexus" (pri-va-si-mu nek-sus), "dot com" (dot kom).
+5. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik — TANPA SUARA
+Layar  : stomp-stomp-clap: "12" → pita "SPREADSHEET" → kilat + grid spreadsheet ber-#REF!;
+         "7" → "FOLDER" 🗂️; "3" → "GRUP CHAT" + notifikasi 99+; "1" → "DPO." 😵.
+
+[S2] ± 2,5 detik
+VO     : "Cukup. Saatnya rapi."
+Arahan : jeda singkat setelah "Cukup." (musik berhenti oleh bunyi piringan tergores), lalu "Saatnya rapi." mantap.
+Layar  : "CUKUP." di layar hitam → "SAATNYA" → "RAPI." (gulungan tepuk + riser ke drop).
+
+[S3] ± 10 detik — TANPA SUARA
+Layar  : drop; tiap modul 1 hentakan: kata raksasa → screenshot ASLI menghantam → chip manfaat:
+         RoPA (tercatat rapi) · DPIA (risiko terukur) · DSR (tenggat terpantau) · CONSENT (persetujuan bisa dibuktikan) ·
+         INSIDEN (siap lapor 3×24 jam) · GAP ASSESSMENT (skor + rekomendasi per pasal) ·
+         AI AGENT (bantu jawab & beri rekomendasi) · DPO ACADEMY (tim ikut paham).
+
+[S4] ± 2,5 detik — TANPA SUARA
+Layar  : "SEMUA." "DALAM." "SATU." "PLATFORM." (chip nama modul berkumpul ke tengah).
+
+[S5] ± 2,5 detik — TANPA SUARA
+Layar  : logo PRIVASIMU NEXUS + deretan nama modul berjalan.
+
+[S6] ± 5 detik — TANPA SUARA
+Layar  : "16" → "JANUARI 2027" → "PP 33/2026" → "BERLAKU." → musik berhenti: "SIAP?" →
+         "…atau masih 12 spreadsheet?" (kembali ke hook).
+
+[S7] ± 12 detik
+VO     : "Privasimu Nexus. Satu platform untuk semua kewajiban UU PDP. Cek kesiapanmu gratis, di privasimu dot com."
+Layar  : logo, "SATU PLATFORM / UNTUK SEMUA KEWAJIBAN UU PDP", tombol privasimu.com, chip Start Pre Check · gratis /
+         Schedule Demo, kontak. Penutup: stomp-stomp-clap terakhir + sonic logo "Pri-va-si-mu".
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- "12 spreadsheet, 7 folder, 3 grup chat" = hiperbola relate (ilustrasi), bukan data.
+- Screenshot = tampilan ASLI frontend lama (motion/assets/app: ropa-list-baru, dpia-risiko, dsr-detail, consent-detail,
+  breach-detail, gap-hasil, ai-agent-chat, dpo-academy); area sensitif sudah diburamkan.
+- Pemberitahuan insiden 3×24 jam: UU PDP Pasal 46. PP 33/2026 berlaku 16 Januari 2027.
+- Musik stomp & semua SFX disintesis sendiri (motion/t01-stomp/music.js); font Anton & Plus Jakarta Sans (lisensi OFL).
+- Kontak: support@privasimu.com · 0851 8318 2722. "Start Pre Check (gratis)": pastikan masih berlaku.

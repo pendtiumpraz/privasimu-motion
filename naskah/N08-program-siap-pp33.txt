@@ -1,0 +1,81 @@
+NASKAH 08 — "SIAP PP 33, BERSAMA AHLINYA" (PROGRAM PENDAMPINGAN)
+================================================================
+Jenis      : IKLAN KONSULTASI + TOOLS (Privasimu & Privasimu Nexus)
+Durasi     : ± 37 detik (ada versi 20 detik di bawah)
+Format     : 16:9 dan 9:16
+Sasaran    : organisasi yang belum mulai atau ingin mempercepat kesiapan PP 33/2026
+Nada       : urgen tapi menenangkan, "kami tahu jalannya"
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November–15 Januari (urgensi & konversi)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N08_S1, N08_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N08), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 6 detik
+VO     : "Enam belas Januari dua ribu dua puluh tujuh semakin dekat. Dari mana organisasi Anda harus mulai?"
+Arahan : urgen di kalimat pertama, lalu bertanya dengan tenang.
+Layar  : jam/kalender berdetak menuju 16.01.2027, tumpukan tugas yang belum tersentuh.
+
+[S2] ± 8 detik
+VO     : "Bersama konsultan Privasimu, kita mulai dari gap assessment terhadap UU PDP dan PP tiga puluh tiga, pasal demi pasal."
+Arahan : meyakinkan, tekan "pasal demi pasal".
+Layar  : peta pasal UU PDP + PP 33/2026 dengan status merah/kuning/hijau.
+
+[S3] ± 6 detik
+VO     : "Hasilnya jadi roadmap prioritas: RoPA, DPIA, kebijakan, kontrak vendor, sampai prosedur insiden."
+Arahan : ritmis, tiap item jelas.
+Layar  : roadmap bertahap dengan lima prioritas tersusun di garis waktu menuju 16.01.2027.
+
+[S4] ± 5 detik
+VO     : "Tim Anda kami latih, dan semua pekerjaan tercatat di Privasimu Nexus."
+Arahan : lancar.
+Layar  : sesi pelatihan, lalu dasbor Privasimu Nexus terisi, lengkap dengan jejak audit.
+
+[S5] ± 5 detik
+VO     : "Jadi saat PP tiga puluh tiga berlaku, Anda punya bukti kepatuhan, bukan sekadar niat."
+Arahan : tekan "bukti kepatuhan", tenang dan mantap.
+Layar  : folder bukti (RoPA, DPIA, log audit) tersusun rapi dengan stempel 16.01.2027.
+
+[S6] ± 6 detik
+VO     : "Privasimu. Siap PP tiga puluh tiga bersama ahlinya. Konsultasi gratis di privasimu dot com."
+Arahan : hangat, CTA jelas.
+Layar  : logo Privasimu + tombol "Konsultasi gratis · privasimu.com".
+
+
+VERSI 20 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S2 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+UU PDP          : "u-u pe-de-pe"
+PP              : "pe-pe"
+RoPA            : "ro-pa"
+DPIA            : "de-pe-i-a" (atau "di-pi-ai-ei", pilih satu dan konsisten)
+gap assessment, roadmap : dibaca bahasa Inggris
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment di platform menilai kesenjangan UU PDP dan PP 33/2026 per pasal, menghasilkan skor dan rencana
+  remediasi/prioritas perbaikan (fakta_produk.json: gap-assessment; laporan "Kesenjangan UU PDP dan PP 33/2026").
+- Pelatihan: Proposal Privasimu Nexus (Training & Certification untuk DPO + tim IT; kickoff workshop dengan tim DPO + IT).
+- Log audit untuk setiap perubahan (fakta_produk.json: ropa, ppdp).
+- "Bukti kepatuhan" = dokumentasi dan jejak audit, bukan jaminan lolos pemeriksaan. Jangan ubah menjadi "dijamin patuh".
+- Konsultasi gratis: dari Company Profile 2026. PASTIKAN penawaran masih berlaku sebelum tayang.

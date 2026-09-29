@@ -1,0 +1,49 @@
+NASKAH T03 — "RATING KEBIASAAN DATA DI KANTOR" (STOP MOTION TYPOGRAPHY)
+================================================================
+Jenis      : KONTEN RELATE / MEME → TOOLS, gaya STOP MOTION: papan gabus, sticky note spidol, huruf guntingan,
+             kertas ketik, stempel tinta; semua bergerak patah-patah 12 fps seperti difoto frame demi frame.
+Durasi     : ± 45 detik
+Format     : 9:16 (utama: Reels, TikTok, Shorts) dan 16:9 (subtitle tidak dibakar; semua ucapan tertulis di papan)
+Sasaran    : karyawan kantor, tim legal & kepatuhan, DPO — yang akan "kena" dan membagikannya
+Hook       : relate, format rating jujur ("Rating kebiasaan data di kantor. Jujur, ya.")
+Pengisi    : 1 suara (versi TTS memakai suara wanita), gaya santai-jahil seperti membacakan nilai rapor
+Video      : SUDAH DIRAKIT (folder motion/t03-stop-motion). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: T03_S1 … T03_S8 (atau satu file utuh T03 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO. Stempel nilai jatuh tepat di kata angka ("Satu", "Dua", "Tiga", "Nol", "Sepuluh").
+3. Beri jeda komedi kecil sebelum menyebut nilai. "Nol." dibaca datar dan singkat.
+4. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] VO: "Rating kebiasaan data di kantor. Jujur, ya."
+     Layar: huruf guntingan R-A-T-I-N-G ditempel satu per satu, strip kertas ketik "kebiasaan data di kantor", sticky "JUJUR, ya."
+[S2] VO: "Password ditempel di monitor. Satu dari sepuluh."
+     Layar: monitor dari kertas + sticky "PASSWORD: admin123 — jgn dibuang!!" → stempel merah 1/10 (bunyi buzzer).
+[S3] VO: "Kirim foto KTP pelanggan lewat grup. Dua dari sepuluh."
+     Layar: gelembung chat "Grup Kantor (128) · 📎 foto_ktp_pelanggan.jpg · terkirim ✓✓" → stempel 2/10 (jangkrik).
+[S4] VO: "RoPA final final revisi, disimpan di flashdisk. Tiga dari sepuluh."
+     Layar: flashdisk kertas + label "RoPA_FINAL_final_revisi (1).xlsx" → stempel 3/10.
+[S5] VO: "Lapor insiden? Nanti saja, habis rapat. Nol."
+     Layar: kalender "INSIDEN · 3×24 JAM" dicoret spidol "nanti aja, habis rapat", sticky "Rapat lagi jam 3 ☕" → stempel 0/10.
+[S6] VO: "Terus, siapa yang dapat sepuluh?"
+     Layar: kamera mundur memperlihatkan papan penuh nilai jelek → semua kertas disapu keluar, papan bersih.
+[S7] VO: "Kantor yang semuanya tercatat di Privasimu Nexus: RoPA rapi, tenggat terpantau, bukti siap diperiksa. Sepuluh dari sepuluh."
+     Layar: kartu Privasimu Nexus dengan checklist diketik (RoPA rapi di satu register · Tenggat DSR terpantau ·
+            Bukti siap diperiksa) → stempel biru 10/10 (tada).
+[S8] VO: "Naikkan nilai kantormu. Cek kesiapan gratis di privasimu dot com."
+     Layar: strip "Naikkan nilai kantormu.", huruf guntingan P-R-I-V-A-S-I-M-U-.-C-O-M, sticky "Cek kesiapan GRATIS!", kontak diketik.
+
+
+DASAR FAKTA & CATATAN (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Nilai 1/10, 2/10, 3/10, 0/10 = lelucon rating (bukan penilaian resmi); kebiasaan yang dicontohkan adalah praktik
+  berisiko umum. Tidak ada foto KTP asli di video (hanya nama file di kertas).
+- Pemberitahuan insiden 3×24 jam: UU PDP Pasal 46. DSR: tenggat terpantau otomatis di Privasimu Nexus.
+- Semua objek digambar dengan kode (tidak ada foto/rekaman pihak lain). Font: Permanent Marker & Special Elite
+  (Apache 2.0), Caveat, Abril Fatface, Archivo Black, Bebas Neue, Playfair Display, Anton (OFL).
+- Musik & SFX disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722. "Cek kesiapan gratis" = Start Pre Check.

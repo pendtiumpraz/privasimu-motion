@@ -1,0 +1,3 @@
+SFX milik sendiri / berlisensi komersial (wav, mp3, m4a, ogg).
+Pakai di scenes.js: sfx: [['w:kata', 'file:nama-file-tanpa-ekstensi', 1]]
+Contoh: tim rekam teriakan "AAAHHH!" -> simpan aaah.wav -> ['w:bocor', 'file:aaah', 1]

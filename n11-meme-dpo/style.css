@@ -1,0 +1,185 @@
+/* N11 · Hidup DPO (2026) — kompilasi meme. Tiap potongan meme punya "look" sendiri, disatukan oleh karakter DPO,
+   penghitung AURA, dan caption ala TikTok. Font: TikTok Sans, Anton, Instrument Serif, VT323, Permanent Marker (semua OFL/Apache). */
+:root { --ink9: #0B1220; --blue9: #2F6BFF; --yel: #FFE14D; --red9: #FF3B4E; --green9: #16C47F; }
+em { color: inherit; font-style: normal; }
+
+/* ---------- caption 9:16 ala TikTok (menimpa gaya bawaan engine) ---------- */
+html.v #mg-cap .ln { background: none; box-shadow: none; padding: 0 30px; font-family: 'TikTok Sans', sans-serif; font-weight: 900; font-size: 60px;
+  line-height: 1.15; color: #fff; -webkit-text-stroke: 12px #000; paint-order: stroke fill; letter-spacing: -.005em; }
+html.v #mg-cap span { opacity: 1; }
+html.v #mg-cap span.cur { color: var(--yel); }
+
+/* ---------- karakter DPO (badan vektor + kepala emoji) ---------- */
+.d11-dpo { position: absolute; width: 300px; height: 330px; transform-origin: 50% 100%; }
+.d11-dpo .bd { position: absolute; left: 0; top: 80px; overflow: visible; }
+.d11-dpo .hd { position: absolute; left: 0; width: 300px; top: -8px; text-align: center; font-size: 232px; line-height: 1; font-family: 'Noto Color Emoji', sans-serif; transform-origin: 50% 80%; }
+.d11-dpo .hd span { display: inline-block; }
+.d11-dpo .hands { position: absolute; left: 0; top: 0; width: 300px; height: 330px; display: none; }
+.d11-dpo.with-hands .hands { display: block; }
+.d11-dpo .hands i { position: absolute; width: 30px; height: 30px; border-radius: 50%; background: #FFCB4C; border: 4px solid #E39A1B; top: 262px; z-index: 3; }
+.d11-dpo .hands i:first-child { left: 106px; } .d11-dpo .hands i:last-child { left: 154px; }
+.d11-dpo .sweat { position: absolute; font-size: 70px; left: 214px; top: 10px; opacity: 0; font-family: 'Noto Color Emoji', sans-serif; }
+.d11-dpo .pix { position: absolute; left: 44px; top: 58px; width: 212px; opacity: 0; image-rendering: pixelated; }
+.d11-sticker .bd, .d11-sticker .hd { filter: drop-shadow(0 0 0 #fff) drop-shadow(6px 0 0 #fff) drop-shadow(-6px 0 0 #fff) drop-shadow(0 6px 0 #fff) drop-shadow(0 -6px 0 #fff) drop-shadow(0 18px 24px rgba(0,0,0,.45)); }
+
+/* ---------- HUD AURA ---------- */
+#d11-hud { position: absolute; right: 60px; top: 46px; z-index: 40; display: flex; align-items: center; gap: 14px; padding: 12px 26px 12px 18px; border-radius: 999px;
+  background: rgba(8,10,20,.78); border: 3px solid rgba(255,255,255,.18); font-family: 'TikTok Sans', sans-serif; font-weight: 900; color: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35); transform-origin: 100% 50%; }
+.v #d11-hud { top: 196px; right: 44px; }
+#d11-hud .lb { font-size: 26px; letter-spacing: .16em; color: rgba(255,255,255,.7); }
+#d11-hud .ic { font-size: 34px; font-family: 'Noto Color Emoji', sans-serif; }
+#d11-hud .vl { font-size: 44px; min-width: 150px; text-align: right; font-variant-numeric: tabular-nums; }
+#d11-hud.neg .vl { color: #FF6B78; } #d11-hud.pos .vl { color: #5CF2B0; }
+#d11-hud.max .vl { background: linear-gradient(90deg, #ff5e5e, #ffd84d, #4dff9a, #4dc3ff, #c77dff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.d11-delta { position: absolute; z-index: 41; font-family: 'TikTok Sans', sans-serif; font-weight: 900; font-size: 46px; -webkit-text-stroke: 8px #000; paint-order: stroke fill; white-space: nowrap; }
+.d11-delta.neg { color: #FF6B78; } .d11-delta.pos { color: #5CF2B0; }
+
+/* ---------- efek global ---------- */
+#d11-vhs { position: absolute; inset: 0; z-index: 30; pointer-events: none; opacity: 0; }
+#d11-vhs i { position: absolute; left: 0; right: 0; background: repeating-linear-gradient(90deg, rgba(255,255,255,.85) 0 3px, rgba(255,255,255,.1) 3px 7px, rgba(0,0,0,.4) 7px 9px); mix-blend-mode: screen; }
+#d11-flash { position: absolute; inset: 0; z-index: 35; background: #fff; opacity: 0; pointer-events: none; }
+.d11-osd { position: absolute; z-index: 32; font-family: 'VT323', monospace; color: #fff; font-size: 84px; line-height: 1; letter-spacing: .04em; padding: 12px 22px; border-radius: 10px;
+  background: rgba(0,0,0,.34); -webkit-text-stroke: 6px rgba(0,0,0,.7); paint-order: stroke fill; text-shadow: 0 0 12px rgba(255,255,255,.5); }
+.d11-osd small { display: block; font-size: 52px; margin-top: 6px; opacity: .9; }
+.d11-marker { position: absolute; font-family: 'Permanent Marker', cursive; color: #FF2D3D; font-size: 70px; line-height: 1; white-space: nowrap; text-shadow: 0 2px 0 rgba(0,0,0,.15); }
+.d11-cap { position: absolute; font-family: 'TikTok Sans', sans-serif; font-weight: 900; color: #fff; -webkit-text-stroke: 10px #000; paint-order: stroke fill; text-align: center; line-height: 1.12; }
+.d11-cap em { color: var(--yel); }
+.d11-anton { font-family: 'Anton', sans-serif; text-transform: uppercase; letter-spacing: .01em; }
+
+/* ---------- S1 · freeze frame ---------- */
+.d11-fly { position: absolute; left: 0; top: 0; will-change: transform; }
+.d11-file { display: flex; align-items: center; gap: 16px; padding: 16px 22px 16px 16px; border-radius: 16px; background: #fff; box-shadow: 0 18px 40px rgba(60,40,10,.25); border: 2px solid rgba(0,0,0,.08);
+  font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 26px; color: #1f2937; white-space: nowrap; }
+.d11-file .fi { width: 56px; height: 66px; border-radius: 8px; display: grid; place-items: center; color: #fff; font-size: 15px; font-weight: 800; letter-spacing: .04em; }
+.d11-notif { padding: 18px 24px; border-radius: 22px; background: rgba(255,255,255,.96); box-shadow: 0 18px 40px rgba(60,40,10,.25); font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800; font-size: 28px; color: #111827; white-space: nowrap; border-left: 8px solid var(--red9); }
+.d11-paper { width: 150px; height: 190px; background: #fff; border-radius: 6px; box-shadow: 0 12px 26px rgba(60,40,10,.25); padding: 22px 18px; }
+.d11-paper i { display: block; height: 8px; border-radius: 4px; background: #cbd5e1; margin-bottom: 14px; }
+.d11-emo { font-size: 110px; line-height: 1; font-family: 'Noto Color Emoji', sans-serif; }
+.d11-circ { position: absolute; overflow: visible; }
+
+/* ---------- S2 · orang have / haven't / not yet ---------- */
+.d11-pn { position: absolute; background: #fff; border: 8px solid #000; border-radius: 26px; box-shadow: 14px 14px 0 #000; overflow: hidden; }
+.d11-pn .lab { display: flex; align-items: center; gap: 18px; font-family: 'Anton', sans-serif; font-size: 78px; line-height: 1; color: #000; text-transform: uppercase; }
+.d11-pn .lab .e { font-family: 'Noto Color Emoji', sans-serif; font-size: 96px; }
+.h .d11-pn .lab { flex-direction: column; gap: 10px; font-size: 76px; text-align: center; }
+.h .d11-pn .lab .e { font-size: 150px; }
+.d11-pn.p1 { background: #E8FFF3; } .d11-pn.p2 { background: #FFF0F0; } .d11-pn.p3 { background: #EEF2FF; }
+.d11-chip { display: inline-flex; align-items: center; gap: 12px; padding: 14px 24px; border-radius: 999px; border: 5px solid #000; background: #fff; font-family: 'TikTok Sans', sans-serif; font-weight: 800; font-size: 40px; color: #000; white-space: nowrap; }
+.d11-chip.ok { background: #9FF5C9; }
+.d11-xls { display: flex; align-items: center; gap: 18px; padding: 18px 24px 18px 18px; border-radius: 18px; background: #fff; border: 5px solid #000; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 32px; color: #111; white-space: nowrap; }
+.d11-xls .fi { width: 64px; height: 76px; border-radius: 8px; background: #1D8A4E; display: grid; place-items: center; color: #fff; font-size: 17px; font-weight: 800; }
+.d11-load { position: absolute; height: 34px; border: 5px solid #000; border-radius: 999px; background: #fff; overflow: hidden; }
+.d11-load i { position: absolute; left: 0; top: 0; bottom: 0; background: repeating-linear-gradient(45deg, #FFB020 0 16px, #FFCF5C 16px 32px); }
+.d11-load b { position: absolute; right: 16px; top: -2px; font-family: 'TikTok Sans', sans-serif; font-size: 26px; font-weight: 900; }
+
+/* ---------- S3–S4 · chat Pak Bos ---------- */
+.d11-chat { position: absolute; background: #F4F6FB; border-radius: 42px; overflow: hidden; box-shadow: 0 40px 90px rgba(20,30,60,.28); border: 3px solid rgba(15,23,42,.08); }
+.d11-chat .top { position: absolute; left: 0; right: 0; top: 0; height: 132px; background: #fff; display: flex; align-items: center; gap: 22px; padding: 0 34px; border-bottom: 2px solid #E5E9F2; }
+.d11-chat .av { width: 84px; height: 84px; border-radius: 50%; background: #1E2A4A; display: grid; place-items: center; font-size: 48px; font-family: 'Noto Color Emoji', sans-serif; }
+.d11-chat .nm { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 38px; color: #0F172A; }
+.d11-chat .st { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; font-size: 26px; color: #16A34A; margin-top: 2px; }
+.d11-bub { position: absolute; max-width: 80%; padding: 24px 32px; border-radius: 34px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; font-size: 42px; line-height: 1.3; color: #0F172A; background: #fff;
+  box-shadow: 0 8px 20px rgba(15,23,42,.08); }
+.v .d11-bub { font-size: 48px; }
+.d11-bub.me { background: var(--blue9); color: #fff; border-bottom-right-radius: 10px; }
+.d11-bub.them { border-bottom-left-radius: 10px; }
+.d11-bub b { font-weight: 800; }
+.d11-bub .tm { display: block; text-align: right; font-size: 22px; opacity: .6; margin-top: 4px; font-weight: 700; }
+.d11-typing { position: absolute; padding: 26px 30px; border-radius: 34px; background: #fff; display: flex; gap: 12px; box-shadow: 0 8px 20px rgba(15,23,42,.08); }
+.d11-typing.me { background: var(--blue9); }
+.d11-typing i { width: 16px; height: 16px; border-radius: 50%; background: #94A3B8; }
+.d11-typing.me i { background: rgba(255,255,255,.8); }
+.d11-cam { position: absolute; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 50% 38%, #FFE7A8, #F7B955 60%, #D9861C); border: 10px solid #fff; box-shadow: 0 30px 70px rgba(15,23,42,.35); }
+.d11-cam .f { position: absolute; left: 0; right: 0; text-align: center; line-height: 1; font-family: 'Noto Color Emoji', sans-serif; }
+.d11-cam .rec { position: absolute; left: 50%; transform: translateX(-50%); bottom: 8%; padding: 6px 16px; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; font: 800 22px 'TikTok Sans', sans-serif; letter-spacing: .12em; white-space: nowrap; }
+.d11-cam .rec i { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: #FF3B4E; margin-right: 8px; }
+.d11-cooked { position: absolute; left: 0; right: 0; text-align: center; font-family: 'Anton', sans-serif; font-size: 190px; line-height: .95; color: #fff; -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-transform: uppercase; }
+.v .d11-cooked { font-size: 170px; }
+.d11-cooked .e { font-family: 'Noto Color Emoji', sans-serif; -webkit-text-stroke: 0; }
+
+/* ---------- S5 · Things to Say ---------- */
+.d11-ttl { position: absolute; font-family: 'TikTok Sans', sans-serif; font-weight: 800; color: #fff; line-height: 1.12; }
+.d11-portrait { position: absolute; border-radius: 34px; overflow: hidden; background: radial-gradient(ellipse at 50% 30%, #3a3a40, #0d0d10 70%); box-shadow: 0 30px 80px rgba(0,0,0,.6), inset 0 0 0 2px rgba(255,255,255,.08); }
+.d11-portrait .d11-dpo { filter: grayscale(1) contrast(1.45) brightness(1.05); }
+.d11-portrait .rim { position: absolute; inset: 0; background: linear-gradient(115deg, rgba(90,140,255,.28), transparent 38%, transparent 62%, rgba(255,60,90,.22)); mix-blend-mode: screen; }
+.d11-portrait .nm { position: absolute; left: 26px; bottom: 22px; font: 800 30px 'TikTok Sans', sans-serif; color: rgba(255,255,255,.85); letter-spacing: .08em; }
+.d11-item { position: absolute; display: flex; gap: 18px; font-family: 'TikTok Sans', sans-serif; font-weight: 700; color: #fff; line-height: 1.22; }
+.d11-item .n { font-weight: 900; color: var(--yel); min-width: 1.2em; }
+.d11-item em { color: var(--yel); font-weight: 900; }
+.d11-temuan { display: inline-block; position: relative; margin-left: 14px; vertical-align: .08em; padding: 6px 16px; border-radius: 999px; background: var(--red9); color: #fff; font: 900 26px 'TikTok Sans', sans-serif; white-space: nowrap; box-shadow: 0 8px 20px rgba(0,0,0,.4); }
+.d11-stamp { position: absolute; padding: 18px 40px; border: 12px solid #FF2D3D; border-radius: 24px; color: #FF2D3D; font-family: 'Anton', sans-serif; font-size: 150px; line-height: 1; letter-spacing: .02em;
+  white-space: nowrap; background: rgba(255,45,61,.08); mix-blend-mode: normal; text-shadow: 0 0 1px #FF2D3D; }
+.v .d11-stamp { font-size: 120px; }
+
+/* ---------- S6 · jam 3 pagi + borgol ---------- */
+.d11-phone { position: absolute; border-radius: 70px; background: #05070F; border: 14px solid #1E293B; overflow: hidden; box-shadow: 0 40px 120px rgba(0,0,0,.7), 0 0 120px rgba(90,130,255,.25); }
+.d11-lock { position: absolute; }
+.d11-phone .clk, .d11-lock .clk { position: absolute; left: 0; right: 0; text-align: center; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 300; color: #F1F5F9; letter-spacing: -.03em; line-height: 1; }
+.d11-phone .clk { top: 120px; font-size: 150px; } .d11-lock .clk { top: 300px; font-size: 240px; }
+.d11-phone .dt, .d11-lock .dt { position: absolute; left: 0; right: 0; text-align: center; font: 600 28px 'Plus Jakarta Sans', sans-serif; color: #94A3B8; }
+.d11-phone .dt { top: 290px; } .d11-lock .dt { top: 556px; font-size: 36px; }
+.d11-phone .nt, .d11-lock .nt { position: absolute; left: 24px; right: 24px; padding: 24px 26px; border-radius: 28px; background: rgba(30,41,59,.96); border: 2px solid rgba(255,90,100,.6); }
+.d11-phone .nt { top: 380px; } .d11-lock .nt { top: 650px; left: 70px; right: 70px; padding: 30px 34px; border-radius: 34px; }
+.d11-phone .nt .ap, .d11-lock .nt .ap { display: flex; justify-content: space-between; font: 800 20px 'Plus Jakarta Sans', sans-serif; letter-spacing: .1em; color: #FCA5A5; }
+.d11-phone .nt .tt, .d11-lock .nt .tt { margin-top: 10px; font: 800 32px 'Plus Jakarta Sans', sans-serif; color: #fff; line-height: 1.2; }
+.d11-phone .nt .bd, .d11-lock .nt .bd { margin-top: 6px; font: 500 24px 'Plus Jakarta Sans', sans-serif; color: #CBD5E1; }
+.d11-lock .nt .ap { font-size: 24px; } .d11-lock .nt .tt { font-size: 46px; } .d11-lock .nt .bd { font-size: 31px; }
+.d11-cuffs { position: absolute; overflow: visible; }
+.d11-tag { position: absolute; padding: 12px 22px 14px; border-radius: 16px; background: var(--yel); border: 5px solid #000; text-align: center; box-shadow: 8px 8px 0 #000; }
+.d11-tag b { display: block; font-family: 'Anton', sans-serif; font-size: 58px; line-height: 1; color: #000; }
+.d11-tag span { display: block; font-family: 'JetBrains Mono', monospace; font-weight: 800; font-size: 34px; color: #D90429; margin-top: 4px; }
+.d11-shot { position: absolute; border-radius: 24px; overflow: hidden; background: #fff; box-shadow: 0 40px 100px rgba(0,0,0,.55); border: 3px solid rgba(255,255,255,.35); }
+.d11-shot .tb { height: 58px; background: #EEF1F7; display: flex; align-items: center; gap: 10px; padding: 0 22px; border-bottom: 2px solid #E2E6EF; }
+.d11-shot .tb i { width: 15px; height: 15px; border-radius: 50%; background: #CBD5E1; }
+.d11-shot .tb i:nth-child(1) { background: #FF6159; } .d11-shot .tb i:nth-child(2) { background: #FFBD2E; } .d11-shot .tb i:nth-child(3) { background: #28C941; }
+.d11-shot .tb .url { margin-left: 14px; flex: 1; height: 36px; border-radius: 10px; background: #fff; display: flex; align-items: center; padding: 0 16px; font: 700 20px 'Plus Jakarta Sans', sans-serif; color: #475569; }
+.d11-shot .vp { position: relative; overflow: hidden; }
+.d11-shot .lay { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.d11-mark { position: absolute; border: 6px solid #22C55E; border-radius: 16px; box-shadow: 0 0 0 9999px rgba(15,23,42,.28), 0 0 26px rgba(34,197,94,.8); }
+.d11-mark.red { border-color: #FF3B4E; box-shadow: 0 0 26px rgba(255,59,78,.8); }
+.d11-call { position: absolute; display: inline-flex; align-items: center; gap: 12px; padding: 14px 24px; border-radius: 999px; background: #fff; border: 4px solid #0B1220; font: 800 32px 'TikTok Sans', sans-serif; color: #0B1220; white-space: nowrap; box-shadow: 6px 6px 0 #0B1220; }
+
+/* ---------- S7 · Polyester Edit ---------- */
+.d11-mont { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; box-shadow: 0 0 0 6px #fff, 0 30px 80px rgba(0,0,0,.6); border-radius: 10px; }
+.d11-lbl { position: absolute; font-family: 'Anton', sans-serif; font-size: 170px; line-height: 1; color: #fff; -webkit-text-stroke: 14px #000; paint-order: stroke fill; white-space: nowrap; }
+.v .d11-lbl { font-size: 136px; }
+.d11-thumb { position: absolute; border-radius: 16px; overflow: hidden; border: 5px solid #fff; box-shadow: 0 20px 50px rgba(0,0,0,.5); background: #fff; }
+.d11-thumb img { position: absolute; left: 0; top: 0; }
+.d11-thumb b { position: absolute; left: 10px; bottom: 10px; padding: 4px 14px; border-radius: 999px; background: #0B1220; color: #fff; font: 900 24px 'TikTok Sans', sans-serif; letter-spacing: .04em; }
+.d11-hub { position: absolute; padding: 26px 40px; border-radius: 30px; background: #0B1B4D; border: 5px solid #fff; box-shadow: 0 0 60px rgba(80,140,255,.7); text-align: center; }
+.d11-hub img { display: block; width: 330px; }
+.d11-hub .nx { margin-top: 8px; font: 800 30px 'Plus Jakarta Sans', sans-serif; letter-spacing: .5em; color: #8FB6FF; padding-left: .5em; }
+.d11-speed { position: absolute; inset: 0; pointer-events: none; }
+
+/* ---------- S8 · Kinda chic ---------- */
+.d11-kick { position: absolute; font-family: 'Instrument Serif', serif; font-style: italic; color: #2E2320; line-height: 1; white-space: nowrap; }
+.d11-line { position: absolute; font-family: 'Instrument Serif', serif; color: #3B2E29; line-height: 1.12; }
+.d11-line .dash { color: #C77B6B; margin-right: .35em; }
+.d11-laptop { position: absolute; }
+.d11-laptop .scr { position: absolute; left: 0; right: 0; top: 0; border-radius: 26px 26px 6px 6px; background: #17171B; padding: 18px; box-shadow: 0 50px 90px rgba(80,50,30,.35); }
+.d11-laptop .scr .in { position: relative; overflow: hidden; border-radius: 8px; background: #fff; }
+.d11-laptop .base { position: absolute; left: -7%; right: -7%; height: 34px; border-radius: 0 0 26px 26px; background: linear-gradient(#E8E2DA, #C9C0B6); box-shadow: 0 30px 50px rgba(80,50,30,.3); }
+.d11-laptop .base::after { content: ''; position: absolute; left: 42%; right: 42%; top: 0; height: 10px; border-radius: 0 0 10px 10px; background: #B5AA9E; }
+.d11-soft { position: absolute; font-family: 'Noto Color Emoji', sans-serif; line-height: 1; filter: drop-shadow(0 22px 26px rgba(90,60,40,.3)); }
+
+/* ---------- S9 · MLG 2016 + CTA ---------- */
+.d11-hit { position: absolute; width: 90px; height: 90px; margin: -45px 0 0 -45px; }
+.d11-aura { position: absolute; left: 0; right: 0; text-align: center; font-family: 'Anton', sans-serif; font-size: 190px; line-height: 1; white-space: nowrap;
+  background: linear-gradient(90deg, #ff5e5e, #ffd84d, #4dff9a, #4dc3ff, #c77dff, #ff5e5e); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 0 0 #000) drop-shadow(8px 8px 0 #000); }
+.v .d11-aura { font-size: 160px; }
+.d11-flare { position: absolute; border-radius: 50%; mix-blend-mode: screen; pointer-events: none; }
+.d11-logo { position: absolute; left: 0; right: 0; text-align: center; }
+.d11-logo img { display: inline-block; }
+.d11-logo .nx { margin-top: 10px; font: 800 44px 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; padding-left: .6em; color: #8FB6FF; }
+.d11-tagline { position: absolute; left: 0; right: 0; text-align: center; font-family: 'TikTok Sans', sans-serif; font-weight: 900; color: #fff; line-height: 1.1; }
+.d11-tagline em { color: var(--yel); }
+.d11-btn { position: absolute; padding: 26px 70px; border-radius: 999px; background: #fff; color: #0B1B4D; font: 900 60px 'TikTok Sans', sans-serif; box-shadow: 0 0 0 8px rgba(255,255,255,.18), 0 20px 60px rgba(0,0,0,.4); white-space: nowrap; overflow: hidden; }
+.d11-btn .shine { position: absolute; top: -20px; bottom: -20px; width: 90px; background: linear-gradient(90deg, transparent, rgba(47,107,255,.35), transparent); transform: skewX(-20deg); }
+.d11-chips { position: absolute; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+.d11-chips span { padding: 14px 26px; border-radius: 999px; border: 3px solid rgba(255,255,255,.45); color: #fff; font: 800 30px 'TikTok Sans', sans-serif; white-space: nowrap; }
+.d11-chips span b { color: var(--yel); }
+.d11-foot { position: absolute; left: 0; right: 0; text-align: center; font: 700 30px 'Plus Jakarta Sans', sans-serif; color: rgba(255,255,255,.8); }
+.d11-fade { position: absolute; inset: 0; background: #000; opacity: 0; z-index: 60; }

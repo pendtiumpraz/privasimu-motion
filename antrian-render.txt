@@ -1,0 +1,22 @@
+# Antrean render: satu folder video per baris, dicek berurutan dari atas ke bawah.
+# RENDER.bat hanya merender yang BELUM jadi atau yang sumbernya BERUBAH sejak render terakhir;
+# yang sudah jadi dilewati otomatis, jadi daftar ini boleh berisi semua video.
+# Render ulang paksa: RENDER.bat --paksa nama-folder
+# Baris yang diawali # tidak dicek sama sekali. Perkiraan: 10-15 menit per video yang dirender.
+t01-stomp
+t02-tipografi
+t03-stop-motion
+m01-dasbor
+m02-gap
+a22-rekap-dpo
+n11-meme-dpo
+n10-holding
+n09-ppdp
+n08-siap-pp33
+n07-konsultan
+n06-anak
+n05-dsr
+n04-ropa
+n03-insiden
+ad1-awareness
+ad2-pp33

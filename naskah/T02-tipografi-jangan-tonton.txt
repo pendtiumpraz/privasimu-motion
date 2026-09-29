@@ -1,0 +1,49 @@
+NASKAH T02 — "JANGAN TONTON VIDEO INI" (FULL TYPOGRAPHY / KINETIC TYPE)
+================================================================
+Jenis      : IKLAN AWARENESS → TOOLS, gaya FULL TYPOGRAPHY: tanpa gambar, semua pesan berupa huruf yang muncul
+             kata per kata mengikuti suara; kamera menjelajah satu kanvas besar lalu mundur memperlihatkan semuanya.
+Durasi     : ± 50 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar = ucapan; .srt tetap tersedia)
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP — siapa pun yang menyimpan data pelanggan
+Hook       : psikologi terbalik — "Jangan tonton video ini… kalau perusahaanmu tidak menyimpan satu pun nama,
+             nomor HP, atau email pelanggan." → "Masih di sini? Berarti ini tentang kamu."
+Pengisi    : 1 suara (versi TTS memakai suara pria; bebas pria/wanita), gaya narator tenang dan tegas
+Video      : SUDAH DIRAKIT (folder motion/t02-tipografi). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: T02_S1 … T02_S11 (atau satu file utuh T02 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO. SETIAP KATA memunculkan huruf di layar, jadi jangan menambah/mengganti kata.
+3. Angka dibaca seperti tertulis ("PP tiga puluh tiga", "dua persen", "tiga kali dua puluh empat jam").
+4. Beri jeda dramatis di tanda "…" dan sebelum kata terakhir tiap kalimat.
+5. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Jangan tonton video ini…"                      Layar: JANGAN (merah, menghantam) / tonton / video ini…
+[S2]  VO: "…kalau perusahaanmu tidak menyimpan satu pun nama, nomor HP, atau email pelanggan."
+      Layar: blok diputar 90°: …kalau / perusahaanmu / tidak menyimpan / SATU PUN → nama, / nomor HP, / atau email / pelanggan.
+[S3]  VO: "Masih di sini? Berarti ini tentang kamu."        Layar: Masih / di sini? / Berarti ini / tentang / KAMU.
+[S4]  VO: "Undang-undangnya sudah berlaku. Aturan pelaksananya, PP tiga puluh tiga, berlaku enam belas Januari dua ribu dua puluh tujuh."
+      Layar: Undang-undangnya / sudah / BERLAKU. → Aturan pelaksananya, / PP 33/2026 / berlaku / 16 JANUARI 2027
+[S5]  VO: "Sanksinya bisa sampai dua persen dari pendapatan tahunan."   Layar: Sanksinya / bisa sampai / 2% / dari pendapatan tahunan.
+[S6]  VO: "Masalahnya, merasa aman itu bukan bukti."        Layar (dunia terbalik 180°): "merasa aman" DICORET → BUKTI.
+[S7]  VO: "Privasimu Nexus mengubah kepatuhan jadi bukti yang rapi."   Layar (dunia tegak lagi): PRIVASIMU NEXUS / … / yang rapi.
+[S8]  VO: "Pemrosesan tercatat di RoPA. Risiko dinilai lewat DPIA."     Layar: RoPA. ✓ / DPIA. ✓
+[S9]  VO: "Permintaan subjek data terlacak tenggatnya. Insiden siap dilaporkan tiga kali dua puluh empat jam."
+      Layar: … / terlacak / tenggatnya. / Insiden / siap dilaporkan / 3×24 JAM.
+[S10] VO: "Semuanya, di satu tempat."   Layar: di "satu tempat" kamera mundur → seluruh kanvas terlihat sebagai satu poster.
+[S11] VO: "Siap diperiksa kapan saja. Mulai dengan cek kesiapan gratis, di privasimu dot com."
+      Layar: Siap diperiksa / kapan saja. → logo Privasimu Nexus · "Cek kesiapan · GRATIS" · privasimu.com · kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- UU PDP (UU 27/2022) berlaku penuh sejak Oktober 2024; PP 33/2026 berlaku 16 Januari 2027.
+- Denda administratif paling tinggi 2% dari pendapatan/penerimaan tahunan: UU PDP Pasal 57 ayat (3).
+- Pemberitahuan insiden paling lambat 3×24 jam: UU PDP Pasal 46.
+- Modul: RoPA, DPIA, DSR (tenggat terpantau), Insiden (penghitung mundur 3×24 jam) — fitur Privasimu Nexus.
+- Font Archivo & Instrument Serif (lisensi OFL). Musik disintesis sendiri (lib/music-kit.js).
+- Kontak: support@privasimu.com · 0851 8318 2722. "Cek kesiapan gratis" = Start Pre Check: pastikan masih berlaku.

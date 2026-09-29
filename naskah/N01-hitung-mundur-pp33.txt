@@ -1,0 +1,79 @@
+NASKAH 01 — HITUNG MUNDUR PP 33/2026
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 40 detik (ada versi 15 detik di bawah)
+Format     : 16:9 (YouTube, LinkedIn, web) dan 9:16 (Reels, TikTok, Shorts)
+Sasaran    : Direksi, DPO/PPDP, legal & compliance
+Nada       : tenang, tegas, ada rasa urgensi (bukan berteriak)
+Pengisi    : 1 suara (pria atau wanita)
+Video      : SUDAH JADI (Video #2 "Hitung Mundur PP 33/2026"), VN tinggal dipasang
+Fase       : Oktober (awareness) dan Desember–15 Januari (urgensi)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N01_S1, N01_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N01), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 4 detik
+VO     : "Enam belas Januari, dua ribu dua puluh tujuh."
+Arahan : pelan dan mantap, seperti menandai tanggal penting. Jeda singkat setelah "Januari".
+Layar  : kalender split-flap berputar dari JUL 2026 lalu berhenti di 16 JAN 2027.
+
+[S2] ± 7 detik
+VO     : "Hari itu, PP tiga puluh tiga tahun dua ribu dua puluh enam, aturan pelaksana UU PDP, mulai berlaku."
+Arahan : informatif, beri tekanan pada "mulai berlaku".
+Layar  : dokumen PP No. 33 Tahun 2026, lalu stempel "BERLAKU 16.01.2027".
+
+[S3] ± 10 detik
+VO     : "RoPA, DPIA, notifikasi insiden tiga kali dua puluh empat jam, persetujuan wali untuk data anak, hingga transfer lintas negara, semua harus siap."
+Arahan : ritmis seperti membacakan daftar, tiap item jelas. Nada naik di "semua harus siap".
+Layar  : checklist 5 kewajiban muncul satu per satu, lengkap dengan nomor pasal.
+
+[S4] ± 3 detik
+VO     : "Organisasi Anda... sudah siap?"
+Arahan : turunkan suara, jeda setelah "Anda", bertanya langsung ke penonton.
+Layar  : tulisan besar "sudah siap?" di dalam jam yang berdetak.
+
+[S5] ± 8 detik
+VO     : "Privasimu Nexus memetakan kewajiban UU PDP dan PP tiga puluh tiga, pasal demi pasal, ke modul yang menanganinya."
+Arahan : lebih cerah dan yakin. Ini jawabannya.
+Layar  : logo Privasimu Nexus, checklist tercentang satu per satu dan tersambung ke modul.
+
+[S6] ± 5 detik
+VO     : "Jangan tunggu enam belas Januari, siapkan sekarang di privasimu dot com."
+Arahan : ajakan hangat tapi mendesak.
+Layar  : "Siap sebelum 16.01.2027" + tombol privasimu.com.
+
+
+VERSI 15 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S4 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+UU PDP          : "u-u pe-de-pe"
+PP              : "pe-pe"
+RoPA            : "ro-pa"
+DPIA            : "de-pe-i-a" (atau "di-pi-ai-ei", pilih satu dan konsisten)
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PP 33/2026 diundangkan 16 Juli 2026 dan berlaku 6 bulan sejak diundangkan (Pasal 225) = 16 Januari 2027.
+- Isi minimal RoPA: PP 33/2026 Pasal 74. DPIA: UU PDP Pasal 34 jo. PP 33/2026 Pasal 120–122.
+- Notifikasi kegagalan pelindungan data 3x24 jam: UU PDP Pasal 46 jo. PP 33/2026 Pasal 114.
+- Data anak: PP 33/2026 Pasal 38. Transfer lintas negara: PP 33/2026 Pasal 162–163.
+- Produk: pemetaan kewajiban UU PDP + PP 33/2026 per pasal ke modul (GAP Assessment, Paparan Sanksi).

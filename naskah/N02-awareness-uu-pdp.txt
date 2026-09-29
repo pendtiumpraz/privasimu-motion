@@ -1,0 +1,93 @@
+NASKAH 02 — AWARENESS UU PDP: "PATUH TANPA RIBET"
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 50 detik (ada versi 30 dan 15 detik di bawah)
+Format     : 16:9 dan 9:16
+Sasaran    : pengambil keputusan di korporasi, lembaga keuangan, dan BUMN
+Nada       : dimulai serius, lalu optimis dan percaya diri setelah logo muncul
+Pengisi    : 1 suara (pria atau wanita)
+Video      : SUDAH JADI (Video #1 "Awareness UU PDP"), VN tinggal dipasang
+Fase       : evergreen, bisa tayang kapan saja
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N02_S1, N02_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N02), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 4 detik
+VO     : "Setiap hari, data pribadi bisa bocor, tanpa kita sadari."
+Arahan : serius, sedikit menurun di "tanpa kita sadari".
+Layar  : kartu data pelanggan berkedip "LEAKED", tulisan besar "BOCOR."
+
+[S2] ± 7 detik
+VO     : "Sejak UU PDP berlaku, setiap organisasi wajib melindungi data pribadi, dengan sanksi denda hingga dua persen dari pendapatan tahunan."
+Arahan : tegas dan informatif, beri tekanan pada "dua persen".
+Layar  : stempel "UU PDP No. 27 Tahun 2022", angka 2% menghitung naik.
+
+[S3] ± 5 detik
+VO     : "Tapi, mengelola kepatuhan secara manual? Rumit, lambat, dan berisiko."
+Arahan : nada bertanya, lalu tiga kata terakhir dipukul satu per satu.
+Layar  : jendela spreadsheet dan email bertumpuk, kata "Rumit. Lambat. Berisiko." menghantam layar.
+
+[S4] ± 3 detik
+VO     : "Kenalkan, Privasimu Nexus."
+Arahan : jeda sejenak sebelum "Privasimu Nexus", bangga.
+Layar  : logo muncul dengan kilau.
+
+[S5] ± 8 detik
+VO     : "Lebih dari dua puluh modul kepatuhan dalam satu platform. RoPA, DPIA, consent, hak subjek data, hingga insiden kebocoran."
+Arahan : energik, tiap nama modul jelas.
+Layar  : kotak-kotak modul tersusun, modul yang disebut menyala.
+Catatan: bila jumlah modul resmi sudah pasti, ganti "Lebih dari dua puluh" dengan "Dua puluh satu" atau "Dua puluh dua".
+
+[S6] ± 6 detik
+VO     : "Didukung AI yang mengisi dokumen, mendeteksi risiko, dan membantu DPO bekerja jauh lebih cepat."
+Arahan : lancar, meyakinkan.
+Layar  : dasbor dengan skor kepatuhan naik, AI menyusun draf DPIA.
+
+[S7] ± 6 detik
+VO     : "Fleksibel untuk SaaS, hybrid, maupun on-premise. Siap untuk grup dan holding multi perusahaan."
+Arahan : santai dan percaya diri.
+Layar  : tiga kartu SaaS / Hybrid / On-Premise, lalu bagan holding dan anak usaha.
+
+[S8] ± 6 detik
+VO     : "Privasimu Nexus. Patuh UU PDP, tanpa ribet. Kunjungi privasimu dot com."
+Arahan : hangat, tagline "tanpa ribet" diucapkan dengan senyum.
+Layar  : logo, tagline, tombol privasimu.com.
+
+
+VERSI PENDEK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+30 detik : S1 + S2 + S3 + S4 + S8
+15 detik : S1 + S4 + S8
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+UU PDP          : "u-u pe-de-pe"
+RoPA            : "ro-pa"
+DPIA            : "de-pe-i-a" (atau "di-pi-ai-ei", pilih satu dan konsisten)
+AI              : "a-i" (atau "ei-ai", konsisten)
+DPO             : "de-pe-o"
+SaaS            : "sas"
+on-premise      : "on-premis"
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Denda administratif paling tinggi 2% dari pendapatan tahunan: UU PDP (UU 27/2022) Pasal 57.
+- Katalog modul di platform: lebih dari 20 modul (backend/docs/KONTEKS-PLATFORM.md).
+- Deployment: SaaS dan on-premise; opsi basis data terdedikasi/BYODB (klien on-prem via VPN) untuk enterprise.
+- Kalimat pembuka sengaja tidak memakai angka statistik kebocoran agar tidak perlu sumber data tambahan.

@@ -1,0 +1,72 @@
+/* Seri "Nexus Explained": satu video per modul Privasimu Nexus.
+   Tema terang & bersih: screenshot asli melayang dengan kamera halus, sorotan per kata VO, tipografi Plus Jakarta Sans. */
+:root { --nx-navy: #0B1B4D; --nx-blue: #2F6BFF; --nx-violet: #6D4CFF; --nx-ink: #0F172A; --nx-mute: #5B6B8C; --nx-amber: #F59E0B; --nx-red: #E5484D; --nx-green: #16A34A; }
+body { color: var(--nx-ink); }
+#vignette { opacity: .08; }
+#grain { opacity: .03; }
+em { color: var(--nx-blue); font-style: normal; }
+
+/* ---------- chrome seri ---------- */
+#nx-prog { position: absolute; left: 0; top: 0; width: 100%; height: 6px; z-index: 39; background: rgba(47,107,255,.12); }
+#nx-prog i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--nx-blue), var(--nx-violet)); }
+#nx-badge { position: absolute; z-index: 38; display: flex; align-items: center; gap: 14px; padding: 10px 20px 10px 12px; border-radius: 999px; background: rgba(255,255,255,.82);
+  box-shadow: 0 8px 24px rgba(11,27,77,.10), 0 0 0 1px rgba(11,27,77,.06); font-family: 'Plus Jakarta Sans', sans-serif; }
+#nx-badge .no { padding: 6px 12px; border-radius: 999px; background: var(--nx-navy); color: #fff; font-weight: 800; font-size: 20px; letter-spacing: .06em; }
+#nx-badge .k { font-weight: 800; font-size: 18px; letter-spacing: .22em; color: var(--nx-blue); }
+#nx-badge .m { font-weight: 700; font-size: 22px; color: var(--nx-navy); }
+
+/* ---------- teks kinetik ---------- */
+.nx-text { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; gap: 14px; }
+.nx-text.center { align-items: center; text-align: center; }
+.nx-text.left { align-items: flex-start; text-align: left; }
+.nx-line { position: relative; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--nx-navy); letter-spacing: -.025em; line-height: 1.05; }
+.nx-line.xl { font-size: 118px; } .v .nx-line.xl { font-size: 92px; }
+.nx-line.lg { font-size: 86px; } .v .nx-line.lg { font-size: 70px; }
+.nx-line.md { font-size: 54px; font-weight: 700; } .v .nx-line.md { font-size: 48px; }
+.nx-line.sm { font-size: 24px; letter-spacing: .24em; text-transform: uppercase; color: var(--nx-blue); }
+.nx-line.mute { color: var(--nx-mute); font-weight: 600; }
+.nx-line em { color: var(--nx-blue); }
+.nx-line.red em { color: var(--nx-red); }
+.nx-emo { position: absolute; font-family: 'Noto Color Emoji', sans-serif; line-height: 1; }
+.nx-svg { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+
+/* ---------- judul adegan screenshot ---------- */
+.nx-title { position: absolute; }
+.nx-title .eb { font: 800 21px 'Plus Jakarta Sans', sans-serif; letter-spacing: .22em; text-transform: uppercase; color: var(--nx-blue); }
+.nx-title .tt { margin-top: 14px; font: 800 64px/1.08 'Plus Jakarta Sans', sans-serif; letter-spacing: -.025em; color: var(--nx-navy); }
+.v .nx-title .tt { font-size: 60px; }
+.nx-title .sb { margin-top: 18px; font: 500 28px/1.45 'Plus Jakarta Sans', sans-serif; color: var(--nx-mute); }
+.v .nx-title { text-align: center; }
+
+/* ---------- bingkai screenshot ---------- */
+.nx-persp { position: absolute; perspective: 2000px; }
+.nx-frame { position: absolute; left: 0; top: 0; border-radius: 22px; overflow: hidden; background: #fff; transform-origin: 50% 60%;
+  box-shadow: 0 60px 120px rgba(11,27,77,.20), 0 14px 34px rgba(11,27,77,.12), 0 0 0 1px rgba(11,27,77,.07); }
+.nx-frame .tb { height: 52px; display: flex; align-items: center; gap: 10px; padding: 0 20px; background: #F3F6FC; border-bottom: 1px solid #E3E8F2; }
+.nx-frame .tb i { width: 13px; height: 13px; border-radius: 50%; background: #CBD5E1; }
+.nx-frame .tb i:nth-child(1) { background: #FF6159; } .nx-frame .tb i:nth-child(2) { background: #FFBD2E; } .nx-frame .tb i:nth-child(3) { background: #28C941; }
+.nx-frame .tb .url { margin-left: 12px; flex: 1; height: 32px; border-radius: 9px; background: #fff; display: flex; align-items: center; gap: 8px; padding: 0 14px;
+  font: 600 18px 'Plus Jakarta Sans', sans-serif; color: #64748B; box-shadow: inset 0 0 0 1px #E3E8F2; }
+.nx-frame .tb .url b { color: var(--nx-navy); font-weight: 800; }
+.nx-frame .vp { position: relative; overflow: hidden; background: #F4F6FB; }
+.nx-frame .lay { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.nx-frame .lay img { display: block; }
+.nx-mark { position: absolute; border-radius: 14px; border: 4px solid var(--c, #2F6BFF); box-shadow: 0 0 0 9999px rgba(11,27,77,.20), 0 0 34px var(--g, rgba(47,107,255,.55)); }
+.nx-chip { position: absolute; padding: 10px 18px; border-radius: 999px; background: var(--c, #0B1B4D); color: #fff; font: 800 22px 'Plus Jakarta Sans', sans-serif; white-space: nowrap;
+  box-shadow: 0 12px 26px rgba(11,27,77,.28); }
+.nx-cursor { position: absolute; width: 56px; height: 56px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.3)); }
+
+/* ---------- CTA ---------- */
+.nx-cta { position: absolute; left: 0; right: 0; text-align: center; }
+.nx-cta .logo { filter: brightness(0) invert(13%) sepia(40%) saturate(2000%) hue-rotate(205deg); }
+.nx-cta .nx { margin-top: 10px; font: 800 34px 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; padding-left: .6em; color: var(--nx-blue); }
+.nx-cta .tag { font: 800 70px/1.1 'Plus Jakarta Sans', sans-serif; letter-spacing: -.02em; color: var(--nx-navy); }
+.v .nx-cta .tag { font-size: 64px; }
+.nx-cta .sub { font: 600 32px 'Plus Jakarta Sans', sans-serif; color: var(--nx-mute); }
+.nx-btn { position: relative; display: inline-block; overflow: hidden; padding: 24px 66px; border-radius: 999px; background: linear-gradient(90deg, var(--nx-blue), var(--nx-violet));
+  color: #fff; font: 800 48px 'Plus Jakarta Sans', sans-serif; box-shadow: 0 22px 50px rgba(47,107,255,.40); }
+.nx-btn .shine { position: absolute; top: -20px; bottom: -20px; width: 90px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent); transform: skewX(-20deg); }
+.nx-chips { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; }
+.nx-chips span { padding: 12px 24px; border-radius: 999px; background: #fff; color: var(--nx-navy); font: 800 26px 'Plus Jakarta Sans', sans-serif; box-shadow: 0 0 0 2px rgba(47,107,255,.35); }
+.nx-chips span b { color: var(--nx-green); }
+.nx-foot { font: 600 26px 'Plus Jakarta Sans', sans-serif; color: var(--nx-mute); }

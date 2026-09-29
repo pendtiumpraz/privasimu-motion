@@ -1,0 +1,79 @@
+NASKAH CADANGAN X02 — "VENDOR BERTAMBAH, RISIKO TETAP TERKENDALI" (PIHAK KETIGA & KONTRAK)
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 33 detik (± 36 detik bila S5 dipakai)
+Format     : 16:9 (utama untuk LinkedIn) dan 9:16
+Sasaran    : procurement, vendor management, legal, DPO/PPDP
+Nada       : profesional, lugas, sedikit menantang di awal
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November–Desember
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: X02_S1, X02_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (X02), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik
+VO     : "Data pelanggan Anda juga diproses vendor? Cloud, call center, payroll, agensi?"
+Arahan : bertanya, daftar vendor dibaca cepat dan ritmis.
+Layar  : database di tengah, dikelilingi ikon vendor yang terus bertambah.
+
+[S2] ± 8 detik
+VO     : "UU PDP dan PP tiga puluh tiga mengatur perjanjian pemrosesan dengan mereka, termasuk persetujuan tertulis Anda sebelum vendor memakai sub-pemroses."
+Arahan : jelas, tekan "persetujuan tertulis".
+Layar  : dokumen perjanjian pemrosesan data (DPA), cap "persetujuan tertulis". Teks kecil: UU PDP Ps. 51 jo. PP 33/2026 Ps. 14–15.
+
+[S3] ± 8 detik
+VO     : "Privasimu Nexus mengirim kuesioner asesmen ke vendor lewat tautan, tanpa perlu akun. Bukti dianalisis AI, skor risikonya langsung terlihat."
+Arahan : lancar, efisien.
+Layar  : tautan kuesioner terkirim, vendor mengisi, skor risiko per vendor muncul.
+
+[S4] ± 6 detik
+VO     : "Kontrak dan DPA ditelaah per bab, dengan rujukan pasal terverifikasi dan rekomendasi klausul."
+Arahan : mantap.
+Layar  : kontrak dengan sorotan per bab, rujukan pasal, saran klausul di margin.
+
+[S5] ± 3 detik (OPSIONAL)
+VO     : "Semuanya tertaut ke RoPA: vendor mana memproses data apa."
+Arahan : ringan.
+Layar  : garis dari tiap vendor ke kegiatan pemrosesan di RoPA.
+
+[S6] ± 5 detik
+VO     : "Privasimu Nexus. Vendor bertambah, risiko tetap terkendali. privasimu dot com."
+Arahan : percaya diri, CTA jelas.
+Layar  : logo + tombol privasimu.com.
+
+
+VERSI 20 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S3 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+call center, payroll  : dibaca bahasa Inggris
+DPA                   : "de-pe-a"
+AI                    : "a-i" (atau "ei-ai", konsisten)
+RoPA                  : "ro-pa"
+Nexus                 : "nek-sus"
+privasimu.com         : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Perjanjian pemrosesan (DPA): UU PDP Pasal 51 jo. PP 33/2026 Pasal 14. Pelibatan sub-pemroses memerlukan
+  persetujuan tertulis pengendali: UU PDP Pasal 51 ayat (5) jo. PP 33/2026 Pasal 15.
+- Modul Manajemen Risiko Pihak Ketiga: kuesioner lewat tautan publik tanpa akun, analisis dokumen bukti oleh AI,
+  skor risiko per pihak ketiga, keterkaitan ke RoPA dan kontrak. Telaah Kontrak: per bab untuk DPA/kontrak pihak
+  ketiga/NDA, rujukan pasal diverifikasi ke knowledge base, rekomendasi klausul (fakta_produk.json: tprm, contract-review).

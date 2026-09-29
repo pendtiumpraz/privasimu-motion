@@ -1,0 +1,78 @@
+NASKAH A22 — "REKAP TAHUNAN DPO 2026"
+================================================================
+Jenis      : KONTEN RELATE / AWARENESS (format rekap akhir tahun ala slide cerita), untuk dibagikan
+Durasi     : ± 46 detik
+Format     : 9:16 (utama: Reels, TikTok, Shorts, Story) dan 16:9
+Sasaran    : DPO/PPDP, tim legal & kepatuhan, rekan kantor yang suka menandai (tag) DPO-nya
+Nada       : ceria, akrab, sedikit menggoda; tidak mengejek profesi DPO
+Pengisi    : 1 suara (wanita atau pria), gaya pembawa acara rekap tahunan
+Tayang     : ideal Desember 2026 (musim rekap akhir tahun), sebelum PP 33/2026 berlaku 16 Januari 2027
+Video      : SUDAH DIRAKIT (folder motion/a22-rekap-dpo). Suara sementara = TTS; VN tim bisa dipasang kapan saja
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: A22_S1, A22_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (A22), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Angka dibaca lengkap seperti tertulis ("dua belas ribu empat ratus delapan puluh"); subtitle menampilkan "12.480".
+   "form-nya" (form-nya), "RoPA" (ro-pa), "DPO" (de-pe-o), "PP" (pe-pe).
+4. Tempo cepat dan riang, setiap kata tetap jelas. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm.
+5. Kirim sebagai DOKUMEN/file (bukan voice note). Format bebas: .wav, .m4a, .mp3.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 6 detik
+VO     : "Rekap tahunan DPO dua ribu dua puluh enam kamu, sudah siap."
+Arahan : antusias, seperti membuka kado.
+Layar  : kado bergoyang lalu terbuka, sinar + konfeti; judul "Rekap Tahunan DPO 2026 · punya kamu sudah siap ✨".
+
+[S2] ± 6,5 detik
+VO     : "Kalimat yang paling sering kamu ketik tahun ini: tolong isi form-nya, ya."
+Arahan : bagian kutipan dibaca manis-memelas, seperti mengetik pesan ke grup.
+Layar  : gelembung chat mengetik "Tolong isi form-nya ya 🙏", lalu hitungan "1.284× kali tahun ini".
+
+[S3] ± 6,5 detik
+VO     : "Dua belas ribu empat ratus delapan puluh menit, di rapat: data pribadi itu apa, sih?"
+Arahan : angka dibaca seperti membacakan rekor; kutipan terakhir dibaca polos.
+Layar  : angka berjalan 0 → 12.480 "menit ≈ 208 jam ☕", lalu kutipan "Data pribadi itu apa, sih? 🤔" + bunyi boom.
+
+[S4] ± 6,5 detik
+VO     : "File favoritmu: RoPA final final versi tiga. Dan saudara kembarnya."
+Arahan : jeda komedi kecil sebelum "Dan saudara kembarnya".
+Layar  : peringkat file: #1 RoPA_FINAL_final_v3.xlsx (dibuka 318×), #2 "… (1).xlsx", #3 "…_revisiBos.xlsx".
+
+[S5] ± 5 detik
+VO     : "Kepribadian DPO-mu tahun ini: si paling revisi."
+Arahan : bangun rasa penasaran, lalu umumkan "si paling revisi" dengan bangga.
+Layar  : kartu misteri "?" dibalik → kartu "🔁 Si Paling Revisi" + sifat: Hafal "3×24 jam", Pahlawan grup chat,
+         Kolektor versi file.
+
+[S6] ± 10 detik
+VO     : "Tahun depan, PP tiga puluh tiga berlaku enam belas Januari. Bikin rekap dua ribu dua puluh tujuh lebih rapi,
+         bareng Privasimu Nexus."
+Arahan : sedikit lebih serius di kalimat PP, lalu kembali hangat.
+Layar  : "2027", pil "PP 33/2026 berlaku 16 Januari 2027", dasbor ASLI Privasimu Nexus, "Rekap 2027 yang lebih rapi,
+         bareng Privasimu Nexus".
+
+[S7] ± 5,5 detik
+VO     : "Bagikan rekapmu, dan tag DPO kantormu."
+Arahan : ajakan akrab, senyum.
+Layar  : kartu ringkasan rekap (bisa di-screenshot) + "Tag DPO kantormu 👇" + konfeti.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- SEMUA angka rekap (1.284×, 12.480 menit, 318×/207×/96×, bintang "langka") = ILUSTRASI; di layar tertulis
+  "*angka ilustrasi" pada slide 2–5 dan pada kartu ringkasan.
+- PP 33/2026 mulai berlaku 16 Januari 2027. Dasbor di S6 = screenshot ASLI frontend lama (motion/assets/app/dashboard.png).
+- Format "rekap tahunan" dipakai sebagai format umum. Warna (gradasi sendiri), font (Bricolage Grotesque & Plus Jakarta
+  Sans, lisensi OFL), ikon, dan istilahnya milik sendiri; TIDAK meniru merek, logo, warna, atau font layanan musik/streaming
+  mana pun. Jangan menambahkan nama/logo layanan lain di caption atau thumbnail.
+- Kontak: support@privasimu.com · 0851 8318 2722 (privasimu.com).
+
+
+SARAN CAPTION
+----------------------------------------------------------------
+"Rekap tahunan DPO 2026 kamu sudah siap 🎁 Kalimat favorit kamu apa? Tag DPO kantormu 👇 #DPO #UUPDP #PP33 #PrivasimuNexus"

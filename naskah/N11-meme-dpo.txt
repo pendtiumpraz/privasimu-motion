@@ -1,0 +1,119 @@
+NASKAH 11 — "HIDUP DPO (2026)" (KOMPILASI MEME)
+================================================================
+Jenis      : KONTEN MEME / AWARENESS untuk Privasimu Nexus
+Durasi     : ± 66 detik (ada usulan versi 30 detik di bawah)
+Format     : 9:16 (utama: TikTok, Reels, Shorts) dan 16:9
+Sasaran    : DPO/PPDP, tim legal & kepatuhan, pekerja kantoran yang akrab dengan meme
+Nada       : kocak, relatable, bahasa meme 2026; tetap sopan dan tidak menyindir pihak tertentu
+Pengisi    : 3 suara
+             - DPO (pemeran utama; wanita atau pria): S1, S2, S4, S6, S7, S8, S9
+             - Pak Bos (pria, suara berat dan santai): S3
+             - Narator "Things to Say" (pria, datar dan serius, seperti membaca daftar): S5
+Video      : SUDAH JADI (folder motion/n11-meme-dpo), VN tinggal dipasang
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N11_S1, N11_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N11), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Kata bahasa Inggris dibaca wajar: "have" (hev), "haven't" (hevent), "not yet", "Kinda chic" (kainda syik), "Yep".
+   (Di scenes.js kata-kata ini ditulis fonetis supaya suara TTS sementara melafalkannya dengan benar; subtitle tetap
+   menampilkan ejaan aslinya.)
+4. Tempo cepat khas video meme, tapi setiap kata tetap jelas. Jeda komedi ditandai (…) — tahan ± setengah detik.
+5. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir rekaman.
+6. Kirim sebagai DOKUMEN/file (bukan voice note). Format bebas: .wav, .m4a, .mp3.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik — suara DPO
+VO     : "Yep, itu aku. Pasti bingung kok bisa begini."
+Arahan : datar, sedikit pasrah (gaya narator film yang tiba-tiba membekukan adegan).
+Layar  : kantor kacau (file RoPA revisi, notifikasi DSR, audit, insiden beterbangan) -> bunyi piringan tergores,
+         frame membeku hitam-putih ("|| PAUSE"), lingkaran spidol merah "ITU AKU!", lalu di-rewind ala VHS.
+Meme   : "record scratch, freeze frame" (klasik era 2016; ikut tren "2026 is the new 2016" / Great Meme Reset).
+
+[S2] ± 8 detik — suara DPO
+VO     : "Ada orang have: RoPA lengkap, DPIA beres. Ada orang haven't: RoPA masih di Excel. Aku? (…) Orang not yet."
+Arahan : seperti membacakan perbandingan, lalu jujur-miris di "Aku? Orang not yet."
+Layar  : template meme 3 panel: ORANG HAVE 😎 / ORANG HAVEN'T 🥲 (RoPA_final_revisi3_FIX.xlsx dicoret) / ORANG NOT YET 🫠.
+Meme   : istilah "orang have / orang haven't / orang not yet" (viral di TikTok & Threads, September 2026).
+
+[S3] ± 3 detik — suara Pak Bos
+VO     : "Kita sudah patuh UU PDP, kan?"
+Arahan : santai, yakin, sedikit menekan.
+Layar  : chat dari "Pak Bos", facecam DPO mulai berkeringat.
+
+[S4] ± 7 detik — suara DPO
+VO     : "Sudah dong, Pak. Seratus persen. (…) Astaga, bercanda."
+Arahan : percaya diri palsu, lalu panik-ketawa di "Astaga, bercanda."
+Layar  : balasan chat "Sudah dong, Pak. 100% ✅" lalu "astaga, bercanda 😭🙏" -> vine boom, facecam jadi 💀 "KITA COOKED 🍳".
+Meme   : frasa "astaga, bercanda" (viral Agustus–September 2026); "cooked" (slang Gen Z 2026).
+
+[S5] ± 10 detik — suara narator
+VO     : "Hal yang bisa kamu bilang ke auditor: data pribadi? Maksudnya KTP di grup kantor? RoPA ada kok, di kepala saya.
+          Kenapa bocor? (…) Adalah pokoknya. Jangan ditiru."
+Arahan : datar dan serius seperti daftar tips "sigma" — makin lucu kalau tidak ikut tertawa. "Jangan ditiru" tegas.
+Layar  : slideshow gelap, potret DPO hitam-putih berkacamata, daftar bernomor, tiap jawaban dapat "+1 temuan 📝",
+         lalu stempel merah "JANGAN DITIRU".
+Meme   : format "Things to Say" (daftar saran konyol, viral Agustus–September 2026) + frasa "adalah pokoknya" (viral 2026).
+
+[S6] ± 9 detik — suara DPO
+VO     : "Jam tiga pagi: dugaan kebocoran data. Wajib lapor dalam tiga kali dua puluh empat jam. Tenang, di Nexus alurnya siap."
+Arahan : kaget dan tegang di awal, lega di "Tenang".
+Layar  : layar kunci 03.00 dengan peringatan keamanan; borgol raksasa "3 X 24 JAM" (dengan hitung mundur) jatuh ke tangan
+         DPO, lalu melorot lepas; muncul tampilan ASLI modul insiden Privasimu Nexus (5 fase penanganan disorot),
+         label "hitung mundur 3×24 jam" dan "templat pemberitahuan".
+Meme   : borgol kebesaran yang gampang lepas (tren September 2026; digambar ulang, tanpa karakter kartun aslinya).
+
+[S7] ± 7 detik — suara DPO (cepat)
+VO     : "RoPA, DPIA, DSR, consent, insiden, asisten AI. Semua nyambung, di satu tempat."
+Arahan : cepat dan bersemangat, seperti mengabsen.
+Layar  : DPO diam berkacamata di depan, di belakangnya potongan layar ASLI Nexus berganti liar (RoPA, DPIA, DSR, Consent,
+         Insiden, Asisten AI), lalu semuanya tersambung ke logo Privasimu Nexus: "SEMUA NYAMBUNG ✅".
+Meme   : "Polyester Edit" (editan sengaja kacau & murahan, tren September 2026).
+
+[S8] ± 8 detik — suara DPO
+VO     : "Kinda chic: lapor insiden tepat waktu, RoPA rapi, dan siap PP tiga puluh tiga sebelum enam belas Januari."
+Arahan : kalem, anggun, sedikit bangga.
+Layar  : editorial hangat bergaya majalah: "Kinda chic to… lapor insiden tepat waktu. / RoPA rapi di satu register. /
+         siap PP 33 sebelum 16 Januari 2027." + laptop menampilkan dasbor ASLI Nexus.
+Meme   : "Kinda chic to…" (tren caption Instagram/TikTok, puncaknya September 2026).
+
+[S9] ± 8 detik — suara DPO
+VO     : "Privasimu Nexus: biar DPO tetap waras. privasimu dot com."
+Arahan : santai dan puas, seperti orang yang akhirnya bisa tidur nyenyak.
+Layar  : montase MLG ala 2016 (kacamata piksel jatuh, hitmarker, "+1000 AURA", airhorn) -> logo Privasimu Nexus,
+         "Biar DPO tetap waras.", tombol privasimu.com, Schedule Demo · Start Pre Check (gratis), kontak.
+Meme   : "+1000 aura" / aura farming (slang 2026) + nostalgia montase MLG 2016.
+
+Sepanjang video: penghitung AURA di pojok kanan atas (-100, -500, -1.000, -9.999 … lalu naik sampai "MAX").
+
+
+USUL VERSI 30 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+S3 + S4 + S7 + S9 (Pak Bos -> "astaga, bercanda" -> Polyester Edit -> penutup).
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Pemberitahuan tertulis paling lambat 3x24 jam kepada subjek data dan lembaga: UU PDP Pasal 46 jo. PP 33/2026 Pasal 114.
+- PP 33/2026 mulai berlaku 16 Januari 2027.
+- Modul insiden: penghitung mundur batas pemberitahuan 3x24 jam, templat pemberitahuan tertulis, daftar periksa &
+  linimasa otomatis (fakta_produk.json: breach). "Alurnya siap" = 5 fase penanganan di layar insiden.
+- "Semua nyambung, di satu tempat" = modul saling terhubung: RoPA, DPIA, DSR, Consent, insiden, dll. (fakta_produk.json:
+  Privasimu Nexus platform); asisten AI = asisten AI Priva (fakta_produk.json: dukungan PPDP).
+- Semua tampilan aplikasi = screenshot ASLI (motion/assets/app), area sensitif diburamkan.
+- Ilustrasi (bukan data nyata): angka AURA, "+1 temuan", chat "Pak Bos", notifikasi layar kunci, angka hitung mundur.
+- Kontak: support@privasimu.com · 0851 8318 2722 (privasimu.com). "Start Pre Check (gratis)": pastikan masih berlaku.
+
+
+CATATAN MEME & HUKUM
+----------------------------------------------------------------
+- Semua format meme DIBUAT ULANG secara orisinal (gambar, karakter DPO, musik, SFX disintesis sendiri). Tidak ada
+  gambar/video/audio meme asli, karakter kartun, wajah orang, atau lagu pihak lain.
+- Frasa viral ("orang have", "astaga, bercanda", "adalah pokoknya", "cooked", "aura") hanya dipakai sebagai frasa.
+- Untuk brand pelindungan data, memakai wajah/suara orang di meme tanpa izin berisiko ganda (hak cipta dan data
+  pribadi berupa potret/suara). Jika tim ingin memakai audio meme asli, pakai hanya yang berlisensi: taruh di
+  motion/sfx-kustom/ dan panggil sebagai 'file:nama' di scenes.js.

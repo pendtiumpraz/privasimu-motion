@@ -1,0 +1,81 @@
+/* N10 · Satu Grup Satu Standar — gaya "blueprint arsitektural".
+   Latar kertas cetak-biru (canvas, style.js), garis putih yang digambar, anotasi IBM Plex Mono, judul IBM Plex Sans. */
+:root { --bp: #0E3A7A; --bp2: #0A2A5C; --amb: #FFD27A; --ink: #ffffff; --line2: rgba(255,255,255,.58); --line3: rgba(255,255,255,.32); }
+body { font-family: 'IBM Plex Sans', 'Plus Jakarta Sans', sans-serif; }
+#stage { background: #030a17; }
+#vignette { background: radial-gradient(ellipse at center, transparent 60%, rgba(2, 10, 30, .38) 100%); }
+#grain { opacity: .075; }
+.t-blueprint { --acc: var(--amb); }
+
+/* ---------- lapisan gambar ---------- */
+.bp-svg { position: absolute; left: 0; top: 0; overflow: visible; }
+.bp-svg text { font-family: 'IBM Plex Mono', monospace; font-weight: 500; fill: #fff; white-space: pre; }
+.bp-svg .ghost { fill-opacity: 0; }
+
+/* garis (dash untuk animasi "digambar" diatur inline oleh style.js) */
+.bp-e { fill: none; stroke: #fff; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.v .bp-e { stroke-width: 2.2; }
+.bp-e2 { fill: none; stroke: var(--line2); stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; }
+.bp-e3 { fill: none; stroke: var(--line3); stroke-width: 1; stroke-linecap: round; }
+.bp-c { fill: none; stroke: rgba(255,255,255,.2); stroke-width: 1; }
+.bp-dd { fill: none; stroke: rgba(255,255,255,.5); stroke-width: 1.4; stroke-dasharray: 26 7 3 7; }
+.bp-dash { fill: none; stroke: rgba(255,255,255,.42); stroke-width: 1.2; stroke-dasharray: 7 6; }
+.bp-adash { fill: none; stroke: var(--amb); stroke-width: 1.8; stroke-dasharray: 9 7; }
+.bp-amb { stroke: var(--amb) !important; }
+.bp-back { fill: #0d3876; stroke: none; }
+.bp-face { stroke: none; }
+.bp-dot { fill: #fff; }
+.bp-ic { fill: none; stroke: #fff; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.bp-glow { filter: drop-shadow(0 0 6px rgba(255, 210, 122, .75)); }
+
+/* teks anotasi */
+.bp-svg .bp-tt { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 30px; letter-spacing: .14em; }
+.v .bp-svg .bp-tt { font-size: 34px; letter-spacing: .12em; }
+.bp-svg .bp-ts { font-size: 15px; letter-spacing: .1em; fill: rgba(255,255,255,.66); }
+.v .bp-svg .bp-ts { font-size: 20px; letter-spacing: .06em; }
+.bp-svg .bp-tn { font-weight: 600; font-size: 20px; }
+.v .bp-svg .bp-tn { font-size: 23px; }
+.bp-svg .bp-tsh { font-size: 11px; letter-spacing: .08em; fill: rgba(255,255,255,.7); }
+.v .bp-svg .bp-tsh { font-size: 13px; }
+.bp-svg .bp-a { font-size: 18px; letter-spacing: .04em; }
+.v .bp-svg .bp-a { font-size: 24px; letter-spacing: .02em; }
+.bp-svg .bp-a2 { font-size: 14px; letter-spacing: .16em; fill: rgba(255,255,255,.72); }
+.v .bp-svg .bp-a2 { font-size: 18px; letter-spacing: .12em; }
+.bp-svg .bp-a3 { font-size: 14px; letter-spacing: .02em; fill: rgba(255,255,255,.78); }
+.v .bp-svg .bp-a3 { font-size: 19px; }
+.bp-svg .bp-k { font-size: 13px; letter-spacing: .2em; fill: rgba(255,255,255,.7); }
+.v .bp-svg .bp-k { font-size: 15px; }
+.bp-svg .bp-dt { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 27px; letter-spacing: -.005em; }
+.v .bp-svg .bp-dt { font-size: 30px; }
+.bp-svg .bp-h { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 34px; letter-spacing: .06em; }
+.v .bp-svg .bp-h { font-size: 38px; }
+.bp-svg .bp-big { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 46px; letter-spacing: -.005em; }
+.v .bp-svg .bp-big { font-size: 56px; }
+.bp-svg .bp-sub { font-family: 'IBM Plex Sans', sans-serif; font-weight: 400; font-size: 22px; fill: rgba(255,255,255,.78); }
+.v .bp-svg .bp-sub { font-size: 28px; }
+.bp-svg .bp-val { font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; font-size: 22px; paint-order: stroke; stroke: #0d3876; stroke-width: 7px; stroke-linejoin: round; }
+.v .bp-svg .bp-val { font-size: 26px; }
+.bp-svg .bp-stamp { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 30px; letter-spacing: .14em; fill: var(--amb); }
+.v .bp-svg .bp-stamp { font-size: 32px; }
+.bp-svg .bp-stamp2 { font-size: 11px; letter-spacing: .34em; fill: var(--amb); }
+.v .bp-svg .bp-stamp2 { font-size: 12px; }
+.bp-svg .bp-amt { fill: var(--amb); }
+
+/* ---------- lembar cetak screenshot ASLI (ditempel di atas blueprint) ---------- */
+.bp-print { position: absolute; background: #f4f7fc; transform-origin: 0 0; border-radius: 2px;
+  box-shadow: 0 26px 60px rgba(2, 10, 30, .5), 0 0 0 1px rgba(255, 255, 255, .55); }
+.bp-crop { position: relative; overflow: hidden; }
+.bp-crop img { position: absolute; display: block; max-width: none; }
+.bp-print .scan { position: absolute; left: -6px; right: -6px; height: 3px; background: var(--amb); opacity: 0;
+  box-shadow: 0 0 18px 5px rgba(255, 210, 122, .55); }
+
+/* ---------- s5: CTA ---------- */
+.bp-logo { position: absolute; left: 0; right: 0; display: flex; justify-content: center; }
+.bp-logo img { display: block; }
+.bp-tag { position: absolute; left: 0; right: 0; text-align: center; font-family: 'IBM Plex Sans', sans-serif; font-weight: 600; color: #fff;
+  font-size: 70px; line-height: 1.12; letter-spacing: -.012em; padding: 0 80px; }
+.v .bp-tag { font-size: 70px; padding: 0 60px; }
+.bp-tag .hl { position: relative; display: inline-block; }
+.bp-tag .hl::after { content: ''; position: absolute; left: -.04em; right: -.04em; bottom: .02em; height: .085em; border-radius: 2px; background: var(--amb);
+  box-shadow: 0 0 16px rgba(255, 210, 122, .55); transform-origin: 0 50%; transform: scaleX(var(--k, 0)); }
+.bp-fade { position: absolute; left: -20%; top: -20%; width: 140%; height: 140%; background: #041026; opacity: 0; pointer-events: none; }

@@ -1,0 +1,82 @@
+NASKAH 07 — "SIAPA YANG MENDAMPINGI ANDA?" (KONSULTAN PDP)
+================================================================
+Jenis      : IKLAN KONSULTASI (Privasimu)
+Durasi     : ± 35 detik (± 31 detik tanpa S3; ada versi 15 detik di bawah)
+Format     : 16:9 (utama untuk LinkedIn & YouTube) dan 9:16
+Sasaran    : direksi, legal & compliance, DPO/PPDP di organisasi yang belum punya tim privasi
+Nada       : hangat, kredibel, seperti penasihat terpercaya
+Pengisi    : 1 suara (pria atau wanita), disarankan suara dewasa
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : Oktober–Januari (sepanjang kampanye)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N07_S1, N07_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N07), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 7 detik
+VO     : "PP tiga puluh tiga berlaku enam belas Januari dua ribu dua puluh tujuh. Siapa yang mendampingi organisasi Anda?"
+Arahan : tenang, pertanyaan di akhir ditujukan langsung ke penonton.
+Layar  : tanggal 16.01.2027, lalu ruang rapat kosong dengan satu kursi penasihat.
+
+[S2] ± 8 detik
+VO     : "Privasimu adalah tim konsultan pelindungan data pribadi, berpengalaman lintas industri, dan bersertifikasi internasional CIPP/E, CIPM, dan FIP."
+Arahan : percaya diri, sebut sertifikasi dengan jelas dan tidak terburu-buru.
+Layar  : tim konsultan, lencana sertifikasi CIPP/E · CIPM · FIP.
+
+[S3] ± 4 detik (OPSIONAL, lewati untuk versi 30 detik)
+VO     : "Kami turut berkontribusi dalam penyusunan SKKNI dan RPP PDP."
+Arahan : rendah hati tapi bangga.
+Layar  : dokumen SKKNI dan RPP PDP.
+
+[S4] ± 7 detik
+VO     : "Dari gap assessment, roadmap, telaah kebijakan, sampai pelatihan tim, kami dampingi dari awal hingga akhir."
+Arahan : ritmis, tiap layanan jelas.
+Layar  : alur 4 langkah: Gap Assessment → Roadmap → Telaah Kebijakan → Pelatihan.
+
+[S5] ± 5 detik
+VO     : "Hasilnya langsung dijalankan di platform Privasimu Nexus, bukan berhenti di laporan."
+Arahan : tekan "bukan berhenti di laporan". Ini pembeda utama.
+Layar  : laporan konsultan berubah menjadi dasbor Privasimu Nexus yang hidup.
+
+[S6] ± 5 detik
+VO     : "Privasimu. Konsultan PDP Anda. Jadwalkan konsultasi gratis di privasimu dot com."
+Arahan : hangat, CTA jelas.
+Layar  : logo Privasimu + tombol "Konsultasi gratis · privasimu.com".
+
+
+VERSI 15 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S5 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+PP              : "pe-pe"
+CIPP/E          : "si-ai-pi-pi i" (sebut per huruf, "E" dibaca "i")
+CIPM            : "si-ai-pi-em"
+FIP             : "ef-ai-pi"
+SKKNI           : "es-ka-ka-en-i"
+RPP PDP         : "er-pe-pe pe-de-pe"
+gap assessment, roadmap : dibaca bahasa Inggris
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Company Profile 2026 (slide "Expert Behind Privasimu"): konsultan PDP berpengalaman lintas industri; bersertifikasi
+  internasional CIPP/E, CIPM, FIP; berkontribusi dalam penyusunan SKKNI, RPP PDP & tools Kominfo.
+- Company Profile 2026 (slide penutup): "Get Your Free Trial, Schedule A Free Consultation".
+  PASTIKAN penawaran konsultasi gratis masih berlaku sebelum tayang.
+- PP 33/2026 berlaku 16 Januari 2027 (Pasal 225).

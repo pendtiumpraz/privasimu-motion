@@ -1,0 +1,194 @@
+{
+  "dashboard": {
+    "file": "assets/app/dashboard.png",
+    "ukuran": "1264x790",
+    "isi": "Dashboard: sambutan, skor GAP 81%, DSR pending, breach aktif, ringkasan modul (tampilan penuh dengan sidebar)",
+    "sumber": "dataroom/03-tenant/dashboard/01-overview.png"
+  },
+  "dashboard-postur": {
+    "file": "assets/app/dashboard-postur.png",
+    "ukuran": "1002x480",
+    "isi": "Postur Kepatuhan: tren bulanan per modul + Compliance Score 81% (lingkaran)",
+    "sumber": "dataroom/03-tenant/dashboard/01-overview.png"
+  },
+  "dashboard-risiko": {
+    "file": "assets/app/dashboard-risiko.png",
+    "ukuran": "1002x478",
+    "isi": "Risk Analytics: DPIA Risk Heatmap 5x5 + distribusi risiko RoPA (angka total diburamkan) + Top Risks",
+    "sumber": "dataroom/03-tenant/dashboard/01-overview.png"
+  },
+  "dashboard-sla": {
+    "file": "assets/app/dashboard-sla.png",
+    "ukuran": "1002x380",
+    "isi": "Operasional/SLA: waktu respon DSR, timeline breach terbaru, consent adoption",
+    "sumber": "dataroom/03-tenant/dashboard/01-overview.png"
+  },
+  "breach-detail": {
+    "file": "assets/app/breach-detail.png",
+    "ukuran": "1264x790",
+    "isi": "Detail insiden BRC: label HIGH/Wajib Notifikasi, deskripsi, stepper 5 fase (Terdeteksi-Assessment-Containment-Notifikasi-Ditutup)",
+    "sumber": "dataroom/03-tenant/breach/03-detail.png"
+  },
+  "breach-fase": {
+    "file": "assets/app/breach-fase.png",
+    "ukuran": "1002x840",
+    "isi": "Fase 1 Deteksi & Eskalasi: daftar tugas tercentang, keterkaitan RoPA, form severity & jumlah terdampak",
+    "sumber": "dataroom/03-tenant/breach/03-detail.png"
+  },
+  "breach-aksi": {
+    "file": "assets/app/breach-aksi.png",
+    "ukuran": "1002x150",
+    "isi": "Tombol aksi insiden: Template Pemberitahuan, Timeline, RACI Matrix, War Room, PICAPA, SIEM/SOAR, Unduh PDF",
+    "sumber": "dataroom/03-tenant/breach/03-detail.png"
+  },
+  "breach-ai": {
+    "file": "assets/app/breach-ai.png",
+    "ukuran": "1002x200",
+    "isi": "AI Incident Response Advisor + tombol Generate AI Incident Response",
+    "sumber": "dataroom/03-tenant/breach/03-detail.png"
+  },
+  "ropa-baru": {
+    "file": "assets/app/ropa-baru.png",
+    "ukuran": "1264x569",
+    "isi": "Modal Buat RoPA Baru (awal wizard)",
+    "sumber": "dataroom/03-tenant/ropa/04-wizard-step1.png"
+  },
+  "ropa-data-spesifik": {
+    "file": "assets/app/ropa-data-spesifik.png",
+    "ukuran": "1002x940",
+    "isi": "Wizard RoPA bagian Pengumpulan Data: sumber data, jumlah subjek, daftar Data Pribadi Spesifik (kesehatan, biometrik, anak, keuangan, dll.)",
+    "sumber": "dataroom/03-tenant/ropa/09-wizard-section4-pengumpulan.png"
+  },
+  "ropa-tersimpan": {
+    "file": "assets/app/ropa-tersimpan.png",
+    "ukuran": "1264x569",
+    "isi": "RoPA tersimpan (notifikasi berhasil + daftar)",
+    "sumber": "dataroom/03-tenant/ropa/14-after-save.png"
+  },
+  "dpia-list": {
+    "file": "assets/app/dpia-list.png",
+    "ukuran": "1264x790",
+    "isi": "Daftar DPIA",
+    "sumber": "dataroom/03-tenant/dpia/02-list.png"
+  },
+  "dpia-risiko": {
+    "file": "assets/app/dpia-risiko.png",
+    "ukuran": "1264x790",
+    "isi": "Wizard DPIA langkah Potensi Risiko (kategori risiko, pertanyaan, progres)",
+    "sumber": "dataroom/03-tenant/dpia/06-wizard-step3-risiko.png"
+  },
+  "dsr-form": {
+    "file": "assets/app/dsr-form.png",
+    "ukuran": "1264x790",
+    "isi": "Modal Buat DSR Baru: aplikasi, nama & email pemohon, tipe permintaan",
+    "sumber": "dataroom/03-tenant/dsr/02-create-modal.png"
+  },
+  "dsr-detail": {
+    "file": "assets/app/dsr-detail.png",
+    "ukuran": "1002x250",
+    "isi": "Header detail DSR-2026-017: tipe Akses Data, status pending review, pil tenggat \"7h tersisa\", tab Overview/Scope/SQL Pack/Executions/Certificates",
+    "sumber": "dataroom/03-tenant/dsr/05-detail.png"
+  },
+  "consent-detail": {
+    "file": "assets/app/consent-detail.png",
+    "ukuran": "1624x1014",
+    "isi": "Consent point: ringkasan, integrasi (Consent Form Embed, Preference Center, API Server, Real-time Webhook, Embed & RoPA)",
+    "sumber": "dataroom/03-tenant/consent/02-detail.png"
+  },
+  "ai-agent-chat": {
+    "file": "assets/app/ai-agent-chat.png",
+    "ukuran": "1264x569",
+    "isi": "AI Agent PRIVASIMU menjawab (rekomendasi RoPA/DPIA)",
+    "sumber": "dataroom/03-tenant/ai-agent/03-chat-response.png"
+  },
+  "gap-hasil": {
+    "file": "assets/app/gap-hasil.png",
+    "ukuran": "1002x690",
+    "isi": "Hasil GAP Assessment: compliance score 81%, framework UU No. 27/2022, statistik per area",
+    "sumber": "dataroom/03-tenant/gap-assessment/02-hasil.png"
+  },
+  "gap-rekomendasi": {
+    "file": "assets/app/gap-rekomendasi.png",
+    "ukuran": "1002x900",
+    "isi": "GAP Assessment: rekomendasi perbaikan per pasal (CRITICAL/HIGH/MEDIUM) + AI Remediation Plan",
+    "sumber": "dataroom/03-tenant/gap-assessment/02-hasil.png"
+  },
+  "gap-ringkasan": {
+    "file": "assets/app/gap-ringkasan.png",
+    "ukuran": "1002x660",
+    "isi": "GAP Assessment: KPI (4 asesmen, skor tertinggi 81%, rata-rata 73%) + grafik skor per versi + kartu lanjutkan assessment",
+    "sumber": "dataroom/03-tenant/gap-assessment/01-overview.png"
+  },
+  "gap-mulai": {
+    "file": "assets/app/gap-mulai.png",
+    "ukuran": "1002x150",
+    "isi": "Tab kerangka (GDPR / UU PDP / PDPA) + toolbar dengan tombol \"Mulai Assessment\" (untuk hook)",
+    "sumber": "dataroom/03-tenant/gap-assessment/01-overview.png"
+  },
+  "postur-privasi": {
+    "file": "assets/app/postur-privasi.png",
+    "ukuran": "1000x355",
+    "isi": "Privacy Posture Score 56 \"Cukup\" + 3-Layer Breakdown (Data 49, Process 80, Response 38), UI terbaru",
+    "sumber": "frontend/tmp/audit4/security.png"
+  },
+  "children-pro": {
+    "file": "assets/app/children-pro.png",
+    "ukuran": "1440x900",
+    "isi": "Children Pro (persetujuan wali anak): judul, tab Kewenangan Wali / Menunggu / Peralihan (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/consent__guardian.png"
+  },
+  "inclusive-privacy": {
+    "file": "assets/app/inclusive-privacy.png",
+    "ukuran": "1440x900",
+    "isi": "Inclusive Privacy (persetujuan aksesibel penyandang disabilitas): judul & tab (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/consent__accessibility.png"
+  },
+  "dpo-academy": {
+    "file": "assets/app/dpo-academy.png",
+    "ukuran": "1440x900",
+    "isi": "DPO Academy: kartu kursus Kepatuhan UU PDP, Manajemen Risiko, Audit Kepatuhan, Tata Kelola (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/learn__dpo-academy.png"
+  },
+  "ai-agent-home": {
+    "file": "assets/app/ai-agent-home.png",
+    "ukuran": "1440x951",
+    "isi": "AI Agent: sapaan \"apa yang ingin Anda ketahui?\", chip modul & saran pertanyaan (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/ai-agent.png"
+  },
+  "policy-review": {
+    "file": "assets/app/policy-review.png",
+    "ukuran": "1440x900",
+    "isi": "Telaah Kebijakan: ringkasan kesesuaian & daftar dokumen (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/policy-review.png"
+  },
+  "holding-header": {
+    "file": "assets/app/holding-header.png",
+    "ukuran": "1240x200",
+    "isi": "Holding Group Dashboard: judul & tab (tampilan terbaru, tanpa data grup)",
+    "sumber": "frontend/tmp/audit4/holding-dashboard.png"
+  },
+  "fire-drill-header": {
+    "file": "assets/app/fire-drill-header.png",
+    "ukuran": "1240x260",
+    "isi": "Fire Drill: banner Simulasi Insiden Data Breach (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/simulation.png"
+  },
+  "ropa-list-baru": {
+    "file": "assets/app/ropa-list-baru.png",
+    "ukuran": "1440x900",
+    "isi": "Register RoPA (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/ropa.png"
+  },
+  "dpia-list-baru": {
+    "file": "assets/app/dpia-list-baru.png",
+    "ukuran": "1440x900",
+    "isi": "Daftar DPIA (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/dpia.png"
+  },
+  "breach-list-baru": {
+    "file": "assets/app/breach-list-baru.png",
+    "ukuran": "1440x900",
+    "isi": "Manajemen Insiden Data (tampilan terbaru)",
+    "sumber": "frontend/tmp/audit4/breach.png"
+  }
+}

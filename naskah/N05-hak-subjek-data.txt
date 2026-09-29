@@ -1,0 +1,80 @@
+NASKAH 05 — "TOLONG HAPUS DATA SAYA" (HAK SUBJEK DATA / DSR)
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 33 detik (± 37 detik bila S5 dipakai; ada versi 20 detik di bawah)
+Format     : 16:9 dan 9:16
+Sasaran    : customer service, DPO/PPDP, tim legal di perusahaan B2C
+Nada       : sehari-hari, relatable, lalu rapi dan efisien
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November (edukasi kewajiban)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N05_S1, N05_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N05), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik
+VO     : "Satu email masuk: tolong hapus data saya. Lalu, siapa yang menangani?"
+Arahan : "tolong hapus data saya" dibaca seperti mengutip pelanggan, lalu bingung di kalimat terakhir.
+Layar  : kotak masuk email, subjek "Tolong hapus data saya" dengan tanda merah.
+
+[S2] ± 8 detik
+VO     : "Subjek data berhak mengakses, memperbaiki, hingga menghapus datanya. Untuk hak tertentu, batasnya tiga kali dua puluh empat jam."
+Arahan : informatif, tekan "tiga kali dua puluh empat jam".
+Layar  : ikon hak (akses, perbaikan, penghapusan), jam pasir 3x24 jam.
+
+[S3] ± 8 detik
+VO     : "Di Privasimu Nexus, permohonan masuk lewat formulir di situs Anda, identitas pemohon diverifikasi, dan tenggat tujuh puluh dua jam dipantau otomatis."
+Arahan : lancar, efisien.
+Layar  : formulir DSR tertanam di situs, centang verifikasi identitas, countdown 72 jam (kode DSR-2027-001).
+
+[S4] ± 5 detik
+VO     : "Alur handler, reviewer, dan approver tercatat rapi, dan draf jawabannya bisa dibantu AI."
+Arahan : mantap.
+Layar  : alur tiga tahap dengan jejak audit, AI menyusun draf jawaban.
+
+[S5] ± 4 detik (OPSIONAL, lewati untuk versi 30 detik)
+VO     : "Data Discovery membantu melacak data si pemohon di berbagai sistem."
+Arahan : ringan.
+Layar  : pencarian satu nama di beberapa database, hasil ditandai.
+
+[S6] ± 4 detik
+VO     : "Privasimu Nexus. Setiap permohonan, dijawab tepat waktu. privasimu dot com."
+Arahan : hangat, CTA jelas.
+Layar  : logo + tombol privasimu.com.
+
+
+VERSI 20 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S3 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+handler, reviewer, approver  : dibaca bahasa Inggris
+AI                           : "a-i" (atau "ei-ai", konsisten)
+Data Discovery               : dibaca bahasa Inggris
+Nexus                        : "nek-sus"
+privasimu.com                : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Batas 3x24 jam berlaku untuk hak tertentu, antara lain pembaruan/perbaikan data (UU PDP Ps. 30 jo. PP 33/2026 Ps. 71),
+  pemberian akses (UU PDP Ps. 32 jo. PP 33/2026 Ps. 77), penghentian pemrosesan setelah penarikan persetujuan
+  (UU PDP Ps. 40 jo. PP 33/2026 Ps. 92). Karena itu naskah memakai frasa "untuk hak tertentu".
+- Modul DSR: formulir permohonan yang dapat disematkan, tenggat otomatis 72 jam sejak permohonan dicatat, alur
+  Handler–Reviewer–Approver dengan jejak audit, verifikasi identitas, kode DSR-TAHUN-NOMOR, draf jawaban
+  berbantuan AI, API & webhook. Data Discovery: pencarian data milik satu subjek untuk mendukung DSR
+  (fakta_produk.json: dsr, data-discovery).

@@ -1,0 +1,2 @@
+Gambar/video meme milik sendiri atau berlisensi komersial (png, jpg, webp, mp4).
+Contoh: foto reaksi tim -> stiker: stickers: [{ img: '../assets/meme/kaget.png', at: 'w:bocor', x: .8, y: .3 }]

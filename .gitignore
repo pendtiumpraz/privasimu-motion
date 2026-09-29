@@ -1,0 +1,17 @@
+# Hasil render & cache — dibuat ulang oleh build.js / RENDER.bat
+out/
+vo/
+*/timeline.js
+
+# Rekaman VN tim (suara orang = data pribadi) tidak ikut repo; simpan terpisah
+vn/*
+!vn/BACA-SAYA.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Berkas sementara
+~$*.xlsx
+.DS_Store
+Thumbs.db

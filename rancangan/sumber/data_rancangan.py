@@ -1,0 +1,438 @@
+# Data rancangan video: 22 modul, flow unggulan "semua modul", video pendek, inventaris screenshot.
+# Path screenshot relatif ke D:/AI/privasimu. Koordinat crop/blur = [x, y, lebar, tinggi] dalam piksel gambar sumber.
+KUR = 'motion/assets/app/'          # hasil kurasi: sudah crop & blur, siap pakai
+DR = 'dataroom/03-tenant/'          # data demo (UI lama), lebar 1264: blur blok user sidebar [0,470,262,140] atau crop x>=262
+A4 = 'frontend/tmp/audit4/'         # UI terbaru (org uji, sering kosong), lebar 1440: blur nama org [300,22,200,26], buang sidebar x<200
+B_DR = 'Blur blok user sidebar [0,470,262,140] atau crop mulai x=262'
+B_A4 = 'Blur nama org [300,22,200,26]; buang sidebar (x<200)'
+
+HOOK_JENIS = ['Reverse psychology', 'Relate', 'Anomali', 'Logika dipatahkan']
+
+# ------------------------------------------------------------------ 22 video modul
+# scene: (waktu, tahap, visual, screenshot, crop_sorot_blur, teks_layar, vo, sfx)
+M = []
+def mod(kode, modul, judul, durasi, jenis_hook, hook, target, nada, pesan, cta, fakta, status_ss, scenes):
+    M.append(dict(kode=kode, modul=modul, judul=judul, durasi=durasi, jenis_hook=jenis_hook, hook=hook, target=target, nada=nada,
+                  pesan=pesan, cta=cta, fakta=fakta, status_ss=status_ss, scenes=scenes))
+
+CTA_PRE = 'Start Pre Check (gratis) · privasimu.com · support@privasimu.com · 0851 8318 2722'
+CTA_DEMO = 'Schedule Demo · privasimu.com · support@privasimu.com · 0851 8318 2722'
+CTA_KONS = 'Konsultasi dengan Privasimu · privasimu.com · support@privasimu.com · 0851 8318 2722'
+
+mod('M01', 'Dasbor Kepatuhan & Postur Privasi', 'Laporan terbaik bukan yang paling tebal', '50 dtk', 'Logika dipatahkan',
+    'Laporan kepatuhan terbaik bukan yang paling tebal… tapi yang bisa dipahami direksi dalam 10 detik.', 'Direksi, DPO, compliance lead', 'Serius, ringkas',
+    'Satu layar untuk kepatuhan lintas modul', CTA_PRE, 'fakta_produk: dukungan PPDP (dasbor lintas modul); halaman Postur (3 lapisan: data 50%, proses 30%, respons 20%)', 'Siap',
+    [('00:00–00:04', 'Hook', 'Tumpukan laporan setebal bantal jatuh ke meja rapat, lalu dicoret merah', '—', '—', 'Laporan kepatuhan terbaik bukan yang paling tebal.', 'Laporan kepatuhan terbaik… bukan yang paling tebal.', 'impact + record scratch'),
+     ('00:04–00:09', 'Twist', 'Jam 10 detik berjalan, direksi melirik jam', '—', '—', '…tapi yang bisa dipahami dalam 10 detik.', 'Tapi yang bisa dipahami direksi dalam sepuluh detik.', 'tick'),
+     ('00:09–00:19', 'Solusi', 'Dasbor Nexus masuk dengan zoom halus', KUR + 'dashboard.png', 'Siap pakai. Sorot kartu skor GAP, DSR pending, insiden aktif', 'Satu layar. Semua modul.', 'Dasbor Privasimu Nexus merangkum kepatuhan lintas modul dalam satu layar.', 'whoosh'),
+     ('00:19–00:27', 'Bukti', 'Grafik tren & Compliance Score', KUR + 'dashboard-postur.png', 'Siap pakai. Sorot lingkaran Compliance Score + garis tren', 'Tren per modul, bukan tebakan', 'Tren tiap modul dan skor kepatuhan terlihat dari data kerja harian, bukan tebakan.', 'pop'),
+     ('00:27–00:35', 'Bukti', 'Heatmap risiko', KUR + 'dashboard-risiko.png', 'Siap pakai. Sorot heatmap DPIA 5×5 + Top Risks', 'Risiko teratas langsung kelihatan', 'Risiko tertinggi langsung kelihatan: heatmap DPIA dan daftar risiko teratas.', 'pop'),
+     ('00:35–00:43', 'Bukti', 'Privacy Posture Score', A4 + 'security.png', 'Crop [200,40,1240,820]. ' + B_A4 + '. Sorot skor 56 + tiga lapisan', 'Postur privasi: data · proses · respons', 'Postur privasi dihitung dari tiga lapisan: data, proses, dan respons.', 'ding'),
+     ('00:43–00:50', 'CTA', 'Logo Privasimu Nexus + tombol', '—', '—', 'Rapat berikutnya: cukup satu layar.', 'Privasimu Nexus. Kepatuhan yang bisa dibaca sekilas. Coba di privasimu dot com.', 'sonic logo')])
+
+mod('M02', 'GAP Assessment', 'Jangan cek skor kepatuhanmu…', '55 dtk', 'Reverse psychology',
+    'Jangan cek skor kepatuhan perusahaanmu… kalau belum siap kaget.', 'DPO, legal, direksi', 'Serius dengan sentilan',
+    'Ukur kepatuhan UU PDP dengan skor & rencana perbaikan', CTA_PRE, 'fakta_produk: gap-assessment (kuesioner, skor, remediasi, analisis bukti AI 1 kredit & dicache); panduan aplikasi: 34 indikator', 'Siap (blur user)',
+    [('00:00–00:04', 'Hook', 'Kursor mau klik "Mulai Assessment", lalu tangan menahan', '—', '—', 'Jangan cek skor kepatuhanmu…', 'Jangan cek skor kepatuhan perusahaanmu…', 'hening'),
+     ('00:04–00:08', 'Hook', 'Emoji 😬 membesar', '—', '—', '…kalau belum siap kaget.', '…kalau belum siap kaget.', 'vine boom'),
+     ('00:08–00:15', 'Masalah', 'Tanda "≠" di antara "merasa patuh" dan "patuh"', '—', '—', 'Merasa patuh ≠ patuh', 'Banyak organisasi merasa sudah patuh. Tapi perasaan bukan bukti.', 'buzzer'),
+     ('00:15–00:25', 'Solusi', 'Daftar asesmen & grafik skor', DR + 'gap-assessment/01-overview.png', 'Crop [262,40,1002,640]. ' + B_DR + '. Sorot 81% skor tertinggi & 73% rata-rata', 'Ukur, jangan menebak', 'GAP Assessment mengukur kepatuhan UU PDP dengan indikator yang jelas, lengkap dengan skor dan riwayatnya.', 'whoosh'),
+     ('00:25–00:35', 'Bukti', 'Hasil per area', KUR + 'gap-hasil.png', 'Siap pakai. Sorot compliance score + statistik per area', 'Kelihatan mana yang belum', 'Hasilnya dirinci per area, jadi kelihatan mana yang sudah dan mana yang belum.', 'pop'),
+     ('00:35–00:45', 'Bukti', 'Rekomendasi per pasal', KUR + 'gap-rekomendasi.png', 'Siap pakai. Sorot label CRITICAL/HIGH + tombol AI Remediation Plan', 'Rekomendasi per pasal', 'Tiap temuan punya rekomendasi per pasal, dan rencana remediasi bisa disusun dengan bantuan AI.', 'ding'),
+     ('00:45–00:50', 'Bukti', 'Ikon dokumen masuk ke AI', '—', '—', 'Dokumen bukti dianalisis AI', 'Dokumen bukti pun bisa dianalisis AI per pertanyaan.', 'shimmer'),
+     ('00:50–00:55', 'CTA', 'Logo + tombol Start Pre Check', '—', '—', 'Siap kaget? Mulai gratis.', 'Berani cek? Mulai dari Start Pre Check gratis di privasimu dot com.', 'sonic logo')])
+
+mod('M03', 'Maturity Assessment', 'Patuh itu bukan ya/tidak', '50 dtk', 'Logika dipatahkan',
+    '"Sudah patuh atau belum?" itu pertanyaan yang salah.', 'DPO, compliance lead', 'Serius',
+    'Kepatuhan punya level; naikkan levelnya', CTA_KONS, 'fakta_produk: maturity (level per domain, analisis bukti AI, rekomendasi); subjudul aplikasi: 4 level Ad-hoc/Defined/Managed/Optimized', 'Siap (blur user)',
+    [('00:00–00:04', 'Hook', 'Teks pertanyaan dicoret', '—', '—', '"Sudah patuh atau belum?" ❌', 'Sudah patuh atau belum? Itu pertanyaan yang salah.', 'buzzer'),
+     ('00:04–00:10', 'Konsep', 'Tangga 4 anak tangga: Ad-hoc → Defined → Managed → Optimized', '—', '—', 'Kepatuhan itu bertingkat', 'Kepatuhan itu bertingkat, dari ad-hoc sampai teroptimasi.', 'pop ×4'),
+     ('00:10–00:22', 'Solusi', 'Gauge level kematangan', DR + 'maturity/02-recheck.png', 'Crop [262,40,1002,700]. ' + B_DR + '. Sorot gauge "Level 3 – Managed"', 'Level kematanganmu, per domain', 'Maturity Assessment memetakan level kematangan program PDP-mu per domain.', 'whoosh'),
+     ('00:22–00:32', 'Bukti', 'Skor domain & tren 12 bulan', DR + 'maturity/02-recheck.png', 'Sorot skor domain (9.0 / 8.5 / 7.0) + grafik tren', 'Mana kuat, mana perlu naik kelas', 'Kelihatan domain mana yang kuat, mana yang perlu naik kelas, dan trennya dari waktu ke waktu.', 'ding'),
+     ('00:32–00:40', 'Bukti', 'Ikon bukti dokumen → rekomendasi', '—', '—', 'Bukti dianalisis AI · rekomendasi', 'Bukti dokumen dianalisis AI, lalu keluar rekomendasi peningkatan.', 'shimmer'),
+     ('00:40–00:50', 'CTA', 'Logo + konsultan', '—', '—', 'Naik level bersama konsultan', 'Mau naik level? Susun roadmap-nya bersama konsultan Privasimu.', 'sonic logo')])
+
+mod('M04', 'RoPA', 'RoPA_final_revisi3_FIX.xlsx harus pensiun', '60 dtk', 'Relate',
+    'Angkat tangan kalau kamu punya file bernama "RoPA_final_revisi3_FIX.xlsx".', 'DPO, legal, pemilik proses', 'Relatable → serius',
+    'Satu register terpusat, alur jelas, jejak audit', CTA_PRE, 'fakta_produk: ropa (wizard, kode ROPA, data spesifik → TINGGI → draf DPIA, Maker/Reviewer/Approver, tautan pihak ketiga, isi otomatis AI)', 'Siap (1 aset perlu crop)',
+    [('00:00–00:04', 'Hook', 'Ikon file spreadsheet dengan nama versi kacau', '—', '—', 'Siapa yang punya file ini? 🙋', 'Angkat tangan kalau kamu punya file bernama RoPA final revisi tiga FIX.', 'pop'),
+     ('00:04–00:10', 'Masalah', '12 file dari 12 divisi beterbangan', '—', '—', 'Tersebar · tanpa jejak · beda versi', 'Catatan pemrosesan tersebar di spreadsheet per divisi, tanpa jejak siapa mengubah apa.', 'paper'),
+     ('00:10–00:20', 'Solusi', 'Modal Buat RoPA Baru', KUR + 'ropa-baru.png', 'Siap pakai. Sorot modal wizard', 'Wizard bertahap', 'Di Nexus, RoPA dicatat lewat wizard bertahap: tujuan, dasar pemrosesan, kategori data, sampai retensi.', 'whoosh'),
+     ('00:20–00:28', 'Bukti', 'Daftar data pribadi spesifik', KUR + 'ropa-data-spesifik.png', 'Siap pakai. Sorot daftar Data Pribadi Spesifik', 'Data spesifik → risiko TINGGI', 'Begitu ada data spesifik, risikonya otomatis ditandai tinggi…', 'alarm ringan'),
+     ('00:28–00:34', 'Bukti', 'Daftar DPIA', KUR + 'dpia-list.png', 'Siap pakai. Sorot baris DPIA terbaru', '…dan draf DPIA langsung dibuat', '…dan draf DPIA langsung dibuat.', 'ding'),
+     ('00:34–00:42', 'Bukti', 'Mode tinjauan menunggu persetujuan', DR + 'ropa/03-review-mode-waiting.png', 'Crop HANYA [262,40,1002,420] (bagian "Detail Pemrosesan"). JANGAN tampilkan bagian "DPO / Team" (ada email). ' + B_DR, 'Maker → Reviewer → Approver', 'Alurnya jelas: maker, reviewer, approver. Setiap perubahan tercatat di log audit.', 'check'),
+     ('00:42–00:50', 'Bukti', 'Notifikasi RoPA tersimpan', KUR + 'ropa-tersimpan.png', 'Siap pakai. Sorot notifikasi + kode ROPA', 'Satu register, kode konsisten', 'Hasilnya satu register terpusat dengan kode ROPA yang konsisten.', 'correct'),
+     ('00:50–00:55', 'Bukti', 'Form minta pihak ketiga mengisi RoPA', A4 + 'vendor-risk__ropa-pihak-ketiga.png', 'Crop [200,40,1240,300]. ' + B_A4, 'Pihak ketiga isi lewat tautan', 'Pihak ketiga pun bisa mengisi RoPA-nya lewat tautan khusus.', 'pop'),
+     ('00:55–01:00', 'CTA', 'Ikon file lama dimasukkan ke "arsip", logo', '—', '—', 'Pensiunkan revisi ketiga.', 'Saatnya pensiunkan revisi ketiga. Privasimu Nexus.', 'sonic logo')])
+
+mod('M05', 'DPIA & Risk Treatment Plan', 'Nilai dulu, baru meluncur', '60 dtk', 'Anomali',
+    'Proyek paling berisiko di kantormu… biasanya proyek yang paling ditunggu-tunggu.', 'DPO, product owner, IT', 'Serius',
+    'DPIA tertaut RoPA, satu matriks risiko, mitigasi terpantau', CTA_DEMO, 'fakta_produk: dpia (matriks 5×5, register risiko, tertaut RoPA, AI, Risk Treatment Plan); subjudul RTP di aplikasi', 'Siap (RTP perlu blur owner)',
+    [('00:00–00:04', 'Hook', 'Roket "Aplikasi Baru" siap meluncur, lalu lampu alarm', '—', '—', 'Proyek paling berisiko = yang paling ditunggu?', 'Proyek paling berisiko di kantormu… biasanya yang paling ditunggu-tunggu.', 'riser + alarm'),
+     ('00:04–00:10', 'Masalah', 'Dua penilai memberi skor berbeda untuk risiko yang sama', '—', '—', 'Dokumen terpisah · skor beda-beda', 'Penilaian dampak sering dikerjakan terpisah, dan skornya beda-beda tiap penilai.', 'buzzer'),
+     ('00:10–00:20', 'Solusi', 'Daftar DPIA', KUR + 'dpia-list-baru.png', 'Siap pakai. Sorot kolom referensi RoPA', 'Tertaut ke RoPA-nya', 'Di Nexus, setiap DPIA tertaut ke RoPA sumbernya.', 'whoosh'),
+     ('00:20–00:30', 'Bukti', 'Wizard potensi risiko', KUR + 'dpia-risiko.png', 'Siap pakai. Sorot kategori risiko', 'Satu matriks 5×5', 'Risiko dinilai dengan satu matriks kemungkinan kali dampak, skala lima kali lima.', 'pop'),
+     ('00:30–00:38', 'Bukti', 'Heatmap risiko', KUR + 'dashboard-risiko.png', 'Siap pakai. Sorot heatmap', 'Semua risiko di satu peta', 'Semua risiko terkumpul di satu heatmap.', 'ding'),
+     ('00:38–00:48', 'Bukti', 'Risk Treatment Plan', DR + 'risk-treatment-plan/01-overview.png', 'Crop [262,40,1002,700]. BLUR kolom Owner & filter "Semua Owner" (nama orang). ' + B_DR + '. Sorot baris "Penggunaan Dasar Pemrosesan yang Tidak Tepat"', 'Mitigasi dipantau sampai tuntas', 'Mitigasinya dipantau di Risk Treatment Plan, dari rencana sampai terverifikasi.', 'check'),
+     ('00:48–00:54', 'Bukti', 'Tombol "Lanjutkan dengan AI"', DR + 'dpia/07-wizard-step4-audit.png', 'Crop [262,40,1002,560]. ' + B_DR, 'Dibantu AI', 'Pengisiannya bisa dibantu AI dari deskripsi kegiatan.', 'shimmer'),
+     ('00:54–01:00', 'CTA', 'Roket meluncur mulus', '—', '—', 'Nilai dulu, baru meluncur.', 'Nilai dulu, baru meluncur. Privasimu Nexus.', 'sonic logo')])
+
+mod('M06', 'LIA (Legitimate Interest Assessment)', '"Kepentingan yang sah" bukan cek kosong', '45 dtk', 'Logika dipatahkan',
+    '"Kan kita punya kepentingan yang sah." Kalimat ini bukan tiket bebas.', 'Marketing, product, legal', 'Serius',
+    'Kepentingan sah harus ditimbang & didokumentasikan', CTA_DEMO, 'UU PDP Ps. 20 ayat (2) huruf f; modul LIA (katalog modul); status Draft/Submitted/Checked/Approved (aplikasi)', 'PERLU SCREENSHOT BARU',
+    [('00:00–00:04', 'Hook', 'Balon chat "kan ada kepentingan yang sah" → stempel "BELUM TENTU"', '—', '—', '"Kan ada kepentingan yang sah." BELUM TENTU.', 'Kita kan punya kepentingan yang sah. Belum tentu.', 'stamp'),
+     ('00:04–00:14', 'Fakta', 'Kutipan pasal', '—', '—', 'UU PDP Ps. 20 (2) f: memperhatikan tujuan, kebutuhan, dan keseimbangan kepentingan', 'Undang-undang meminta tujuan, kebutuhan, dan keseimbangan kepentingan ditimbang, bukan diasumsikan.', 'paper'),
+     ('00:14–00:26', 'Solusi', 'Judul modul LIA', A4 + 'lia.png', 'Crop HANYA header [200,40,1240,160] (daftar masih kosong). ' + B_A4 + '. Versi final: AMBIL SCREENSHOT BARU /lia berisi 2–3 LIA contoh', 'LIA di Nexus', 'Modul LIA memandu penilaian kepentingan yang sah, dengan alur draft, ditinjau, sampai disetujui.', 'whoosh'),
+     ('00:26–00:36', 'Bukti', 'Detail penilaian (pertanyaan tujuan/kebutuhan/keseimbangan)', 'BELUM ADA: ambil screenshot detail LIA dengan data dummy', '—', 'Terdokumentasi, siap ditunjukkan', 'Setiap pertimbangan terdokumentasi, siap ditunjukkan saat diminta.', 'check'),
+     ('00:36–00:45', 'CTA', 'Logo', '—', '—', 'Kepentingan sah? Buktikan.', 'Kepentingan sah? Buktikan dengan LIA. Privasimu Nexus.', 'sonic logo')])
+
+mod('M07', 'DSR (Permohonan Hak Subjek Data)', '72 jam itu cepat. Apalagi kalau dihitung manual.', '60 dtk', 'Relate',
+    'Email yang paling ditakuti customer service: "Tolong hapus semua data saya."', 'CS, DPO, IT', 'Relatable → serius',
+    'Permohonan tercatat, tenggat otomatis, eksekusi & sertifikat', CTA_DEMO, 'fakta_produk: dsr (formulir sematan, tenggat 72 jam, verifikasi, Handler/Reviewer/Approver, draf AI, API/webhook); layar SQL Pack & sertifikat di aplikasi', 'Siap (hindari daftar aplikasi ber-merek)',
+    [('00:00–00:04', 'Hook', 'Email masuk, wajah CS 😰', '—', '—', '📩 "Tolong hapus semua data saya."', 'Email yang paling ditakuti customer service: tolong hapus semua data saya.', 'notif + vine boom'),
+     ('00:04–00:10', 'Masalah', 'Permohonan dari email, telepon, DM; kalender dihitung jari', '—', '—', 'Dari mana-mana · tenggat manual', 'Permohonan masuk dari mana-mana, tenggatnya dihitung manual.', 'tick'),
+     ('00:10–00:18', 'Solusi', 'Formulir DSR', KUR + 'dsr-form.png', 'Siap pakai (kanban sudah diburamkan). Sorot isian pemohon & tipe permintaan', 'Formulir di situsmu', 'Di Nexus, permohonan masuk lewat formulir yang bisa disematkan di situsmu.', 'whoosh'),
+     ('00:18–00:26', 'Bukti', 'Header detail DSR', KUR + 'dsr-detail.png', 'Siap pakai. Sorot pil "7h tersisa" + kode DSR', 'Tenggat 72 jam otomatis', 'Tenggat tujuh puluh dua jam dihitung otomatis sejak permohonan dicatat.', 'clock'),
+     ('00:26–00:34', 'Bukti', 'Tab Scope: pilih sistem', DR + 'dsr/06-tab-scope.png', 'Crop [262,40,1002,560]. ' + B_DR + '. Sorot daftar sistem', 'Pilih sistem yang menyimpan datanya', 'Pilih sistem mana saja yang menyimpan data si pemohon…', 'pop'),
+     ('00:34–00:42', 'Bukti', 'Tab SQL Pack', DR + 'dsr/07-tab-sqlpack.png', 'Crop [262,40,1002,480]. ' + B_DR + '. Sorot tombol "Generate SQL Pack"', 'Paket SQL siap dieksekusi', '…Nexus menyiapkan paket SQL-nya, tim kalian yang mengeksekusi di sistem sendiri.', 'key'),
+     ('00:42–00:50', 'Bukti', 'Tab Sertifikat', DR + 'dsr/09-tab-certificates.png', 'Crop [262,40,1002,420]. ' + B_DR + '. Sorot Subject Certificate & Internal Certificate', 'Sertifikat penyelesaian otomatis', 'Selesai? Sertifikat penyelesaian untuk pemohon dan untuk internal dibuat otomatis.', 'correct'),
+     ('00:50–00:55', 'Bukti', 'Ikon alur Handler → Reviewer → Approver + ikon AI', '—', '—', 'Alur tercatat · draf jawaban dibantu AI', 'Alurnya tercatat, draf jawabannya dibantu AI.', 'check'),
+     ('00:55–01:00', 'CTA', 'Logo', '—', '—', 'Setiap permohonan, tepat waktu.', 'Setiap permohonan, dijawab tepat waktu. Privasimu Nexus.', 'sonic logo')])
+
+mod('M08', 'Consent & Cookie', 'Klik "Setuju" tanpa bukti = tidak pernah setuju', '60 dtk', 'Logika dipatahkan',
+    'Pelanggan sudah klik "Setuju". Pertanyaannya: bisa kamu buktikan?', 'Marketing, product, DPO', 'Serius',
+    'Persetujuan tercatat beserta bukti, penarikan menyebar ke semua sistem', CTA_DEMO, 'fakta_produk: consent (titik per kanal, banner & pusat preferensi, log + bukti, penarikan via API/webhook)', 'Siap (blur domain/URL; cookie hanya KPI)',
+    [('00:00–00:04', 'Hook', 'Kursor klik ✅ "Saya setuju", lalu tanda tanya besar', '—', '—', 'Sudah klik "Setuju". Bisa dibuktikan?', 'Pelanggan sudah klik setuju. Pertanyaannya: bisa kamu buktikan?', 'klik + vine boom'),
+     ('00:04–00:10', 'Masalah', 'Checkbox tanpa jejak; penarikan "nyangkut" di satu sistem', '—', '—', 'Tanpa bukti · penarikan tak tersebar', 'Kotak centang tanpa bukti, dan penarikan persetujuan yang tidak sampai ke semua sistem.', 'buzzer'),
+     ('00:10–00:20', 'Solusi', 'Daftar collection point', DR + 'consent/01-overview.png', 'Crop [262,40,1002,560]. BLUR kolom Domain. ' + B_DR, 'Setiap titik pengumpulan tercatat', 'Di Nexus, setiap titik pengumpulan persetujuan tercatat: web, aplikasi, sampai loket.', 'whoosh'),
+     ('00:20–00:28', 'Bukti', 'Kode sematan & tab log', DR + 'consent/03-embed-code.png', 'Crop [262,40,1002,420]. BLUR URL collection point. ' + B_DR + '. Sorot tab Consent Logs & Widget Builder', 'Tersimpan beserta bukti', 'Pasang lewat kode sematan, dan setiap persetujuan tersimpan beserta buktinya.', 'pop'),
+     ('00:28–00:36', 'Bukti', 'Integrasi consent', KUR + 'consent-detail.png', 'Siap pakai (API key diburamkan). Sorot Preference Center, API, Webhook', 'Penarikan menyebar lewat API & webhook', 'Penarikan persetujuan disebarkan ke sistem lain lewat API dan webhook.', 'sweep'),
+     ('00:36–00:44', 'Bukti', 'Pratinjau banner cookie & form', A4 + 'consent__preview.png', 'Crop [200,40,1240,480]. ' + B_A4 + '. Sorot kartu Cookie Banner & Consent Form', 'Banner cookie siap sematan', 'Banner cookie dan pusat preferensi bisa langsung disematkan.', 'pop'),
+     ('00:44–00:52', 'Bukti', 'Ringkasan cookie', DR + 'cookie/01-overview.png', 'Crop HANYA kartu KPI [262,60,1002,160]. JANGAN tampilkan tabel (ada nama layanan & domain nyata)', 'Terpantau dari satu tempat', 'Semua terpantau dari satu tempat.', 'ding'),
+     ('00:52–01:00', 'CTA', 'Logo', '—', '—', 'Setuju harus bisa dibuktikan.', 'Setuju itu harus bisa dibuktikan. Privasimu Nexus.', 'sonic logo')])
+
+mod('M09', 'Children Pro (persetujuan wali)', 'Pengguna termuda juga butuh izin (walinya)', '45 dtk', 'Anomali',
+    'Pengguna paling setia aplikasimu… mungkin masih kelas 5 SD.', 'Edtech, game, sekolah, kesehatan anak', 'Serius, hangat',
+    'Persetujuan wali, verifikasi, peralihan saat 18 tahun', CTA_DEMO, 'UU PDP Ps. 4 (2) e (data anak = spesifik); PP 33/2026 Ps. 38 (termasuk peralihan saat 18 tahun); fakta_produk: consent (Children Pro)', 'Header siap; data perlu screenshot baru',
+    [('00:00–00:04', 'Hook', 'Avatar anak dengan lencana "Top User"', '—', '—', 'Pengguna paling setia: umur 11?', 'Pengguna paling setia aplikasimu… mungkin masih kelas lima SD.', 'pop'),
+     ('00:04–00:12', 'Fakta', 'Ikon perisai + teks pasal', '—', '—', 'Data anak = data spesifik · butuh persetujuan wali', 'Data anak termasuk data pribadi spesifik, dan pemrosesannya butuh persetujuan orang tua atau wali.', 'paper'),
+     ('00:12–00:22', 'Solusi', 'Modul Children Pro', KUR + 'children-pro.png', 'Siap pakai. Sorot tab Kewenangan Wali / Menunggu / Peralihan', 'Children Pro', 'Children Pro mengelola persetujuan wali per aplikasi…', 'whoosh'),
+     ('00:22–00:32', 'Bukti', 'Tab metode verifikasi & DSR anak', A4 + 'consent-guardian.png', 'Crop [200,40,1240,300] (tabel masih kosong). ' + B_A4 + '. Versi final: AMBIL SCREENSHOT BARU dengan wali & anak fiktif', 'Verifikasi wali · DSR anak', '…lengkap dengan metode verifikasi wali dan permohonan hak untuk anak.', 'check'),
+     ('00:32–00:38', 'Bukti', 'Kue ulang tahun ke-18 → kunci berpindah', '—', '—', 'Usia 18: kewenangan beralih', 'Dan saat anak berusia delapan belas, kewenangannya beralih.', 'shimmer'),
+     ('00:38–00:45', 'CTA', 'Logo', '—', '—', 'Pengguna termuda, dilindungi paling serius.', 'Pengguna termuda, dilindungi paling serius. Privasimu Nexus.', 'sonic logo')])
+
+mod('M10', 'Inclusive Privacy', 'Persetujuan yang bisa dipahami semua orang', '45 dtk', 'Reverse psychology',
+    'Coba setujui syarat & ketentuan ini… dengan mata tertutup.', 'Layanan publik, bank, kesehatan, telko', 'Serius, empatik',
+    'Persetujuan aksesibel bagi penyandang disabilitas', CTA_DEMO, 'fakta_produk: consent (Inclusive Privacy); PP 33/2026 Ps. 39 (katalog modul, VERIFIKASI bunyi pasal)', 'Header siap; data perlu screenshot baru',
+    [('00:00–00:04', 'Hook', 'Layar menggelap, hanya suara', '—', '—', 'Setujui ini… dengan mata tertutup.', 'Coba setujui syarat dan ketentuan ini… dengan mata tertutup.', 'efek VO "robot" (pembaca layar)'),
+     ('00:04–00:12', 'Empati', 'Layar kembali terang pelan', '—', '—', 'Bagi sebagian pengguna, ini sehari-hari', 'Bagi sebagian penggunamu, itu kenyataan sehari-hari.', 'musik lembut'),
+     ('00:12–00:24', 'Solusi', 'Modul Inclusive Privacy', KUR + 'inclusive-privacy.png', 'Siap pakai. Sorot judul & tab', 'Inclusive Privacy', 'Inclusive Privacy menyiapkan persetujuan yang aksesibel bagi penyandang disabilitas…', 'whoosh'),
+     ('00:24–00:34', 'Bukti', 'Tab aksesibilitas & DSR disabilitas', A4 + 'consent-accessibility.png', 'Crop [200,40,1240,300] (tabel kosong). ' + B_A4 + '. Versi final: AMBIL SCREENSHOT BARU dengan contoh', 'Pendamping · DSR ramah disabilitas', '…termasuk pengaturan pendamping dan permohonan hak yang ramah disabilitas.', 'check'),
+     ('00:34–00:45', 'CTA', 'Logo', '—', '—', 'Persetujuan untuk semua orang.', 'Persetujuan yang bisa dipahami semua orang. Privasimu Nexus.', 'sonic logo')])
+
+mod('M11', 'Manajemen Insiden (Data Breach)', 'Jam 3 pagi, notifikasi masuk', '60 dtk', 'Relate',
+    'Jam 3 pagi. Notifikasi ini masuk: "Dugaan kebocoran data."', 'DPO, CISO, IT security', 'Tegang → tenang',
+    'Alur 5 fase siap sejak insiden dicatat, templat & hitung mundur 3×24 jam', CTA_DEMO, 'UU PDP Ps. 46 jo. PP 33/2026 Ps. 114; fakta_produk: breach (checklist & linimasa otomatis, hitung mundur 3×24 jam, RACI, templat, AI)', 'Siap',
+    [('00:00–00:04', 'Hook', 'HP bergetar di meja gelap, jam 03.00', '—', '—', '03.00 · ⚠️ Dugaan kebocoran data', 'Jam tiga pagi. Notifikasi ini masuk.', 'notif + alarm'),
+     ('00:04–00:10', 'Fakta', 'Hitung mundur 72:00:00', '—', '—', 'Wajib lapor paling lambat 3×24 jam', 'Pemberitahuan tertulis paling lambat tiga kali dua puluh empat jam.', 'clock'),
+     ('00:10–00:18', 'Masalah', 'Pertanyaan beruntun muncul', '—', '—', 'Templat? PIC? Kronologi?', 'Biasanya panik dulu: templatnya mana, siapa yang pegang, kronologinya bagaimana?', 'heartbeat'),
+     ('00:18–00:28', 'Solusi', 'Detail insiden & 5 fase', KUR + 'breach-detail.png', 'Siap pakai. Sorot label "Wajib Notifikasi" + stepper 5 fase', 'Alur 5 fase langsung siap', 'Di Nexus, begitu insiden dicatat, alurnya langsung siap: lima fase dari deteksi sampai ditutup.', 'whoosh'),
+     ('00:28–00:36', 'Bukti', 'Checklist fase 1', KUR + 'breach-fase.png', 'Siap pakai. Sorot checklist tercentang', 'Checklist & linimasa otomatis', 'Daftar periksa penahanan dan linimasa dibuat otomatis.', 'check'),
+     ('00:36–00:44', 'Bukti', 'Tombol aksi insiden', KUR + 'breach-aksi.png', 'Siap pakai. Sorot Template Pemberitahuan, RACI Matrix, War Room', 'Templat · RACI · War Room', 'Templat pemberitahuan, pembagian peran RACI, sampai ruang koordinasi tim.', 'pop'),
+     ('00:44–00:52', 'Bukti', 'AI Incident Response Advisor', KUR + 'breach-ai.png', 'Siap pakai. Sorot tombol Generate', 'Langkah penahanan dibantu AI', 'Langkah penahanan pun bisa dibantu AI.', 'shimmer'),
+     ('00:52–01:00', 'CTA', 'Kamar gelap berubah terang, DPO kembali tidur 😴', '—', '—', 'Insiden tak menunggu jam kerja.', 'Insiden tidak menunggu jam kerja. Siapkan alurnya dari sekarang. Privasimu Nexus.', 'sonic logo')])
+
+mod('M12', 'Simulasi & Fire Drill', 'Latihan kebakaran ada. Latihan kebocoran data?', '45 dtk', 'Logika dipatahkan',
+    'Kantor rutin latihan kebakaran. Latihan kebocoran data? …hening.', 'CISO, DPO, HR', 'Serius dengan sentilan',
+    'Latih tim lewat skenario & rubrik sebelum insiden sungguhan', CTA_KONS, 'fakta_produk: simulasi (kuis, tabletop, walkthrough, skenario AI, rubrik & tindak lanjut)', 'Siap (crop kartu skor, blur user)',
+    [('00:00–00:04', 'Hook', 'Alarm kebakaran + orang berbaris; lalu teks kedua & jangkrik', '—', '—', 'Latihan kebakaran ✅ · latihan kebocoran data 🦗', 'Kantor rutin latihan kebakaran. Latihan kebocoran data? Hening.', 'alarm + crickets'),
+     ('00:04–00:12', 'Masalah', 'Tim kebingungan saat insiden', '—', '—', 'Tak pernah latihan = belajar saat insiden', 'Tim yang tidak pernah latihan, belajarnya saat insiden sungguhan.', 'dundun'),
+     ('00:12–00:24', 'Solusi', 'Banner Fire Drill + daftar skenario', DR + 'simulation/02-recheck.png', 'Crop [262,40,1002,640]. BUANG kartu "Rata-rata skor" (angka tidak valid). BLUR kolom User. ' + B_DR, 'Kuis · tabletop · walkthrough', 'Fire Drill melatih tim lewat skenario: kuis, tabletop, dan walkthrough.', 'whoosh'),
+     ('00:24–00:34', 'Bukti', 'Kolom skor & rating', DR + 'simulation/02-recheck.png', 'Sorot kolom Skor & Rating ("Poor", "Needs improvement")', 'Dinilai dengan rubrik', 'Hasilnya dinilai dengan rubrik, jadi kelihatan bagian mana yang perlu dilatih lagi.', 'pop'),
+     ('00:34–00:40', 'Bukti', 'Ikon AI menyusun skenario', '—', '—', 'Skenario kustom dibantu AI', 'Skenario sesuai bisnismu bisa disusun dengan bantuan AI.', 'shimmer'),
+     ('00:40–00:45', 'CTA', 'Logo', '—', '—', 'Latih sekarang, tenang nanti.', 'Latih sekarang, tenang nanti. Privasimu Nexus.', 'sonic logo')])
+
+mod('M13', 'Manajemen Risiko Pihak Ketiga (TPRM)', 'Datamu aman. Data di pihak ketigamu?', '60 dtk', 'Anomali',
+    'Kebocoran bisa lewat pintu yang bukan milikmu.', 'Procurement, DPO, legal', 'Serius',
+    'Petakan, nilai, dan pantau pihak ketiga yang memproses data', CTA_DEMO, 'fakta_produk: pihak ketiga (kuesioner via tautan tanpa akun, skor risiko, analisis bukti AI, keterkaitan RoPA & kontrak); template 56 pertanyaan di aplikasi', 'Siap (blur PIC & website)',
+    [('00:00–00:04', 'Hook', 'Rumah terkunci rapat, jendela tetangga terbuka', '—', '—', 'Kebocoran bisa lewat pintu orang lain.', 'Kebocoran bisa lewat pintu yang bukan milikmu.', 'dundun'),
+     ('00:04–00:10', 'Masalah', 'Ikon mitra, penyedia layanan, kontraktor', '—', '—', 'Pihak ketiga ikut memproses data', 'Penyedia layanan, mitra, kontraktor: mereka ikut memproses data pelangganmu.', 'pop ×3'),
+     ('00:10–00:20', 'Solusi', 'Ringkasan pihak ketiga', DR + 'vendor-risk/01-overview.png', 'Crop [262,40,1002,700]. BLUR kolom Penanggung Jawab. ' + B_DR + '. Sorot KPI 15 aktif · 2 kritis', 'Semua pihak ketiga terpetakan', 'Manajemen Risiko Pihak Ketiga memetakan semua pihak ketiga dan tingkat risikonya.', 'whoosh'),
+     ('00:20–00:28', 'Bukti', 'Modal kirim pra-asesmen', DR + 'vendor-risk/08-mulai-asesmen-modal.png', 'Crop modal [470,40,760,520]. Sorot "Kirim Pra-Asesmen" & "Tautan Asesmen Publik"', 'Kuesioner lewat tautan, tanpa akun', 'Kirim kuesioner lewat tautan publik, tanpa perlu akun.', 'pop'),
+     ('00:28–00:36', 'Bukti', 'Bank pertanyaan', DR + 'vendor-risk/02-bank-pertanyaan.png', 'Crop [262,40,1002,560]. ' + B_DR + '. Sorot template "Kepatuhan PDP UU 27/2022 — Pihak Ketiga"', 'Bank pertanyaan siap pakai', 'Pakai bank pertanyaan kepatuhan PDP yang siap pakai.', 'ding'),
+     ('00:36–00:46', 'Bukti', 'Detail pihak ketiga + skor AI', DR + 'vendor-risk/07-detail-pihakketiga.png', 'Crop modal [470,40,760,560]. BLUR baris Website. Sorot skor 49 · High', 'Skor risiko dari analisis AI', 'Jawaban dan dokumen bukti dianalisis AI menjadi skor risiko.', 'vineboom kecil'),
+     ('00:46–00:54', 'Bukti', 'RoPA pihak ketiga', A4 + 'vendor-risk__ropa-pihak-ketiga.png', 'Crop [200,40,1240,300]. ' + B_A4, 'Terhubung ke RoPA & kontrak', 'Terhubung ke RoPA dan kontrak pihak ketiga.', 'check'),
+     ('00:54–01:00', 'CTA', 'Semua jendela tertutup rapi', '—', '—', 'Jaga juga pintu orang lain.', 'Jaga juga pintu yang bukan milikmu. Privasimu Nexus.', 'sonic logo')])
+
+mod('M14', 'Transfer Data Lintas Negara & TIA', '"Di cloud" bukan jawaban lokasi', '50 dtk', 'Logika dipatahkan',
+    '"Datanya di mana?" "Di cloud." "Cloud-nya di negara mana?" …', 'IT, legal, DPO', 'Relatable → serius',
+    'Register transfer + Transfer Impact Assessment', CTA_DEMO, 'fakta_produk: transfer lintas negara (register, TIA, pemetaan setara/memadai); subjudul TIA di aplikasi menyebut UU PDP Ps. 56 (VERIFIKASI bunyi pasal)', 'Siap (blur nama entitas)',
+    [('00:00–00:04', 'Hook', 'Chat 3 balon, lalu jangkrik', '—', '—', '"Di cloud." "Cloud-nya di negara mana?"', 'Data pelanggan disimpan di mana? Di cloud. Cloud-nya di negara mana?', 'crickets'),
+     ('00:04–00:12', 'Fakta', 'Peta dunia dengan panah data', '—', '—', 'Transfer ke luar negeri wajib dinilai', 'Transfer ke luar negeri wajib memastikan pelindungan di negara tujuan setara atau memadai.', 'sweep'),
+     ('00:12–00:24', 'Solusi', 'Register transfer lintas batas', DR + 'cross-border/01-overview.png', 'Crop [262,40,1002,640]. BLUR kolom Entitas Tujuan (ada merek penyedia cloud). ' + B_DR + '. Sorot peta negara tujuan + kolom TIA Score', 'Setiap transfer terdaftar', 'Di Nexus, setiap transfer lintas negara terdaftar: tujuan, negara, risiko, dan skor TIA-nya.', 'whoosh'),
+     ('00:24–00:36', 'Bukti', 'Daftar TIA', DR + 'tia/01-overview.png', 'Crop [262,40,1002,620]. ' + B_DR + '. Sorot negara tujuan & status', 'Transfer Impact Assessment', 'Transfer Impact Assessment menilai dampaknya, lalu ditinjau dan disetujui.', 'check'),
+     ('00:36–00:44', 'Bukti', 'Ikon timbangan: setara / memadai', '—', '—', 'Pemetaan setara / memadai', 'Lengkap dengan pemetaan pelindungan yang setara atau memadai.', 'ding'),
+     ('00:44–00:50', 'CTA', 'Logo', '—', '—', '"Di cloud" bukan jawaban.', 'Di cloud bukan jawaban. Privasimu Nexus.', 'sonic logo')])
+
+mod('M15', 'Data Discovery & Mapping', 'Yang paling berisiko: data yang tak kamu tahu ada', '50 dtk', 'Logika dipatahkan',
+    'Data paling berisiko bukan yang paling sensitif… tapi yang tidak kamu tahu ada.', 'IT, data engineer, DPO', 'Serius',
+    'Temukan & klasifikasi data pribadi di semua sistem', CTA_DEMO, 'fakta_produk: data discovery (katalog sistem, pemindaian kolom umum/spesifik, tautan ke RoPA, pencarian data satu subjek untuk DSR)', 'Siap; hasil scan per orang perlu screenshot baru',
+    [('00:00–00:04', 'Hook', 'Peta gudang dengan area "???"', '—', '—', 'Data paling berisiko = yang tak tercatat', 'Data paling berisiko bukan yang paling sensitif… tapi yang tidak kamu tahu ada.', 'vineboom'),
+     ('00:04–00:10', 'Masalah', 'Gelembung pikiran tim TI berisi nama server', '—', '—', 'Lokasi data = ingatan tim TI', 'Selama ini, lokasi data pribadi cuma ada di ingatan tim TI.', 'tick'),
+     ('00:10–00:22', 'Solusi', 'Katalog sistem & hasil pindai', DR + 'data-discovery/01-overview.png', 'Crop [262,40,1260,620] (gambar selebar 1522). ' + B_DR + '. Sorot KPI "187 PII" + status scan', 'Temukan & klasifikasi otomatis', 'Data Discovery memindai sumber data dan menandai kolom berisi data pribadi, umum maupun spesifik.', 'sweep'),
+     ('00:22–00:32', 'Bukti', 'Kolom PDP Alert & PII per sistem', DR + 'data-discovery/01-overview.png', 'Sorot kolom PDP Alert/PII', 'Setiap sistem, lengkap temuannya', 'Setiap sistem masuk katalog, lengkap dengan temuan data pribadinya.', 'pop'),
+     ('00:32–00:40', 'Bukti', 'Hasil "Scan Pencarian Person"', 'BELUM ADA: ambil screenshot hasil pencarian satu orang (data dummy)', '—', 'Cari data milik satu orang', 'Cari semua data milik satu orang, untuk menjawab permohonan hak subjek data.', 'coin'),
+     ('00:40–00:46', 'Bukti', 'Ikon rantai kolom → RoPA', '—', '—', 'Tertaut ke RoPA', 'Dan temuannya tertaut ke RoPA.', 'check'),
+     ('00:46–00:50', 'CTA', 'Logo', '—', '—', 'Temukan sebelum ditemukan.', 'Temukan datamu sebelum orang lain menemukannya. Privasimu Nexus.', 'sonic logo')])
+
+mod('M16', 'Telaah Kebijakan & Policy Generator', 'Kebijakanmu lebih tua dari UU PDP?', '55 dtk', 'Anomali',
+    'Kebijakan privasi di situsmu mungkin lebih tua dari UU PDP.', 'Legal, DPO', 'Serius',
+    'Telaah per bab terhadap UU PDP & PP 33, susun draf baru', CTA_KONS, 'fakta_produk: telaah kebijakan (per bab, pasal dari knowledge base bukan ditulis AI, harmonisasi, bisa disunting konsultan); Policy Generator (katalog modul)', 'Siap (pakai UI terbaru)',
+    [('00:00–00:04', 'Hook', 'Dokumen berdebu bertanggal lama, debu ditiup', '—', '—', 'Lebih tua dari UU PDP?', 'Kebijakan privasi di situsmu mungkin lebih tua dari UU PDP.', 'whoosh'),
+     ('00:04–00:10', 'Fakta', 'Garis waktu: UU PDP 2022 · PP 33/2026', '—', '—', 'UU PDP 2022 · PP 33/2026', 'UU PDP lahir dua ribu dua puluh dua. PP tiga puluh tiga, dua ribu dua puluh enam. Kebijakanmu?', 'flip'),
+     ('00:10–00:20', 'Solusi', 'Daftar telaah kebijakan', KUR + 'policy-review.png', 'Siap pakai. Sorot ringkasan kesesuaian', 'Telaah per bab', 'Telaah Kebijakan menelaah kebijakan internal per bab terhadap UU PDP dan PP tiga puluh tiga.', 'sweep'),
+     ('00:20–00:32', 'Bukti', 'Hasil telaah + rekomendasi', A4 + 'policy-review__60c9fc83-b09e-4399-ab4f-dbe083655bd7.png', 'Crop [200,40,1240,700]. ' + B_A4 + '. Sorot skor kesesuaian + temuan & rekomendasi', 'Temuan & rekomendasi per bab', 'Setiap bab dapat temuan dan rekomendasi, dan hasilnya bisa disunting konsultan.', 'pop'),
+     ('00:32–00:40', 'Bukti', 'Kerangka pembanding regulasi', A4 + 'contract-review__kerangka.png', 'Crop [200,40,1240,360]. ' + B_A4 + '. Sorot kartu UU PDP (76 pasal) & PP 33/2026 (225 pasal)', 'Pasal dari knowledge base', 'Bunyi pasal diambil dari knowledge base regulasi, bukan dikarang AI.', 'ding'),
+     ('00:40–00:50', 'Bukti', 'Wizard Policy Generator', A4 + 'policy-generator__new.png', 'Crop [560,100,800,700]. ' + B_A4 + '. Sorot pilihan audiens & bahasa', 'Draf baru per audiens', 'Belum punya kebijakan? Policy Generator membantu menyusun draf untuk tiap audiens.', 'shimmer'),
+     ('00:50–00:55', 'CTA', 'Logo', '—', '—', 'Perbarui sebelum ditanya.', 'Perbarui kebijakanmu sebelum ditanya. Privasimu Nexus.', 'sonic logo')])
+
+mod('M17', 'Telaah Kontrak & Document Maker', 'Kontrak diteken ≠ data aman', '55 dtk', 'Logika dipatahkan',
+    'Kontrak sudah ditandatangani… bukan berarti datanya aman.', 'Legal, procurement', 'Serius',
+    'Telaah DPA/kontrak per pasal, susun dokumen baru', CTA_KONS, 'fakta_produk: telaah kontrak (DPA, kontrak pihak ketiga, NDA, kontrak pelanggan; pasal diverifikasi ke KB; rekomendasi klausul); Document Maker (katalog modul, unduh PDF/DOCX tampak di aplikasi)', 'Siap (pakai UI terbaru)',
+    [('00:00–00:04', 'Hook', 'Pena menandatangani kontrak, lalu stempel "?"', '—', '—', 'Diteken ≠ aman', 'Kontrak sudah ditandatangani, bukan berarti datanya aman.', 'stamp'),
+     ('00:04–00:10', 'Masalah', 'Map "NDA" vs map "Perjanjian Pemrosesan Data"', '—', '—', 'NDA ≠ perjanjian pemrosesan data', 'NDA bukan perjanjian pemrosesan data.', 'buzzer'),
+     ('00:10–00:22', 'Solusi', 'Ringkasan portofolio kontrak', A4 + 'contract-review.png', 'Crop [200,40,1240,520]. ' + B_A4 + '. Sorot kepatuhan rata-rata + "pasal yang sering belum dipenuhi"', 'Telaah per bab', 'Telaah Kontrak menelaah DPA, kontrak pihak ketiga, NDA, dan kontrak pelanggan per bab.', 'sweep'),
+     ('00:22–00:34', 'Bukti', 'Hasil telaah + rekomendasi klausul', A4 + 'contract-review__fca95cc6-55c3-45b6-a3b8-c39d89683396.png', 'Crop [200,40,1240,700]. ' + B_A4 + '. Sorot rekomendasi', 'Rekomendasi klausul', 'Rujukan pasal diverifikasi ke knowledge base, lengkap dengan rekomendasi klausul.', 'pop'),
+     ('00:34–00:46', 'Bukti', 'Dokumen jadi (Document Maker)', A4 + 'document-maker__9340d5be-074b-428a-bb7a-9bc61a2dce2e.png', 'Crop [320,40,1000,900]. ' + B_A4 + ' + blur nama org di kop dokumen. Sorot judul dokumen & tombol PDF/DOCX', 'Draf dokumen siap unduh', 'Perlu dokumen baru? Document Maker menyusun draf yang rapi, siap diunduh PDF atau DOCX.', 'shimmer'),
+     ('00:46–00:55', 'CTA', 'Logo', '—', '—', 'Baca kontrak dengan kacamata PDP.', 'Baca kontrakmu dengan kacamata PDP. Privasimu Nexus.', 'sonic logo')])
+
+mod('M18', 'Document Import (AI)', 'Jangan ketik ulang 200 dokumen', '40 dtk', 'Reverse psychology',
+    'Silakan ketik ulang 200 dokumen RoPA-mu satu per satu… atau jangan.', 'DPO, admin kepatuhan', 'Ringan',
+    'Migrasi dokumen lama dengan AI', CTA_DEMO, 'Subjudul aplikasi: "Upload dokumen RoPA/DPIA → AI analisis otomatis → auto-mapping ke database"; format .docx .xlsx .csv .pdf, maks 20 file per batch (tampak di layar)', 'Siap',
+    [('00:00–00:04', 'Hook', 'Suara ketikan tanpa henti, jam berputar cepat', '—', '—', 'Ketik ulang 200 dokumen?', 'Silakan ketik ulang dua ratus dokumen RoPA-mu satu per satu…', 'key ×n'),
+     ('00:04–00:08', 'Twist', 'Ketikan berhenti mendadak', '—', '—', '…atau jangan.', '…atau jangan.', 'record scratch'),
+     ('00:08–00:22', 'Solusi', 'Halaman Document Intelligence', DR + 'document-import/01-overview.png', 'Crop [262,40,1002,420]. ' + B_DR + '. Sorot subjudul & area unggah', 'Unggah → AI baca → masuk database', 'Document Import membaca dokumen RoPA dan DPIA-mu dengan AI, lalu memetakannya otomatis ke database.', 'whoosh'),
+     ('00:22–00:32', 'Bukti', 'Ikon format file', '—', '—', 'docx · xlsx · csv · pdf · banyak file sekaligus', 'Word, Excel, CSV, PDF, banyak file sekaligus.', 'pop ×4'),
+     ('00:32–00:40', 'CTA', 'Logo', '—', '—', 'Pindah tanpa mulai dari nol.', 'Pindah ke Nexus tanpa mulai dari nol.', 'sonic logo')])
+
+mod('M19', 'Priva: Asisten AI DPO & Knowledge Base', 'AI yang tidak mengarang pasal', '50 dtk', 'Logika dipatahkan',
+    'AI paling berguna untuk DPO bukan yang paling kreatif… tapi yang tidak mengarang pasal.', 'DPO, legal', 'Serius',
+    'Asisten AI berbasis knowledge base, aksi tercatat', CTA_DEMO, 'fakta_produk: dukungan PPDP (Asisten AI Priva menjawab berdasarkan knowledge base platform; log audit manusia & AI); UU PDP 76 pasal (knowledge base)', 'Siap',
+    [('00:00–00:04', 'Hook', 'Teks "kreatif" dicoret, diganti "akurat"', '—', '—', 'Bukan paling kreatif. Paling akurat.', 'AI paling berguna untuk DPO bukan yang paling kreatif…', 'record scratch'),
+     ('00:04–00:10', 'Masalah', 'Chat AI umum mengutip "Pasal 99 UU PDP" → ❌', '—', '—', 'UU PDP hanya 76 pasal', '…tapi yang tidak mengarang pasal. UU PDP cuma punya tujuh puluh enam pasal.', 'buzzer'),
+     ('00:10–00:20', 'Solusi', 'Beranda Priva', KUR + 'ai-agent-home.png', 'Siap pakai. Sorot chip modul + saran pertanyaan', 'Priva, asisten AI Nexus', 'Priva, asisten AI di Nexus, menjawab berdasarkan knowledge base platform.', 'shimmer'),
+     ('00:20–00:30', 'Bukti', 'Jawaban Priva', KUR + 'ai-agent-chat.png', 'Siap pakai. Sorot jawaban rekomendasi RoPA/DPIA', 'Jawaban terhubung ke modul', 'Tanya soal RoPA, DPIA, atau langkah berikutnya, dan jawabannya terhubung ke modul.', 'pop'),
+     ('00:30–00:40', 'Bukti', 'Daftar knowledge base', A4 + 'knowledge-base.png', 'Crop [200,40,1240,700]. ' + B_A4 + '. Sorot tombol "Tambah KB Tenant"', 'Tambah konteks organisasimu', 'Knowledge base-nya bisa ditambah konteks khusus organisasimu.', 'ding'),
+     ('00:40–00:45', 'Bukti', 'Ikon log audit', '—', '—', 'Aksi AI tercatat', 'Dan setiap aksi AI tercatat di log audit.', 'check'),
+     ('00:45–00:50', 'CTA', 'Logo', '—', '—', 'Asisten yang paham PDP.', 'Asisten yang paham PDP. Privasimu Nexus.', 'sonic logo')])
+
+mod('M20', 'Dukungan PPDP & Paparan Sanksi', 'Siapa DPO di kantor ini?', '50 dtk', 'Relate',
+    '"Siapa DPO di kantor ini?" Semua menunjuk… ke orang yang sedang cuti.', 'Direksi, HR, DPO', 'Relatable → serius',
+    'Tunjuk, dukung, dan pantau paparan sanksi', CTA_KONS, 'UU PDP Ps. 53 (kewajiban penunjukan), Ps. 54 (tugas), Ps. 57 (sanksi administratif, denda s.d. 2%); fakta_produk: dukungan PPDP & paparan sanksi', 'PERLU SCREENSHOT BARU (/ppdp & paparan sanksi)',
+    [('00:00–00:04', 'Hook', 'Semua jari menunjuk kursi kosong bertanda "cuti"', '—', '—', 'Siapa DPO di sini? 👉🪑', 'Siapa DPO di kantor ini? Semua menunjuk… ke orang yang lagi cuti.', 'vineboom'),
+     ('00:04–00:14', 'Fakta', 'Kartu pasal', '—', '—', 'UU PDP Ps. 53–54: penunjukan & tugas PPDP', 'Dalam kondisi tertentu, UU PDP mewajibkan penunjukan pejabat pelindungan data, lengkap dengan tugasnya.', 'paper'),
+     ('00:14–00:26', 'Solusi', 'Halaman penunjukan PPDP', 'BELUM ADA: ambil screenshot /ppdp (rute di audit4 teralih ke dasbor). Sementara: ' + KUR + 'dashboard.png', 'Sorot antrean kerja & dasbor', 'Dasbor & antrean kerja PPDP', 'Nexus mendukung kerja harian PPDP: dasbor kepatuhan dan antrean pekerjaan yang menunggu tindakan.', 'whoosh'),
+     ('00:26–00:38', 'Bukti', 'Paparan sanksi per pasal', 'BELUM ADA: ambil screenshot halaman Paparan Sanksi (cek rute; audit4/sanctions.png teralih ke dasbor)', '—', 'Pasal bersanksi → modul', 'Paparan sanksi memetakan kewajiban yang bersanksi administratif ke modul yang menanganinya.', 'dundun'),
+     ('00:38–00:44', 'Fakta', 'Angka 2% membesar', '—', '—', 'Denda administratif hingga 2% pendapatan tahunan', 'Karena sanksinya bisa sampai dua persen pendapatan tahunan.', 'impact'),
+     ('00:44–00:50', 'CTA', 'Logo + konsultan', '—', '—', 'Tunjuk, dukung, dampingi.', 'Tunjuk, dukung, dan dampingi DPO-mu. Konsultasi dengan Privasimu.', 'sonic logo')])
+
+mod('M21', 'Holding (Asesmen & Dasbor Grup)', '1 grup, 12 definisi "patuh"', '50 dtk', 'Anomali',
+    '1 grup usaha. 12 anak perusahaan. 12 definisi "patuh".', 'Holding, BUMN/grup swasta', 'Serius',
+    'Satu standar kepatuhan untuk seluruh grup', CTA_KONS, 'Katalog modul: holding-assessment, review, dashboard; asesmen holding via tautan publik', 'KPI siap; skor per entitas perlu screenshot baru',
+    [('00:00–00:04', 'Hook', '12 kotak dengan checklist berbeda-beda', '—', '—', '12 anak usaha = 12 versi "patuh"', 'Satu grup usaha. Dua belas anak perusahaan. Dua belas definisi patuh.', 'pop ×12'),
+     ('00:04–00:10', 'Masalah', 'Kotak-kotak saling menunjuk', '—', '—', 'Mana siap, mana tertinggal?', 'Mana yang paling siap, mana yang tertinggal?', 'crickets'),
+     ('00:10–00:22', 'Solusi', 'Kartu KPI dasbor grup', DR + 'holding-dashboard/01-overview.png', 'Crop HANYA kartu KPI [262,40,1002,300]. JANGAN tampilkan daftar entitas. ' + B_DR + '. Sorot 4 entitas · 33 RoPA · 19 DPIA', 'Satu dasbor untuk seluruh grup', 'Holding Dashboard memantau kepatuhan seluruh anak usaha dari satu tempat.', 'whoosh'),
+     ('00:22–00:32', 'Bukti', 'Skor per entitas, matriks & pohon', 'BELUM ADA: ambil screenshot baru dengan nama entitas FIKTIF. JANGAN pakai dataroom/02-superadmin/holding-dashboard/* (berisi nama perusahaan nyata)', '—', 'Ringkasan · matriks · pohon', 'Skor kepatuhan per entitas, dalam tampilan ringkasan, matriks, dan pohon organisasi.', 'pop'),
+     ('00:32–00:40', 'Bukti', 'Ikon tautan dikirim ke anak usaha', '—', '—', 'Asesmen lewat tautan', 'Asesmen ke anak usaha dikirim lewat tautan, hasilnya kembali ke induk.', 'check'),
+     ('00:40–00:50', 'CTA', '12 kotak menyatu jadi satu', '—', '—', 'Satu grup, satu standar.', 'Satu grup, satu standar. Konsultasi enterprise dengan Privasimu.', 'sonic logo')])
+
+mod('M22', 'DPO Academy (LMS)', 'Jangan ambil kelas ini kalau…', '45 dtk', 'Reverse psychology',
+    'Jangan ambil kelas ini… kalau kamu sudah hafal 76 pasal UU PDP.', 'DPO/PPDP baru, tim legal & kepatuhan', 'Ringan',
+    'Jalur belajar DPO + pendampingan konsultan', CTA_KONS, 'Tampilan DPO Academy: 4 kursus (Kepatuhan UU PDP Fundamentals, Manajemen Risiko, Audit Kepatuhan, Tata Kelola), lencana, sertifikat; UU PDP 76 pasal', 'Siap (blur nama pengguna)',
+    [('00:00–00:04', 'Hook', 'Pintu kelas dengan tulisan "Khusus yang belum hafal 76 pasal"', '—', '—', 'Sudah hafal 76 pasal? Jangan masuk.', 'Jangan ambil kelas ini… kalau kamu sudah hafal tujuh puluh enam pasal UU PDP.', 'record scratch'),
+     ('00:04–00:10', 'Twist', 'Pintu terbuka lebar', '—', '—', 'Belum? Kamu tidak sendirian.', 'Belum? Kamu tidak sendirian.', 'ding'),
+     ('00:10–00:22', 'Solusi', 'Kartu kursus DPO Academy', KUR + 'dpo-academy.png', 'Siap pakai. Sorot 4 kursus', '4 jalur belajar', 'DPO Academy menyiapkan jalur belajar: kepatuhan UU PDP, manajemen risiko, audit, dan tata kelola data.', 'whoosh'),
+     ('00:22–00:32', 'Bukti', 'Beranda Academy + sertifikat', DR + 'learn/01-overview.png', 'Crop [0,0,1264,700]. BLUR "Selamat datang, <nama>". Sorot "4 Kursus · 4 Jalur" + kartu sertifikat', 'Sampai sertifikat', 'Belajar bertahap sampai sertifikat penyelesaian.', 'levelup'),
+     ('00:32–00:38', 'Bukti', 'Lencana & XP', A4 + 'learn__badges.png', 'Crop [0,40,1440,560]. ' + B_A4, 'Lencana & progres', 'Lengkap dengan lencana dan progres belajar.', 'coin'),
+     ('00:38–00:45', 'CTA', 'Logo + konsultan', '—', '—', 'Belajar & didampingi.', 'Belajar di Academy, didampingi konsultan Privasimu.', 'sonic logo')])
+
+# ------------------------------------------------------------------ flow unggulan: semua modul dalam satu (± 3 menit)
+# (waktu, bab, visual, screenshot, crop_sorot_blur, teks_layar, vo, sfx_musik, masuk_versi)
+FLAG = dict(
+    judul='Perjalanan Satu Data (semua modul Privasimu Nexus)', durasi='± 3:00 (versi potong 60 dtk & 30 dtk ditandai)',
+    jenis_hook='Reverse psychology → Anomali',
+    hook='"Jangan tonton video ini… kalau perusahaanmu tidak menyimpan satu pun nama, nomor HP, atau email pelanggan." → "Masih di sini? Berarti ini tentang kamu."',
+    catatan='Tokoh "Rina" & datanya FIKTIF: tampilkan keterangan "ilustrasi". Musik: dari tegang (hook) → hangat (perjalanan) → megah (penutup). VO 1 narator + suara Rina (opsional).',
+    scenes=[
+     ('0:00–0:05', 'Hook', 'Layar hitam, teks putih diketik', '—', '—', 'Jangan tonton video ini…', 'Jangan tonton video ini…', 'record scratch, hening', '180 · 60 · 30'),
+     ('0:05–0:10', 'Hook', 'Ikon kontak, HP, email beterbangan', '—', '—', '…kalau perusahaanmu tidak menyimpan satu pun data pelanggan.', '…kalau perusahaanmu tidak menyimpan satu pun nama, nomor HP, atau email pelanggan.', 'whoosh', '180 · 60 · 30'),
+     ('0:10–0:14', 'Hook', 'Ikon-ikon berhenti, zoom ke penonton', '—', '—', 'Masih di sini? Berarti ini tentang kamu.', 'Masih di sini? Berarti ini tentang kamu.', 'vine boom', '180 · 60 · 30'),
+     ('0:14–0:20', 'Taruhannya', 'Kalender dibalik ke 16 Jan 2027', '—', '—', 'PP 33/2026 berlaku 16 Januari 2027', 'Undang-undangnya sudah ada. Aturan pelaksananya, PP tiga puluh tiga, berlaku enam belas Januari dua ribu dua puluh tujuh.', 'flip clock', '180 · 60'),
+     ('0:20–0:26', 'Taruhannya', 'Angka 2% membesar', '—', '—', 'Sanksi hingga 2% pendapatan tahunan', 'Sanksi administratifnya bisa sampai dua persen dari pendapatan tahunan.', 'dun dun dun', '180 · 60'),
+     ('0:26–0:32', 'Perkenalan', 'Kartu profil "Rina, 29, pelanggan" (ilustrasi)', '—', '—', 'Ikuti perjalanan satu data: Rina', 'Mari ikuti perjalanan satu data pelanggan. Namanya Rina.', 'musik hangat masuk', '180 · 60'),
+     ('0:32–0:40', 'Bab 1 · Rina mendaftar', 'Collection point persetujuan', DR + 'consent/01-overview.png', 'Crop [262,40,1002,560]; BLUR kolom Domain; ' + B_DR, 'Persetujuan + bukti', 'Rina mendaftar di aplikasimu dan klik setuju. Di Nexus, persetujuan itu tersimpan beserta buktinya.', 'klik + ding', '180 · 60'),
+     ('0:40–0:45', 'Bab 1', 'Integrasi consent', KUR + 'consent-detail.png', 'Siap pakai; sorot API & Webhook', 'Penarikan menyebar ke semua sistem', 'Kalau Rina berubah pikiran, penarikannya sampai ke semua sistem.', 'sweep', '180'),
+     ('0:45–0:50', 'Bab 1', 'Layar terbagi: Children Pro | Inclusive Privacy', KUR + 'children-pro.png + ' + KUR + 'inclusive-privacy.png', 'Siap pakai', 'Wali untuk anak · aksesibel untuk semua', 'Untuk pengguna anak, persetujuan wali. Untuk penyandang disabilitas, persetujuan yang aksesibel.', 'pop ×2', '180'),
+     ('0:50–0:57', 'Bab 2 · Datanya dicatat', 'Daftar data spesifik', KUR + 'ropa-data-spesifik.png', 'Siap pakai; sorot data spesifik', 'RoPA · data spesifik → TINGGI', 'Setiap pemrosesan data Rina dicatat di RoPA. Ada data spesifik? Risikonya otomatis ditandai tinggi.', 'alarm ringan', '180 · 60'),
+     ('0:57–1:04', 'Bab 2', 'Unggah dokumen lama', DR + 'document-import/01-overview.png', 'Crop [262,40,1002,420]; ' + B_DR, 'Dokumen lama? Impor dengan AI', 'Catatan lama di Word atau Excel? Diimpor dengan AI, tidak perlu diketik ulang.', 'key → stop', '180'),
+     ('1:04–1:11', 'Bab 3 · Datanya dinilai', 'Wizard risiko DPIA', KUR + 'dpia-risiko.png', 'Siap pakai', 'DPIA · matriks 5×5', 'Pemrosesan berisiko tinggi dinilai lewat DPIA, dengan matriks lima kali lima.', 'pop', '180 · 60'),
+     ('1:11–1:18', 'Bab 3', 'Risk Treatment Plan', DR + 'risk-treatment-plan/01-overview.png', 'Crop [262,40,1002,700]; BLUR kolom Owner; ' + B_DR, 'Mitigasi terpantau · LIA untuk kepentingan sah', 'Mitigasinya dipantau sampai tuntas. Pakai dasar kepentingan yang sah? Timbang dulu lewat LIA.', 'check', '180'),
+     ('1:18–1:25', 'Bab 4 · Datanya dicari & dijaga', 'Katalog Data Discovery', DR + 'data-discovery/01-overview.png', 'Crop [262,40,1260,620]; ' + B_DR, 'Data Rina ada di banyak sistem', 'Data Rina ternyata tersebar di banyak sistem. Data Discovery menemukannya.', 'sweep', '180'),
+     ('1:25–1:32', 'Bab 4', 'Privacy Posture Score', A4 + 'security.png', 'Crop [200,40,1240,820]; ' + B_A4, 'Postur: data · proses · respons', 'Postur privasi organisasi dipantau dari tiga lapisan: data, proses, dan respons.', 'ding', '180'),
+     ('1:32–1:39', 'Bab 5 · Datanya dibagi', 'Detail pihak ketiga + skor AI', DR + 'vendor-risk/07-detail-pihakketiga.png', 'Crop modal [470,40,760,560]; BLUR Website', 'Pihak ketiga dinilai', 'Data Rina juga diproses pihak ketiga. Risikonya dinilai, lengkap dengan skor dari analisis AI.', 'vineboom kecil', '180 · 60'),
+     ('1:39–1:45', 'Bab 5', 'Register transfer lintas batas', DR + 'cross-border/01-overview.png', 'Crop [262,40,1002,640]; BLUR kolom Entitas Tujuan; ' + B_DR, 'Ke luar negeri? Ada TIA', 'Ada yang disimpan di luar negeri? Terdaftar, dan dinilai lewat TIA.', 'sweep', '180'),
+     ('1:45–1:50', 'Bab 5', 'Ringkasan telaah kontrak', A4 + 'contract-review.png', 'Crop [200,40,1240,520]; ' + B_A4, 'Kontrak ditelaah per pasal', 'Kontrak dan perjanjian pemrosesan datanya ditelaah per pasal.', 'pop', '180'),
+     ('1:50–1:57', 'Bab 6 · Rina minta dihapus', 'Header DSR dengan tenggat', KUR + 'dsr-detail.png', 'Siap pakai; sorot "7h tersisa"', 'Tenggat 72 jam otomatis', 'Suatu hari, Rina minta datanya dihapus. Tenggat tujuh puluh dua jam langsung berjalan otomatis.', 'notif + clock', '180 · 60 · 30'),
+     ('1:57–2:04', 'Bab 6', 'Sertifikat penyelesaian', DR + 'dsr/09-tab-certificates.png', 'Crop [262,40,1002,420]; ' + B_DR, 'Sertifikat otomatis', 'Selesai? Sertifikat penyelesaian dibuat otomatis.', 'correct', '180'),
+     ('2:04–2:12', 'Bab 7 · Jam 3 pagi', 'Detail insiden + 5 fase', KUR + 'breach-detail.png', 'Siap pakai; sorot "Wajib Notifikasi" + stepper', 'Alur 5 fase · 3×24 jam', 'Lalu, jam tiga pagi, dugaan kebocoran. Alurnya sudah siap: lima fase, templat pemberitahuan, hitung mundur tiga kali dua puluh empat jam.', 'alarm → tenang', '180 · 60 · 30'),
+     ('2:12–2:20', 'Bab 7', 'Fire Drill', DR + 'simulation/02-recheck.png', 'Crop [262,40,1002,640]; buang kartu "Rata-rata skor"; BLUR kolom User', 'Sudah pernah latihan', 'Tim tidak panik, karena sudah pernah latihan lewat Fire Drill.', 'check', '180'),
+     ('2:20–2:27', 'Bab 8 · Buktikan patuh', 'Hasil GAP', KUR + 'gap-hasil.png', 'Siap pakai', 'Skor & rencana perbaikan siap', 'Saat auditor bertanya, skor kepatuhan dan rencana perbaikannya sudah ada.', 'ding', '180 · 60'),
+     ('2:27–2:32', 'Bab 8', 'Telaah kebijakan', KUR + 'policy-review.png', 'Siap pakai', 'Kebijakan ditelaah', 'Kebijakan internal ditelaah terhadap UU PDP dan PP tiga puluh tiga.', 'pop', '180'),
+     ('2:32–2:36', 'Bab 8', 'Dasbor (+ kartu holding kecil)', KUR + 'dashboard.png', 'Siap pakai', 'Satu dasbor, seluruh grup', 'Semuanya terangkum di satu dasbor, bahkan untuk seluruh grup usaha.', 'shimmer', '180'),
+     ('2:36–2:41', 'Bab 9 · Orangnya siap', 'Kartu kursus Academy', KUR + 'dpo-academy.png', 'Siap pakai', 'DPO belajar di Academy', 'DPO-nya belajar di DPO Academy…', 'levelup', '180'),
+     ('2:41–2:46', 'Bab 9', 'Jawaban Priva', KUR + 'ai-agent-chat.png', 'Siap pakai', 'Priva: tidak mengarang pasal', '…dan punya Priva, asisten AI yang menjawab dari knowledge base, bukan mengarang pasal.', 'shimmer', '180'),
+     ('2:46–2:53', 'Bab 10 · Tidak sendirian', 'Ilustrasi tim konsultan (tanpa wajah nyata tanpa izin)', '—', '—', 'Didampingi konsultan sampai audit', 'Di balik Nexus, ada konsultan Privasimu yang mendampingi sampai audit.', 'musik megah', '180 · 60 · 30'),
+     ('2:53–3:00', 'CTA', 'Logo + tombol + kontak', '—', '—', 'Data Rina aman. Data pelangganmu? · Start Pre Check (gratis)', 'Data Rina aman. Data pelangganmu? Mulai dari Start Pre Check gratis di privasimu dot com.', 'sonic logo', '180 · 60 · 30'),
+    ])
+
+# ------------------------------------------------------------------ video pendek 5 / 10 / 15 detik
+# (kode, durasi, gaya, jenis_hook, judul, hook, isi_per_detik, vo, screenshot, sfx, cta, platform, sumber)
+S = [
+ ('P01', '5 dtk', 'Serius', 'Logika dipatahkan', 'Patuh bukan perasaan', '"Patuh bukan perasaan."', '0–2: teks hook · 2–4: skor GAP 81% · 4–5: logo + Start Pre Check', 'Patuh bukan perasaan. Ukur.', KUR + 'gap-hasil.png', 'vine boom', 'Start Pre Check', 'Bumper YouTube / Stories', 'M02'),
+ ('P02', '5 dtk', 'Meme', 'Relate', 'Revisi ketiga', 'Ikon "RoPA_final_revisi3_FIX.xlsx"', '0–2: file + "FAAAH" · 2–4: RoPA tersimpan di Nexus · 4–5: logo', 'Pensiunkan revisi ketiga.', KUR + 'ropa-tersimpan.png', '"FAAAH" (rekam tim)', 'privasimu.com', 'TikTok / Reels', 'M04 · A01'),
+ ('P03', '5 dtk', 'Serius', 'Anomali', '03.00', '"03.00 · dugaan kebocoran"', '0–2: jam 03.00 · 2–4: stepper 5 fase · 4–5: logo', 'Jam tiga pagi? Alurnya sudah siap.', KUR + 'breach-detail.png', 'alarm → ding', 'Schedule Demo', 'Bumper', 'M11'),
+ ('P04', '5 dtk', 'Serius', 'Anomali', '16.01.2027', 'Kalender flip "16.01.2027"', '0–3: kalender + "PP 33 berlaku" · 3–5: "Siap?" + logo', 'Enam belas Januari. PP tiga puluh tiga berlaku. Siap?', '—', 'flip clock', 'Program siap PP 33', 'Bumper / Stories', 'N01'),
+ ('P05', '5 dtk', 'Meme', 'Relate', '−999 aura', '"−999 aura: kirim KTP lewat grup"', '0–3: −999 aura · 3–5: +1000 aura: Nexus', '—  (teks saja)', '—', 'auraDown → auraUp', 'privasimu.com', 'TikTok / Reels', 'A43'),
+ ('P06', '5 dtk', 'Serius', 'Relate', '72 jam', '"72 jam."', '0–2: angka 72 · 2–4: pil "7h tersisa" · 4–5: logo', 'Tujuh puluh dua jam. Dihitung otomatis.', KUR + 'dsr-detail.png', 'clock', 'Schedule Demo', 'Bumper', 'M07'),
+ ('P07', '5 dtk', 'Serius', 'Logika dipatahkan', 'Setuju tanpa bukti', '"Klik setuju tanpa bukti = tidak ada."', '0–2: checkbox · 2–4: integrasi consent · 4–5: logo', 'Setuju harus bisa dibuktikan.', KUR + 'consent-detail.png', 'klik + buzzer', 'Schedule Demo', 'Bumper', 'M08'),
+ ('P08', '5 dtk', 'Meme', 'Anomali', 'Pengguna umur 11', '"Pengguna paling setia: umur 11."', '0–2: avatar anak · 2–4: Children Pro · 4–5: logo', 'Butuh izin walinya.', KUR + 'children-pro.png', 'pop', 'Schedule Demo', 'TikTok / Reels', 'M09'),
+ ('P09', '5 dtk', 'Serius', 'Logika dipatahkan', 'Diteken ≠ aman', '"Kontrak diteken ≠ data aman."', '0–2: tanda tangan · 2–4: ringkasan telaah kontrak · 4–5: logo', 'Baca kontrakmu dengan kacamata PDP.', A4 + 'contract-review.png', 'stamp', 'Konsultasi', 'Bumper LinkedIn', 'M17'),
+ ('P10', '5 dtk', 'Meme', 'Logika dipatahkan', 'Di cloud 🦗', '"Cloud-nya di negara mana?"', '0–2: chat + jangkrik · 2–4: register transfer · 4–5: logo', 'Di cloud bukan jawaban.', DR + 'cross-border/01-overview.png', 'crickets', 'Schedule Demo', 'TikTok / Reels', 'M14'),
+ ('P11', '10 dtk', 'Meme', 'Relate', 'Astaga, bercanda', 'Chat Pak Bos', 'Potongan N11 detik 14–24', '(dari N11)', 'out/n11-meme-dpo', 'vine boom', 'privasimu.com', 'TikTok / Reels', 'N11 s3–s4'),
+ ('P12', '10 dtk', 'Meme', 'Relate', 'Orang have / haven\'t', '"Ada orang have…"', 'Potongan N11 detik 5–14', '(dari N11)', 'out/n11-meme-dpo', 'vine boom', 'privasimu.com', 'TikTok / Reels', 'N11 s2'),
+ ('P13', '10 dtk', 'Meme', 'Anomali', 'Polyester edit', '"Kalau DPO punya polyester edit:"', 'Potongan N11 detik 43–50', '(dari N11)', 'out/n11-meme-dpo', 'funk', 'Schedule Demo', 'TikTok / Reels', 'N11 s7'),
+ ('P14', '10 dtk', 'Serius', 'Anomali', 'Pintu orang lain', '"Kebocoran bisa lewat pintu yang bukan milikmu."', '0–3: hook · 3–8: detail pihak ketiga, skor 49 · 8–10: logo', 'Kebocoran bisa lewat pintu yang bukan milikmu. Nilai risiko pihak ketigamu.', DR + 'vendor-risk/07-detail-pihakketiga.png', 'dundun', 'Schedule Demo', 'LinkedIn / Reels', 'M13'),
+ ('P15', '10 dtk', 'Serius', 'Logika dipatahkan', 'Data yang tak tercatat', '"Data paling berisiko = yang tak kamu tahu ada."', '0–3: hook · 3–8: 187 PII ditemukan · 8–10: logo', 'Data paling berisiko adalah yang tidak kamu tahu ada. Temukan dengan Data Discovery.', DR + 'data-discovery/01-overview.png', 'sweep', 'Schedule Demo', 'LinkedIn / Reels', 'M15'),
+ ('P16', '10 dtk', 'Serius', 'Reverse psychology', 'Jangan cek skormu', '"Jangan cek skor kepatuhanmu…"', '0–3: hook · 3–8: GAP 81% + rekomendasi · 8–10: Start Pre Check', 'Jangan cek skor kepatuhanmu… kalau belum siap kaget. Atau mulai gratis sekarang.', KUR + 'gap-rekomendasi.png', 'vine boom', 'Start Pre Check', 'Reels / Shorts', 'M02'),
+ ('P17', '10 dtk', 'Meme', 'Logika dipatahkan', 'Latihan kebocoran? 🦗', '"Latihan kebakaran ✅ · latihan kebocoran data 🦗"', '0–3: hook · 3–8: Fire Drill · 8–10: logo', 'Kantor rutin latihan kebakaran. Latihan kebocoran data? Ada Fire Drill.', DR + 'simulation/02-recheck.png', 'alarm + crickets', 'Konsultasi', 'TikTok / Reels', 'M12'),
+ ('P18', '10 dtk', 'Serius', 'Logika dipatahkan', 'AI yang tidak mengarang', '"AI terbaik untuk DPO bukan yang paling kreatif."', '0–3: hook · 3–8: jawaban Priva · 8–10: logo', 'AI terbaik untuk DPO bukan yang paling kreatif, tapi yang tidak mengarang pasal.', KUR + 'ai-agent-chat.png', 'record scratch', 'Schedule Demo', 'LinkedIn', 'M19'),
+ ('P19', '10 dtk', 'Meme', 'Reverse psychology', 'Jangan ketik ulang', '"Silakan ketik ulang 200 dokumen…"', '0–3: ketikan · 3–4: "…atau jangan" · 4–8: Document Import · 8–10: logo', 'Silakan ketik ulang dua ratus dokumen… atau jangan.', DR + 'document-import/01-overview.png', 'key → scratch', 'Schedule Demo', 'TikTok / Reels', 'M18'),
+ ('P20', '10 dtk', 'Meme', 'Logika dipatahkan', 'Kinda chic', '"Kinda chic to…"', 'Potongan N11 detik 50–58', '(dari N11)', 'out/n11-meme-dpo', 'lo-fi', 'privasimu.com', 'Instagram / LinkedIn', 'N11 s8'),
+ ('P21', '15 dtk', 'Meme', 'Reverse psychology', 'Things to say ke auditor', '"Hal yang bisa kamu bilang ke auditor:"', 'Potongan N11 detik 24–34', '(dari N11)', 'out/n11-meme-dpo', 'phonk', 'privasimu.com', 'TikTok / Reels', 'N11 s5'),
+ ('P22', '15 dtk', 'Meme', 'Anomali', 'Borgol 3×24 jam', '"Jam 3 pagi: dugaan kebocoran data."', 'Potongan N11 detik 34–43', '(dari N11)', 'out/n11-meme-dpo', 'clank', 'Schedule Demo', 'TikTok / Reels', 'N11 s6'),
+ ('P23', '15 dtk', 'Serius', 'Relate', 'Email paling ditakuti CS', '📩 "Tolong hapus semua data saya."', '0–3: email · 3–7: form DSR · 7–11: tenggat 72 jam · 11–13: sertifikat · 13–15: logo', 'Email paling ditakuti CS. Di Nexus: formulir, tenggat tujuh puluh dua jam otomatis, sampai sertifikat penyelesaian.', KUR + 'dsr-form.png → ' + KUR + 'dsr-detail.png → ' + DR + 'dsr/09-tab-certificates.png', 'notif, clock, correct', 'Schedule Demo', 'Reels / LinkedIn', 'M07'),
+ ('P24', '15 dtk', 'Serius', 'Logika dipatahkan', 'Kepentingan sah ≠ cek kosong', '"Kan ada kepentingan yang sah." BELUM TENTU.', '0–3: hook · 3–8: kutipan Ps. 20 (2) f · 8–13: modul LIA · 13–15: logo', 'Kepentingan yang sah harus ditimbang, bukan diasumsikan. Dokumentasikan dengan LIA.', A4 + 'lia.png (header) · PERLU SCREENSHOT BARU', 'stamp', 'Schedule Demo', 'LinkedIn', 'M06'),
+ ('P25', '15 dtk', 'Serius', 'Anomali', '12 definisi patuh', '"12 anak usaha, 12 definisi patuh."', '0–3: hook · 3–10: KPI dasbor grup · 10–15: logo + konsultasi enterprise', 'Satu grup, satu standar kepatuhan. Holding Dashboard Privasimu.', DR + 'holding-dashboard/01-overview.png (hanya KPI)', 'pop', 'Konsultasi enterprise', 'LinkedIn', 'M21'),
+ ('P26', '15 dtk', 'Serius', 'Reverse psychology', 'Jangan tunjuk DPO kalau…', '"Jangan tunjuk DPO… kalau tidak siap mendukungnya."', '0–3: hook · 3–8: Academy · 8–12: konsultan · 12–15: logo', 'Menunjuk DPO itu awal. Dukung dengan DPO Academy dan pendampingan konsultan Privasimu.', KUR + 'dpo-academy.png', 'ding', 'Konsultasi', 'LinkedIn', 'M22 · M20'),
+ ('P27', '15 dtk', 'Serius', 'Logika dipatahkan', 'Konsultan yang mendampingi', '"Konsultan terbaik bukan yang laporannya paling tebal."', '0–4: hook · 4–11: pendampingan + tools · 11–15: logo', 'Konsultan terbaik bukan yang laporannya paling tebal, tapi yang mendampingi sampai audit.', '—', 'record scratch', 'Konsultasi', 'LinkedIn / YouTube', 'N07'),
+ ('P28', '15 dtk', 'Serius', 'Anomali', 'Sisa X hari', '"X hari lagi PP 33 berlaku."', '0–3: hitung mundur · 3–11: program siap PP 33 · 11–15: logo', 'Hitung mundur sudah jalan. Program siap PP tiga puluh tiga bersama Privasimu.', '—', 'flip clock', 'Program siap PP 33', 'Stories / Reels', 'N01 · N08'),
+ ('P29', '15 dtk', 'Serius', 'Anomali', 'Denda 2%', '"Denda bisa sampai 2% pendapatan tahunan."', '0–3: angka 2% · 3–11: paparan sanksi (SCREENSHOT BARU) · 11–15: konsultasi', 'Sanksi administratif bisa sampai dua persen pendapatan tahunan. Petakan paparannya sekarang.', 'BELUM ADA: screenshot Paparan Sanksi', 'dundun', 'Konsultasi', 'LinkedIn', 'M20'),
+ ('P30', '15 dtk', 'Serius', 'Relate', 'Jam 3 pagi (mini)', '"03.00 · dugaan kebocoran data."', '0–3: HP bergetar · 3–7: 5 fase · 7–11: templat & RACI · 11–15: logo', 'Jam tiga pagi. Alurnya sudah siap: lima fase, templat, dan pembagian peran.', KUR + 'breach-detail.png → ' + KUR + 'breach-aksi.png', 'notif, alarm, ding', 'Schedule Demo', 'Reels / LinkedIn', 'M11'),
+ ('P31', '15 dtk', 'Meme', 'Relate', 'Tell me you\'re a DPO', '"Tell me you\'re a DPO without telling me"', '0–3: hook · 3–12: 4 kebiasaan DPO · 12–15: logo + "tag DPO-mu"', '—  (teks + musik)', '—', 'pop, vine boom', 'Tag DPO kantormu', 'TikTok / Reels', 'A12'),
+ ('P32', '15 dtk', 'Serius', 'Logika dipatahkan', 'Laporan paling tebal', '"Laporan kepatuhan terbaik bukan yang paling tebal."', '0–3: hook · 3–12: dasbor + postur · 12–15: logo', 'Laporan kepatuhan terbaik bukan yang paling tebal, tapi yang bisa dibaca dalam sepuluh detik.', KUR + 'dashboard.png → ' + A4 + 'security.png', 'impact', 'Start Pre Check', 'LinkedIn / YouTube', 'M01'),
+]
+
+# ------------------------------------------------------------------ jenis hook untuk 48 konsep meme
+HOOK_A = {
+ 'A01': 'Relate', 'A02': 'Relate', 'A03': 'Reverse psychology', 'A04': 'Relate', 'A05': 'Anomali', 'A06': 'Anomali', 'A07': 'Logika dipatahkan',
+ 'A08': 'Anomali', 'A09': 'Relate', 'A10': 'Relate', 'A11': 'Relate', 'A12': 'Relate', 'A13': 'Relate', 'A14': 'Relate', 'A15': 'Logika dipatahkan',
+ 'A16': 'Anomali', 'A17': 'Anomali', 'A18': 'Anomali', 'A19': 'Relate', 'A20': 'Anomali', 'A21': 'Relate', 'A22': 'Relate', 'A23': 'Anomali',
+ 'A24': 'Logika dipatahkan', 'A25': 'Anomali', 'A26': 'Relate', 'A27': 'Relate', 'A28': 'Relate', 'A29': 'Logika dipatahkan', 'A30': 'Logika dipatahkan',
+ 'A31': 'Anomali', 'A32': 'Reverse psychology', 'A33': 'Anomali', 'A34': 'Logika dipatahkan', 'A35': 'Logika dipatahkan', 'A36': 'Reverse psychology',
+ 'A37': 'Logika dipatahkan', 'A38': 'Anomali', 'A39': 'Anomali', 'A40': 'Relate', 'A41': 'Relate', 'A42': 'Anomali', 'A43': 'Relate', 'A44': 'Relate',
+ 'A45': 'Logika dipatahkan', 'A46': 'Relate', 'A47': 'Reverse psychology', 'A48': 'Reverse psychology',
+}
+
+# ------------------------------------------------------------------ inventaris screenshot
+# (modul, path, sumber, isi, status, catatan)
+INV = [
+ ('Dasbor', KUR + 'dashboard.png', 'Kurasi', 'Sambutan, skor GAP 81%, DSR, insiden, ringkasan modul', 'Siap', 'Sudah crop & blur'),
+ ('Dasbor', KUR + 'dashboard-postur.png', 'Kurasi', 'Tren bulanan + Compliance Score', 'Siap', ''),
+ ('Dasbor', KUR + 'dashboard-risiko.png', 'Kurasi', 'Heatmap DPIA 5×5 + Top Risks', 'Siap', ''),
+ ('Dasbor', KUR + 'dashboard-sla.png', 'Kurasi', 'Waktu respons DSR, linimasa insiden, adopsi consent', 'Siap', ''),
+ ('Postur privasi', A4 + 'security.png', 'UI terbaru', 'Privacy Posture Score 56 "Cukup", 3 lapisan, tren 30 hari', 'Perlu blur', B_A4),
+ ('Postur privasi', DR + 'security/01-overview.png', 'Data demo', 'Skor 33 "Critical" (cocok untuk adegan "masalah")', 'Perlu blur', B_DR),
+ ('GAP', DR + 'gap-assessment/01-overview.png', 'Data demo', '4 asesmen, skor 81% & 73%, grafik', 'Perlu blur', B_DR),
+ ('GAP', KUR + 'gap-hasil.png', 'Kurasi', 'Hasil 81% + statistik per area', 'Siap', ''),
+ ('GAP', KUR + 'gap-rekomendasi.png', 'Kurasi', 'Rekomendasi per pasal + AI Remediation Plan', 'Siap', ''),
+ ('Maturity', DR + 'maturity/02-recheck.png', 'Data demo', 'Level 3 – Managed, skor domain, tren', 'Perlu blur', B_DR),
+ ('Maturity', A4 + 'maturity.png', 'UI terbaru', 'Kosong ("Belum ada assessment")', 'Kosong', 'Jangan dipakai'),
+ ('RoPA', KUR + 'ropa-baru.png', 'Kurasi', 'Modal Buat RoPA Baru', 'Siap', ''),
+ ('RoPA', KUR + 'ropa-data-spesifik.png', 'Kurasi', 'Daftar data pribadi spesifik', 'Siap', ''),
+ ('RoPA', KUR + 'ropa-tersimpan.png', 'Kurasi', 'Notifikasi tersimpan + daftar', 'Siap', ''),
+ ('RoPA', KUR + 'ropa-list-baru.png', 'Kurasi', 'Register RoPA (UI terbaru)', 'Siap', ''),
+ ('RoPA', DR + 'ropa/03-review-mode-waiting.png', 'Data demo', 'Detail pemrosesan (menunggu) + DPO/Team', 'Perlu crop', 'Bagian DPO/Team memuat EMAIL: crop hanya [262,40,1002,420]'),
+ ('RoPA', DR + 'ropa/16-export-pdf-result.png', 'Data demo', 'Daftar RoPA + progres & level risiko', 'Perlu blur', B_DR),
+ ('RoPA', A4 + 'vendor-risk__ropa-pihak-ketiga.png', 'UI terbaru', 'Minta pihak ketiga mengisi RoPA (tautan)', 'Perlu blur', B_A4),
+ ('DPIA', KUR + 'dpia-list.png', 'Kurasi', 'Daftar DPIA', 'Siap', ''),
+ ('DPIA', KUR + 'dpia-list-baru.png', 'Kurasi', 'Daftar DPIA (UI terbaru)', 'Siap', ''),
+ ('DPIA', KUR + 'dpia-risiko.png', 'Kurasi', 'Wizard potensi risiko', 'Siap', ''),
+ ('DPIA', DR + 'dpia/07-wizard-step4-audit.png', 'Data demo', 'Langkah audit + tombol "Lanjutkan dengan AI"', 'Perlu blur', B_DR),
+ ('Risk Treatment Plan', DR + 'risk-treatment-plan/01-overview.png', 'Data demo', 'Tabel mitigasi (event, DPIA, prioritas, status)', 'Perlu blur', 'BLUR kolom Owner & filter owner (nama orang). ' + B_DR),
+ ('LIA', DR + 'lia/01-overview.png', 'Data demo', 'Kosong (memuat)', 'Kosong', 'Jangan dipakai'),
+ ('LIA', A4 + 'lia.png', 'UI terbaru', 'Header + subjudul (daftar kosong)', 'Hanya header', 'AMBIL SCREENSHOT BARU dengan 2–3 LIA contoh'),
+ ('TIA', DR + 'tia/01-overview.png', 'Data demo', '11 TIA, negara tujuan Jepang/Singapura, status', 'Perlu blur', B_DR),
+ ('Transfer lintas negara', DR + 'cross-border/01-overview.png', 'Data demo', 'Register transfer, peta negara, skor TIA', 'Perlu blur', 'BLUR kolom Entitas Tujuan (ada merek penyedia cloud). ' + B_DR),
+ ('DSR', KUR + 'dsr-form.png', 'Kurasi', 'Modal Buat DSR (kanban diburamkan)', 'Siap', ''),
+ ('DSR', KUR + 'dsr-detail.png', 'Kurasi', 'Header detail, pil "7h tersisa"', 'Siap', ''),
+ ('DSR', DR + 'dsr/06-tab-scope.png', 'Data demo', 'Pilih sistem (scope)', 'Perlu blur', B_DR),
+ ('DSR', DR + 'dsr/07-tab-sqlpack.png', 'Data demo', 'Generate SQL Pack', 'Perlu blur', B_DR),
+ ('DSR', DR + 'dsr/09-tab-certificates.png', 'Data demo', 'Sertifikat pemohon & internal', 'Perlu blur', B_DR),
+ ('DSR', DR + 'dsr/01-overview.png', 'Data demo', 'Daftar tiket + aplikasi', 'Jangan dipakai', 'Ada nama merek bank nyata di daftar aplikasi'),
+ ('DSR', A4 + 'dsr-apps.png', 'UI terbaru', 'Aplikasi DSR (1 baris "E2E App")', 'Perlu blur', B_A4),
+ ('Consent', DR + 'consent/01-overview.png', 'Data demo', 'Collection point + jumlah item', 'Perlu blur', 'BLUR kolom Domain. ' + B_DR),
+ ('Consent', DR + 'consent/03-embed-code.png', 'Data demo', 'Detail collection point, tab log/analytics/widget', 'Perlu blur', 'BLUR URL. ' + B_DR),
+ ('Consent', KUR + 'consent-detail.png', 'Kurasi', 'Integrasi: embed, preference center, API, webhook', 'Siap', 'API key & user sudah diburamkan'),
+ ('Consent', A4 + 'consent__preview.png', 'UI terbaru', 'Preview Cookie Banner & Consent Form', 'Perlu blur', B_A4),
+ ('Cookie', DR + 'cookie/01-overview.png', 'Data demo', 'KPI 6 collection point, 43 item, 31 catatan + tabel', 'Hanya KPI', 'Tabel memuat nama layanan & domain nyata: JANGAN tampilkan'),
+ ('Children Pro', KUR + 'children-pro.png', 'Kurasi', 'Judul & tab Kewenangan Wali/Menunggu/Peralihan', 'Siap', ''),
+ ('Children Pro', A4 + 'consent-guardian.png', 'UI terbaru', 'Tab titik pengumpulan, wali, verifikasi, DSR anak (kosong)', 'Hanya header', 'AMBIL SCREENSHOT BARU dengan data fiktif'),
+ ('Inclusive Privacy', KUR + 'inclusive-privacy.png', 'Kurasi', 'Judul & tab', 'Siap', ''),
+ ('Inclusive Privacy', A4 + 'consent-accessibility.png', 'UI terbaru', 'Tab aksesibilitas, DSR disabilitas (kosong)', 'Hanya header', 'AMBIL SCREENSHOT BARU'),
+ ('Insiden', KUR + 'breach-detail.png', 'Kurasi', 'Detail insiden + stepper 5 fase', 'Siap', ''),
+ ('Insiden', KUR + 'breach-fase.png', 'Kurasi', 'Fase 1: checklist', 'Siap', ''),
+ ('Insiden', KUR + 'breach-aksi.png', 'Kurasi', 'Template, RACI, War Room, PICAPA, SIEM/SOAR, PDF', 'Siap', ''),
+ ('Insiden', KUR + 'breach-ai.png', 'Kurasi', 'AI Incident Response Advisor', 'Siap', ''),
+ ('Insiden', KUR + 'breach-list-baru.png', 'Kurasi', 'Daftar insiden (UI terbaru)', 'Siap', ''),
+ ('Fire Drill', DR + 'simulation/02-recheck.png', 'Data demo', 'Banner + daftar skenario, skor, rating', 'Perlu crop', 'Kartu "Rata-rata skor" menampilkan angka tidak valid: buang. BLUR kolom User'),
+ ('Fire Drill', KUR + 'fire-drill-header.png', 'Kurasi', 'Banner Fire Drill (UI terbaru)', 'Siap', ''),
+ ('Pihak ketiga', DR + 'vendor-risk/01-overview.png', 'Data demo', '15 pihak ketiga, risiko kritis, tabel', 'Perlu blur', 'BLUR kolom Penanggung Jawab. ' + B_DR),
+ ('Pihak ketiga', DR + 'vendor-risk/02-bank-pertanyaan.png', 'Data demo', 'Template 56 pertanyaan kepatuhan PDP', 'Perlu blur', B_DR),
+ ('Pihak ketiga', DR + 'vendor-risk/07-detail-pihakketiga.png', 'Data demo', 'Detail + skor AI 49 High', 'Perlu blur', 'BLUR baris Website'),
+ ('Pihak ketiga', DR + 'vendor-risk/08-mulai-asesmen-modal.png', 'Data demo', 'Kirim pra-asesmen & tautan publik', 'Siap (crop modal)', 'Crop modal [470,40,760,520]'),
+ ('Data Discovery', DR + 'data-discovery/01-overview.png', 'Data demo', '6 sistem, 187 PII, status scan', 'Perlu blur', B_DR),
+ ('Data Discovery', DR + 'data-discovery/03-system-detail.png', 'Data demo', 'Form kredensial database', 'Jangan dipakai', 'Form kredensial'),
+ ('Data Discovery', A4 + 'data-discovery__scan-results.png', 'UI terbaru', 'Riwayat scan person (kosong)', 'Kosong', 'AMBIL SCREENSHOT BARU hasil scan satu orang'),
+ ('Telaah kebijakan', KUR + 'policy-review.png', 'Kurasi', 'Ringkasan kesesuaian & daftar dokumen', 'Siap', ''),
+ ('Telaah kebijakan', A4 + 'policy-review__60c9fc83-b09e-4399-ab4f-dbe083655bd7.png', 'UI terbaru', 'Hasil telaah "SOP Respons Insiden Data" 38%', 'Perlu blur', B_A4),
+ ('Telaah kebijakan', DR + 'policy-review/01-overview.png', 'Data demo', 'Daftar telaah', 'Jangan dipakai', 'Kartu skor tidak wajar & judul dokumen bisa nama perusahaan nyata'),
+ ('Policy Generator', A4 + 'policy-generator__new.png', 'UI terbaru', 'Wizard: audiens & bahasa', 'Perlu blur', B_A4),
+ ('Telaah kontrak', A4 + 'contract-review.png', 'UI terbaru', 'Portofolio 38%, pasal sering belum dipenuhi, DPA "PT Awan"', 'Perlu blur', B_A4),
+ ('Telaah kontrak', A4 + 'contract-review__kerangka.png', 'UI terbaru', 'Kerangka pembanding: UU PDP 76 pasal, PP 33 225 pasal', 'Perlu blur', B_A4),
+ ('Telaah kontrak', A4 + 'contract-review__fca95cc6-55c3-45b6-a3b8-c39d89683396.png', 'UI terbaru', 'Hasil telaah DPA + rekomendasi', 'Perlu blur', B_A4),
+ ('Telaah kontrak', DR + 'contract-review/01-overview.png', 'Data demo', 'Daftar kontrak', 'Jangan dipakai', 'Kartu skor tidak wajar & nama file dokumen nyata'),
+ ('Document Maker', A4 + 'document-maker__9340d5be-074b-428a-bb7a-9bc61a2dce2e.png', 'UI terbaru', 'Dokumen "Kebijakan Respons Insiden"', 'Perlu blur', B_A4 + ' + nama org di kop dokumen'),
+ ('Document Import', DR + 'document-import/01-overview.png', 'Data demo', 'Document Intelligence: unggah & format', 'Perlu blur', B_DR),
+ ('Priva AI', KUR + 'ai-agent-home.png', 'Kurasi', 'Sapaan, chip modul, saran pertanyaan', 'Siap', ''),
+ ('Priva AI', KUR + 'ai-agent-chat.png', 'Kurasi', 'Jawaban Priva', 'Siap', ''),
+ ('Knowledge Base', A4 + 'knowledge-base.png', 'UI terbaru', 'Daftar entri KB + Tambah KB Tenant', 'Perlu blur', B_A4),
+ ('Holding', KUR + 'holding-header.png', 'Kurasi', 'Judul & tab (tanpa data grup)', 'Siap', ''),
+ ('Holding', DR + 'holding-dashboard/01-overview.png', 'Data demo', 'KPI grup + daftar entitas', 'Hanya KPI', 'Jangan tampilkan daftar entitas'),
+ ('Holding', 'dataroom/02-superadmin/holding-dashboard/*', 'Superadmin', 'Matriks & pohon grup', 'JANGAN DIPAKAI', 'Berisi nama perusahaan nyata'),
+ ('PPDP', A4 + 'ppdp.png', 'UI terbaru', 'Teralih ke dasbor', 'Tidak ada', 'AMBIL SCREENSHOT BARU halaman /ppdp'),
+ ('Paparan sanksi', A4 + 'sanctions.png', 'UI terbaru', 'Teralih ke dasbor', 'Tidak ada', 'AMBIL SCREENSHOT BARU (cek rute)'),
+ ('DPO Academy', KUR + 'dpo-academy.png', 'Kurasi', '4 kartu kursus', 'Siap', ''),
+ ('DPO Academy', DR + 'learn/01-overview.png', 'Data demo', 'Beranda Academy + sertifikat', 'Perlu blur', 'BLUR "Selamat datang, <nama>"'),
+ ('DPO Academy', A4 + 'learn__badges.png', 'UI terbaru', 'Lencana & XP', 'Perlu blur', B_A4),
+]
+
+BARU = [
+ ('LIA', '/lia', '2–3 LIA contoh (Draft, Submitted, Approved) + halaman detail penilaian (tujuan, kebutuhan, keseimbangan)', 'M06, P24'),
+ ('PPDP', '/ppdp', 'Penunjukan PPDP dengan data fiktif (nama, SK, cakupan)', 'M20'),
+ ('Paparan sanksi', 'cek rute modul paparan sanksi', 'Pemetaan pasal bersanksi → modul, dengan status', 'M20, P29'),
+ ('Holding', '/holding-dashboard (tenant demo)', 'Compliance score per entitas, matriks, pohon: SEMUA nama entitas fiktif', 'M21, P25'),
+ ('Children Pro', '/consent-guardian', 'Data wali & anak fiktif, contoh verifikasi & peralihan', 'M09'),
+ ('Inclusive Privacy', '/consent-accessibility', 'Contoh pengaturan aksesibilitas & DSR disabilitas', 'M10'),
+ ('Data Discovery', '/data-discovery → Scan Pencarian Person', 'Hasil pencarian satu orang fiktif di beberapa sistem', 'M15'),
+ ('Umum', 'semua modul (UI terbaru)', 'Idealnya ambil ulang semua modul di tenant demo berdata dummy (UI terbaru), resolusi 1440×900 & 1920×1080, tanpa nama/merek nyata', 'Semua'),
+]

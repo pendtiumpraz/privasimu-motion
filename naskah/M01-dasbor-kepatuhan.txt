@@ -1,0 +1,65 @@
+NASKAH M01 — "BUKAN YANG PALING TEBAL" (DASBOR KEPATUHAN & POSTUR PRIVASI)
+================================================================
+Jenis      : VIDEO MODUL, seri "Nexus Explained" (1 modul = 1 video)
+Durasi     : ± 46 detik
+Format     : 16:9 dan 9:16
+Sasaran    : DPO/PPDP, kepala kepatuhan, dan direksi penerima laporan kepatuhan
+Nada       : tenang dan yakin; hook "logika dipatahkan" (laporan bagus = laporan tebal? bukan)
+Pengisi    : 1 suara (pria atau wanita)
+Video      : SUDAH DIRAKIT (folder motion/m01-dasbor). Suara sementara = TTS; VN tim bisa dipasang kapan saja
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: M01_S1, M01_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (M01), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Lafal: "Privasimu Nexus" (pri-va-si-mu nek-sus), "DPIA" (de-pe-i-a), "heatmap" (hit-mep), "dot com" (dot kom).
+4. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note). Format bebas: .wav, .m4a, .mp3.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 6 detik
+VO     : "Laporan kepatuhan terbaik, bukan yang paling tebal."
+Arahan : pelan dan tegas; tekan kata "bukan" dan "tebal".
+Layar  : tumpukan kertas "LAPORAN KEPATUHAN 2026 · 482 halaman" berjatuhan ke meja, lalu dicoret X merah besar.
+
+[S2] ± 4,5 detik
+VO     : "Tapi yang bisa dipahami direksi dalam sepuluh detik."
+Arahan : lebih ringan, sedikit tersenyum.
+Layar  : kertas beterbangan, stopwatch berputar, angka "10 detik".
+
+[S3] ± 6 detik
+VO     : "Dasbor Privasimu Nexus merangkum kepatuhan lintas modul dalam satu layar."
+Layar  : dasbor ASLI; sorotan bergantian: Skor GAP 81%, 4 DSR pending, 20 insiden aktif, baris "Perlu Perhatian".
+
+[S4] ± 6,5 detik
+VO     : "Tren tiap modul dan skor kepatuhan terlihat dari data kerja harian, bukan tebakan."
+Layar  : Postur Kepatuhan ASLI: tren bulanan RoPA · DPIA · DSR · Breach · Consent, lalu Compliance Score 81%.
+
+[S5] ± 6,5 detik
+VO     : "Risiko tertinggi langsung kelihatan: heatmap DPIA dan daftar risiko teratas."
+Layar  : Risk Analytics ASLI: heatmap DPIA 5×5, lalu 5 risiko teratas.
+
+[S6] ± 7 detik
+VO     : "Postur privasi dihitung dari tiga lapisan: data, proses, dan respons."
+Arahan : beri jeda kecil di antara "data", "proses", "respons" (tiap kata memunculkan sorotan).
+Layar  : Data Security Posture ASLI: skor 56 "Cukup", lalu lapisan data (50%), proses (30%), respons (20%).
+
+[S7] ± 9 detik
+VO     : "Privasimu Nexus. Kepatuhan yang bisa dibaca sekilas. Coba di privasimu dot com."
+Arahan : hangat dan yakin.
+Layar  : logo Privasimu Nexus, "Kepatuhan yang bisa dibaca sekilas.", "Rapat berikutnya: cukup satu layar.",
+         tombol privasimu.com, chip Start Pre Check · gratis / Schedule Demo, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Semua tampilan aplikasi = screenshot ASLI frontend lama (motion/assets/app: dashboard, dashboard-postur,
+  dashboard-risiko, postur-privasi). Nama pengguna/organisasi diburamkan; angka di layar adalah data demo.
+- Angka donat "09192" di Risk Analytics (salah tampil di frontend lama) sengaja diburamkan.
+- "482 halaman" dan "sepuluh detik" = ilustrasi retoris, bukan hasil pengukuran.
+- Bobot lapisan postur (data 50%, proses 30%, respons 20%) dibaca dari layar Data Security Posture.
+- Kontak: support@privasimu.com · 0851 8318 2722 (privasimu.com). "Start Pre Check (gratis)": pastikan masih berlaku.

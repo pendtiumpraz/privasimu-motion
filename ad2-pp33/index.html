@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>Hitung Mundur PP 33/2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --amber: #fbbf24; --red: #ef4444; --blue: #2563eb; --sky: #38bdf8; --ink: #e2e8f0; --mute: #94a3b8; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: var(--W); height: var(--H); overflow: hidden; background: #000; }
+  body { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  #stage { position: absolute; left: 0; top: 0; width: var(--W); height: var(--H); overflow: hidden; background: #04060d; }
+  #bg, #ring { position: absolute; left: 0; top: 0; }
+  .scene { position: absolute; inset: 0; display: none; transform-origin: 50% 50%; }
+  .abs { position: absolute; }
+  .full { position: absolute; left: 0; right: 0; text-align: center; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+  #grain { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: .06; mix-blend-mode: overlay; pointer-events: none; }
+  #vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 48%, rgba(0,0,0,.62) 100%); }
+  #flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+  #black { position: absolute; inset: 0; background: #000; opacity: 0; pointer-events: none; }
+  #ringLbl { position: absolute; font: 700 22px 'JetBrains Mono', monospace; color: var(--amber); letter-spacing: .08em; white-space: nowrap; }
+
+  /* DATE — split-flap */
+  #dLabel { font-size: 30px; font-weight: 800; letter-spacing: .42em; color: var(--amber); top: 300px; }
+  .v #dLabel { top: 330px; font-size: 32px; }
+  #flaps { position: absolute; left: 0; right: 0; top: 410px; display: flex; justify-content: center; gap: 28px; }
+  .v #flaps { flex-direction: column; align-items: center; top: 440px; gap: 26px; }
+  .flap { position: relative; border-radius: 22px; padding: 6px 34px; overflow: hidden;
+    background: linear-gradient(#1b2131 0 50%, #151a27 50% 100%); box-shadow: 0 30px 70px rgba(0,0,0,.65), inset 0 0 0 1px rgba(255,255,255,.07); }
+  .flap span { display: block; font: 800 200px/1.08 'JetBrains Mono', monospace; color: #f8fafc; transform-origin: 50% 50%; }
+  .v .flap span { font-size: 230px; }
+  .flap::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 4px; margin-top: -2px; background: #05070d; }
+  .flap .shade { position: absolute; inset: 0; background: #000; opacity: 0; pointer-events: none; }
+
+  /* PP — dokumen */
+  #doc { left: 410px; top: 140px; width: 1100px; height: 800px; border-radius: 26px; background: #f8fafc; color: #0f172a; padding: 70px 90px;
+    box-shadow: 0 60px 120px rgba(0,0,0,.6); transform-origin: 50% 100%; overflow: hidden; }
+  .v #doc { left: 70px; top: 330px; width: 940px; height: 1060px; padding: 70px 64px; }
+  #doc .k { font-size: 24px; font-weight: 800; letter-spacing: .28em; color: #475569; }
+  #doc .n { position: relative; display: inline-block; margin-top: 18px; font-size: 76px; font-weight: 800; letter-spacing: -.01em; }
+  .v #doc .n { font-size: 64px; }
+  #doc .n .mk { position: absolute; left: -10px; right: -10px; bottom: 6px; height: 30px; background: var(--amber); opacity: .55; transform-origin: 0 50%; z-index: -1; }
+  #doc .n b { position: relative; }
+  #doc .s { position: relative; display: inline-block; margin-top: 18px; font-size: 32px; font-weight: 600; color: #334155; line-height: 1.35; }
+  #doc .s .mk { position: absolute; left: -8px; right: -8px; bottom: 2px; height: 18px; background: #93c5fd; opacity: .6; transform-origin: 0 50%; z-index: -1; }
+  #doc .s span { position: relative; }
+  #doc .lines { margin-top: 44px; }
+  .h #doc .lines i.vx { display: none !important; }
+  #doc .lines i { display: block; height: 16px; border-radius: 8px; background: #e2e8f0; margin-bottom: 18px; }
+  #doc .f { position: absolute; left: 90px; right: 90px; bottom: 60px; font-size: 22px; color: #64748b; font-weight: 600; }
+  .v #doc .f { left: 64px; right: 64px; }
+  #stampPP { position: absolute; right: 80px; bottom: 150px; padding: 18px 34px; border: 9px solid #dc2626; border-radius: 18px; color: #dc2626;
+    font-weight: 800; font-size: 34px; letter-spacing: .2em; text-align: center; line-height: 1.1; background: rgba(254,226,226,.35); }
+  #stampPP b { display: block; font-size: 64px; letter-spacing: .02em; font-family: 'JetBrains Mono', monospace; }
+  .v #stampPP { right: 60px; bottom: 170px; }
+
+  /* WAJIB — checklist */
+  #wTitle { left: 240px; top: 150px; font-size: 30px; font-weight: 800; letter-spacing: .34em; color: var(--amber); }
+  .v #wTitle { left: 60px; top: 330px; }
+  #wRows { left: 240px; top: 230px; width: 1440px; }
+  .v #wRows { left: 60px; top: 400px; width: 960px; }
+  .row { position: relative; display: flex; align-items: center; gap: 30px; height: 108px; padding: 0 36px; margin-bottom: 18px; border-radius: 22px;
+    background: rgba(255,255,255,.045); border: 1px solid rgba(251,191,36,.2); overflow: hidden; }
+  .v .row { display: grid; grid-template-columns: 58px 1fr; column-gap: 26px; row-gap: 6px; align-content: center; height: 166px; padding: 0 30px; }
+  .row .fl { position: absolute; inset: 0; background: var(--amber); opacity: 0; }
+  .box { position: relative; width: 58px; height: 58px; flex: none; border-radius: 14px; border: 5px solid var(--amber); }
+  .box svg { position: absolute; left: 4px; top: 4px; }
+  .v .box { grid-row: span 2; }
+  .tx { position: relative; flex: 1; font-size: 40px; font-weight: 700; color: #f8fafc; }
+  .v .tx { font-size: 38px; line-height: 1.15; }
+  .ps { position: relative; font-size: 24px; color: var(--mute); font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+  .v .ps { font-size: 22px; }
+
+  /* SIAP */
+  #q1 { top: 340px; font-size: 64px; font-weight: 600; color: #cbd5e1; }
+  #q2 { top: 420px; font-size: 200px; font-weight: 800; letter-spacing: -.03em; line-height: 1; color: #fff; }
+  #q2 span { color: var(--amber); }
+  .v #q1 { top: 600px; font-size: 62px; }
+  .v #q2 { top: 690px; font-size: 220px; line-height: .98; }
+
+  /* NEXUS — pemetaan */
+  #nLogo { left: 0; right: 0; top: 380px; display: flex; flex-direction: column; align-items: center; transform-origin: 50% 0; }
+  #nLogo img { width: 900px; }
+  #nLogo .nx, #cLogo .nx { margin-top: 20px; font-size: 54px; font-weight: 800; letter-spacing: .6em; padding-left: .6em; color: var(--sky); }
+  .v #nLogo { top: 700px; }
+  .v #nLogo img { width: 880px; }
+  #nRows { left: 150px; top: 300px; width: 1620px; }
+  .v #nRows { left: 60px; top: 470px; width: 960px; }
+  .nrow { position: relative; height: 98px; margin-bottom: 18px; }
+  .v .nrow { height: 150px; margin-bottom: 16px; }
+  .nob { position: absolute; left: 0; top: 0; width: 820px; height: 100%; display: flex; align-items: center; gap: 26px; padding: 0 30px; border-radius: 20px;
+    background: rgba(15,23,42,.72); border: 1px solid rgba(96,165,250,.28); }
+  .v .nob { width: 960px; align-items: flex-start; padding-top: 22px; }
+  .nob .box { border-color: rgba(56,189,248,.55); width: 52px; height: 52px; }
+  .nob .box.on { background: var(--blue); border-color: var(--blue); box-shadow: 0 0 30px rgba(37,99,235,.8); }
+  .nob .tx { font-size: 32px; }
+  .v .nob .tx { font-size: 34px; }
+  .chip { position: absolute; left: 1100px; top: 50%; margin-top: -40px; height: 80px; min-width: 520px; padding: 0 30px; border-radius: 40px; display: flex; align-items: center; gap: 18px;
+    background: linear-gradient(90deg, #2563eb, #0891b2); font-size: 32px; font-weight: 800; color: #fff; box-shadow: 0 16px 40px rgba(37,99,235,.45); white-space: nowrap; }
+  .chip small { font-size: 18px; font-weight: 700; opacity: .8; letter-spacing: .14em; }
+  .v .chip { left: auto; right: 24px; top: auto; bottom: 16px; margin-top: 0; height: 58px; min-width: 0; font-size: 26px; padding: 0 24px; }
+  .v .chip small { font-size: 15px; }
+  .link { position: absolute; left: 820px; top: 0; width: 280px; height: 100%; overflow: visible; }
+  .v .link { display: none; }
+  #nMap { left: 480px; top: 905px; width: 960px; }
+  .v #nMap { left: 90px; top: 1312px; width: 900px; }
+  #nMap .lbl { font-size: 20px; color: var(--mute); font-weight: 600; letter-spacing: .06em; margin-bottom: 12px; text-align: center; }
+  #nMap .cells { display: grid; grid-template-columns: repeat(48, 1fr); gap: 6px; }
+  .v #nMap .cells { grid-template-columns: repeat(36, 1fr); gap: 7px; }
+  #nMap .cells i { display: block; aspect-ratio: 1; border-radius: 3px; background: rgba(148,163,184,.16); }
+  #nMap .cells i.on { background: #38bdf8; box-shadow: 0 0 8px rgba(56,189,248,.8); }
+
+  /* CTA */
+  #cLogo { left: 0; right: 0; top: 120px; display: flex; flex-direction: column; align-items: center; }
+  #cLogo img { width: 560px; }
+  #cLogo .nx { font-size: 36px; margin-top: 12px; }
+  .v #cLogo { top: 270px; }
+  .v #cLogo img { width: 760px; }
+  .v #cLogo .nx { font-size: 48px; }
+  #cPre { top: 355px; font-size: 50px; font-weight: 700; color: #cbd5e1; }
+  .v #cPre { top: 620px; font-size: 56px; }
+  #cDate { top: 420px; font-size: 200px; font-weight: 800; letter-spacing: -.02em; line-height: 1; }
+  #cDate span { display: inline-block; background: linear-gradient(180deg, #fff 20%, #7dd3fc); -webkit-background-clip: text; color: transparent; }
+  .v #cDate { top: 700px; }
+  .v #cDate span { display: block; }
+  .v #cDate .a { font-size: 200px; }
+  .v #cDate .b { font-size: 250px; }
+  #cBtn { left: 0; right: 0; margin: 0 auto; width: max-content; top: 690px; padding: 26px 66px; border-radius: 999px; overflow: hidden;
+    background: linear-gradient(90deg, #2563eb, #06b6d4); font-size: 46px; font-weight: 800; color: #fff; box-shadow: 0 24px 70px rgba(37,99,235,.55); }
+  .v #cBtn { top: 1220px; font-size: 52px; }
+  #cBtn .shine { position: absolute; top: 0; bottom: 0; width: 130px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.6), transparent); transform: skewX(-20deg); }
+  #cFoot { top: 840px; font-size: 24px; color: var(--mute); font-weight: 600; letter-spacing: .08em; }
+  .v #cFoot { top: 1375px; }
+  #cFade { position: absolute; inset: 0; background: #000; opacity: 0; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="bg"></canvas>
+  <svg id="ring" xmlns="http://www.w3.org/2000/svg"><g id="rg"></g></svg>
+  <div id="ringLbl">16.01.2027</div>
+
+  <section class="scene" id="s-date">
+    <div class="full" id="dLabel">TANDAI TANGGALNYA</div>
+    <div id="flaps">
+      <div class="flap" id="fD"><span>16</span><div class="shade"></div></div>
+      <div class="flap" id="fM"><span>JUL</span><div class="shade"></div></div>
+      <div class="flap" id="fY"><span>2026</span><div class="shade"></div></div>
+    </div>
+  </section>
+
+  <section class="scene" id="s-pp">
+    <div class="abs" id="doc">
+      <div class="k">PERATURAN PEMERINTAH REPUBLIK INDONESIA</div>
+      <div class="n"><i class="mk"></i><b>NOMOR 33 TAHUN 2026</b></div><br>
+      <div class="s"><i class="mk"></i><span>Peraturan pelaksana UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi</span></div>
+      <div class="lines"><i style="width:96%"></i><i style="width:88%"></i><i style="width:92%"></i><i style="width:70%"></i><i style="width:84%"></i><i style="width:60%"></i><i class="vx" style="width:94%"></i><i class="vx" style="width:86%"></i><i class="vx" style="width:90%"></i><i class="vx" style="width:66%"></i></div>
+      <div class="f">Diundangkan 16 Juli 2026 · berlaku 6 bulan sejak diundangkan (Pasal 225)</div>
+      <div id="stampPP">BERLAKU<b>16.01.2027</b></div>
+    </div>
+  </section>
+
+  <section class="scene" id="s-wajib">
+    <div class="abs" id="wTitle">YANG WAJIB SIAP</div>
+    <div class="abs" id="wRows"></div>
+  </section>
+
+  <section class="scene" id="s-siap">
+    <div class="full" id="q1">Organisasi Anda,</div>
+    <div class="full" id="q2"></div>
+  </section>
+
+  <section class="scene" id="s-nexus">
+    <div class="abs" id="nLogo"><img src="../assets/privasimu_logo.png" alt=""><div class="nx">NEXUS</div></div>
+    <div class="abs" id="nRows"></div>
+    <div class="abs" id="nMap"><div class="lbl">PETA CAKUPAN PER PASAL · UU PDP + PP 33/2026</div><div class="cells"></div></div>
+  </section>
+
+  <section class="scene" id="s-cta">
+    <div class="abs" id="cLogo"><img src="../assets/privasimu_logo.png" alt=""><div class="nx">NEXUS</div></div>
+    <div class="full" id="cPre">Siap sebelum</div>
+    <div class="full" id="cDate"><span class="a">16.01.</span><span class="b">2027</span></div>
+    <div class="abs" id="cBtn">privasimu.com<div class="shine"></div></div>
+    <div class="full" id="cFoot">support@privasimu.com · 0851 8318 2722</div>
+    <div id="cFade"></div>
+  </section>
+
+  <canvas id="grain" width="480" height="270"></canvas>
+  <div id="vignette"></div>
+  <div id="flash"></div>
+  <div id="black"></div>
+</div>
+
+<script src="../lib/wordtime.js"></script>
+<script src="../lib/engine.js"></script>
+<script src="scenes.js"></script>
+<script src="timeline.js"></script>
+<script>
+(function () {
+  const { width: SW, height: SH, V, cl, P, lerp, E, hash, tf, shakeAmt, pick, wt } = MG;
+  const { FLAPS, FLIP_TIMES, LAND, DUTIES, CHECK_STEP, checkStart } = PRV;
+  const TL = window.TIMELINE, B = TL.beat || 0.5;
+  const $ = (s) => document.querySelector(s);
+  const SC = Object.fromEntries(TL.scenes.map((s) => [s.id, s]));
+  const CHECK_SVG = '<svg width="40" height="40" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>';
+
+  // ---------- cincin jam (motif) ----------
+  const NS = 'http://www.w3.org/2000/svg';
+  const ring = $('#ring'); ring.setAttribute('width', SW); ring.setAttribute('height', SH);
+  const rg = $('#rg');
+  const mk = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); rg.appendChild(e); return e; };
+  const track = mk('circle', { r: 100, fill: 'none', 'stroke-width': 2, 'vector-effect': 'non-scaling-stroke' });
+  const ticks = [];
+  for (let i = 0; i < 60; i++) {
+    const a = i / 60 * Math.PI * 2, r0 = i % 5 === 0 ? 86 : 92;
+    ticks.push(mk('line', { x1: Math.sin(a) * r0, y1: -Math.cos(a) * r0, x2: Math.sin(a) * 100, y2: -Math.cos(a) * 100, 'stroke-width': i % 5 === 0 ? 3 : 1.5, 'vector-effect': 'non-scaling-stroke' }));
+  }
+  const arc = mk('circle', { r: 100, fill: 'none', 'stroke-width': 6, 'vector-effect': 'non-scaling-stroke', pathLength: 100, 'stroke-dasharray': 100, transform: 'rotate(-90)', 'stroke-linecap': 'round' });
+  const hand = mk('line', { x1: 0, y1: 12, x2: 0, y2: -80, 'stroke-width': 3, 'stroke-linecap': 'round', 'vector-effect': 'non-scaling-stroke' });
+  const hub = mk('circle', { r: 4 });
+  function setRing({ cx, cy, r, color = '#fbbf24', a = 1, ang = 0, o = 1, lit = 60, hand: ho = 1, hub: hb = ho }) {
+    rg.setAttribute('transform', `translate(${cx} ${cy}) scale(${r / 100})`);
+    rg.style.opacity = o;
+    track.setAttribute('stroke', color); track.style.opacity = .22;
+    ticks.forEach((l, i) => { l.setAttribute('stroke', color); l.style.opacity = i < lit ? .85 : .2; });
+    arc.setAttribute('stroke', color); arc.setAttribute('stroke-dashoffset', 100 * (1 - a));
+    hand.setAttribute('stroke', color); hand.setAttribute('transform', `rotate(${ang})`); hand.style.opacity = ho;
+    hub.setAttribute('fill', color); hub.style.opacity = hb;
+    ring.style.filter = `drop-shadow(0 0 ${r > 200 ? 18 : 8}px ${color}66)`;
+  }
+  // Jarum bergerak satu langkah tiap ketukan, sinkron dengan detak jam di musik
+  const tickAngle = (t) => { const k = Math.floor(t / B); return (k + E.outBack(P(t - k * B, 0, .12))) * 6; };
+  const CORNER = V ? { cx: 132, cy: 238, r: 62 } : { cx: 1760, cy: 150, r: 72 };
+  const lbl = $('#ringLbl');
+  function setLbl(o) {
+    lbl.style.opacity = o;
+    if (V) { lbl.style.left = (CORNER.cx + CORNER.r + 22) + 'px'; lbl.style.top = (CORNER.cy - 14) + 'px'; }
+    else { lbl.style.left = (CORNER.cx - 76) + 'px'; lbl.style.top = (CORNER.cy + CORNER.r + 16) + 'px'; }
+  }
+
+  // ---------- bangun DOM ----------
+  const wRows = $('#wRows'), rowsW = DUTIES.map((d) => {
+    const el = document.createElement('div'); el.className = 'row';
+    el.innerHTML = `<div class="fl"></div><div class="box"></div><div class="tx">${d.text}</div><div class="ps">${d.pasal}</div>`;
+    wRows.appendChild(el); return el;
+  });
+  $('#q2').innerHTML = V ? 'sudah<br>siap<span>?</span>' : 'sudah siap<span>?</span>';
+  const nRows = $('#nRows'), rowsN = DUTIES.map((d) => {
+    const el = document.createElement('div'); el.className = 'nrow';
+    el.innerHTML = `<div class="nob"><div class="box">${CHECK_SVG}</div><div class="tx">${d.text}</div></div>
+      <svg class="link" viewBox="0 0 280 98" preserveAspectRatio="none"><path d="M0,49 C140,49 140,49 280,49" fill="none" stroke="#38bdf8" stroke-width="3" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/><circle cx="280" cy="49" r="7" fill="#38bdf8"/></svg>
+      <div class="chip"><small>MODUL</small>${d.module}</div>`;
+    nRows.appendChild(el); return el;
+  });
+  const cellsEl = $('#nMap .cells'), NCELL = V ? 108 : 144;
+  const cells = Array.from({ length: NCELL }, (_, i) => { const c = document.createElement('i'); cellsEl.appendChild(c); return { el: c, k: hash(i + 7) }; });
+
+  // ---------- latar ----------
+  const bg = $('#bg'), cx = bg.getContext('2d');
+  const grain = $('#grain'), gx = grain.getContext('2d');
+  const DUST = Array.from({ length: 70 }, (_, i) => ({ x: hash(i + 1) * SW, y: hash(i + 101) * SH, s: .8 + hash(i + 201) * 2.2, v: 6 + hash(i + 301) * 22 }));
+  function drawBg(t, id, lt) {
+    const cool = id === 'nexus' || id === 'cta';
+    const g = cx.createRadialGradient(SW / 2, SH * .45, 40, SW / 2, SH / 2, Math.max(SW, SH) * .8);
+    if (cool) { g.addColorStop(0, '#12367f'); g.addColorStop(.55, '#071433'); g.addColorStop(1, '#02050e'); }
+    else if (id === 'siap') {
+      const beatPulse = Math.exp(-((lt % 1) * 7));
+      g.addColorStop(0, `rgba(${70 + 50 * beatPulse},16,20,1)`); g.addColorStop(1, '#030305');
+    } else { g.addColorStop(0, '#2a1d06'); g.addColorStop(.5, '#0b0906'); g.addColorStop(1, '#030305'); }
+    cx.fillStyle = g; cx.fillRect(0, 0, SW, SH);
+    // grid titik
+    cx.fillStyle = cool ? 'rgba(125,211,252,.10)' : 'rgba(251,191,36,.07)';
+    const step = 44, off = (t * 10) % step;
+    for (let y = -step; y < SH + step; y += step) for (let x = 0; x < SW + step; x += step) cx.fillRect(x - off, y + off * .5, 2, 2);
+    // debu
+    cx.fillStyle = cool ? 'rgba(125,211,252,.6)' : 'rgba(253,230,138,.5)';
+    for (const p of DUST) {
+      const y = ((p.y - t * p.v) % SH + SH) % SH;
+      cx.globalAlpha = .2 + .3 * Math.sin(t * 1.7 + p.x);
+      cx.beginPath(); cx.arc(p.x, y, p.s, 0, 7); cx.fill();
+    }
+    cx.globalAlpha = 1;
+    const img = gx.createImageData(480, 270), seed = Math.floor(t * 30);
+    for (let i = 0; i < img.data.length; i += 4) { const v = hash(i * .37 + seed * 13.1) * 255; img.data[i] = img.data[i + 1] = img.data[i + 2] = v; img.data[i + 3] = 255; }
+    gx.putImageData(img, 0, 0);
+  }
+
+  // kamera: dorongan pelan + guncangan
+  function cam(id, lt, dur, sh = 0, push = .035) {
+    const el = $('#s-' + id), s = 1 + push * (lt / dur);
+    el.style.transform = `translate(${(hash(lt * 91) - .5) * sh}px, ${(hash(lt * 71) - .5) * sh}px) scale(${s})`;
+  }
+
+  // ---------- scene ----------
+  const R = {};
+  R.date = (lt, d) => {
+    // split-flap
+    let idx = 0; FLIP_TIMES.forEach((ft) => { if (lt >= ft) idx++; });
+    const lastFlip = FLIP_TIMES[idx - 1] ?? -9, k = P(lt, lastFlip, lastFlip + .11);
+    const flipping = k > 0 && k < 1;
+    const cur = FLAPS[idx], prev = FLAPS[Math.max(0, idx - 1)];
+    const show = flipping && k < .5 ? prev : cur;
+    const sy = flipping ? Math.abs(1 - 2 * k) : 1;
+    const m = $('#fM span'), y = $('#fY span');
+    m.textContent = show[0]; y.textContent = show[1];
+    m.style.transform = `scaleY(${sy})`;
+    y.style.transform = `scaleY(${prev[1] !== cur[1] ? sy : 1})`;
+    $('#fM .shade').style.opacity = flipping ? .5 * (1 - sy) : 0;
+    const landed = lt >= LAND, kl = P(lt, LAND, LAND + .5);
+    ['#fD', '#fM', '#fY'].forEach((s, i) => {
+      const el = $(s), ki = E.outBack(P(lt, i * .06, i * .06 + .4));
+      tf(el, { y: (1 - ki) * 60, s: (landed ? 1 + .06 * (1 - E.out3(kl)) : 1) * (.9 + .1 * ki), o: cl(ki * 1.4) });
+      el.style.boxShadow = landed ? `0 30px 70px rgba(0,0,0,.65), 0 0 ${70 * (1 - kl) + 26}px rgba(251,191,36,${.55 - .3 * kl}), inset 0 0 0 3px rgba(251,191,36,.9)` : '';
+      el.querySelector('span').style.color = landed ? '#fde68a' : '#f8fafc';
+    });
+    const kL = E.out3(P(lt, LAND + .15, LAND + .7));
+    tf($('#dLabel'), { y: (1 - kL) * -20, o: kL, blur: (1 - kL) * 6 });
+    const out = E.io3(P(lt, d - .5, d));
+    $('#flaps').style.opacity = 1 - P(lt, d - .3, d);
+    $('#dLabel').style.opacity = kL * (1 - P(lt, d - .3, d));
+    const C = { cx: SW / 2, cy: V ? 960 : 540, r: V ? 500 : 440 };
+    setRing({
+      cx: lerp(C.cx, CORNER.cx, out), cy: lerp(C.cy, CORNER.cy, out), r: lerp(C.r, CORNER.r, out),
+      a: E.io3(P(lt, .1, LAND)), ang: tickAngle(lt + 0) + lt * 40, o: P(lt, 0, .3), lit: Math.round(60 * P(lt, .1, LAND)),
+    });
+    setLbl(P(lt, d - .2, d));
+    cam('date', lt, d, shakeAmt(lt, [LAND], .35, 22), .04);
+  };
+
+  R.pp = (lt, d) => {
+    const kd = E.out3(P(lt, 0, .7));
+    tf($('#doc'), { y: (1 - kd) * 500, rx: (1 - kd) * 35, s: .92 + .08 * kd, o: cl(kd * 2) });
+    const tPP = wt('pp', 'PP', 1.2), tAt = wt('pp', 'aturan', 4.3), tB = wt('pp', 'berlaku', 6.6);
+    $('#doc .n .mk').style.transform = `scaleX(${E.io3(P(lt, tPP, tPP + .45))})`;
+    $('#doc .s .mk').style.transform = `scaleX(${E.io3(P(lt, tAt, tAt + .8))})`;
+    const ks = P(lt, tB - .06, tB + .14);
+    tf($('#stampPP'), { s: lerp(2.6, 1, E.outExpo(ks)), r: -12, o: ks > 0 ? 1 : 0 });
+    setRing({ ...CORNER, a: 1, ang: tickAngle(SC.pp.start + lt), o: 1 });
+    setLbl(1);
+    $('#s-pp').style.opacity = 1 - P(lt, d - .25, d);
+    cam('pp', lt, d, shakeAmt(lt, [tB], .3, 16), .03);
+  };
+
+  R.wajib = (lt, d) => {
+    tf($('#wTitle'), { x: (1 - E.out3(P(lt, 0, .5))) * -40, o: P(lt, 0, .4) });
+    const tAll = wt('wajib', 'semua', 9.7);
+    const alarm = lt >= tAll;
+    rowsW.forEach((el, i) => {
+      const tw = wt('wajib', DUTIES[i].word, .3 + i), k = P(lt, tw - .04, tw + .3);
+      tf(el, { x: (1 - E.outBack(k)) * -90, o: cl(k * 2.5), s: 1 });
+      el.querySelector('.fl').style.opacity = .35 * (1 - P(lt, tw, tw + .45)) * (k > 0 ? 1 : 0);
+      const blink = alarm && Math.floor((lt - tAll) / .25) % 2 === 0;
+      const box = el.querySelector('.box');
+      box.style.borderColor = blink ? '#ef4444' : '#fbbf24';
+      box.style.boxShadow = blink ? '0 0 24px rgba(239,68,68,.9)' : 'none';
+      el.style.borderColor = alarm ? 'rgba(239,68,68,.45)' : 'rgba(251,191,36,.2)';
+    });
+    setRing({ ...CORNER, a: 1, ang: tickAngle(SC.wajib.start + lt), o: 1, color: alarm ? '#ef4444' : '#fbbf24' });
+    lbl.style.color = alarm ? '#ef4444' : '#fbbf24';
+    setLbl(1 - P(lt, d - .3, d));
+    $('#s-wajib').style.opacity = 1 - P(lt, d - .2, d);
+    cam('wajib', lt, d, shakeAmt(lt, [...DUTIES.map((x) => wt('wajib', x.word, 99)), tAll], .22, 9), .025);
+  };
+
+  R.siap = (lt, d) => {
+    lbl.style.color = '#fbbf24';
+    setLbl(0);
+    const k1 = E.out3(P(lt, .2, .7)), t2 = wt('siap', 'sudah', 1.9), k2 = P(lt, t2 - .05, t2 + .3);
+    const beat = Math.exp(-((lt % 1) * 9)) * (lt > .1 ? 1 : 0);
+    const suck = E.in3(P(lt, d - .45, d - .08));
+    tf($('#q1'), { y: (1 - k1) * 30, o: k1 * (1 - suck), s: 1 - suck * .8 });
+    tf($('#q2'), { s: lerp(1.5, 1, E.outExpo(k2)) * (1 + .025 * beat) * (1 - suck * .9), o: (k2 > 0 ? 1 : 0) * (1 - suck), blur: suck * 8 });
+    const C = { cx: SW / 2, cy: V ? 880 : 540 };
+    const into = E.io3(P(lt, 0, .6));
+    const r = lerp(CORNER.r, lerp(V ? 560 : 560, V ? 470 : 420, E.io3(P(lt, .6, d - .5))), into) * (1 - suck);
+    setRing({ cx: lerp(CORNER.cx, C.cx, into), cy: lerp(CORNER.cy, C.cy, into), r: Math.max(r, 1), a: 1, ang: lt * 540, o: 1 - P(lt, d - .15, d), color: '#f87171', hand: .45, hub: 0 });
+    $('#black').style.opacity = P(lt, d - .22, d - .1);
+    cam('siap', lt, d, 0, .05);
+  };
+
+  R.nexus = (lt, d) => {
+    $('#black').style.opacity = 0;
+    $('#flash').style.opacity = Math.max(0, .9 - lt / .35);
+    const tMap = wt('nexus', 'memetakan', 1.8) - .1;
+    const kUp = E.io3(P(lt, tMap, tMap + .7));
+    const kIn = E.out3(P(lt, 0, .8));
+    const logo = $('#nLogo');
+    logo.style.top = lerp(V ? 700 : 380, V ? 250 : 70, kUp) + 'px';
+    tf(logo, { s: lerp(lerp(1.2, 1, kIn), V ? .72 : .5, kUp), o: kIn, blur: (1 - kIn) * 10 });
+    // gelombang cincin biru
+    setRing({ cx: SW / 2, cy: V ? 900 : 480, r: 80 + E.out3(P(lt, 0, 1.2)) * (V ? 1100 : 1200), a: 1, ang: 0, o: 1 - P(lt, 0, 1.2), color: '#38bdf8', hand: 0 });
+    const t0 = checkStart(SC.nexus);
+    rowsN.forEach((el, i) => {
+      const ta = tMap + .35 + i * .09, k = E.out3(P(lt, ta, ta + .4));
+      tf(el, { x: (1 - k) * -80, o: k });
+      const tc = t0 + i * CHECK_STEP, kc = P(lt, tc, tc + .25), on = lt >= tc;
+      const box = el.querySelector('.box');
+      box.classList.toggle('on', on);
+      box.style.transform = `scale(${on ? 1 + .25 * (1 - E.out3(kc)) : 1})`;
+      box.querySelector('path').setAttribute('stroke-dashoffset', 1 - E.out3(kc));
+      el.querySelector('.nob').style.borderColor = on ? 'rgba(56,189,248,.8)' : 'rgba(96,165,250,.28)';
+      el.querySelector('.link path').setAttribute('stroke-dashoffset', 1 - E.io3(P(lt, tc, tc + .3)));
+      el.querySelector('.link circle').style.opacity = P(lt, tc + .25, tc + .3);
+      const kch = E.outBack(P(lt, tc + (V ? 0 : .2), tc + (V ? .35 : .55)));
+      tf(el.querySelector('.chip'), { x: (1 - kch) * 60, s: .7 + .3 * kch, o: cl(kch * 1.5) });
+    });
+    const tK = wt('nexus', 'kewajiban', 1.9), kM = E.out3(P(lt, tK, tK + .4));
+    tf($('#nMap'), { y: (1 - kM) * 30, o: kM });
+    const span = [tK + .2, t0 + DUTIES.length * CHECK_STEP];
+    cells.forEach((c, i) => c.el.classList.toggle('on', lt >= lerp(span[0], span[1], (c.k * .75 + (i / NCELL) * .25))));
+    $('#s-nexus').style.opacity = 1 - P(lt, d - .25, d);
+    cam('nexus', lt, d, shakeAmt(lt, [0], .4, 18), .02);
+  };
+
+  R.cta = (lt, d) => {
+    const kl = E.out3(P(lt, 0, .7));
+    tf($('#cLogo'), { y: (1 - kl) * -40, o: kl });
+    const kp = E.out3(P(lt, .25, .8));
+    tf($('#cPre'), { y: (1 - kp) * 20, o: kp });
+    const tD = wt('cta', 'enam', .9), kd = P(lt, tD - .05, tD + .3);
+    tf($('#cDate'), { s: lerp(1.5, 1, E.outExpo(kd)), o: kd > 0 ? 1 : 0 });
+    const tB = wt('cta', 'privasimu', 3.4) - .15, kb = E.outBack(P(lt, tB, tB + .45));
+    tf($('#cBtn'), { s: .5 + .5 * kb, o: cl(kb) });
+    $('#cBtn .shine').style.left = lerp(-200, 700, P((lt - tB - .5) % 2, 0, .8)) + 'px';
+    tf($('#cFoot'), { o: E.out3(P(lt, tB + .4, tB + .9)) });
+    setRing({ cx: SW / 2, cy: V ? 960 : 520, r: V ? 500 : 430, a: E.io3(P(lt, .1, 1.6)), ang: lt * 30, o: .5 * P(lt, 0, .5), color: '#7dd3fc', lit: Math.round(60 * P(lt, .1, 1.6)), hand: 0 });
+    $('#cFade').style.opacity = P(lt, d - .7, d);
+    ring.style.opacity = 1 - P(lt, d - .7, d);
+    cam('cta', lt, d, shakeAmt(lt, [tD], .25, 10), .03);
+  };
+
+  MG.boot({
+    R, drawBg,
+    pre: (t, cur) => {
+      ring.style.opacity = 1;
+      if (cur.id !== 'nexus') $('#flash').style.opacity = 0;
+      if (cur.id !== 'siap' && cur.id !== 'nexus') $('#black').style.opacity = 0;
+      if (cur.id !== 'pp' && cur.id !== 'wajib' && cur.id !== 'date') setLbl(0);
+    },
+  });
+})();
+</script>
+</body>
+</html>

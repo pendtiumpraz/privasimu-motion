@@ -1,0 +1,77 @@
+NASKAH 04 — "ROPA FINAL REVISI DUA" (DARI SPREADSHEET KE REGISTER)
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 30–35 detik (ada versi 15 detik di bawah)
+Format     : 16:9 dan 9:16
+Sasaran    : DPO/PPDP, tim compliance, kepala divisi yang mengisi RoPA
+Nada       : jenaka dan relatable di awal, lalu solutif
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November (edukasi kewajiban)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N04_S1, N04_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N04), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik
+VO     : "RoPA final. RoPA final revisi. RoPA final revisi dua... Familiar?"
+Arahan : jenaka, sedikit menyindir. "Familiar?" dengan senyum.
+Layar  : folder penuh file RoPA_final.xlsx, RoPA_final_REVISI.xlsx, RoPA_final_REVISI(2).xlsx.
+
+[S2] ± 7 detik
+VO     : "PP tiga puluh tiga merinci isi minimal catatan pemrosesan data. Kalau masih tersebar di spreadsheet per divisi, siap-siap repot."
+Arahan : informatif, kalimat kedua sedikit bercanda.
+Layar  : daftar isi minimal RoPA (PP 33/2026 Ps. 74) di samping spreadsheet yang berantakan.
+
+[S3] ± 7 detik
+VO     : "Di Privasimu Nexus, RoPA diisi lewat wizard bertahap, bisa dibantu AI, dengan alur maker, reviewer, dan approver."
+Arahan : jelas dan lancar.
+Layar  : wizard RoPA langkah demi langkah, tombol "isi dengan AI", alur persetujuan tiga tahap.
+
+[S4] ± 5 detik
+VO     : "Data spesifik otomatis ditandai berisiko tinggi, dan langsung memicu draf DPIA."
+Arahan : tekan "otomatis".
+Layar  : label risiko TINGGI menyala, panah ke draf DPIA baru.
+
+[S5] ± 5 detik
+VO     : "Setiap perubahan tercatat di log audit. Satu register, bukan puluhan file."
+Arahan : mantap.
+Layar  : log audit bergulir; tumpukan file menyatu menjadi satu register.
+
+[S6] ± 5 detik
+VO     : "Privasimu Nexus. Saatnya pensiunkan RoPA final revisi dua. Kunjungi privasimu dot com."
+Arahan : jenaka lagi di "pensiunkan", lalu CTA jelas.
+Layar  : file RoPA_final_REVISI(2).xlsx terbang ke tempat sampah, logo + tombol privasimu.com.
+
+
+VERSI 15 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S5 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+RoPA                       : "ro-pa"
+DPIA                       : "de-pe-i-a" (atau "di-pi-ai-ei", pilih satu dan konsisten)
+AI                         : "a-i" (atau "ei-ai", konsisten)
+maker, reviewer, approver  : dibaca bahasa Inggris
+privasimu.com              : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Isi minimal catatan kegiatan pemrosesan (RoPA): UU PDP Pasal 31 jo. PP 33/2026 Pasal 74.
+- Modul RoPA: wizard bertahap, pengisian berbantuan AI, alur Maker–Reviewer–Approver dengan riwayat perubahan,
+  data spesifik otomatis menandai risiko TINGGI, RoPA berisiko TINGGI otomatis membuat draf DPIA,
+  setiap perubahan tercatat di log audit (fakta_produk.json: ropa).

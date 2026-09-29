@@ -1,0 +1,70 @@
+NASKAH M02 — "JANGAN CEK SKORNYA" (GAP ASSESSMENT)
+================================================================
+Jenis      : VIDEO MODUL, seri "Nexus Explained" (1 modul = 1 video)
+Durasi     : ± 48 detik
+Format     : 16:9 dan 9:16
+Sasaran    : DPO/PPDP, tim legal & kepatuhan, manajemen yang merasa "sudah patuh"
+Nada       : hook psikologi terbalik (dilarang cek → penasaran), lalu tenang dan meyakinkan
+Pengisi    : 1 suara (pria atau wanita)
+Video      : SUDAH DIRAKIT (folder motion/m02-gap). Suara sementara = TTS; VN tim bisa dipasang kapan saja
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: M02_S1, M02_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (M02), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Lafal: "GAP Assessment" (gep e-ses-men), "UU PDP" (u-u pe-de-pe), "AI" (e-ai), "Start Pre Check" (start pri cek).
+4. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note). Format bebas: .wav, .m4a, .mp3.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 4,5 detik
+VO     : "Jangan cek skor kepatuhan perusahaanmu."
+Arahan : setengah berbisik, seperti memberi peringatan serius.
+Layar  : kursor mendekati tombol "Mulai Assessment" (screenshot ASLI), gemetar, muncul tanda 🚫, kursor mundur.
+
+[S2] ± 3 detik
+VO     : "Kalau belum siap kaget."
+Arahan : jeda sebentar sebelum "kaget"; kata itu diberi tekanan.
+Layar  : emoji 😬 membesar + bunyi "vine boom".
+
+[S3] ± 6 detik
+VO     : "Banyak organisasi merasa sudah patuh. Tapi perasaan bukan bukti."
+Layar  : "Merasa patuh ≠ Patuh ✓", "Perasaan ≠ Bukti", lalu stempel "BUTUH BUKTI".
+
+[S4] ± 8 detik
+VO     : "GAP Assessment mengukur kepatuhan UU PDP dengan indikator yang jelas, lengkap dengan skor dan riwayatnya."
+Layar  : ringkasan GAP Assessment ASLI: ringkasan asesmen, skor tertinggi 81%, grafik riwayat skor tiap versi.
+         Teks: "Ukur, jangan menebak." / "34 indikator kepatuhan UU PDP, plus pertanyaan khusus organisasimu."
+
+[S5] ± 6,5 detik
+VO     : "Hasilnya dirinci per area, jadi kelihatan mana yang sudah, dan mana yang belum."
+Layar  : hasil ASLI: compliance score 81% (UU PDP) dan skor per area 72% · 85% · 75%.
+
+[S6] ± 7,5 detik
+VO     : "Tiap temuan punya rekomendasi per pasal, dan rencana remediasi bisa disusun dengan bantuan AI."
+Layar  : rekomendasi ASLI: 9 critical · 1 high · 1 medium, kartu rekomendasi per pasal, kartu AI Remediation Plan.
+
+[S7] ± 5 detik
+VO     : "Dokumen bukti pun bisa dianalisis AI, per pertanyaan."
+Layar  : dokumen "kebijakan-privasi.pdf" → orb AI → status Memenuhi / Memenuhi sebagian / Belum memenuhi / Perlu dicek.
+         Teks kecil: "Per pertanyaan · 1 kredit per analisis · hasilnya disimpan".
+
+[S8] ± 7,5 detik
+VO     : "Berani cek? Mulai dari Start Pre Check gratis, di privasimu dot com."
+Arahan : menantang tapi ramah; senyum di "Berani cek?".
+Layar  : logo Privasimu Nexus, "Berani cek skornya?", tombol privasimu.com, chip Start Pre Check · gratis / Schedule Demo.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Semua tampilan aplikasi = screenshot ASLI frontend lama (motion/assets/app: gap-mulai, gap-ringkasan, gap-hasil,
+  gap-rekomendasi); nama pengguna diburamkan; angka di layar adalah data demo.
+- "34 indikator": panduan aplikasi GAP Assessment (lihat rancangan/sumber/data_rancangan.py, baris M02).
+- Analisis bukti AI (AI Document Analyzer): 1 kredit per analisis; pasangan dokumen + pertanyaan yang sama diambil dari
+  cache tanpa potong kredit lagi; format PDF, DOCX, XLSX (gambar belum didukung). Status: comply / partial / non_comply /
+  unsure = Memenuhi / Memenuhi sebagian / Belum memenuhi / Perlu dicek.
+- Kontak: support@privasimu.com · 0851 8318 2722 (privasimu.com). "Start Pre Check (gratis)": pastikan masih berlaku.

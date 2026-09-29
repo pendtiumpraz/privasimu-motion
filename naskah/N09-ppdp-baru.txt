@@ -1,0 +1,83 @@
+NASKAH 09 — "BARU DITUNJUK JADI PPDP?" (PELATIHAN & PENDAMPINGAN)
+================================================================
+Jenis      : IKLAN KONSULTASI + PELATIHAN (Privasimu), didukung Privasimu Nexus
+Durasi     : ± 33 detik (± 37 detik bila S5 dipakai; ada versi ± 17 detik di bawah)
+Format     : 9:16 (utama) dan 16:9
+Sasaran    : PPDP/DPO yang baru ditunjuk, HR/L&D, tim compliance, komunitas praktisi privasi
+Nada       : bersahabat, memberi semangat, seperti rekan kerja senior
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November–Januari
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N09_S1, N09_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N09), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 5 detik
+VO     : "Selamat, Anda baru ditunjuk sebagai Pejabat Pelindungan Data Pribadi. Lalu, mulai dari mana?"
+Arahan : ceria di "Selamat", lalu jujur dan sedikit bingung di "mulai dari mana?".
+Layar  : kartu nama "PPDP" baru, konfeti kecil, lalu tanda tanya besar.
+
+[S2] ± 8 detik
+VO     : "Tenang. Privasimu menyiapkan pelatihan untuk PPDP dan tim IT, dari dasar UU PDP dan PP tiga puluh tiga sampai praktik sehari-hari."
+Arahan : "Tenang." diucapkan menenangkan, jeda, lalu lancar.
+Layar  : kelas/pelatihan, modul belajar, sertifikat.
+
+[S3] ± 7 detik
+VO     : "Konsultan kami yang bersertifikasi internasional siap mendampingi saat Anda menyusun RoPA, DPIA, dan kebijakan pertama."
+Arahan : hangat, suportif.
+Layar  : konsultan dan PPDP bekerja berdampingan di depan layar.
+
+[S4] ± 6 detik
+VO     : "Sehari-hari, Anda bekerja di Privasimu Nexus: dasbor kepatuhan, antrean tugas, dan asisten AI Priva."
+Arahan : lancar, sebut "Priva" dengan jelas.
+Layar  : dasbor, antrean tugas, chat dengan asisten Priva.
+
+[S5] ± 4 detik (OPSIONAL)
+VO     : "Setiap tindakan, oleh manusia maupun AI, tercatat di log audit."
+Arahan : mantap.
+Layar  : log audit dengan ikon manusia dan ikon AI.
+
+[S6] ± 4 detik
+VO     : "Privasimu. Dari hari pertama, Anda tidak sendirian. privasimu dot com."
+Arahan : hangat, tersenyum.
+Layar  : logo Privasimu + tombol privasimu.com.
+
+
+VERSI ± 17 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S2 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+PPDP            : "pe-pe-de-pe"
+UU PDP          : "u-u pe-de-pe"
+PP              : "pe-pe"
+RoPA            : "ro-pa"
+DPIA            : "de-pe-i-a" (atau "di-pi-ai-ei", pilih satu dan konsisten)
+Priva           : "pri-va"
+AI              : "a-i" (atau "ei-ai", konsisten)
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PPDP = Pejabat Pelindungan Data Pribadi (padanan DPO) menurut UU PDP.
+- Pelatihan: Proposal Privasimu Nexus (Training & Certification untuk DPO + tim IT); platform memiliki DPO Academy
+  (LMS, rute /learn) dan halaman sertifikat.
+- Konsultan bersertifikasi internasional CIPP/E, CIPM, FIP (Company Profile 2026).
+- Modul Dukungan PPDP: dasbor kepatuhan lintas modul, antrean pekerjaan, asisten AI Priva berbasis knowledge base,
+  log audit untuk aktor manusia maupun AI (fakta_produk.json: ppdp).

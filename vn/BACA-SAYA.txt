@@ -1,0 +1,14 @@
+TARUH REKAMAN VN DARI TIM DI FOLDER INI
+=======================================
+
+Nama file mengikuti kode naskah (lihat folder ../naskah):
+  N01_S1.m4a, N01_S2.m4a, ...   satu file per bagian [S1], [S2], ...
+  atau N01.m4a                  satu file utuh, dengan jeda ± 2 detik di antara bagian
+
+Format bebas: .wav, .m4a, .mp3, .ogg/.opus (VN WhatsApp), .aac, .flac
+
+Lalu jalankan dari folder motion:
+  N01 -> node build.js ad2-pp33
+  N02 -> node build.js ad1-awareness
+
+Naskah N03–N10: kirim VN-nya, videonya dibuat setelah rekaman masuk.

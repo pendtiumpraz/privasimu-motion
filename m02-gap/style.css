@@ -1,0 +1,31 @@
+/* M02 · hook & adegan khusus */
+.m2-line { position: absolute; }
+.m2-card { position: absolute; border-radius: 22px; overflow: hidden; background: #fff; box-shadow: 0 50px 100px rgba(11,27,77,.20), 0 0 0 1px rgba(11,27,77,.07); }
+.m2-card img { display: block; }
+.m2-glow { position: absolute; border-radius: 16px; box-shadow: 0 0 0 5px rgba(47,107,255,.55), 0 0 40px rgba(47,107,255,.6); }
+.m2-ban { position: absolute; filter: drop-shadow(0 10px 20px rgba(229,72,77,.35)); }
+.m2-ban svg { width: 100%; height: 100%; }
+.m2-neq { position: absolute; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 44px; }
+.h .m2-neq.r1 { top: 330px; } .h .m2-neq.r2 { top: 600px; }
+.v .m2-neq { flex-direction: column; gap: 6px; }
+.v .m2-neq.r1 { top: 330px; } .v .m2-neq.r2 { top: 820px; }
+.m2-neq .a, .m2-neq .b { width: 640px; } .h .m2-neq .a { text-align: right; } .h .m2-neq .b { text-align: left; }
+.v .m2-neq .a, .v .m2-neq .b { width: 960px; text-align: center; }
+.m2-neq .a { font-style: italic; }
+.m2-neq .op { font: 800 120px/1 'Plus Jakarta Sans', sans-serif; color: #E5484D; }
+.v .m2-neq .op { font-size: 100px; }
+.m2-stamp { position: absolute; padding: 10px 26px; border: 7px solid #16A34A; border-radius: 16px; color: #16A34A; font: 800 40px 'Plus Jakarta Sans', sans-serif; letter-spacing: .12em; background: rgba(22,163,74,.06); white-space: nowrap; }
+.h .m2-stamp { left: 1180px; top: -40px; } .v .m2-stamp { left: 560px; top: 330px; }
+.m2-doc { position: absolute; width: 360px; padding: 30px 30px 20px; border-radius: 20px; background: #fff; box-shadow: 0 30px 60px rgba(11,27,77,.16), 0 0 0 1px rgba(11,27,77,.06); font-family: 'Plus Jakarta Sans', sans-serif; }
+.v .m2-doc { width: 500px; }
+.m2-doc .ic { font-family: 'Noto Color Emoji', sans-serif; font-size: 64px; line-height: 1; }
+.m2-doc b { display: block; margin: 12px 0 18px; font-weight: 800; font-size: 26px; color: #0B1B4D; }
+.m2-doc i { display: block; height: 10px; border-radius: 5px; background: #E3E8F2; margin-bottom: 14px; } .m2-doc i:nth-child(odd) { width: 78%; }
+.m2-orb { position: absolute; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #8FB0FF, #2F6BFF 45%, #6D4CFF 100%); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.m2-orb span { font-family: 'Noto Color Emoji', sans-serif; font-size: 54px; line-height: 1; }
+.m2-orb b { font: 800 46px 'Plus Jakarta Sans', sans-serif; color: #fff; letter-spacing: .06em; }
+.m2-res { position: absolute; display: flex; align-items: center; gap: 12px; padding: 16px 26px; border-radius: 999px; background: #fff; font: 800 30px 'Plus Jakarta Sans', sans-serif; color: #0B1B4D; white-space: nowrap;
+  box-shadow: 0 14px 30px rgba(11,27,77,.12), 0 0 0 3px var(--c); }
+.v .m2-res { font-size: 28px; padding: 14px 22px; }
+.m2-res span { font-family: 'Noto Color Emoji', sans-serif; }
+.m2-res.green { --c: rgba(22,163,74,.45); } .m2-res.amber { --c: rgba(245,158,11,.5); } .m2-res.red { --c: rgba(229,72,77,.45); } .m2-res.blue { --c: rgba(47,107,255,.45); }

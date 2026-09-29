@@ -1,0 +1,76 @@
+NASKAH 03 — "3 X 24 JAM" (INSIDEN KEBOCORAN DATA)
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 30–35 detik (ada versi 15 detik di bawah)
+Format     : 16:9 dan 9:16
+Sasaran    : CISO, tim IT/security, DPO/PPDP, legal
+Nada       : menegangkan di awal, lalu tenang dan terkendali
+Pengisi    : 1 suara (pria atau wanita)
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November (edukasi kewajiban)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N03_S1, N03_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N03), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 4 detik
+VO     : "Jam dua pagi. Ada laporan: data pelanggan Anda bocor."
+Arahan : pelan, menegangkan, seperti membuka cerita.
+Layar  : jam dinding 02:00, notifikasi merah menyala di layar HP.
+
+[S2] ± 7 detik
+VO     : "Pemberitahuan tertulis ke subjek data dan lembaga wajib dikirim paling lambat tiga kali dua puluh empat jam."
+Arahan : tegas, tekan "paling lambat".
+Layar  : penghitung mundur 72:00:00 mulai berjalan. Teks kecil: UU PDP Ps. 46 jo. PP 33/2026 Ps. 114.
+
+[S3] ± 4 detik
+VO     : "Tapi siapa pegang apa? Templatnya di mana?"
+Arahan : sedikit panik dan cepat.
+Layar  : chat grup, email, dan file "templat_FINAL_baru.docx" bertumpuk.
+
+[S4] ± 9 detik
+VO     : "Di Privasimu Nexus, begitu insiden dicatat, daftar periksa penahanan dan linimasa langsung tersedia. Hitung mundurnya berjalan di layar, lengkap dengan pembagian peran dan templat pemberitahuan."
+Arahan : tenang dan terkendali. Suasana berbalik di sini.
+Layar  : dasbor insiden (kode BRC-2027-001), countdown 3x24 jam, matriks RACI, templat surat.
+
+[S5] ± 4 detik
+VO     : "Tim pun bisa berlatih lewat simulasi, sebelum kejadian sungguhan."
+Arahan : meyakinkan.
+Layar  : latihan fire drill / tabletop dengan skor tim.
+
+[S6] ± 5 detik
+VO     : "Privasimu Nexus. Siap sebelum jam mulai berdetak. Kunjungi privasimu dot com."
+Arahan : mantap, tagline diucapkan pelan.
+Layar  : logo + tombol privasimu.com.
+
+
+VERSI 15 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S2 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+Nexus           : "nek-sus"
+privasimu.com   : "privasimu dot com"
+Angka           : dibaca sesuai tulisan ("tiga kali dua puluh empat jam")
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Pemberitahuan tertulis paling lambat 3x24 jam kepada subjek data dan lembaga: UU PDP Pasal 46 jo. PP 33/2026 Pasal 114
+  (tenggat dihitung sejak kegagalan pelindungan data diketahui).
+- Modul Manajemen Insiden: daftar periksa penahanan & log linimasa otomatis saat insiden dicatat, penghitung mundur
+  3x24 jam, matriks RACI, templat pemberitahuan ke subjek data dan lembaga, kode BRC-TAHUN-NOMOR,
+  langkah penahanan berbantuan AI, simulasi/fire drill (fakta_produk.json: breach, simulation).

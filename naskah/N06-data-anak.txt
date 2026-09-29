@@ -1,0 +1,78 @@
+NASKAH 06 — "PENGGUNA TERMUDA ANDA" (DATA ANAK & INKLUSIF)
+================================================================
+Jenis      : IKLAN TOOLS (Privasimu Nexus)
+Durasi     : ± 33 detik (ada versi 15 detik di bawah)
+Format     : 9:16 (utama) dan 16:9
+Sasaran    : edtech, fintech, kesehatan, game, telko, ritel, sekolah/kampus
+Nada       : hangat, peduli, tetap profesional
+Pengisi    : 1 suara, disarankan suara wanita yang hangat
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : November (edukasi kewajiban baru di PP 33/2026)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N06_S1, N06_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N06), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 3 detik
+VO     : "Aplikasi atau layanan Anda punya pengguna anak-anak?"
+Arahan : ramah, bertanya langsung ke penonton.
+Layar  : aplikasi belajar/game di tangan anak, ikon usia di pojok.
+
+[S2] ± 7 detik
+VO     : "Pemrosesan data anak wajib mendapat persetujuan orang tua atau wali, dan PP tiga puluh tiga mengatur rinciannya."
+Arahan : jelas, tekan "orang tua atau wali".
+Layar  : formulir persetujuan dengan dua tanda tangan (anak & wali). Teks kecil: PP 33/2026 Ps. 38.
+
+[S3] ± 7 detik
+VO     : "Children Pro di Privasimu Nexus mencatat persetujuan wali beserta buktinya, dan mengelola peralihan saat anak beranjak dewasa."
+Arahan : meyakinkan, hangat.
+Layar  : log persetujuan wali + bukti, lini waktu usia yang berpindah ke "dewasa".
+
+[S4] ± 5 detik
+VO     : "Ada juga Inclusive Privacy: persetujuan yang aksesibel bagi penyandang disabilitas."
+Arahan : tulus.
+Layar  : formulir persetujuan dengan teks besar, audio, dan kontras tinggi.
+
+[S5] ± 6 detik
+VO     : "Persetujuan bisa ditarik kapan saja, dan penarikannya tersinkron ke sistem Anda lewat API."
+Arahan : lugas.
+Layar  : tombol "tarik persetujuan", sinyal menyebar ke beberapa sistem.
+
+[S6] ± 4 detik
+VO     : "Privasimu Nexus. Lindungi pengguna termuda Anda. privasimu dot com."
+Arahan : hangat, penuh makna.
+Layar  : logo + tombol privasimu.com.
+
+
+VERSI 15 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S3 + S6.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+Children Pro       : dibaca bahasa Inggris ("cil-dren pro")
+Inclusive Privacy  : dibaca bahasa Inggris
+API                : "a-pe-i" (atau "ei-pi-ai", konsisten)
+Nexus              : "nek-sus"
+privasimu.com      : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Pemrosesan data pribadi anak memerlukan persetujuan orang tua/wali: UU PDP; rinciannya di PP 33/2026 Pasal 38.
+  Penyandang disabilitas: PP 33/2026 Pasal 39.
+- Modul Consent: Children Pro (persetujuan wali + peralihan saat anak menjadi dewasa), Inclusive Privacy
+  (persetujuan aksesibel), log persetujuan beserta bukti, penarikan persetujuan dihormati di seluruh kanal,
+  API dan webhook ke sistem internal (fakta_produk.json: consent; FAQ platform).

@@ -1,0 +1,74 @@
+NASKAH 10 — "SATU GRUP, SATU STANDAR" (HOLDING & ANAK USAHA)
+================================================================
+Jenis      : IKLAN KONSULTASI + TOOLS ENTERPRISE (Privasimu & Privasimu Nexus)
+Durasi     : ± 33 detik (ada versi 20 detik di bawah)
+Format     : 16:9 (utama untuk LinkedIn & presentasi) dan 9:16
+Sasaran    : holding/BUMN, grup usaha, kepala kepatuhan grup, CIO grup
+Nada       : strategis, berwibawa, visioner
+Pengisi    : 1 suara, disarankan suara berat/dewasa
+Video      : belum dibuat, diproduksi setelah VN masuk
+Fase       : Desember–Januari (keputusan)
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file. Nama file: N10_S1, N10_S2, dan seterusnya.
+   Kalau lebih nyaman merekam utuh dalam satu file (N10), beri jeda 2 detik di antara bagian.
+2. Baca PERSIS sesuai teks VO. Animasi dan subtitle disinkronkan ke kata-kata ini.
+3. Ruangan senyap, matikan kipas/AC bila bisa. Jarak mulut ke HP/mic ± 20 cm.
+4. Sisakan ± 1 detik hening di awal dan akhir rekaman.
+5. Kirim sebagai DOKUMEN/file (bukan voice note) agar kualitas tidak turun.
+   Format bebas: .wav, .m4a, .mp3. VN WhatsApp tetap bisa dipakai, tapi kualitasnya lebih rendah.
+6. Tempo percakapan, jangan terburu-buru. Rekam 2 take bila ragu, pilih yang terbaik.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 6 detik
+VO     : "Satu holding, belasan anak usaha, masing-masing punya kebijakan dan cara sendiri mengelola data pribadi."
+Arahan : tenang, menggambarkan situasi.
+Layar  : peta grup: induk di tengah, anak usaha dengan warna dan format dokumen berbeda-beda.
+
+[S2] ± 8 detik
+VO     : "Konsultan Privasimu membantu menyelaraskan kebijakan lintas perusahaan, lalu menilai kesiapan tiap anak usaha lewat asesmen holding."
+Arahan : yakin, tekan "menyelaraskan".
+Layar  : dokumen kebijakan dari tiap anak usaha menyatu jadi satu standar; skor kesiapan per anak usaha.
+
+[S3] ± 5 detik
+VO     : "Hasilnya terpantau di satu dasbor holding, dengan akses yang diatur per divisi."
+Arahan : lugas.
+Layar  : dasbor multi-entitas; ikon kunci per divisi.
+
+[S4] ± 7 detik
+VO     : "Pilih SaaS, on-premise, atau lisensi perpetual, dengan data tiap anak usaha tetap terpisah dengan aman."
+Arahan : santai tapi tegas.
+Layar  : tiga pilihan lisensi; data tiap anak usaha dalam "silo" terpisah yang terkunci.
+
+[S5] ± 6 detik
+VO     : "Privasimu. Satu grup, satu standar kepatuhan. Jadwalkan konsultasi gratis di privasimu dot com."
+Arahan : berwibawa, tagline diucapkan pelan.
+Layar  : logo Privasimu + tombol "Konsultasi gratis · privasimu.com".
+
+
+VERSI 20 DETIK (tanpa rekaman tambahan)
+----------------------------------------------------------------
+Pakai S1 + S2 + S5.
+
+
+CATATAN PENGUCAPAN
+----------------------------------------------------------------
+SaaS            : "sas"
+on-premise      : "on-premis"
+perpetual       : dibaca bahasa Inggris ("per-pe-chu-al")
+privasimu.com   : "privasimu dot com"
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Telaah kebijakan: harmonisasi antar dokumen kebijakan; kodifikasi, unifikasi, dan simplifikasi kebijakan lintas
+  divisi terhadap UU PDP jo. PP 33/2026 (fakta_produk.json: policy-review; laporan Policy Review).
+- Modul Holding: asesmen holding, review asesmen, dasbor holding (backend/docs/KONTEKS-PLATFORM.md).
+  Akses modul per divisi diatur admin tenant.
+- Company Profile 2026: Enterprise Solution ("secure, isolated data silos for every subsidiary", Multi Entity Dashboard);
+  License Management (SaaS, On-Premise, Perpetual).
+- Konsultasi gratis: dari Company Profile 2026. PASTIKAN penawaran masih berlaku sebelum tayang.

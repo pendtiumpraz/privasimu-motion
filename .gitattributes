@@ -1,0 +1,7 @@
+* text=auto
+# file batch Windows wajib CRLF
+*.bat text eol=crlf
+antrian-render.txt text eol=crlf
+*.png binary
+*.jpg binary
+*.xlsx binary
