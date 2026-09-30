@@ -2,21 +2,22 @@
 
 > Dibuat otomatis oleh `node lib/daftar-video.js`. Jangan disunting tangan.
 
-Jumlah: 104 video · siap render: 29 · sudah dirender: 75 · masih dirakit: 0
+Jumlah: 105 video · siap render: 28 · sudah dirender: 77 · masih dirakit: 0
 
 | Kode | Folder | Judul | Gaya | Hook | Komposisi | Durasi | Status |
 |---|---|---|---|---|---|---|---|
 | A22 | `a22-rekap-dpo` | Rekap Tahunan DPO 2026 |  |  |  | 46,0 dtk | sudah dirender |
 | N02 | `ad1-awareness` | Privasimu Nexus — Awareness UU PDP |  |  |  | 53,8 dtk | sudah dirender |
 | N01 | `ad2-pp33` | Privasimu Nexus — Hitung Mundur PP 33/2026 |  |  |  | 45,0 dtk | sudah dirender |
-| GB03 | `gb03-bauhaus` | Tiga Bentuk | Flat geometric (Bauhaus) | Anomali | 70% edukasi · 30% meme | 29,8 dtk | siap render |
+| GB03 | `gb03-bauhaus` | Tiga Bentuk | Flat geometric (Bauhaus) | Anomali | 70% edukasi · 30% meme | 29,8 dtk | sudah dirender |
 | GB05 | `gb05-satu-garis` | Satu Garis (one-line art) |  |  |  | 64,1 dtk | sudah dirender |
-| GB11 | `gb11-infografik` | Patuh Itu Bukan Ya/Tidak | Infografik animasi | Logika dipatahkan | 80% edukasi · 20% meme | 31,0 dtk | siap render |
+| GB11 | `gb11-infografik` | Patuh Itu Bukan Ya/Tidak | Infografik animasi | Logika dipatahkan | 80% edukasi · 20% meme | 31,0 dtk | sudah dirender |
 | GB13 | `gb13-origami` | Selembar Kontrak | Origami (lipat kertas) | Logika dipatahkan | 70% edukasi · 30% meme | 28,1 dtk | siap render |
 | GB20 | `gb20-venn` | Irisan | Diagram Venn | Relate | 70% edukasi · 30% meme | 31,7 dtk | siap render |
 | GB23 | `gb23-gantt` | Hitung Mundur Sudah Jalan | Linimasa / Gantt | Anomali | 80% edukasi · 20% meme | 31,1 dtk | siap render |
 | GB27 | `gb27-labirin` | Mencari Satu Dokumen | Labirin | Relate | 70% edukasi · 30% meme | 27,4 dtk | sudah dirender |
 | GB39 | `gb39-kaleidoskop` | Dari Dekat, Kacau | Kaleidoskop | Logika dipatahkan | 30% edukasi · 70% meme | 25,6 dtk | sudah dirender |
+| GB40 | `gb40-speedometer` | Berani Lihat Jarumnya? | Speedometer / meter jarum | Reverse psychology | 60% edukasi · 40% meme | 20,6 dtk | siap render |
 | GB45 | `gb45-exploded` | Tiga Lapis | Lapisan terurai (exploded view) | Anomali | 80% edukasi · 20% meme | 29,2 dtk | siap render |
 | GB49 | `gb49-stiker-die-cut` | DPO Starter Pack | Stiker die-cut | Relate | 30% edukasi · 70% meme | 23,7 dtk | sudah dirender |
 | GB52 | `gb52-rantai` | Mata Rantai Terlemah | Rantai | Anomali | 70% edukasi · 30% meme | 30,4 dtk | siap render |

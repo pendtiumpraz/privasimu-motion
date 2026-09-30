@@ -1,0 +1,31 @@
+/* GB40 · SPEEDOMETER — navy gelap; penutup baja gelap dengan teks putih & merah; meter merah→kuning→hijau; jarum putih; kartu asli */
+body { background: #0A1230; color: #fff; }
+#stage { background: #0A1230; }
+#vignette { opacity: .4; }
+#grain { opacity: .07; }
+.sp-meter { position: absolute; opacity: 1; }
+.sp-meter .busur { position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 270deg, #E63946 0deg, #F2892A 60deg, #F4C542 105deg, #1FA971 180deg, transparent 180deg); -webkit-mask: radial-gradient(circle, transparent 64%, #000 65%); mask: radial-gradient(circle, transparent 64%, #000 65%); clip-path: inset(0 0 50% 0); filter: drop-shadow(0 0 30px rgba(255,255,255,.12)); }
+.sp-meter .tanda { position: absolute; width: 6px; border-radius: 3px; transform-origin: 50% 100%; background: linear-gradient(#0A1230 0 8%, transparent 8% 66%, transparent 66%); }
+.sp-meter .tanda::before { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 34px; background: rgba(10,18,48,.9); }
+.sp-meter .tanda.besar::before { height: 50px; }
+.sp-meter .jarum { position: absolute; width: 14px; border-radius: 7px 7px 3px 3px; background: linear-gradient(#fff, #C9D1DE); transform-origin: 50% 100%; box-shadow: 0 0 20px rgba(255,255,255,.5), 0 10px 20px rgba(0,0,0,.5); }
+.sp-meter .hub { position: absolute; width: 44px; height: 44px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 8px rgba(255,255,255,.18), 0 8px 20px rgba(0,0,0,.5); }
+.sp-meter .angka { position: absolute; left: 0; width: 100%; text-align: center; font: 900 150px/1 'Inter', sans-serif; color: #fff; letter-spacing: -.03em; text-shadow: 0 6px 30px rgba(0,0,0,.5); }
+.sp-meter .label { position: absolute; left: 50%; transform: translateX(-50%); padding: 12px 26px; border-radius: 14px; background: #F2892A; color: #2B1300; font: 900 34px/1 'Inter', sans-serif; letter-spacing: .14em; opacity: 0; transform-origin: 50% 50%; }
+.sp-tutup { position: absolute; left: 0; width: 100%; background: linear-gradient(90deg, #1E2536, #2C3446 40%, #232A3B 60%, #1B2131); box-shadow: 0 0 80px rgba(0,0,0,.6); opacity: 0; }
+.sp-tutup.atas { top: 0; border-bottom: 6px solid #4A5468; z-index: 3; overflow: hidden; }
+.sp-tutup.bawah { border-top: 6px solid #0F1420; z-index: 3; box-sizing: border-box; }
+.sp-tutup::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 2px, transparent 2px 7px); }
+.sp-teks { position: absolute; left: 50%; transform: translateX(-50%); width: 1400px; text-align: center; z-index: 2; }
+.v .sp-teks { width: 1000px; }
+.sp-teks b { display: block; font: 900 118px/1 'Inter', sans-serif; color: #fff; letter-spacing: -.01em; transform-origin: 50% 50%; text-shadow: 0 10px 40px rgba(0,0,0,.6); white-space: nowrap; }
+.v .sp-teks b { font-size: 104px; }
+.sp-teks b.digit { font-size: 260px; color: #FF5C6C; }
+.v .sp-teks b.digit { font-size: 240px; }
+.sp-teks span { display: block; margin-top: 22px; font: 700 40px/1.2 'Inter', sans-serif; color: #FFD166; opacity: 0; }
+.v .sp-teks span { font-size: 38px; }
+.sp-bayang { position: absolute; width: 32px; border-radius: 16px; background: #05091A; filter: blur(12px); transform-origin: 50% 100%; opacity: 0; z-index: 1; }
+.sp-kilat { position: absolute; inset: 0; background: #fff; opacity: 0; z-index: 4; pointer-events: none; }
+.sp-tunjuk { position: absolute; font: 700 22px/1 'Inter', sans-serif; color: rgba(255,255,255,.75); opacity: 0; }
+.pd-layar { opacity: 0; transform-origin: 50% 50%; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #F2892A; --pd-btn: #fff; --pd-btn-ink: #0A1230; --pd-tirai: rgba(10,18,48,.97); }

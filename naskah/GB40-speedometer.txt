@@ -1,0 +1,51 @@
+NASKAH GB40 — "BERANI LIHAT JARUMNYA?" · GAYA: SPEEDOMETER / METER JARUM
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Speedometer / meter jarum — latar navy gelap; penutup baja gelap dua bagian dengan tulisan besar
+             "JANGAN LIHAT." dan hitung mundur 3-2-1; bayangan jarum kabur menari di permukaan penutup; penutup
+             terbelah → meter setengah lingkaran merah→kuning→hijau dengan tanda skala, jarum putih, angka besar
+             menghitung, label CUKUP; meter mengecil dan menyatu dengan kartu Privacy Posture Score asli
+Durasi     : ± 21 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 60% edukasi · 40% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : reverse psychology — "Jangan lihat jarum ini kalau belum siap."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb40-speedometer). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB40_S1, GB40_S2, GB40_S3, GB40_S4 (atau satu file utuh GB40 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. postur-privasi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Jangan lihat jarum ini kalau belum siap."
+      Layar: Penutup baja gelap menutup layar, tulisan besar "JANGAN LIHAT." lalu "kalau belum siap."; bayangan
+             jarum kabur menari liar di permukaan penutup, bunyi detak.
+[S2]  VO: "Masih nonton? Oke. Tiga, dua, satu."
+      Layar: Tulisan berganti "Masih nonton?" → "Serius. Jangan."; bayangan jarum makin cepat; digit 3 · 2 · 1
+             besar berganti; pada "satu" penutup terbelah atas-bawah dengan kilat.
+[S3]  VO: "Lima puluh enam. Cukup. Bukan bagus, bukan gawat. Data asli, Privasimu Nexus."
+      Layar: Meter terlihat: jarum berayun melewati 56 lalu berhenti tepat di 56, angka menghitung, label CUKUP
+             muncul; meter mengecil dan mendarat persis di meter kartu Privacy Posture Score asli (match-cut);
+             label "tangkapan asli".
+[S4]  VO: "Jangan cek skormu. Kecuali penasaran. Gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jangan cek skormu. Kecuali penasaran.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privacy Posture Score = tangkapan asli assets/app/postur-privasi.png (tenant uji): skor agregat 56 "Cukup"
+  (0–100) dari 3 layer — Data 49, Process 80, Response 38; dipotong di bawah baris deskripsi (tanpa nama
+  organisasi).
+- Angka 56 & label "Cukup" mengikuti data demo di tangkapan layar tersebut; tidak ada angka lain yang dikarang.
+- Durasi sengaja pendek (±18 dtk): reverse psychology harus cepat menuntaskan tantangannya; lelucon =
+  antiklimaks "cukup".
+- "Cek skormu gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

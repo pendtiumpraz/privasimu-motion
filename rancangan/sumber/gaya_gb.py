@@ -295,7 +295,7 @@ ROWS = [
     R('GB40', 'Speedometer / meter jarum',
       'Jarum meter bergerak dari merah ke hijau.',
       'Busur conic-gradient + jarum rotasi dari nilai; angka menghitung.',
-      'Bisa', 1, 6, 9,
+      'Sudah (GB40)', 1, 6, 9,
       'Berani Lihat Jarumnya?', 'Reverse psychology',
       '“Jangan lihat jarum ini kalau belum siap.”',
       'Jarum bergetar → berhenti di 56 “Cukup” → tiga lapis penyusun skor → CTA',
