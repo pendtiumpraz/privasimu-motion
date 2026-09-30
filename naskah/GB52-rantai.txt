@@ -1,0 +1,53 @@
+NASKAH GB52 — "MATA RANTAI TERLEMAH" · GAYA: RANTAI
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Rantai — latar abu-gelap berbutir; rantai baja mendatar (mata pipih berongga & mata samping) dari
+             blok brankas "DATAMU" ke blok beban "TARIK"; label pihak di bawah tiap mata; retakan putih-merah
+             tergambar pada satu mata; putus: dua paruh terpental, dokumen kecil berjatuhan; chip tautan asesmen;
+             kartu kuesioner ilustrasi; lencana skor berwarna; pijar las oranye; stempel hijau TAHAN
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Keamanan datamu sekuat pihak ketigamu yang paling lemah."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb52-rantai). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB52_S1, GB52_S2, GB52_S3, GB52_S4, GB52_S5 (atau satu file utuh GB52 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Keamanan datamu sekuat pihak ketigamu yang paling lemah."
+      Layar: Brankas DATAMU di kiri, rantai tersambung ke beban TARIK di kanan; label pihak muncul di bawah tiap
+             mata; rantai ditarik tegang (bergetar); pada "paling lemah" satu mata (call center*) retak: garis
+             retak tergambar, mata memerah.
+[S2]  VO: "Kontraknya rapi. Kuesionernya dikirim lewat surel tahun lalu, jawabannya tercecer. Lalu ditarik."
+      Layar: Label mata retak berganti "kuesioner: surel, tahun lalu*"; tarikan menguat, getar makin kasar; pada
+             "ditarik" mata putus: paruh kiri & kanan terpental berputar, dokumen-dokumen kecil berjatuhan dari
+             celah.
+[S3]  VO: "Di Privasimu Nexus: kuesioner asesmen lewat tautan, tanpa akun; bukti dianalisis AI; skor risiko per pihak ketiga."
+      Layar: Chip tautan asesmen muncul di atas celah; kartu kuesioner (ilustrasi) naik, baris-barisnya
+             tercentang; lencana skor muncul di tiap mata (82, 76, 91, 41 merah, 88, 79).
+[S4]  VO: "Mata rantai terlemah diketahui sebelum ditarik. Tempa dulu, baru tarik."
+      Layar: Kedua paruh menyatu kembali; mata yang retak menyala pijar las oranye lalu utuh; rantai ditarik
+             keras (getar) dan bertahan; stempel hijau TAHAN; lencana 41 berganti "asesmen ulang*".
+[S5]  VO: "Kenali mata rantaimu. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Kenali mata rantaimu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Risiko Pihak Ketiga (fakta_produk.json): kuesioner asesmen pihak ketiga lewat tautan publik tanpa
+  perlu akun; penilaian risiko dan skor per pihak ketiga; analisis dokumen bukti oleh AI per pertanyaan;
+  keterkaitan ke RoPA dan kontrak.
+- Sebelum: kuesioner dikirim lewat surel dan jawabannya tercecer (fakta_produk.json).
+- Nama pihak, jumlah pertanyaan, dan skor (82/76/91/41/88/79) = ilustrasi (ditandai *); tanpa merek.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

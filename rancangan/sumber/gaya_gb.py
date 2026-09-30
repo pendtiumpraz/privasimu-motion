@@ -377,7 +377,7 @@ ROWS = [
     R('GB52', 'Rantai',
       'Mata rantai tersambung; satu mata retak.',
       'Mata rantai SVG berulang; retakan digambar; sorot.',
-      'Bisa', 2, 6, 8,
+      'Sudah (GB52)', 2, 6, 8,
       'Mata Rantai Terlemah', 'Anomali',
       '“Keamanan datamu sekuat pihak ketigamu yang paling lemah.”',
       'Rantai ditarik → satu mata retak berlabel pihak ketiga → kuesioner asesmen lewat tautan → skor → CTA',

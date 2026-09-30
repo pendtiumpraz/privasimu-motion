@@ -2,7 +2,7 @@
 
 > Dibuat otomatis oleh `node lib/daftar-video.js`. Jangan disunting tangan.
 
-Jumlah: 103 video · siap render: 28 · sudah dirender: 75 · masih dirakit: 0
+Jumlah: 104 video · siap render: 29 · sudah dirender: 75 · masih dirakit: 0
 
 | Kode | Folder | Judul | Gaya | Hook | Komposisi | Durasi | Status |
 |---|---|---|---|---|---|---|---|
@@ -19,6 +19,7 @@ Jumlah: 103 video · siap render: 28 · sudah dirender: 75 · masih dirakit: 0
 | GB39 | `gb39-kaleidoskop` | Dari Dekat, Kacau | Kaleidoskop | Logika dipatahkan | 30% edukasi · 70% meme | 25,6 dtk | sudah dirender |
 | GB45 | `gb45-exploded` | Tiga Lapis | Lapisan terurai (exploded view) | Anomali | 80% edukasi · 20% meme | 29,2 dtk | siap render |
 | GB49 | `gb49-stiker-die-cut` | DPO Starter Pack | Stiker die-cut | Relate | 30% edukasi · 70% meme | 23,7 dtk | sudah dirender |
+| GB52 | `gb52-rantai` | Mata Rantai Terlemah | Rantai | Anomali | 70% edukasi · 30% meme | 30,4 dtk | siap render |
 | M01 | `m01-dasbor` | Dasbor Kepatuhan & Postur Privasi |  |  |  | 45,9 dtk | sudah dirender |
 | M02 | `m02-gap` | GAP Assessment |  |  |  | 48,3 dtk | sudah dirender |
 | N03 | `n03-insiden` | 3×24 Jam |  |  |  | 38,5 dtk | sudah dirender |
