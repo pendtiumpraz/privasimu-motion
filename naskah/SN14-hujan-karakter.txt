@@ -1,0 +1,53 @@
+NASKAH SN14 — "HUJAN DATA" · GAYA: HUJAN KARAKTER
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Hujan karakter — layar navy sangat gelap; kolom karakter biru-es (angka dominan, sedikit
+             huruf/simbol) turun dengan kecepatan berbeda dan berkelip; kaca pembesar putih berkeliling; chip
+             penghitung waktu; garis pemindai sian menyapu; 16 digit NIK menyala merah dengan kurung & label;
+             kamera menjauh ke 4 panel sistem dengan kolom merah; kartu peta sumber data
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Di antara hujan ini ada 1 NIK. Temukan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn14-hujan-karakter). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN14_S1, SN14_S2, SN14_S3, SN14_S4, SN14_S5 (atau satu file utuh SN14 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Di antara hujan ini, ada satu NIK. Temukan."
+      Layar: Hujan karakter biru-es turun di layar gelap; teks tengah "Di antara hujan ini ada 1 NIK." lalu
+             "TEMUKAN." besar; kaca pembesar muncul dan mulai berkeliling.
+[S2]  VO: "Mata manusia: tiga jam, nol temuan. Hujannya makin deras."
+      Layar: Chip "MATA MANUSIA · 00:00:00 → 03:00:00* · 0 temuan" berputar cepat; kaca pembesar makin gelisah;
+             hujan bertambah cepat.
+[S3]  VO: "Privasimu Nexus memindai kolomnya. Ketemu: NIK, di kolom nomor identitas."
+      Layar: Kaca pembesar lenyap; garis pemindai sian menyapu dari atas ke bawah; saat melewati satu kolom,
+             kolom itu membeku dan 16 digit menyala merah dengan kurung; kolom lain meredup; label "NIK
+             terdeteksi · kolom no_identitas* · dikaitkan ke RoPA".
+[S4]  VO: "Dan bukan cuma satu. Tujuh belas kolom lagi, di empat sistem, semuanya dikaitkan ke RoPA."
+      Layar: Kamera menjauh: layar tadi mengecil jadi satu dari empat panel sistem (basis data pelanggan*, HRIS*,
+             gudang data*, spreadsheet keuangan*), tiap panel punya kolom-kolom merah; chip nama sistem & jumlah
+             kolom; kartu "4 sistem · 18 kolom data pribadi* → RoPA".
+[S5]  VO: "Jangan cari data dengan mata. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jangan cari data dengan mata.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Data Discovery (fakta_produk.json): katalog sistem & sumber data; pemindaian kolom untuk mendeteksi data
+  pribadi umum dan spesifik; keterkaitan kolom data ke RoPA.
+- Sebelum: lokasi data pribadi hanya diketahui dari ingatan tim TI → "mata manusia" = ilustrasi.
+- NIK di layar = 16 digit palsu yang strukturnya tidak valid (3200009900990000); nama sistem, "3 jam", "4 sistem
+  · 18 kolom" = ilustrasi (ditandai *).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

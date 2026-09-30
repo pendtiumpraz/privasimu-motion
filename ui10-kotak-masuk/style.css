@@ -1,0 +1,56 @@
+/* UI10 · KOTAK MASUK — aplikasi email fiktif abu-terang; baris putih; baris takut merah → hijau; avatar navy; chip tenggat */
+body { background: #E9EDF4; color: #1B1B1B; }
+#stage { background: #E9EDF4; }
+#vignette { opacity: .18; }
+#grain { opacity: .04; }
+.em-app { position: absolute; inset: 0; opacity: 0; font-family: 'Inter', sans-serif; }
+.em-sisi { position: absolute; left: 0; top: 0; width: 280px; height: 100%; background: #F6F8FB; border-right: 1px solid #DCE2EC; padding: 120px 0 0 34px; box-sizing: border-box; }
+.em-sisi b, .em-sisi span { display: block; font: 600 22px/1 'Inter', sans-serif; color: #6B7A90; padding: 16px 18px; border-radius: 12px; margin: 0 22px 6px 0; }
+.em-sisi b { color: #0B1B4D; background: #E3EAF6; }
+.em-kepala { position: absolute; left: 0; right: 0; top: 0; height: 100px; background: #fff; border-bottom: 1px solid #DCE2EC; display: flex; align-items: center; justify-content: flex-end; gap: 30px; padding: 0 40px 0 320px; box-sizing: border-box; }
+.v .em-kepala { height: 140px; padding: 0 40px; }
+.em-kepala .cari { flex: 1; height: 52px; border-radius: 26px; background: #EEF1F6; font: 500 22px/52px 'Inter', sans-serif; color: #9AA5B8; padding: 0 26px; max-width: 700px; }
+.em-kepala .jam { font: 800 26px/1 'Inter', sans-serif; color: #0B1B4D; letter-spacing: .02em; white-space: nowrap; }
+.v .em-kepala .jam { font-size: 30px; }
+.em-list { position: absolute; inset: 0; }
+.em-baris { position: absolute; top: 0; height: 92px; border-radius: 16px; background: #fff; box-shadow: 0 6px 18px rgba(11,27,77,.06); display: flex; align-items: center; gap: 18px; padding: 0 22px; box-sizing: border-box; opacity: 0; transform-origin: 50% 50%; font-family: 'Inter', sans-serif; overflow: hidden; }
+.v .em-baris { height: 104px; }
+.em-baris .av { width: 54px; height: 54px; border-radius: 50%; background: #E3EAF6; color: #0B1B4D; font: 800 19px/54px 'Inter', sans-serif; text-align: center; font-style: normal; flex: 0 0 auto; }
+.em-baris .isi { flex: 1; min-width: 0; display: grid; grid-template-columns: 260px 1fr; grid-template-rows: auto auto; column-gap: 18px; align-items: center; }
+.v .em-baris .isi { grid-template-columns: 1fr; row-gap: 2px; }
+.em-baris b { grid-row: 1 / span 2; font: 700 24px/1.2 'Inter', sans-serif; color: #0B1B4D; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.v .em-baris b { grid-row: auto; font-size: 20px; }
+.em-baris .subjek { font: 700 24px/1.2 'Inter', sans-serif; color: #1B1B1B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.v .em-baris .subjek { font-size: 24px; }
+.em-baris .pra { font: 500 19px/1.2 'Inter', sans-serif; color: #7A869E; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.v .em-baris .pra { display: none; }
+.em-baris em { font: 600 18px/1 'Inter', sans-serif; font-style: normal; color: #7A869E; flex: 0 0 auto; }
+.em-baris .tag { display: none; text-decoration: none; padding: 8px 14px; border-radius: 10px; background: #1B7F3B; color: #fff; font: 800 17px/1 'Inter', sans-serif; white-space: nowrap; flex: 0 0 auto; }
+.em-baris.takut .av { background: #FFE1E4; color: #E63946; }
+.em-baris.takut.sorot { background: #FFF5F5; box-shadow: 0 0 0 4px #E63946, 0 24px 60px rgba(230,57,70,.35); z-index: 5; }
+.em-baris.takut.sorot .subjek { color: #E63946; font-size: 28px; }
+.v .em-baris.takut.sorot .subjek { font-size: 28px; }
+.em-baris.takut.hijau { box-shadow: 0 0 0 4px #1B7F3B, 0 20px 50px rgba(27,127,59,.25); }
+.em-baris.takut.hijau .tag { display: block; }
+.em-baris.takut.hijau .av { background: #E3F5E9; color: #1B7F3B; }
+.em-avatar { position: absolute; left: 0; top: 0; width: 200px; text-align: center; opacity: 0; transform-origin: 50% 50%; font-family: 'Inter', sans-serif; }
+.em-avatar i { display: block; width: 92px; height: 92px; margin: 0 auto; border-radius: 50%; background: #0B1B4D; color: #fff; font: 800 30px/92px 'Inter', sans-serif; font-style: normal; box-shadow: 0 12px 30px rgba(11,27,77,.3); }
+.em-avatar span { display: block; margin-top: 10px; font: 700 20px/1 'Inter', sans-serif; color: #0B1B4D; }
+.em-avatar b { position: absolute; left: 50%; top: -6px; margin-left: 18px; width: 34px; height: 34px; border-radius: 50%; background: #E63946; color: #fff; font: 800 18px/34px 'Inter', sans-serif; text-align: center; transform: scale(0); transition: transform .25s cubic-bezier(.34,1.56,.64,1); }
+.em-avatar.dapat b { transform: scale(1); }
+.em-fwd { position: absolute; left: 0; top: 0; padding: 10px 18px; border-radius: 12px; background: #FFD166; color: #1B1B1B; font: 800 20px/1 'Inter', sans-serif; box-shadow: 0 10px 24px rgba(0,0,0,.2); opacity: 0; }
+.em-balas { position: absolute; left: 0; top: 0; padding: 12px 18px; border-radius: 16px 16px 16px 4px; background: #fff; border: 2px solid #DCE2EC; font: 600 20px/1 'Inter', sans-serif; color: #1B1B1B; white-space: nowrap; box-shadow: 0 10px 24px rgba(11,27,77,.12); opacity: 0; transform-origin: 100% 50%; }
+.v .em-balas { transform-origin: 50% 100%; border-radius: 16px 16px 4px 16px; }
+.em-tenggat { position: absolute; right: 40px; top: 24px; padding: 12px 20px; border-radius: 14px; background: #0B1B4D; color: #fff; font: 700 20px/1 'Inter', sans-serif; letter-spacing: .1em; opacity: 0; transform-origin: 100% 0; white-space: nowrap; z-index: 6; }
+.v .em-tenggat { top: 44px; right: 40px; }
+.em-tenggat b { font-family: 'JetBrains Mono', monospace; font-size: 28px; margin-left: 8px; color: #FFD166; }
+.em-tenggat.merah { background: #E63946; }
+.em-tenggat.merah b { color: #fff; }
+.em-selesai { position: absolute; right: 40px; top: 24px; padding: 14px 22px; border-radius: 14px; background: #1B7F3B; color: #fff; font: 800 22px/1 'Inter', sans-serif; opacity: 0; transform-origin: 100% 0; white-space: nowrap; z-index: 6; }
+.v .em-selesai { top: 44px; }
+.em-alur { position: absolute; left: 0; top: 0; display: flex; align-items: center; gap: 12px; padding: 16px 22px; border-radius: 18px; background: #fff; box-shadow: 0 20px 50px rgba(11,27,77,.18); opacity: 0; transform-origin: 50% 50%; white-space: nowrap; }
+.em-alur span { padding: 12px 18px; border-radius: 12px; background: #E3EAF6; color: #0B1B4D; font: 800 22px/1 'Inter', sans-serif; }
+.em-alur span:first-child { background: #0B1B4D; color: #fff; }
+.em-alur i { font-style: normal; font-size: 24px; color: #7A869E; }
+.pd-layar { opacity: 0; z-index: 7; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #E63946; --pd-btn: #0B1B4D; --pd-btn-ink: #fff; --pd-tirai: rgba(233,237,244,.97); --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-logo: brightness(0); }

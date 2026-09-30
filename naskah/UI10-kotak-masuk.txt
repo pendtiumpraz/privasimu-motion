@@ -1,0 +1,60 @@
+NASKAH UI10 — "SENIN, 08.02" · GAYA: KOTAK MASUK EMAIL
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kotak masuk email — aplikasi email fiktif abu-terang: bilah samping folder, kepala dengan jam "Senin
+             · 08.02", daftar baris (avatar inisial, pengirim, subjek, pratinjau, jam); baris "Tolong hapus semua
+             data saya." merah menyorot & membesar; 4 avatar penerima Fwd (CS, Legal, IT, DPO) dengan gelembung
+             balasan; chip hitung mundur 72:00:00 memerah; formulir Buat DSR Baru & bar tiket DSR-2026-017 asli;
+             rantai Handler → Reviewer → Approver; label hijau lalu diarsipkan
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Email paling ditakuti customer service: 'Tolong hapus semua data saya.'"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui10-kotak-masuk). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI10_S1, UI10_S2, UI10_S3, UI10_S4, UI10_S5 (atau satu file utuh UI10 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dsr-form
+5. dsr-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Email paling ditakuti customer service: "Tolong hapus semua data saya.""
+      Layar: Aplikasi email muncul, baris-baris biasa masuk dari atas (newsletter, rapat, timesheet…); pada
+             "Tolong" baris baru menghantam masuk di atas: "Tolong hapus semua data saya." — baris lain meredup,
+             baris itu membesar berbingkai merah.
+[S2]  VO: "Diteruskan ke empat orang. Balasannya cuma "sudah ditangani?", sementara tujuh puluh dua jam terus berjalan."
+      Layar: Chip "Fwd:" terbang dari baris ke 4 avatar (CS, Legal, IT, DPO); gelembung balasan bermunculan
+             ("sudah ditangani?", "belum, kamu?", "cc DPO ya", "…"); prefiks subjek menumpuk "Re: Fwd: Re: Fwd:";
+             chip TENGGAT 72:00:00 berlari turun ke 13:07:22 dan memerah.
+[S3]  VO: "Di Privasimu Nexus, email itu jadi tiket DSR: kode otomatis, tenggat terhitung, satu penanggung jawab."
+      Layar: Formulir "Buat DSR Baru" asli naik ke tengah, baris email tersedot ke dalamnya; formulir berganti
+             bar tiket asli "DSR-2026-017 · 71h tersisa"; 4 avatar menyusut menjadi rantai Handler → Reviewer →
+             Approver.
+[S4]  VO: "Senin, delapan lewat tiga: tercatat. Kotak masuk kembali tenang."
+      Layar: Kembali ke kotak masuk: jam 08.03; baris "Tolong hapus…" berlabel hijau "DSR-2026-017 · 71h tersisa"
+             lalu meluncur keluar (diarsipkan), baris lain naik & kembali terang; chip hijau "tercatat · 1
+             menit*".
+[S5]  VO: "Jangan takut sama email. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jangan takut sama email.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DSR (fakta_produk.json): permohonan dari berbagai kanal tercatat di satu antrean; tenggat otomatis 72 jam
+  sejak dicatat; alur Handler, Reviewer, Approver dengan jejak audit; kode DSR-TAHUN-NOMOR; sebelum: permohonan
+  lewat surel tanpa pencatatan terpusat, tenggat dihitung manual.
+- Formulir "Buat DSR Baru" = tangkapan asli assets/app/dsr-form.png (modal saja); bar tiket =
+  assets/app/dsr-detail.png (di bawah nama organisasi).
+- Aplikasi email, pengirim, isi email, "4 orang", "1 menit" = fiktif/ilustrasi (ditandai *); alamat pemohon
+  disamarkan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

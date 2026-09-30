@@ -263,7 +263,7 @@ ROWS = [
     R('GB23', 'Linimasa / Gantt',
       'Garis waktu horizontal dengan batang tahapan yang terisi.',
       'Batang scaleX berurutan; penanda hari ini bergerak.',
-      'Bisa', 1, 5, 9,
+      'Sudah (GB23)', 1, 5, 9,
       'Hitung Mundur Sudah Jalan', 'Anomali',
       '“Hitung mundur sudah jalan. Rencanamu?”',
       'Garis waktu ke 16 Jan 2027 → tahapan program siap PP 33 terisi → CTA konsultasi',

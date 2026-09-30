@@ -1,0 +1,45 @@
+/* GB23 · LINIMASA/GANTT — kertas terang; teks navy; sumbu abu; penanda & tenggat merah → hijau SIAP; batang berwarna per tahap */
+body { background: #F5F7FB; color: #0B1B4D; }
+#stage { background: #F5F7FB; }
+#vignette { opacity: .14; }
+#grain { opacity: .05; }
+.gt-kop { position: absolute; left: 60px; top: 80px; font-family: 'Inter', sans-serif; opacity: 0; }
+.v .gt-kop { left: 40px; top: 200px; }
+.gt-kop small { display: block; font: 700 18px/1 'Inter', sans-serif; letter-spacing: .14em; color: #E63946; margin-bottom: 16px; }
+.v .gt-kop small { font-size: 22px; }
+.gt-judul { font: 900 60px/1.05 'Inter', sans-serif; letter-spacing: -.02em; color: #0B1B4D; opacity: 0; white-space: nowrap; }
+.v .gt-judul { font-size: 72px; }
+.gt-klip { position: absolute; left: 0; top: 0; height: 100%; overflow: hidden; }
+.gt-sumbu { position: absolute; height: 4px; background: #B9C2D3; border-radius: 2px; transform-origin: 0 50%; transform: scaleX(0); }
+.gt-bulan { position: absolute; font: 700 18px/1 'Inter', sans-serif; letter-spacing: .1em; color: #6B7A99; opacity: 0; transform: translateX(-50%); text-align: center; }
+.v .gt-bulan { font-size: 17px; letter-spacing: .06em; }
+.gt-bulan i { display: block; width: 2px; height: 12px; margin: 0 auto 8px; background: #B9C2D3; }
+.gt-zona { position: absolute; background: repeating-linear-gradient(-45deg, rgba(230,57,70,.22) 0 10px, rgba(230,57,70,.06) 10px 20px); border-left: 3px dashed #E63946; opacity: 0; }
+.gt-label { position: absolute; left: 60px; width: 320px; text-align: right; font-family: 'Inter', sans-serif; opacity: 0; }
+.v .gt-label { left: 30px; width: 200px; }
+.gt-label b { display: block; font: 800 22px/1.1 'Inter', sans-serif; color: #0B1B4D; }
+.v .gt-label b { font-size: 21px; }
+.gt-label span { display: block; font: 500 15px/1.2 'Inter', sans-serif; color: #7A869E; margin-top: 3px; }
+.v .gt-label span { font-size: 14px; }
+.gt-jalur { position: absolute; height: 46px; border-radius: 12px; border: 2px dashed #CBD3E1; box-sizing: border-box; opacity: 0; }
+.gt-bar { position: absolute; height: 46px; border-radius: 12px; overflow: visible; opacity: 0; }
+.gt-bar .isi { position: absolute; inset: 0; border-radius: 12px; transform-origin: 0 50%; }
+.gt-bar .cek { position: absolute; right: -12px; top: 3px; width: 40px; height: 40px; border-radius: 50%; background: #1B7F3B; color: #fff; font: 900 24px/40px 'Inter', sans-serif; text-align: center; font-style: normal; box-shadow: 0 6px 14px rgba(27,127,59,.35); transform: scale(0); }
+.gt-tanya { position: absolute; width: 42px; height: 42px; border-radius: 50%; border: 3px dashed #E63946; color: #E63946; font: 900 26px/38px 'Inter', sans-serif; text-align: center; box-sizing: border-box; opacity: 0; }
+.gt-lewat { position: absolute; padding: 12px 22px; border: 6px solid #E63946; border-radius: 14px; color: #E63946; font: 900 44px/1 'Inter', sans-serif; letter-spacing: .04em; opacity: 0; transform-origin: 50% 50%; background: rgba(245,247,251,.85); white-space: nowrap; }
+.v .gt-lewat { font-size: 36px; padding: 10px 16px; }
+.gt-kini { position: absolute; left: 0; top: 0; width: 4px; background: #E63946; border-radius: 2px; opacity: 0; box-shadow: 0 0 0 2px rgba(230,57,70,.15); }
+.gt-kini.lari { box-shadow: -18px 0 22px rgba(230,57,70,.35), 0 0 0 2px rgba(230,57,70,.15); }
+.gt-kini b { position: absolute; left: 50%; top: -34px; transform: translateX(-50%); padding: 6px 12px; border-radius: 8px; background: #E63946; color: #fff; font: 800 15px/1 'Inter', sans-serif; letter-spacing: .1em; white-space: nowrap; }
+.gt-kini b::after { content: ''; position: absolute; left: 50%; bottom: -6px; width: 12px; height: 12px; background: #E63946; transform: translateX(-50%) rotate(45deg); border-radius: 2px; }
+.gt-tenggat { position: absolute; transform-origin: 100% 100%; opacity: 0; }
+.gt-tenggat i { position: absolute; left: -2px; bottom: 0; width: 4px; height: 44px; background: #E63946; border-radius: 2px; }
+.gt-tenggat b { position: absolute; right: -16px; bottom: 44px; padding: 10px 16px; border-radius: 10px 10px 0 10px; background: #E63946; color: #fff; font: 800 17px/1 'Inter', sans-serif; letter-spacing: .08em; white-space: nowrap; box-shadow: 0 10px 24px rgba(230,57,70,.3); }
+.v .gt-tenggat b { font-size: 16px; padding: 9px 12px; }
+.gt-tenggat.siap i, .gt-tenggat.siap b { background: #1B7F3B; box-shadow: 0 10px 24px rgba(27,127,59,.35); }
+.gt-tenggat.siap b { font-size: 24px; }
+.gt-ledak { position: absolute; width: 120px; height: 120px; border-radius: 50%; border: 6px solid #1B7F3B; opacity: 0; transform: translate(-50%, -50%) scale(.2); }
+.gt-catatan { position: absolute; left: 60px; bottom: 30px; font: 600 16px/1 'Inter', sans-serif; color: #8A93A8; opacity: 0; }
+.v .gt-catatan { left: 40px; bottom: auto; top: 1610px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #E63946; --pd-btn: #0B1B4D; --pd-btn-ink: #fff; --pd-tirai: rgba(245,247,251,.97); --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-logo: brightness(0); }

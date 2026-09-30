@@ -1,0 +1,55 @@
+NASKAH TY12 — "YANG TIDAK BISA DITARIK" · GAYA: ELASTIS (HURUF KARET)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Elastis (huruf karet) — latar navy gelap; kata TENGGAT merah muda karet ditarik pegangan cincin
+             putih, huruf memanjang ke arah tarikan lalu memantul balik; label tarikan; kata 3×24 JAM bergradasi
+             baja tidak bergerak, pegangan melar & terpental, gembok kecil; digit menjadi penghitung mundur;
+             kartu tahapan insiden asli; chip; huruf SIAP biru memantul masuk
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Tenggat proyek bisa ditarik-tarik. 3×24 jam tidak."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty12-elastis). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY12_S1, TY12_S2, TY12_S3, TY12_S4, TY12_S5 (atau satu file utuh TY12 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. breach-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tenggat proyek bisa ditarik-tarik: minggu depan, bulan depan, kuartal depan."
+      Layar: Kata TENGGAT (karet merah muda) muncul; pegangan cincin memegang ujung kanan dan menarik: huruf
+             memanjang, label "minggu depan" muncul, dilepas → memantul balik; tarikan kedua "bulan depan" lebih
+             panjang; ketiga "kuartal depan" paling panjang.
+[S2]  VO: "Tenggat lapor insiden data? Tiga kali dua puluh empat jam. Tidak bisa ditarik."
+      Layar: TENGGAT mengecil ke atas; kata 3×24 JAM (baja) muncul besar; pegangan mencoba menarik: kata diam
+             (getar 2 px), pegangan sendiri yang melar lalu memantul; percobaan ketiga pegangan terpental keluar;
+             gembok kecil menempel di kata.
+[S3]  VO: "Begitu insiden dicatat, Privasimu Nexus menyalakan hitung mundurnya, daftar periksa, dan templat pemberitahuan."
+      Layar: Digit 3×24 JAM berubah menjadi penghitung mundur 71:59:5x yang berdetak; kartu tahapan insiden asli
+             naik di bawahnya; chip "daftar periksa penahanan", "log linimasa", "templat pemberitahuan" muncul
+             berurutan.
+[S4]  VO: "Yang tidak bisa ditarik, dilatih dulu. Simulasi insiden: kuis, tabletop, walkthrough."
+      Layar: Penghitung & kartu mengecil ke bawah; huruf SIAP (karet biru) jatuh satu per satu dengan pantulan
+             elastis (gepeng lalu memanjang); label "Simulasi insiden · kuis · tabletop · walkthrough".
+[S5]  VO: "Siapkan sebelum ditarik. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Siapkan sebelum ditarik.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Insiden (fakta_produk.json): penghitung mundur batas pemberitahuan 3 x 24 jam; daftar periksa
+  penahanan dan log linimasa dibuat otomatis saat insiden dicatat; templat pemberitahuan tertulis kepada subjek
+  data dan lembaga.
+- Simulasi & Fire Drill (fakta_produk.json): latihan kesiapan tim berupa kuis, tabletop, dan walkthrough.
+- Tahapan insiden = tangkapan asli assets/app/breach-detail.png (stepper, tanpa nama organisasi).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

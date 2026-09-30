@@ -1,0 +1,31 @@
+/* SN14 · HUJAN KARAKTER — navy sangat gelap; hujan biru-es di kanvas; teks putih; aksen merah (NIK) & sian (pemindai) */
+body { background: #070B1E; color: #fff; }
+#stage { background: #070B1E; }
+#vignette { opacity: .5; }
+#grain { opacity: .08; }
+.hj-hook { position: absolute; left: 50%; top: 34%; transform: translateX(-50%); width: 1400px; text-align: center; opacity: 0; font-family: 'Inter', sans-serif; }
+.v .hj-hook { width: 980px; top: 30%; }
+.hj-hook span { display: block; font: 700 54px/1.2 'Inter', sans-serif; color: #fff; text-shadow: 0 4px 30px rgba(7,11,30,.9), 0 0 60px rgba(7,11,30,1); }
+.v .hj-hook span { font-size: 60px; }
+.hj-hook b { display: block; margin-top: 18px; font: 900 150px/1 'Inter', sans-serif; letter-spacing: .02em; color: #FF4656; text-shadow: 0 0 40px rgba(255,70,86,.6), 0 6px 30px rgba(7,11,30,.9); opacity: 0; transform-origin: 50% 50%; }
+.v .hj-hook b { font-size: 132px; }
+.hj-kaca { position: absolute; left: 0; top: 0; width: 240px; height: 240px; border-radius: 50%; border: 10px solid rgba(255,255,255,.9); box-shadow: 0 0 0 4px rgba(7,11,30,.6), inset 0 0 40px rgba(255,255,255,.18), 0 20px 50px rgba(0,0,0,.5); box-sizing: border-box; opacity: 0; }
+.hj-kaca i { position: absolute; right: -78px; bottom: -40px; width: 110px; height: 30px; border-radius: 15px; background: #fff; transform: rotate(45deg); transform-origin: 0 50%; box-shadow: 0 10px 20px rgba(0,0,0,.4); }
+.hj-hitung { position: absolute; right: 60px; top: 50px; padding: 14px 22px; border-radius: 14px; background: rgba(255,255,255,.08); border: 2px solid rgba(255,255,255,.35); backdrop-filter: blur(6px); font: 700 22px/1 'Inter', sans-serif; letter-spacing: .08em; color: #fff; opacity: 0; transform-origin: 100% 0; white-space: nowrap; }
+.v .hj-hitung { right: 40px; top: 160px; font-size: 24px; }
+.hj-hitung b { font-family: 'JetBrains Mono', monospace; font-size: 30px; color: #FFD166; margin: 0 4px; }
+.hj-pindai { position: absolute; left: 0; top: 0; width: 100%; height: 6px; background: linear-gradient(90deg, rgba(120,240,255,0), #8CF2FF 20%, #fff 50%, #8CF2FF 80%, rgba(120,240,255,0)); box-shadow: 0 0 30px 6px rgba(120,240,255,.6), 0 -60px 80px rgba(120,240,255,.18); opacity: 0; }
+.hj-kurung { position: absolute; width: 44px; border: 3px solid #FF4656; border-radius: 10px; box-shadow: 0 0 24px rgba(255,70,86,.6); box-sizing: border-box; opacity: 0; transform-origin: 50% 0; }
+.hj-label { position: absolute; padding: 18px 24px; border-radius: 16px; background: rgba(7,11,30,.92); border: 2px solid rgba(255,70,86,.7); box-shadow: 0 20px 50px rgba(0,0,0,.5); opacity: 0; white-space: nowrap; font-family: 'Inter', sans-serif; }
+.hj-label b { display: block; font: 900 34px/1 'Inter', sans-serif; color: #FF4656; letter-spacing: .02em; }
+.hj-label span { display: block; margin-top: 10px; font: 600 22px/1 'JetBrains Mono', monospace; color: #fff; }
+.hj-label em { display: block; margin-top: 10px; font: 700 20px/1 'Inter', sans-serif; font-style: normal; color: #8CF2FF; }
+.hj-sistem { position: absolute; padding: 10px 16px; border-radius: 12px; background: rgba(7,11,30,.9); border: 1px solid rgba(150,196,255,.5); font-family: 'Inter', sans-serif; opacity: 0; white-space: nowrap; }
+.hj-sistem b { font: 800 22px/1 'Inter', sans-serif; color: #fff; }
+.hj-sistem span { margin-left: 12px; padding: 4px 10px; border-radius: 8px; background: #FF4656; font: 800 18px/1 'Inter', sans-serif; color: #fff; }
+.hj-peta { position: absolute; left: 50%; top: 50%; padding: 24px 40px; border-radius: 20px; background: rgba(7,11,30,.96); border: 2px solid #8CF2FF; box-shadow: 0 0 60px rgba(140,242,255,.3), 0 30px 80px rgba(0,0,0,.6); text-align: center; opacity: 0; transform-origin: 50% 50%; white-space: nowrap; font-family: 'Inter', sans-serif; }
+.hj-peta b { display: block; font: 900 40px/1.1 'Inter', sans-serif; color: #fff; }
+.v .hj-peta { top: 1300px; }
+.v .hj-peta b { font-size: 34px; }
+.hj-peta span { display: block; margin-top: 10px; font: 700 24px/1 'Inter', sans-serif; color: #8CF2FF; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #FF4656; --pd-btn: #fff; --pd-btn-ink: #070B1E; --pd-tirai: rgba(7,11,30,.97); }

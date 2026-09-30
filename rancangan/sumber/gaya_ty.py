@@ -107,7 +107,7 @@ ROWS = [
     R('TY12', 'Elastis (huruf karet)',
       'Huruf ditarik memanjang seperti karet lalu memantul kembali.',
       'scaleX/scaleY dengan easing elastis, titik tumpu di sisi huruf.',
-      'Bisa', 2, 6, 7,
+      'Sudah (TY12)', 2, 6, 7,
       'Yang Tidak Bisa Ditarik', 'Logika dipatahkan',
       '“Tenggat proyek bisa ditarik-tarik. 3×24 jam tidak.”',
       'Kata TENGGAT ditarik berkali-kali → kata 3×24 JAM tidak bergerak → penghitung mundur insiden → CTA',

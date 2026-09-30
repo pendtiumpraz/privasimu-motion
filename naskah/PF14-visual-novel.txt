@@ -1,0 +1,54 @@
+NASKAH PF14 — "PILIH JAWABANMU" · GAYA: VISUAL NOVEL
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Visual novel — ruangan kantor datar (dinding lilac, jendela bercahaya, meja); dua siluet navy:
+             auditor berpapan jalan (kiri) dan kamu (kanan); kotak dialog putih dengan pil nama & teks mengetik;
+             menu pilihan A/B dengan kursor ▶; kartu BAD END merah & GOOD END hijau-emas; kartu ITEM emas berisi
+             register RoPA asli
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 40% edukasi · 60% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Auditor: 'RoPA-nya mana?' ▶ A. 'Sebentar…' ▶ B. 'Ini.'"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf14-visual-novel). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF14_S1, PF14_S2, PF14_S3, PF14_S4, PF14_S5 (atau satu file utuh PF14 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Auditor: "RoPA-nya mana?" Pilih jawabanmu."
+      Layar: Ruangan & dua siluet muncul; kotak dialog naik, pil nama AUDITOR, teks mengetik "RoPA-nya mana?";
+             menu pilihan A. "Sebentar…" / B. "Ini." muncul dengan kursor ▶ di A.
+[S2]  VO: "A: "Sebentar." Dua belas spreadsheet dibuka, tiga hari berlalu. Akhir buruk."
+      Layar: Kursor memilih A (kedip); dialog KAMU "Sebentar… (membuka 12 spreadsheet*)"; jendela-jendela
+             spreadsheet kecil bermunculan berantakan; chip HARI 1 → 3; layar gelap: BAD END merah, "Temuan: RoPA
+             tidak dapat ditunjukkan", "Muat ulang?" berkedip.
+[S3]  VO: "Muat ulang. B: "Ini." Di Privasimu Nexus, RoPA tercatat dengan kode dan riwayatnya, tinggal tunjukkan."
+      Layar: Efek rewind (garis-garis, ◀◀ MUAT ULANG); menu kembali, kursor turun ke B lalu memilih; dialog KAMU
+             "Ini."; kartu ITEM emas naik berisi register RoPA asli; dialog AUDITOR "Lengkap. Terima kasih."
+[S4]  VO: "Akhir baik. Pertanyaan berikutnya: "DPIA-nya?" Pilihannya tinggal satu."
+      Layar: Layar GOOD END hijau-emas dengan statistik (spreadsheet dibuka: 0*); kembali ke ruangan: dialog
+             AUDITOR "DPIA-nya?"; menu pilihan muncul lagi: A "Sebentar…" dicoret "tidak tersedia", B "Ini."
+             menyala dengan catatan "draf DPIA dibuat otomatis".
+[S5]  VO: "Pilih jawaban yang ada. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Pilih jawaban yang ada.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): satu register terpusat dengan kode rekaman ROPA-TAHUN-NOMOR; alur
+  Maker/Reviewer/Approver dengan riwayat perubahan; RoPA berisiko TINGGI otomatis membuat draf DPIA.
+- Register RoPA = tangkapan asli assets/app/ropa-list-baru.png (dipotong, tanpa nama organisasi).
+- "12 spreadsheet" & "3 hari" = ilustrasi (ditandai *); tokoh = siluet tanpa nama/wajah; tanpa gaya karakter gim
+  tertentu.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

@@ -1,0 +1,56 @@
+/* PF14 · VISUAL NOVEL — ruangan lilac (kanvas); siluet navy; kotak dialog putih bertepi navy; menu pilihan krem; BAD END merah, GOOD END hijau-emas; kartu ITEM emas */
+body { background: #DAD6F4; color: #0B1B4D; }
+#stage { background: #DAD6F4; }
+#vignette { opacity: .22; }
+#grain { opacity: .05; }
+.vn-tokoh { position: absolute; width: 300px; height: 520px; transform-origin: 50% 100%; opacity: 0; }
+.vn-tokoh .kepala { position: absolute; left: 50%; top: 0; width: 124px; height: 124px; margin-left: -62px; border-radius: 50%; background: #1B2447; }
+.vn-tokoh .badan { position: absolute; left: 50%; top: 130px; width: 230px; height: 390px; margin-left: -115px; border-radius: 110px 110px 26px 26px; background: #1B2447; }
+.vn-tokoh.kamu .kepala, .vn-tokoh.kamu .badan { background: #24306B; }
+.vn-tokoh .papan { position: absolute; left: 50%; top: 250px; width: 120px; height: 150px; margin-left: 30px; border-radius: 10px; background: #F6F1E8; border: 6px solid #B9A78E; box-sizing: border-box; background-image: repeating-linear-gradient(#F6F1E8 0 18px, #CFC6B6 18px 22px); }
+.vn-kotak { position: absolute; left: 140px; right: 140px; top: 810px; height: 210px; border-radius: 22px; background: rgba(255,255,255,.96); border: 4px solid #1B2447; box-shadow: 0 24px 60px rgba(27,36,71,.25); padding: 44px 48px 0; box-sizing: border-box; opacity: 0; }
+.v .vn-kotak { left: 40px; right: 40px; top: 1440px; height: 250px; padding: 52px 40px 0; }
+.vn-nama { position: absolute; left: 28px; top: -26px; padding: 10px 22px; border-radius: 12px; background: #1B2447; color: #fff; font: 800 20px/1 'Inter', sans-serif; letter-spacing: .14em; }
+.v .vn-nama { font-size: 22px; }
+.vn-teks { font: 600 42px/1.25 'Inter', sans-serif; color: #0B1B4D; white-space: pre-wrap; }
+.v .vn-teks { font-size: 44px; }
+.vn-lanjut { position: absolute; right: 28px; bottom: 16px; font-style: normal; font-size: 26px; color: #1B2447; opacity: 0; }
+.vn-menu { position: absolute; left: 50%; top: 300px; width: 720px; transform-origin: 50% 50%; opacity: 0; }
+.v .vn-menu { top: 760px; width: 880px; }
+.vn-opsi { position: relative; margin: 0 0 18px; padding: 0 30px 0 74px; height: 90px; border-radius: 18px; background: rgba(255,251,240,.96); border: 4px solid #1B2447; box-sizing: border-box; display: flex; align-items: center; gap: 18px; font: 800 36px/1 'Inter', sans-serif; color: #1B2447; box-shadow: 0 14px 30px rgba(27,36,71,.2); }
+.v .vn-opsi { height: 100px; font-size: 40px; }
+.vn-opsi .kursor { position: absolute; left: 24px; font-style: normal; font-size: 30px; opacity: 0; color: #E63946; }
+.vn-opsi.aktif { background: #FFF1C2; }
+.vn-opsi.aktif .kursor { opacity: 1; }
+.vn-opsi.pilih { background: #FFD166; border-color: #E63946; }
+.vn-opsi em { display: none; font: 700 20px/1 'Inter', sans-serif; color: #E63946; letter-spacing: .06em; text-transform: uppercase; margin-left: auto; }
+.vn-opsi.mati { background: #E6E3EE; color: #9A97AA; border-color: #9A97AA; box-shadow: none; }
+.vn-opsi.mati span { text-decoration: line-through; }
+.vn-opsi.mati em { display: block; }
+.vn-catat { margin: 4px auto 0; width: max-content; max-width: 100%; padding: 10px 18px; border-radius: 12px; background: rgba(255,255,255,.95); text-align: center; font: 700 22px/1.3 'Inter', sans-serif; color: #1B7F3B; opacity: 0; box-shadow: 0 8px 20px rgba(27,36,71,.15); }
+.v .vn-catat { font-size: 24px; }
+.vn-sheet { position: absolute; width: 200px; height: 130px; border-radius: 10px; background: #fff; border: 2px solid #BFC7D6; box-shadow: 0 12px 26px rgba(27,36,71,.22); overflow: hidden; opacity: 0; transform-origin: 50% 50%; }
+.vn-sheet b { display: block; height: 30px; padding: 0 10px; background: #1B7F3B; color: #fff; font: 700 13px/30px 'Inter', sans-serif; white-space: nowrap; overflow: hidden; }
+.vn-sheet i { display: block; height: 1px; margin: 22px 0 0; background: #D7DEE9; box-shadow: 0 8px 0 #D7DEE9, 0 16px 0 #D7DEE9; }
+.vn-hari { position: absolute; right: 60px; top: 50px; padding: 14px 24px; border-radius: 14px; background: #1B2447; color: #fff; font: 700 22px/1 'Inter', sans-serif; letter-spacing: .12em; opacity: 0; transform-origin: 50% 50%; }
+.v .vn-hari { right: 40px; top: 200px; }
+.vn-hari b { font-size: 34px; color: #FFD166; margin-left: 6px; }
+.vn-item { position: absolute; left: 50%; top: 130px; width: 1000px; padding: 26px 40px 34px; border-radius: 26px; background: #FFF8E1; border: 6px solid #E0A82E; box-shadow: 0 30px 80px rgba(27,36,71,.35), 0 0 0 10px rgba(224,168,46,.25); box-sizing: border-box; opacity: 0; transform-origin: 50% 50%; }
+.v .vn-item { top: 520px; width: 980px; }
+.vi-kop { font: 900 20px/1 'Inter', sans-serif; letter-spacing: .2em; color: #B8860B; }
+.vi-nama { font: 800 30px/1.2 'Inter', sans-serif; color: #0B1B4D; margin: 10px 0 18px; }
+.v .vi-nama { font-size: 32px; }
+.vi-layar .pd-layar { box-shadow: 0 10px 30px rgba(27,36,71,.2), 0 0 0 1px rgba(8,15,40,.1); }
+.vn-akhir { position: absolute; inset: 0; background: rgba(28,10,20,.9); color: #FF4D5E; text-align: center; opacity: 0; padding-top: 340px; box-sizing: border-box; }
+.v .vn-akhir { padding-top: 640px; }
+.vn-akhir.baik { background: rgba(6,38,32,.92); color: #FFD166; }
+.vn-akhir .judul { font: 900 170px/1 'Inter', sans-serif; letter-spacing: .06em; transform-origin: 50% 50%; opacity: 0; }
+.v .vn-akhir .judul { font-size: 140px; }
+.vn-akhir .sub { margin-top: 26px; font: 700 34px/1.3 'Inter', sans-serif; color: #fff; opacity: 0; }
+.vn-akhir .stat { margin-top: 30px; display: flex; flex-direction: column; gap: 10px; font: 600 26px/1.3 'Inter', sans-serif; color: rgba(255,255,255,.8); }
+.vn-akhir .stat span { opacity: 0; }
+.vn-akhir .prompt { margin-top: 40px; font: 800 30px/1 'Inter', sans-serif; color: #fff; letter-spacing: .1em; opacity: 0; }
+.vn-ulang { position: absolute; inset: 0; background: repeating-linear-gradient(rgba(255,255,255,0) 0 22px, rgba(255,255,255,.35) 22px 26px); opacity: 0; }
+.vn-ulang b { position: absolute; right: 60px; top: 60px; font: 900 44px/1 'Inter', sans-serif; color: #fff; letter-spacing: .1em; text-shadow: 0 2px 10px rgba(0,0,0,.5); }
+.v .vn-ulang b { right: 40px; top: 300px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #E63946; --pd-btn: #1B2447; --pd-btn-ink: #fff; --pd-tirai: rgba(218,214,244,.97); --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-logo: brightness(0); }

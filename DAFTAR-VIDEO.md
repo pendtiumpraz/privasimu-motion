@@ -2,7 +2,7 @@
 
 > Dibuat otomatis oleh `node lib/daftar-video.js`. Jangan disunting tangan.
 
-Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
+Jumlah: 103 video · siap render: 28 · sudah dirender: 75 · masih dirakit: 0
 
 | Kode | Folder | Judul | Gaya | Hook | Komposisi | Durasi | Status |
 |---|---|---|---|---|---|---|---|
@@ -14,6 +14,7 @@ Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
 | GB11 | `gb11-infografik` | Patuh Itu Bukan Ya/Tidak | Infografik animasi | Logika dipatahkan | 80% edukasi · 20% meme | 31,0 dtk | siap render |
 | GB13 | `gb13-origami` | Selembar Kontrak | Origami (lipat kertas) | Logika dipatahkan | 70% edukasi · 30% meme | 28,1 dtk | siap render |
 | GB20 | `gb20-venn` | Irisan | Diagram Venn | Relate | 70% edukasi · 30% meme | 31,7 dtk | siap render |
+| GB23 | `gb23-gantt` | Hitung Mundur Sudah Jalan | Linimasa / Gantt | Anomali | 80% edukasi · 20% meme | 31,1 dtk | siap render |
 | GB27 | `gb27-labirin` | Mencari Satu Dokumen | Labirin | Relate | 70% edukasi · 30% meme | 27,4 dtk | sudah dirender |
 | GB39 | `gb39-kaleidoskop` | Dari Dekat, Kacau | Kaleidoskop | Logika dipatahkan | 30% edukasi · 70% meme | 25,6 dtk | sudah dirender |
 | GB45 | `gb45-exploded` | Tiga Lapis | Lapisan terurai (exploded view) | Anomali | 80% edukasi · 20% meme | 29,2 dtk | siap render |
@@ -31,6 +32,7 @@ Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
 | N11 | `n11-meme-dpo` | Hidup DPO (2026) |  |  |  | 66,6 dtk | sudah dirender |
 | PF08 | `pf08-struk-belanja` | Emotional Damage: Denda 2% | Struk belanja | Anomali | 40% edukasi · 60% meme | 30,7 dtk | siap render |
 | PF11 | `pf11-prakiraan-cuaca` | Prakiraan Kepatuhan | Prakiraan cuaca | Anomali | 60% edukasi · 40% meme | 28,9 dtk | sudah dirender |
+| PF14 | `pf14-visual-novel` | Pilih Jawabanmu | Visual novel | Relate | 40% edukasi · 60% meme | 30,5 dtk | siap render |
 | PF21 | `pf21-label-gizi` | Informasi Nilai Data | Label nilai gizi | Anomali | 60% edukasi · 40% meme | 30,5 dtk | siap render |
 | PF22 | `pf22-petunjuk-rakit` | Cara Merakit Kepatuhan | Petunjuk perakitan | Relate | 60% edukasi · 40% meme | 26,1 dtk | sudah dirender |
 | PF24 | `pf24-slip-gaji` | Slip Gaji DPO | Slip gaji | Relate | 10% edukasi · 90% meme | 32,0 dtk | siap render |
@@ -41,6 +43,7 @@ Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
 | SN07 | `sn07-potongan-kertas` | Pembuka | Title sequence potongan kertas | Anomali | 70% edukasi · 30% meme | 28,6 dtk | siap render |
 | SN08 | `sn08-film-bisu` | Auditor Datang | Film bisu (kartu teks) | Relate | 50% edukasi · 50% meme | 28,6 dtk | sudah dirender |
 | SN13 | `sn13-peluncuran-roket` | Nilai Dulu, Baru Meluncur | Peluncuran roket | Anomali | 70% edukasi · 30% meme | 28,4 dtk | sudah dirender |
+| SN14 | `sn14-hujan-karakter` | Hujan Data | Hujan karakter | Anomali | 50% edukasi · 50% meme | 27,9 dtk | siap render |
 | SN16 | `sn16-kamera-termal` | Yang Panas | Kamera termal | Anomali | 70% edukasi · 30% meme | 29,3 dtk | siap render |
 | SN17 | `sn17-strip-film` | 36 Bingkai | Strip film / lembar kontak | Anomali | 50% edukasi · 50% meme | 29,7 dtk | siap render |
 | SN19 | `sn19-satu-warna` | Satu Warna | Hitam-putih + satu warna | Anomali | 80% edukasi · 20% meme | 28,9 dtk | siap render |
@@ -54,6 +57,7 @@ Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
 | TY09 | `ty09-meleleh` | 72 Jam yang Meleleh | Liquid / huruf meleleh | Relate | 50% edukasi · 50% meme | 26,0 dtk | sudah dirender |
 | TY10 | `ty10-glitch` | 03.00 | Glitch / RGB split | Anomali | 50% edukasi · 50% meme | 23,6 dtk | sudah dirender |
 | TY11 | `ty11-font-bernapas` | Minggu Depan Ya | Font variabel "bernapas" | Relate | 70% edukasi · 30% meme | 25,3 dtk | sudah dirender |
+| TY12 | `ty12-elastis` | Yang Tidak Bisa Ditarik | Elastis (huruf karet) | Logika dipatahkan | 50% edukasi · 50% meme | 30,7 dtk | siap render |
 | TY13 | `ty13-marquee` | Yang Mana Punyamu? | Marquee brutalist (teks berjalan bertumpuk) | Anomali | 50% edukasi · 50% meme | 24,1 dtk | sudah dirender |
 | TY14 | `ty14-led` | Buka 24 Jam | Papan LED berjalan | Relate | 50% edukasi · 50% meme | 22,3 dtk | sudah dirender |
 | TY15 | `ty15-odometer` | Angka yang Mulai Berjalan | Angka digital / odometer | Anomali | 70% edukasi · 30% meme | 28,8 dtk | sudah dirender |
@@ -100,6 +104,7 @@ Jumlah: 98 video · siap render: 23 · sudah dirender: 75 · masih dirakit: 0
 | UI04 | `ui04-screenlife` | Pukul 16.58 | Screenlife (cerita di layar komputer) | Relate | 70% edukasi · 30% meme | 27,1 dtk | siap render |
 | UI05 | `ui05-retro-os` | FAAAH | Retro OS (dialog error beruntun) | Relate | 30% edukasi · 70% meme | 31,3 dtk | siap render |
 | UI06 | `ui06-lock-screen` | Sehari dalam Notifikasi | Lock screen (notifikasi) | Relate | 70% edukasi · 30% meme | 33,1 dtk | sudah dirender |
+| UI10 | `ui10-kotak-masuk` | Senin, 08.02 | Kotak masuk email | Relate | 70% edukasi · 30% meme | 29,8 dtk | siap render |
 | UI12 | `ui12-pohon-folder` | Baru (2) | Pohon folder | Relate | 70% edukasi · 30% meme | 28,9 dtk | siap render |
 | UI18 | `ui18-lacak-resi` | Lacak Permohonan | Lacak paket (resi) | Relate | 80% edukasi · 20% meme | 27,6 dtk | sudah dirender |
 | UI19 | `ui19-keranjang` | Keranjang 12.12 | Keranjang belanja | Anomali | 50% edukasi · 50% meme | 25,7 dtk | sudah dirender |
