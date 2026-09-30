@@ -1,0 +1,24 @@
+/* TY31 · TEKS DI JALUR — navy gelap, teks biru muda mengalir di spiral, pusaran gelap, kartu RoPA putih */
+body { background: #03050F; color: #fff; }
+#stage { background: #03050F; }
+#vignette { opacity: .55; }
+#grain { opacity: .06; }
+.jl-svg { position: absolute; left: 0; top: 0; overflow: visible; }
+.jl-teks { font: 700 34px 'Sora', sans-serif; fill: #9FC1FF; letter-spacing: .04em; }
+.jl-pusaran { position: absolute; width: 260px; height: 260px; border-radius: 50%; background: conic-gradient(from 0deg, #0B1230, #2F6BFF 30%, #0B1230 60%, #6D4CFF 80%, #0B1230); filter: blur(10px); opacity: .35; }
+.jl-pusaran::after { content: ''; position: absolute; inset: 60px; border-radius: 50%; background: #03050F; }
+.jl-tombol { position: absolute; padding: 26px 70px 30px; border-radius: 22px; background: #2F6BFF; color: #fff; font: 800 60px/1 'Sora', sans-serif; letter-spacing: .06em; box-shadow: 0 16px 0 #1a3f9e, 0 40px 60px rgba(0,0,0,.5); transform-origin: 50% 50%; }
+.jl-tombol.on { box-shadow: 0 6px 0 #1a3f9e, 0 20px 40px rgba(0,0,0,.5); background: #2458D6; }
+.jl-ropa { position: absolute; padding: 26px 34px 30px; border-radius: 22px; background: #fff; color: #0B1B4D; box-shadow: 0 40px 100px rgba(0,0,0,.5); font-family: 'Sora', sans-serif; opacity: 0; transform-origin: 50% 0; }
+.jl-ropa .jh { display: flex; justify-content: space-between; align-items: baseline; font: 800 26px/1.2 'Sora', sans-serif; letter-spacing: .02em; color: #2F6BFF; margin-bottom: 14px; }
+.jl-ropa .jh span { font-size: 18px; font-weight: 600; color: #8A93B3; }
+.jl-ropa .jr { display: flex; gap: 20px; padding: 14px 0; border-top: 1px solid #EEF1F8; font-size: 30px; opacity: 0; }
+.v .jl-ropa .jr { font-size: 27px; flex-direction: column; gap: 4px; }
+.v .jl-ropa .jr span, .v .jl-ropa .jr b { flex: 0 0 auto; }
+.jl-ropa .jr b { flex: 0 0 190px; color: #0B1B4D; }
+.jl-ropa .jr span { flex: 1 1 0; color: #3A4468; }
+.jl-toast { border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,.5), 0 0 0 3px #18B26B !important; opacity: 0; }
+.jl-kalimat { position: absolute; left: 50%; transform: translateX(-50%); top: 900px; max-width: 1500px; padding: 16px 36px 20px; border-radius: 20px; background: rgba(3,5,15,.78); text-align: center; font: 800 50px/1.16 'Sora', sans-serif; letter-spacing: -.01em; color: #fff; white-space: nowrap; }
+.v .jl-kalimat { top: 1440px; max-width: 980px; font-size: 44px; white-space: normal; }
+.jl-kalimat em { font-style: normal; color: #9FC1FF; }
+.pd-cta { --pd-font: 'Sora', sans-serif; --pd-acc: #9FC1FF; --pd-btn: #2F6BFF; }

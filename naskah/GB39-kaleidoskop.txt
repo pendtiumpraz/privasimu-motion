@@ -1,0 +1,45 @@
+NASKAH GB39 — "DARI DEKAT, KACAU" · GAYA: KALEIDOSKOP
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kaleidoskop — lingkaran kaleidoskop di latar ungu gelap: 8 irisan cermin dari potongan layar hasil
+             GAP (skor 81% hijau, batang merah muda) berputar pelan; close-up kacau → mundur jadi mandala
+             simetris; logo di pusat + cincin 7 modul
+Durasi     : ± 26 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Dari dekat terlihat kacau. Dari jauh, ini pola."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb39-kaleidoskop). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB39_S1, GB39_S2, GB39_S3, GB39_S4 (atau satu file utuh GB39 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. gap-hasil
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Dari dekat, terlihat kacau."
+      Layar: Close-up kaleidoskop (zoom 2,4×): pecahan grafik, angka, warna berputar — kacau.
+[S2]  VO: "Dari jauh… ini pola."
+      Layar: Kamera mundur pada "jauh": lingkaran penuh terlihat — mandala simetris 8 irisan yang berputar
+             tenang.
+[S3]  VO: "Privasimu Nexus: modul saling terhubung, dari RoPA sampai transfer lintas negara. Satu pola."
+      Layar: Kaleidoskop meredup jadi latar; logo Privasimu muncul di pusat; cincin 7 pil modul menyala satu per
+             satu saat disebut.
+[S4]  VO: "Dari dekat kacau, dari jauh pola. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Dari dekat kacau, dari jauh pola.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json, kunci platform): modul saling terhubung — RoPA, DPIA, DSR, Consent,
+  insiden, pihak ketiga, transfer lintas negara.
+- Sumber irisan = tangkapan asli assets/app/gap-hasil.png, header (nama organisasi) dipotong lewat clip-path.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

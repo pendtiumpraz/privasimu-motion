@@ -1,0 +1,48 @@
+NASKAH TY32 — "40 HALAMAN" · GAYA: HURUF BERJATUHAN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Huruf berjatuhan — halaman krem berisi paragraf legal serif; huruf lepas satu per satu, jatuh dengan
+             gravitasi, memantul, menumpuk di dasar; huruf naik tersusun jadi daftar temuan; kartu ringkasan
+             Telaah Kebijakan asli
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Tidak ada yang membaca kebijakan privasi 40 halaman*. Termasuk yang menulisnya."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty32-huruf-jatuh). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY32_S1, TY32_S2, TY32_S3, TY32_S4 (atau satu file utuh TY32 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. policy-review
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tidak ada yang membaca kebijakan privasi empat puluh halaman. Termasuk yang menulisnya."
+      Layar: Paragraf kebijakan privasi rapat; pada "halaman" huruf-huruf mulai lepas dan berjatuhan, memantul,
+             menumpuk di bawah.
+[S2]  VO: "Privasimu Nexus menelaahnya per bab: temuan, rekomendasi, dan bunyi pasal dari knowledge base."
+      Layar: Huruf-huruf naik dari tumpukan dan tersusun jadi "TEMUAN PER BAB" + tiga temuan contoh dengan
+             rujukan pasal.
+[S3]  VO: "Hasilnya bisa disunting konsultan, dan diharmonisasi antar dokumen."
+      Layar: Kartu asli "Ringkasan portofolio" (dinilai terhadap UU PDP & PP 33/2026) muncul di bawah daftar
+             temuan.
+[S4]  VO: "Panjang boleh, asal ditelaah per bab. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Panjang boleh, asal ditelaah per bab.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Telaah Kebijakan (fakta_produk.json): telaah per bab dengan temuan dan rekomendasi; bunyi pasal dari knowledge
+  base regulasi, bukan ditulis AI; harmonisasi antar dokumen; hasil dapat disunting konsultan.
+- Kartu "Ringkasan portofolio" = tangkapan asli assets/app/policy-review.png (dinilai terhadap UU PDP & PP
+  33/2026; angka tenant uji).
+- "40 halaman" dan tiga temuan di layar = ilustrasi/contoh (ditandai *).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

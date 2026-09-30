@@ -1,0 +1,46 @@
+NASKAH TY05 — "SURAT YANG HAMPIR DIKIRIM DPO" · GAYA: MESIN TIK (TYPEWRITER)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Mesin tik (typewriter) — kertas krem di mesin tik; huruf muncul satu per satu (Special Elite) dengan
+             bunyi tuts dan "ting" di ujung baris; salah ketik ditimpa XXXX
+Durasi     : ± 23 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : DPO/PPDP yang bekerja sendirian; manajemen yang menunjuknya
+Hook       : relate — "Dengan hormat, saya mengundurkan diri sebagai satu-satunya orang yang mengurus data
+             pribadi di kantor ini."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty05-mesin-tik). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY05_S1, TY05_S2, TY05_S3, TY05_S4 (atau satu file utuh TY05 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Dibaca seperti orang membaca surat yang sedang diketiknya sendiri: agak datar, lalu tersadar di S2.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Dengan hormat. Saya mengundurkan diri sebagai satu-satunya orang yang mengurus data pribadi di kantor ini."
+      Layar: Kertas di mesin tik. Baris demi baris diketik: "Dengan hormat," / "Saya mengundurkan diri sebagai
+             satu-satunya orang" / "yang mengurus data pribadi di kantor ini."
+[S2]  VO: "Eh. Maksud saya…"
+      Layar: Kata "mengundurkan diri" ditimpa XXXXXXXX cepat (bunyi tuts beruntun). Jeda.
+[S3]  VO: "Tolong beri saya alat yang layak: antrean kerja, dasbor kepatuhan, dan asisten AI."
+      Layar: Baris baru diketik: "tolong beri saya alat yang layak." Dasbor kepatuhan asli menyusup dari sisi
+             kertas dengan pita "antrean kerja · dasbor · asisten AI".
+[S4]  VO: "Hormat saya, DPO yang akhirnya punya alat. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Baris penutup diketik: "Hormat saya, DPO yang akhirnya punya alat." → kartu penutup: logo, tombol
+             privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dukungan PPDP: antrean pekerjaan yang menunggu tindakan, dasbor kepatuhan lintas modul, asisten AI Priva
+  (fakta_produk.json: ppdp). Layar = dasbor asli (assets/app/dashboard.png, tanpa nama organisasi).
+- Surat = fiksi humor; tidak merujuk orang atau perusahaan mana pun.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

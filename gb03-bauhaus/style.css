@@ -1,0 +1,29 @@
+/* GB03 · BAUHAUS — krem #F2EBDD, merah #D7262E, biru #1F4FBF, kuning #F2B705, hitam #141414; Poppins 900 */
+body { background: #F2EBDD; color: #141414; }
+#stage { background: #F2EBDD; }
+#vignette { opacity: .12; }
+#grain { opacity: .05; }
+.bh { position: absolute; left: 0; top: 0; width: 230px; height: 230px; opacity: 0; transform-origin: 50% 50%; }
+.v .bh { width: 210px; height: 210px; }
+.bh svg { width: 100%; height: 100%; display: block; }
+.bh.salinan { width: 200px; height: 200px; }
+.bh-label { position: absolute; left: 0; top: 0; font: 900 40px/1 'Poppins', sans-serif; letter-spacing: .3em; color: #141414; opacity: 0; white-space: nowrap; }
+.v .bh-label { font-size: 34px; }
+.bh-tanya { position: absolute; left: 50%; top: 50%; font: 900 420px/1 'Poppins', sans-serif; color: #141414; opacity: 0; transform-origin: 50% 50%; }
+.v .bh-tanya { top: 47%; font-size: 380px; }
+.bh-poster { position: absolute; background: #F7F1E4; border: 14px solid #141414; box-sizing: border-box; opacity: 0; transform-origin: 50% 50%; }
+.bh-garis { position: absolute; background: #141414; }
+.bh-garis.g1 { left: 0; right: 0; top: 36%; height: 8px; }
+.bh-garis.g2 { left: 0; right: 0; top: 64%; height: 8px; }
+.v .bh-garis.g1 { top: 35%; } .v .bh-garis.g2 { top: 65%; }
+.bh-judul { position: absolute; right: 30px; top: 50%; translate: 0 -50%; writing-mode: vertical-rl; transform: rotate(180deg); font: 900 96px/1 'Poppins', sans-serif; letter-spacing: .06em; color: #141414; opacity: 0; white-space: nowrap; }
+.v .bh-judul { font-size: 82px; right: 18px; }
+.bh-kaki { position: absolute; left: 30px; bottom: 16px; font: 700 22px/1 'Inter', sans-serif; letter-spacing: .3em; color: #141414; }
+.bh-baris { position: absolute; opacity: 0; white-space: nowrap; }
+.bh-baris b { display: block; font: 900 64px/1 'Poppins', sans-serif; color: #141414; }
+.bh-baris span { display: block; margin-top: 8px; font: 700 26px/1.2 'Inter', sans-serif; letter-spacing: .04em; color: #141414; }
+.v .bh-baris b { font-size: 54px; } .v .bh-baris span { font-size: 24px; white-space: normal; max-width: 300px; }
+.bh-panah { position: absolute; width: 150px; height: 14px; background: #141414; opacity: 0; transform-origin: 50% 50%; }
+.bh-panah::after { content: ''; position: absolute; right: -22px; top: -13px; border: 20px solid transparent; border-left: 26px solid #141414; border-right: 0; }
+.v .bh-panah { width: 120px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Poppins', sans-serif; --pd-acc: #F2B705; --pd-btn: #D7262E; --pd-btn-ink: #fff; --pd-tirai: rgba(20,20,20,.97); }

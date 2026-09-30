@@ -1,0 +1,46 @@
+NASKAH GB13 — "SELEMBAR KONTRAK" · GAYA: ORIGAMI (LIPAT KERTAS)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Origami (lipat kertas) — meja kayu terang; selembar kertas kontrak (DPA) dengan pasal-pasal; kertas
+             terlipat akordeon 3D (bayangan di tiap lipatan) → pesawat kertas terbang ke pojok → kembali,
+             terbuka; stempel temuan per bab + rekomendasi klausul; kertas terlipat jadi perisai
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Kontrak sudah ditandatangani. Bukan berarti datanya aman."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb13-origami). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB13_S1, GB13_S2, GB13_S3, GB13_S4 (atau satu file utuh GB13 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kontrak sudah ditandatangani… bukan berarti datanya aman."
+      Layar: Kertas DPA dengan tanda tangan; pada "ditandatangani" kertas terlipat akordeon jadi pesawat kertas;
+             pada "aman" pesawat terbang ke pojok atas.
+[S2]  VO: "Privasimu Nexus membukanya lagi, menelaah per bab: sub-prosesor, pemberitahuan insiden, transfer data. Rujukan pasal diverifikasi."
+      Layar: Pesawat kembali ke meja dan terbuka jadi kertas; stempel temuan per bab muncul: Pasal 4 · Pasal 7 ·
+             Pasal 9 dengan rekomendasi klausul.
+[S3]  VO: "Klausulnya diperbaiki. Kertas yang sama, sekarang jadi perisai."
+      Layar: Stempel berubah hijau; kertas terlipat lagi menjadi perisai kertas bergaris lipatan; tiga panah
+             merah (risiko) menghantam perisai dan terpental dengan kilat kuning.
+[S4]  VO: "Lipat kontrakmu jadi perisai. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Lipat kontrakmu jadi perisai.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Telaah Kontrak (fakta_produk.json): telaah per bab untuk DPA, kontrak pihak ketiga, NDA, kontrak pelanggan;
+  rujukan pasal diverifikasi ke knowledge base; rekomendasi klausul.
+- Temuan di layar (Pasal 4 sub-prosesor, Pasal 7 insiden 3×24 jam, Pasal 9 transfer) = contoh ilustratif,
+  ditandai *.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

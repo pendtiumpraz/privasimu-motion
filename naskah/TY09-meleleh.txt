@@ -1,0 +1,41 @@
+NASKAH TY09 — "72 JAM YANG MELELEH" · GAYA: LIQUID / HURUF MELELEH
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Liquid / huruf meleleh — angka 72 JAM tebal jingga meleleh bergelombang dan menetes (filter distorsi
+             SVG), lalu membeku biru es; pil tenggat asli "71h tersisa" dari layar DSR
+Durasi     : ± 26 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : tim layanan pelanggan, legal, DPO/PPDP
+Hook       : relate — "72 jam itu cepat. Apalagi kalau dihitung manual."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty09-meleleh). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY09_S1, TY09_S2, TY09_S3, TY09_S4 (atau satu file utuh TY09 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tujuh puluh dua jam itu cepat."
+      Layar: "72 JAM" raksasa jingga utuh; mulai bergoyang halus seperti lilin hangat.
+[S2]  VO: "Apalagi kalau dihitungnya manual: email bolak-balik, spreadsheet, tanya sana-sini."
+      Layar: Huruf meleleh makin parah dan menetes ke bawah; ikon surel beterbangan bolak-balik.
+[S3]  VO: "Di Privasimu Nexus, tenggat dihitung otomatis sejak permohonan dicatat. Beku. Rapi."
+      Layar: Di "otomatis" huruf membeku: distorsi hilang, warna jadi biru es, tetesan menarik diri; pil tenggat
+             asli "71h tersisa" membesar di sampingnya.
+[S4]  VO: "Jangan biarkan tenggatnya meleleh. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jangan biarkan tenggatnya meleleh.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DSR: tenggat otomatis 72 jam sejak permohonan dicatat; semua permohonan tercatat di satu antrean
+  (fakta_produk.json: dsr). Pil tenggat = potongan layar asli assets/app/dsr-detail.png (data demo).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

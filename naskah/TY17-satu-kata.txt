@@ -1,0 +1,41 @@
+NASKAH TY17 — "PATUH BUKAN PERASAAN" · GAYA: SATU KATA PER LAYAR
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Satu kata per layar — satu kata raksasa memenuhi layar, berganti tepat di ketukan ucapan; huruf
+             tengah berwarna sebagai titik fokus; latar berganti navy–putih–kuning
+Durasi     : ± 15 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Patuh. Bukan. Perasaan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty17-satu-kata). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY17_S1, TY17_S2, TY17_S3 (atau satu file utuh TY17 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Tiap kata di S1 dibaca terpisah dengan jeda pendek: "Patuh. Bukan. Perasaan."
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Patuh. Bukan. Perasaan."
+      Layar: PATUH (navy) → BUKAN (putih, huruf merah) → PERASAAN (kuning), tiap kata memenuhi layar tepat saat
+             diucapkan.
+[S2]  VO: "Ukur. Skor kepatuhan, dari GAP Assessment."
+      Layar: UKUR (biru) → layar hasil GAP asli dengan skor 81% masuk; label "skor kepatuhan · rencana
+             remediasi".
+[S3]  VO: "Start Pre Check, gratis. Di privasimu dot com."
+      Layar: Kartu penutup: logo, "Patuh itu diukur.", tombol privasimu.com, "Start Pre Check · gratis", kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment: kuesioner penilaian kepatuhan UU PDP, skor kepatuhan dan rencana remediasi (fakta_produk.json:
+  gap-assessment). Layar = assets/app/gap-hasil.png; skor 81% = data demo.
+- "Start Pre Check (gratis)" = CTA resmi; pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

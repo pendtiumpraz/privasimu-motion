@@ -1,0 +1,17 @@
+/* TY54 · TIPOGRAFI AKSESIBEL — abu-abu pucat menjadi putih; Inter variabel; kontras hitam pekat di akhir */
+body { background: #E2E4E8; color: #0A0A0A; }
+#stage { background: #E2E4E8; }
+#vignette { opacity: .12; }
+#grain { opacity: .04; }
+.ak-kal { position: absolute; padding: 30px 44px; border-radius: 22px; text-align: center; }
+.ak-kal p { margin: 0; font-family: 'Inter', sans-serif; font-variation-settings: "opsz" 32; }
+.ak-spk { position: absolute; left: 0; right: 0; display: flex; align-items: center; justify-content: center; gap: 18px; color: #0A0A0A; opacity: 0; }
+.ak-spk .bar { display: flex; align-items: center; gap: 5px; height: 64px; }
+.ak-spk .bar i { width: 7px; height: 64px; border-radius: 4px; background: #2F6BFF; transform-origin: 50% 50%; }
+.ak-spk span { font: 700 30px/1 'Inter', sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+.ak-teks { position: absolute; left: 100px; right: 100px; top: 880px; text-align: center; font: 600 54px/1.16 'Inter', sans-serif; letter-spacing: -.015em; color: #0A0A0A; }
+.v .ak-teks { left: 60px; right: 60px; top: 1250px; font-size: 54px; }
+.ak-teks em { font-style: normal; color: #2F6BFF; }
+.ak-cat { position: absolute; left: 0; right: 0; top: 780px; text-align: center; font: 600 24px/1.2 'JetBrains Mono', monospace; letter-spacing: .02em; color: rgba(10,10,10,.6); }
+.v .ak-cat { top: 1150px; padding: 0 60px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-ink: #0A0A0A; --pd-mute: rgba(10,10,10,.62); --pd-acc: #2F6BFF; --pd-btn: #0A0A0A; --pd-btn-ink: #fff; --pd-tirai: rgba(255,255,255,.97); --pd-logo: brightness(0); }

@@ -1,0 +1,44 @@
+NASKAH TY23 — "CARI 5 KEWAJIBAN" · GAYA: CARI KATA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Cari kata — kotak teka-teki cari kata di atas kertas biru muda; timer 10 detik; kata yang ditemukan
+             dilingkari kapsul kuning; lalu menu modul asli
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Cari 5 kewajiban UU PDP di kotak ini. Waktumu 10 detik."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty23-cari-kata). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY23_S1, TY23_S2, TY23_S3, TY23_S4 (atau satu file utuh TY23 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Cari lima kewajiban UU PDP di kotak ini. Waktumu sepuluh detik."
+      Layar: Kotak cari kata 12×9 penuh huruf; di "sepuluh detik" timer 10,0 mulai berjalan.
+[S2]  VO: "RoPA. DPIA. DSR. Consent. Insiden."
+      Layar: Kapsul kuning melingkari RoPA, DPIA, DSR, CONSENT, INSIDEN tepat saat disebut; penghitung 1/5 … 5/5;
+             timer berhenti.
+[S3]  VO: "Di Privasimu Nexus tidak perlu dicari: semuanya sudah ada di satu menu."
+      Layar: Kotak memudar; potongan menu sidebar asli (RoPA, DPIA, LIA, TIA, …) meluncur masuk dengan sorotan
+             bergerak.
+[S4]  VO: "Ketemu berapa? Tulis di komentar. Lalu cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Ketemu berapa? Tulis di komentar.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Lima kata = modul Nexus yang menangani kewajiban UU PDP: RoPA (catatan pemrosesan), DPIA (penilaian dampak),
+  DSR (hak subjek data), Consent (persetujuan), Insiden (pemberitahuan 3×24 jam) — fakta_produk.json. Menu di
+  layar = sidebar dasbor asli (assets/app/dashboard.png).
+- Angka "10 detik" = permainan, bukan klaim produk.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

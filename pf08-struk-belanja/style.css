@@ -1,0 +1,29 @@
+/* PF08 · STRUK — meja kasir gelap; struk termal putih dengan huruf mono abu-hitam; TOTAL merah; cap merah; zigzag bawah */
+body { background: #1B1E25; color: #1B1B1B; }
+#stage { background: #1B1E25; }
+#vignette { opacity: .5; }
+#grain { opacity: .08; }
+.sb-celah { position: absolute; left: 50%; translate: -50% 0; width: 1080px; height: 26px; border-radius: 6px; background: #0A0B0F; box-shadow: inset 0 3px 8px rgba(0,0,0,.8), 0 0 0 6px #33373F; z-index: 6; }
+.v .sb-celah { width: 920px; }
+.sb-struk { position: absolute; left: 50%; top: 150px; width: 1000px; background: #FBFBF7; color: #2A2A2A; box-shadow: 0 30px 60px rgba(0,0,0,.5); opacity: 0; transform-origin: 50% 0; padding: 36px 44px 20px; box-sizing: border-box; }
+.v .sb-struk { top: 250px; width: 860px; padding: 30px 36px 18px; }
+.sb-baris { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; height: 62px; font: 400 33px/62px 'IBM Plex Mono', monospace; white-space: nowrap; }
+.v .sb-baris { height: 62px; line-height: 62px; font-size: 27px; }
+.sb-baris i { font-style: normal; visibility: hidden; }
+.sb-baris .ka { color: #444; }
+.sb-baris.kop { font-weight: 600; letter-spacing: .08em; height: 74px; line-height: 74px; border-bottom: 2px dashed #999; margin-bottom: 8px; }
+.sb-baris.kop .ka { font-size: 22px; letter-spacing: 0; color: #666; }
+.sb-baris.garis { color: #999; height: 40px; line-height: 40px; }
+.sb-baris.total { height: 96px; line-height: 96px; font-weight: 600; font-size: 34px; }
+.sb-baris.total .ka { color: #C8102E; font-weight: 600; }
+.sb-baris.kaki { color: #777; font-size: 22px; height: 44px; line-height: 44px; justify-content: center; }
+.sb-baris.hijau .ka, .sb-baris.kop.hijau { color: #1B7F3B; }
+.sb-baris.peta .ka { color: #1B7F3B; font-weight: 600; }
+.sb-barcode { height: 0; margin-top: 8px; background: repeating-linear-gradient(90deg, #111 0 3px, transparent 3px 6px, #111 6px 8px, transparent 8px 13px, #111 13px 18px, transparent 18px 21px); opacity: 0; }
+.sb-struk.lengkap .sb-barcode { height: 60px; opacity: 1; }
+.sb-zigzag { position: absolute; left: 0; right: 0; bottom: -18px; height: 18px; background: linear-gradient(135deg, #FBFBF7 50%, transparent 50%) 0 0 / 24px 18px, linear-gradient(225deg, #FBFBF7 50%, transparent 50%) 12px 0 / 24px 18px; background-repeat: repeat-x; }
+.sb-cap { position: absolute; left: 50%; top: 58%; padding: 14px 26px; border: 10px solid #C8102E; border-radius: 14px; color: #C8102E; font: 900 72px/1 'Inter', sans-serif; letter-spacing: .06em; text-align: center; opacity: 0; transform-origin: 50% 50%; mix-blend-mode: multiply; }
+.v .sb-cap { font-size: 62px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'IBM Plex Mono', monospace; --pd-acc: #FFD166; --pd-btn: #FBFBF7; --pd-btn-ink: #1B1E25; --pd-tirai: rgba(27,30,37,.97); }
+.pd-tag { font-weight: 600; font-size: 56px; }
+.v .pd-tag { font-size: 58px; }

@@ -1,0 +1,27 @@
+/* TY51 · ZOOM TANPA AKHIR — warna merek berganti tiap tingkat, Fraunces tebal */
+body { background: #0B1B4D; color: #fff; }
+#stage { background: #0B1B4D; }
+#vignette { opacity: .35; }
+#grain { opacity: .05; }
+#zi-lapis { overflow: hidden; }
+.zi-lv { position: absolute; left: 0; top: 0; width: var(--W); height: var(--H); transform-origin: 0 0; overflow: hidden; }
+.zi-dot .zi-lv { left: 0; top: 0; }
+.zi-teks { position: absolute; left: 0; right: 0; top: 330px; text-align: center; padding: 0 80px; }
+.v .zi-teks { top: 560px; padding: 0 40px; }
+.zi-b { position: relative; font-family: 'Fraunces', serif; font-weight: 700; line-height: 1; letter-spacing: -.01em; white-space: nowrap; }
+.zi-b.k { font-size: 84px; font-weight: 400; opacity: .9; margin-bottom: 26px; }
+.v .zi-b.k { font-size: 62px; white-space: normal; }
+.zi-b.b { font-weight: 900; font-variation-settings: "opsz" 144; }
+.zi-i { position: relative; display: inline-block; }
+.zi-dot { position: absolute; border-radius: 50%; transform-origin: 50% 50%; overflow: hidden; }
+.zi-logo { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); display: flex; flex-direction: column; align-items: center; }
+.v .zi-logo { transform: translateY(-80%); }
+.zi-logo img { width: 620px; }
+.v .zi-logo img { width: 640px; }
+.zi-logo span { margin-top: 14px; font: 700 30px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; margin-right: -.6em; color: #FFD34E; }
+.zi-sub { position: absolute; left: 0; right: 0; top: 700px; text-align: center; font: 400 66px/1.15 'Fraunces', serif; font-style: italic; color: #fff; }
+.v .zi-sub { top: 1150px; font-size: 62px; padding: 0 60px; }
+.zi-sub em { font-style: italic; color: #FFD34E; }
+.pd-cta { --pd-head: 'Fraunces', serif; --pd-acc: #FFD34E; --pd-btn: #FFD34E; --pd-btn-ink: #0B1B4D; }
+.pd-tag { font-weight: 700; }
+.pd-tag em { font-style: italic; }

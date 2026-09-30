@@ -1,0 +1,48 @@
+NASKAH TY45 — "BACA BARIS PALING BAWAH" · GAYA: TES MATA (PAPAN HURUF MENGECIL)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Tes mata (papan huruf mengecil) — papan tes mata hitam-putih; hurufnya membentuk kalimat
+             persetujuan, penunjuk merah turun ke baris terkecil, kamera mendekat
+Durasi     : ± 23 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik produk digital, tim legal & pemasaran, DPO/PPDP
+Hook       : reverse psychology — "Coba baca baris paling bawah. Itu syarat yang baru saja kamu setujui."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty45-tes-mata). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY45_S1, TY45_S2, TY45_S3, TY45_S4 (atau satu file utuh TY45 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Coba baca baris paling bawah."
+      Layar: Papan tes mata: SAYA / SETUJU / DATA SAYA / BOLEH DIPAKAI / DAN DIBAGIKAN / KE PIHAK KETIGA / …
+             makin kecil. Penunjuk merah turun dari baris pertama ke baris terkecil.
+[S2]  VO: "Itu syarat yang baru saja kamu setujui."
+      Layar: Kamera mendekat ke dua baris terkecil; tulisannya menajam: "untuk pemasaran, pemrofilan, dan tujuan
+             lain".
+[S3]  VO: "Persetujuan yang tidak terbaca, bukan persetujuan. Inclusive Privacy membuatnya aksesibel untuk semua orang."
+      Layar: Kamera mundur; semua baris berubah jadi sama besar dan terbaca. Layar Inclusive Privacy asli masuk.
+             Catatan kecil: UU PDP Pasal 22.
+[S4]  VO: "Privasimu Nexus. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo Privasimu Nexus, "Persetujuan yang bisa dibaca semua orang.", tombol
+             privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- UU PDP (UU 27/2022) Pasal 22 ayat (4): permintaan persetujuan harus dapat dibedakan secara jelas, dibuat
+  dengan format yang dapat dipahami dan mudah diakses, serta memakai bahasa yang sederhana dan jelas; ayat (5):
+  bila tidak, batal demi hukum. CEK ULANG bunyi pasal sebelum tayang.
+- Inclusive Privacy = persetujuan yang aksesibel bagi penyandang disabilitas (fakta_produk.json: consent). Layar
+  yang tampil = layar asli (assets/app/inclusive-privacy.png).
+- Kalimat di papan ("…dibagikan ke pihak ketiga untuk pemasaran…") = contoh ilustrasi, bukan kutipan dokumen
+  mana pun.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

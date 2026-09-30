@@ -1,0 +1,37 @@
+/* SN13 · ROKET — langit fajar, landasan gelap, roket putih, api jingga, angka Orbitron raksasa; HOLD merah, GO hijau */
+body { background: #1B1240; color: #fff; }
+#stage { background: #1B1240; }
+#vignette { opacity: .5; }
+#grain { opacity: .08; }
+.rk-svg { position: absolute; left: 0; top: 0; }
+.tanah { fill: #1A1226; }
+.menara rect { fill: #3A2E4A; } .menara line { stroke: #3A2E4A; stroke-width: 6; }
+.pad rect { fill: #2A2136; }
+.lampu { fill: #FFD84D; }
+.asap circle { fill: #E9E2EA; opacity: 0; }
+.roket .badan { fill: #F6F3F8; stroke: #2A2136; stroke-width: 5; stroke-linejoin: round; }
+.roket .sirip { fill: #E5333F; stroke: #2A2136; stroke-width: 5; stroke-linejoin: round; }
+.roket .jendela { fill: #7FC8FF; stroke: #2A2136; stroke-width: 5; }
+.roket .pita { fill: #E5333F; }
+.roket .label { fill: #2A2136; font: 900 22px 'Inter', sans-serif; letter-spacing: .14em; }
+.api { opacity: 0; transform-origin: 0 -14px; transform-box: view-box; }
+.api path { fill: #FF8A2A; } .api .inti { fill: #FFE27A; }
+.rk-count { position: absolute; left: 600px; top: 470px; translate: 0 0; font: 900 420px/1 'Orbitron', sans-serif; color: #fff; text-shadow: 0 0 60px rgba(255,255,255,.35); opacity: 0; transform-origin: 50% 50%; }
+.v .rk-count { left: 540px; top: 560px; font-size: 380px; }
+.rk-hold { position: absolute; left: 600px; top: 470px; translate: -50% -50%; text-align: center; opacity: 0; }
+.v .rk-hold { left: 540px; top: 560px; }
+.rk-hold b { display: block; font: 900 200px/1 'Orbitron', sans-serif; color: #FF3B3B; letter-spacing: .04em; }
+.rk-hold span { display: block; margin-top: 16px; padding: 10px 30px; border: 6px solid #FF3B3B; border-radius: 16px; font: 900 96px/1 'Orbitron', sans-serif; color: #fff; }
+.rk-hold.kedip b { color: #fff; }
+body.hold #vignette { opacity: .9; }
+.rk-go { position: absolute; left: 600px; top: 470px; translate: -50% -50%; font: 900 300px/1 'Orbitron', sans-serif; color: #4ADE80; text-shadow: 0 0 60px rgba(74,222,128,.6); opacity: 0; }
+.v .rk-go { left: 540px; top: 560px; }
+.rk-lift { position: absolute; left: 600px; top: 470px; font: 900 120px/1 'Orbitron', sans-serif; color: #FFD84D; letter-spacing: .08em; text-shadow: 0 0 40px rgba(255,216,77,.6); opacity: 0; white-space: nowrap; }
+.v .rk-lift { left: 540px; top: 560px; font-size: 96px; }
+.rk-teks { position: absolute; left: 120px; right: 760px; top: 400px; text-align: left; font: 700 54px/1.2 'Inter', sans-serif; color: #fff; }
+.v .rk-teks { left: 60px; right: 60px; top: 260px; text-align: center; font-size: 52px; }
+.rk-teks em { font-style: normal; color: #FFD84D; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Orbitron', sans-serif; --pd-acc: #FFD84D; --pd-btn: #E5333F; --pd-btn-ink: #fff; --pd-tirai: rgba(27,18,64,.97); }
+.pd-tag { font-size: 56px; }
+.v .pd-tag { font-size: 60px; }

@@ -1,0 +1,44 @@
+NASKAH TY19 — "SIAPA YANG TERAKHIR MEMBUKA?" · GAYA: REDAKSI (SENSOR HITAM)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Redaksi (sensor hitam) — kertas arsip bertulisan mesin tik; balok hitam menutup nama, waktu, dan
+             kanal; balok terbuka memperlihatkan isi log audit
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : DPO/PPDP, auditor internal, manajemen TI
+Hook       : anomali — "Siapa yang terakhir membuka data pelanggan ini? ████████."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty19-redaksi). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY19_S1, TY19_S2, TY19_S3, TY19_S4 (atau satu file utuh TY19 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Siapa yang terakhir membuka data pelanggan ini?"
+      Layar: Kertas arsip: "Terakhir dibuka oleh ████ pada ████ lewat ████." Balok hitam sudah tampak sejak frame
+             pertama.
+[S2]  VO: "Di banyak kantor, jawabannya: tidak ada yang tahu."
+      Layar: Stempel merah "TIDAK TERCATAT" menghantam kertas di "tidak".
+[S3]  VO: "Di Privasimu Nexus, tiap akses tercatat: siapa, kapan, lewat apa. Termasuk yang dilakukan AI."
+      Layar: Balok terbuka satu per satu: "Peran: Admin TI" · "14 Sep 2026, 09.41" · "aplikasi web". Baris log
+             audit muncul, termasuk aktor AI (Priva).
+[S4]  VO: "Log audit dengan rantai hash: tahan diubah diam-diam. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Rantai hash menyambung antarbaris log; kartu penutup: logo, "Tercatat. Tidak bisa dihapus
+             diam-diam.", tombol, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Log audit untuk aktor manusia maupun AI (fakta_produk.json: ppdp); log audit dengan rantai hash opsional yang
+  tahan rusak (fakta_produk.json: platform).
+- Isi dokumen (peran, waktu, hash) = ilustrasi; tanpa nama orang.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

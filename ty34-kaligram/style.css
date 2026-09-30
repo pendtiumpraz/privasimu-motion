@@ -1,0 +1,18 @@
+/* TY34 · KALIGRAM — navy gelap, kata-kata kecil Archivo condensed putih/biru muda, sorotan kuning */
+body { background: #060B1F; color: #fff; }
+#stage { background: #060B1F; }
+#vignette { opacity: .5; }
+#grain { opacity: .06; }
+.kg-dunia { position: absolute; left: 0; top: 0; width: var(--W); height: var(--H); }
+.kg-k { position: absolute; transform: translate(-50%, -50%); font-family: 'Archivo', sans-serif; font-weight: 700; font-stretch: 78%; letter-spacing: .01em; line-height: 1; white-space: nowrap; color: #DCE6FF; text-transform: uppercase; opacity: 0; }
+.kg-k:nth-child(3n) { color: #7FB2FF; }
+.kg-k:nth-child(7n) { color: #B9C6FF; font-weight: 900; }
+.kg-k.on { color: #FFE14D; text-shadow: 0 0 18px rgba(255,225,77,.55); }
+.kg-logo { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; opacity: 0; }
+.kg-logo img { width: 440px; }
+.v .kg-logo img { width: 520px; }
+.kg-logo span { margin-top: 10px; font: 700 26px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; margin-right: -.6em; color: #7FB2FF; }
+.kg-teks { position: absolute; left: 120px; right: 120px; top: 930px; text-align: center; font: 700 52px/1.16 'Plus Jakarta Sans', sans-serif; letter-spacing: -.015em; color: #fff; }
+.v .kg-teks { left: 60px; right: 60px; top: 1360px; font-size: 52px; }
+.kg-teks em { font-style: normal; color: #FFE14D; }
+.pd-cta { --pd-acc: #FFE14D; --pd-btn: #2F6BFF; --pd-tirai: rgba(6,11,31,.96); }

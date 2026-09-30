@@ -1,0 +1,16 @@
+/* TY11 · FONT VARIABEL — latar berubah dari navy tenang ke merah gelap lalu hijau kebiruan; kata Archivo variabel */
+body { background: #182246; color: #fff; }
+#stage { background: #182246; }
+#vignette { opacity: .5; }
+#grain { opacity: .07; }
+.fv-kata { position: absolute; left: 0; right: 0; text-align: center; font-family: 'Archivo', sans-serif; font-size: 400px; line-height: 1; margin-top: -200px; transform-origin: 50% 50%; white-space: nowrap; }
+.v .fv-kata { font-size: 176px; margin-top: -88px; }
+.fv-pil { position: absolute; left: 50%; transform: translateX(-50%); padding: 12px 30px 14px; border-radius: 999px; border: 3px solid rgba(255,255,255,.5); font: 700 40px/1 'JetBrains Mono', monospace; letter-spacing: .08em; color: #fff; transform-origin: 50% 50%; }
+.fv-pil.merah { border-color: #FF4D4D; color: #FF4D4D; }
+.fv-teks { position: absolute; left: 100px; right: 100px; top: 880px; text-align: center; font: 700 56px/1.16 'Archivo', sans-serif; letter-spacing: -.015em; color: #fff; }
+.v .fv-teks { left: 60px; right: 60px; top: 1300px; font-size: 54px; }
+.fv-teks em { font-style: normal; color: #FFD34E; }
+.fv-kartu { border-radius: 18px; }
+.fv-kursor { position: absolute; left: 0; top: 0; filter: drop-shadow(0 6px 8px rgba(0,0,0,.4)); }
+.fv-sorot { position: absolute; inset: 4px; border-radius: 12px; box-shadow: 0 0 0 5px #FFD34E, 0 0 30px rgba(255,211,78,.6); opacity: 0; }
+.pd-cta { --pd-font: 'Archivo', sans-serif; --pd-acc: #7DE3B5; --pd-btn: #7DE3B5; --pd-btn-ink: #0B2A2A; }

@@ -1,0 +1,38 @@
+/* PF21 · LABEL GIZI — karton krem; label putih bergaris hitam tebal (Archivo 900), merah untuk spesifik/persetujuan, hijau versi Nexus */
+body { background: #EFE6D6; color: #111; }
+#stage { background: #EFE6D6; }
+#vignette { opacity: .2; }
+#grain { opacity: .06; }
+.lg-label { position: absolute; left: 36%; top: 60px; width: 900px; transform: translate(-50%, 0); padding: 22px 26px 18px; background: #fff; border: 5px solid #111; color: #111; font-family: 'Archivo', sans-serif; opacity: 0; transform-origin: 50% 0; }
+.v .lg-label { left: 50%; top: 200px; width: 960px; }
+.lg-label.nexus { border-color: #14532D; }
+.lg-judul { font: 900 58px/1 'Archivo', sans-serif; letter-spacing: -.01em; }
+.v .lg-judul { font-size: 56px; }
+.lg-label.nexus .lg-judul { color: #14532D; font-size: 48px; }
+.lg-sub { margin-top: 8px; font: 500 20px/1.3 'Inter', sans-serif; color: #333; }
+.lg-garis { height: 3px; background: #111; margin: 10px 0; }
+.lg-garis.tebal { height: 14px; }
+.lg-baris-head { display: flex; justify-content: space-between; font: 700 20px/1 'Archivo', sans-serif; padding: 4px 0; }
+.lg-baris { display: flex; justify-content: space-between; align-items: center; padding: 9px 0; border-bottom: 2px solid #111; opacity: 0; }
+.lg-baris .kiri { display: flex; align-items: baseline; gap: 12px; }
+.lg-baris b { font: 700 30px/1.1 'Archivo', sans-serif; }
+.lg-baris i { font: 700 18px/1 'Inter', sans-serif; font-style: normal; padding: 4px 8px; border-radius: 6px; background: #EEE; color: #333; }
+.lg-baris .kanan { font: 900 34px/1 'Archivo', sans-serif; font-variant-numeric: tabular-nums; }
+.lg-baris.saji b { font-weight: 400; } .lg-baris.saji .kiri i { background: none; font-size: 26px; font-weight: 700; padding: 0; }
+.lg-baris.merah b, .lg-baris.merah .kanan { color: #C8102E; }
+.lg-baris.merah i { background: #C8102E; color: #fff; }
+.lg-baris.besar { border-bottom: 0; padding: 14px 0 8px; border-top: 6px solid #111; margin-top: 4px; }
+.lg-baris.besar b { font-size: 40px; }
+.lg-baris.besar .kanan { font-size: 54px; }
+.lg-baris.hijau b, .lg-baris.hijau .kanan { color: #15803D; }
+.lg-baris.hijau i { background: #15803D; color: #fff; }
+.lg-baris.tercatat i { background: #15803D; color: #fff; }
+.lg-baris.tercatat i::after { content: ' · tercatat'; }
+.lg-label.nexus .lg-baris.tercatat b { color: #14532D; }
+.lg-kaki { margin-top: 8px; font: 500 16px/1.35 'Inter', sans-serif; color: #444; }
+.lg-kaki.kedip { color: #C8102E; font-weight: 700; }
+.lg-stempel { position: absolute; left: 36%; top: 520px; padding: 14px 28px; border: 8px solid #C8102E; border-radius: 14px; color: #C8102E; font: 900 60px/1 'Archivo', sans-serif; letter-spacing: .04em; text-align: center; opacity: 0; transform-origin: 50% 50%; background: rgba(255,255,255,.85); white-space: nowrap; }
+.lg-stempel small { display: block; font: 700 24px/1 'Inter', sans-serif; letter-spacing: 0; margin-top: 6px; }
+.v .lg-stempel { left: 50%; top: 1060px; font-size: 52px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Archivo', sans-serif; --pd-acc: #C8102E; --pd-btn: #111; --pd-btn-ink: #fff; --pd-tirai: rgba(255,255,255,.97); --pd-ink: #111; --pd-mute: rgba(17,17,17,.62); --pd-logo: brightness(0); }

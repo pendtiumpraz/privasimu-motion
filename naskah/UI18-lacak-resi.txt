@@ -1,0 +1,49 @@
+NASKAH UI18 — "LACAK PERMOHONAN" · GAYA: LACAK PAKET (RESI)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Lacak paket (resi) — kartu putih ala aplikasi kurir di latar hijau-mint: nomor resi monospace,
+             linimasa vertikal dengan titik status yang menyala satu per satu, garis terisi, titik aktif
+             berdenyut, cap waktu, pil tenggat 72 jam
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Paket bisa dilacak sampai depan pintu. Permohonan hapus data?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui18-lacak-resi). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI18_S1, UI18_S2, UI18_S3, UI18_S4 (atau satu file utuh UI18 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dsr-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Paket bisa dilacak sampai depan pintu. Permohonan hapus data?"
+      Layar: Kartu "Lacak Paket": tiga status menyala cepat sampai "Tiba di depan pintu ✓"; pada "Permohonan"
+             kartu berganti jadi "Lacak Permohonan · DSR-2026-017 · Hapus data" dengan status kosong dan tanda
+             tanya.
+[S2]  VO: "Di Privasimu Nexus, permohonan punya nomor, tenggat tujuh puluh dua jam, dan status: diterima, diverifikasi, ditelaah, disetujui, selesai."
+      Layar: Status menyala satu per satu saat disebut; garis terisi; titik aktif berdenyut; pil tenggat menyusut
+             72h → 8h*.
+[S3]  VO: "Handler, reviewer, approver, semua tercatat dengan jejak audit."
+      Layar: Kartu header DSR asli (DSR-2026-017 · Akses Data · pending review · 71h tersisa) muncul di bawah
+             kartu pelacakan.
+[S4]  VO: "Dilacak sampai selesai, bukan sampai lupa. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Dilacak sampai selesai, bukan sampai lupa.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DSR (fakta_produk.json): tenggat otomatis 72 jam sejak permohonan dicatat; alur Handler, Reviewer, Approver
+  dengan jejak audit; verifikasi identitas pemohon; kode otomatis DSR-TAHUN-NOMOR.
+- Header "DSR-2026-017 · 71h tersisa" = tangkapan asli assets/app/dsr-detail.png (dipotong di bawah header
+  organisasi).
+- Cap waktu di linimasa & pelacakan paket = ilustrasi (ditandai *); tanpa merek kurir.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

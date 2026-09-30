@@ -1,0 +1,46 @@
+NASKAH TY18 — "KOL_17" · GAYA: TEXT SCRAMBLE / DECODE
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Text scramble / decode — tabel gelap bergaya basis data; nama kolom dan isinya berputar acak lalu
+             terkunci karakter demi karakter menjadi NIK, No. HP, Email, Riwayat kesehatan
+Durasi     : ± 23 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : tim TI/data, DPO/PPDP
+Hook       : anomali — "Kolom bernama kol_17 ini ternyata berisi NIK."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty18-scramble). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY18_S1, TY18_S2, TY18_S3, TY18_S4 (atau satu file utuh TY18 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. "kol_17" dibaca "kol tujuh belas".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kolom bernama kol tujuh belas ini, ternyata berisi NIK."
+      Layar: Kolom "kol_17" dengan isi acak berputar. Di "ternyata", nama kolom terkunci jadi "NIK" dan isinya
+             terurai (disamarkan).
+[S2]  VO: "Pemindaian Data Discovery menemukan kolom lain: nomor HP, email, dan riwayat kesehatan."
+      Layar: Tiga kolom lain muncul acak, lalu terkunci satu per satu: No. HP, Email, Riwayat kesehatan.
+[S3]  VO: "Ditandai sebagai data pribadi umum atau spesifik, lalu dikaitkan ke RoPA-nya."
+      Layar: Label "umum" (3×) dan "spesifik" (merah) muncul di bawah kolom; lalu pil "RoPA-IT-2026-002 · Layanan
+             pelanggan" terhubung ke tabel.
+[S4]  VO: "Tahu di mana data pribadimu, sebelum orang lain yang tahu. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Tahu di mana datamu, sebelum orang lain tahu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Data Discovery: katalog sistem & sumber data; pemindaian kolom mendeteksi data pribadi umum dan spesifik;
+  keterkaitan kolom ke RoPA (fakta_produk.json: data-discovery).
+- Data kesehatan termasuk data pribadi yang bersifat spesifik (UU PDP Pasal 4 ayat 2). NIK, nomor HP, email =
+  data pribadi umum.
+- Nama kolom, isi sel (disamarkan), dan jumlah kolom = ilustrasi; diberi label "*ilustrasi" di layar. Kode RoPA
+  yang tampil mengikuti data demo register (ROPA-IT-2026-002 · Layanan pelanggan).
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

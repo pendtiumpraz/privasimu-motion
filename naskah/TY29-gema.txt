@@ -1,0 +1,44 @@
+NASKAH TY29 — "SATU PERMINTAAN, TUJUH GEMA" · GAYA: OUTLINE + GEMA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Outline + gema — kata HAPUS putih padat di tengah gelap; salinan garis tepi bergema ke tujuh arah,
+             tiap gema jadi nama sistem; gema kembali sebagai centang
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Satu permintaan: 'hapus data saya'. Tujuh sistem yang harus menjawab."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty29-gema). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY29_S1, TY29_S2, TY29_S3, TY29_S4 (atau satu file utuh TY29 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Satu permintaan: hapus data saya."
+      Layar: Kata HAPUS putih padat di tengah; di "hapus" kata berdenyut sekali.
+[S2]  VO: "Tujuh sistem yang harus menjawab. CRM, email, layanan pelanggan, arsip, cloud, spreadsheet, cadangan."
+      Layar: Gema garis tepi memancar ke tujuh arah, tiap gema berhenti sebagai label sistem saat disebut.
+[S3]  VO: "Data Discovery menemukan lokasinya. Permohonannya terlacak di satu antrean, dengan tenggat tujuh puluh dua jam, sampai selesai."
+      Layar: Gema kembali ke tengah sebagai centang hijau satu per satu; pil tenggat asli "71h tersisa" dan
+             penghitung 7/7 selesai.
+[S4]  VO: "Satu permintaan, satu jawaban. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Satu permintaan, satu jawaban.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DSR: permohonan tercatat di satu antrean, tenggat otomatis 72 jam, alur Handler–Reviewer–Approver
+  (fakta_produk.json: dsr). Data Discovery: pencarian data satu subjek di berbagai sistem untuk mendukung DSR
+  (data-discovery).
+- Angka "tujuh sistem" dan nama sistem = ilustrasi (diberi label). Pil tenggat = potongan layar asli
+  assets/app/dsr-detail.png.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

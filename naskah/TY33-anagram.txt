@@ -1,0 +1,45 @@
+NASKAH TY33 — "NAMA ↔ AMAN" (ANAGRAM (HURUF BERTUKAR TEMPAT))
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Anagram (huruf bertukar tempat) — empat kartu huruf warna-warni pindah tempat lewat lengkungan; NAMA
+             menjadi AMAN
+Durasi     : ± 20 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 90% edukasi · 10% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "NAMA dan AMAN tersusun dari empat huruf yang sama."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty33-anagram). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY33_S1, TY33_S2, TY33_S3, TY33_S4 (atau satu file utuh TY33 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "NAMA dan AMAN, tersusun dari empat huruf yang sama."
+      Layar: Empat kartu huruf N-A-M-A. Saat "AMAN" diucapkan, N melompat ke ujung dan tiga huruf lain bergeser:
+             AMAN. Di "empat", tiap kartu berdenyut bergantian (1-2-3-4).
+[S2]  VO: "Bedanya cuma satu: cara mengaturnya."
+      Layar: Kartu berhamburan miring-miring, lalu di "mengaturnya" kembali berbaris menjadi AMAN; garis bawah
+             dan centang muncul.
+[S3]  VO: "Data pelanggan juga begitu. Di RoPA, semuanya tercatat rapi, lengkap dengan jejak auditnya."
+      Layar: Kartu AMAN mengecil ke atas sebagai kepala. Register RoPA asli naik ke layar; label "kode otomatis",
+             "riwayat perubahan", "log audit" muncul.
+[S4]  VO: "Privasimu Nexus. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo Privasimu Nexus, "Huruf yang sama. Cara mengatur yang berbeda.", tombol
+             privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (catatan kegiatan pemrosesan): wizard bertahap, kode rekaman otomatis, alur Maker–Reviewer–Approver
+  dengan riwayat perubahan, setiap perubahan tercatat di log audit (fakta_produk.json: ropa).
+- Layar yang tampil = register RoPA asli (assets/app/ropa-list-baru.png); isinya data demo.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

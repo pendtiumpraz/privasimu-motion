@@ -1,0 +1,49 @@
+NASKAH GB20 — "IRISAN" · GAYA: DIAGRAM VENN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Diagram Venn — kertas putih hangat; tiga lingkaran besar tembus pandang (biru Legal, hijau IT,
+             jingga Bisnis) dengan mix-blend multiply; label di tiap irisan; lingkaran saling menarik lalu
+             berpusat sama; panel antrean kerja + kartu AI Agent asli
+Durasi     : ± 32 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Legal. IT. Bisnis. Yang di tengah itu kamu, DPO."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb20-venn). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB20_S1, GB20_S2, GB20_S3, GB20_S4 (atau satu file utuh GB20 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ai-agent-home
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Legal. IT. Bisnis. Yang di tengah itu… kamu, DPO."
+      Layar: Tiga lingkaran masuk dari tiga sisi saat disebut (Legal biru, IT hijau, Bisnis jingga) dan
+             bertumpuk; irisan tengah menyala dengan label "KAMU · DPO".
+[S2]  VO: "Tiap lingkaran menarik ke arahnya sendiri: DPIA sistem baru, akses data pelanggan, kontrak pihak ketiga. Irisannya makin sempit, tugasnya makin menumpuk."
+      Layar: Label tugas muncul di irisan berpasangan (Legal∩IT: DPIA sistem baru; IT∩Bisnis: akses data
+             pelanggan; Legal∩Bisnis: kontrak pihak ketiga); lingkaran saling menjauh, irisan tengah menyempit;
+             label DPO terjepit; hitungan tugas naik.
+[S3]  VO: "Di Privasimu Nexus, ketiganya berpusat sama. Irisan itu jadi satu ruang kerja: antrean pekerjaan, dasbor lintas modul, asisten AI Priva."
+      Layar: Tiga lingkaran meluncur ke satu pusat (irisan = seluruh lingkaran); di dalamnya panel "Antrean
+             kerja" (3 tugas*) dan kartu AI Agent asli (pintasan modul + contoh prompt).
+[S4]  VO: "Yang di tengah, tidak sendirian. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Yang di tengah tidak sendirian.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dukungan PPDP (fakta_produk.json): antrean pekerjaan yang menunggu tindakan; dasbor kepatuhan lintas modul;
+  asisten AI Priva menjawab berdasarkan knowledge base platform; log audit aktor manusia & AI.
+- Kartu AI Agent = tangkapan asli assets/app/ai-agent-home.png (pintasan modul & contoh prompt; header
+  organisasi dipotong).
+- Isi antrean kerja (3 tugas) = ilustrasi (ditandai *).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

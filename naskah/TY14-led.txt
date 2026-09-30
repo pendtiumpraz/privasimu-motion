@@ -1,0 +1,43 @@
+NASKAH TY14 — "BUKA 24 JAM" · GAYA: PAPAN LED BERJALAN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Papan LED berjalan — papan LED hitam berbingkai dengan titik-titik merah/kuning menyala membentuk
+             teks berjalan dan hitung mundur; malam hari di depan toko
+Durasi     : ± 22 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Kalau permohonan hak subjek data punya papan LED: BUKA 24 JAM."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty14-led). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY14_S1, TY14_S2, TY14_S3, TY14_S4 (atau satu file utuh TY14 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kalau permohonan hak subjek data punya papan LED…"
+      Layar: Papan LED menyala: teks berjalan "BUKA 24 JAM ★ TERIMA PERMOHONAN HAPUS DATA ★ AKSES ★ PERBAIKAN ★".
+[S2]  VO: "Tenggat tujuh puluh dua jam, menghitung sendiri."
+      Layar: Baris kedua papan: hitung mundur LED "71:59:58" berdetak turun; teks atas tetap berjalan.
+[S3]  VO: "Formulirnya bisa disematkan di situsmu. Tenggat dan antreannya, Nexus yang urus."
+      Layar: Papan mengecil ke atas; formulir "Buat DSR Baru" asli meluncur masuk; cip "formulir tersemat",
+             "tenggat otomatis", "satu antrean".
+[S4]  VO: "Buka kapan saja, tanpa lembur. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Buka kapan saja, tanpa lembur.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DSR: formulir permohonan yang dapat disematkan di situs organisasi; tenggat otomatis 72 jam; semua permohonan
+  tercatat di satu antrean (fakta_produk.json: dsr). Layar = assets/app/dsr-form.png (formulir kosong).
+- "Buka 24 jam" = gaya papan toko (formulir daring bisa menerima permohonan kapan saja), bukan klaim layanan
+  manusia 24 jam.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

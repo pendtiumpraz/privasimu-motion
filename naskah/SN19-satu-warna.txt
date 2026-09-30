@@ -1,0 +1,49 @@
+NASKAH SN19 — "SATU WARNA" · GAYA: HITAM-PUTIH + SATU WARNA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Hitam-putih + satu warna — seluruh layar abu-abu: formulir pencatatan pemrosesan bergaya kertas,
+             garis pindai turun; satu chip menyala merah dengan denyut; benang merah menarik stempel RISIKO
+             TINGGI dan kartu draf DPIA; tangkapan wizard RoPA asli di-grayscale dengan centang merah menyala
+             satu per satu
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Di formulir ini, hanya satu kolom yang berwarna merah."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn19-satu-warna). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN19_S1, SN19_S2, SN19_S3, SN19_S4 (atau satu file utuh SN19 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-data-spesifik
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Di formulir ini… hanya satu kolom yang berwarna merah."
+      Layar: Formulir abu-abu (tujuan, dasar pemrosesan, kategori data sebagai chip); garis pindai turun dari
+             atas; pada "merah" chip "Riwayat kesehatan" menyala merah dan berdenyut.
+[S2]  VO: "Data spesifik. Otomatis: risiko TINGGI. Otomatis: draf DPIA dibuat."
+      Layar: Benang merah tergambar dari chip ke kanan → stempel "RISIKO TINGGI" menghantam; benang kedua turun →
+             kartu "DPIA · draf otomatis" muncul dengan kode.
+[S3]  VO: "Di Privasimu Nexus, RoPA menandainya sendiri: kesehatan, biometrik, anak, keuangan. Satu centang, dan sistem tahu."
+      Layar: Formulir abu-abu menyingkir; kartu asli wizard RoPA "Data Pribadi Spesifik" (di-grayscale) masuk;
+             centang merah menyala satu per satu saat disebut.
+[S4]  VO: "Yang abu-abu boleh lewat. Yang merah, jangan lolos. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Abu-abu boleh lewat, yang merah jangan lolos.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): data yang bersifat spesifik menandai risiko TINGGI secara otomatis; RoPA berisiko
+  TINGGI otomatis membuat draf DPIA.
+- Daftar Data Pribadi Spesifik (kesehatan, biometrik, genetika, catatan kejahatan, anak, keuangan pribadi) =
+  tangkapan asli assets/app/ropa-data-spesifik.png (bagian bawah, tanpa nama organisasi).
+- Formulir abu-abu di awal = ilustrasi formulir generik, bukan tampilan produk.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

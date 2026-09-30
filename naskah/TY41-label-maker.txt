@@ -1,0 +1,46 @@
+NASKAH TY41 — "BERI LABEL SEMUANYA" · GAYA: LABEL MAKER (PITA TIMBUL)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Label maker (pita timbul) — meja kantor datar berisi benda-benda (emoji); alat label mencetak pita
+             hitam bertulisan timbul DATA PRIBADI yang ditempel miring, makin cepat makin kacau; lalu pemindaian
+             memberi label rapi
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : tim TI/data, DPO/PPDP
+Hook       : relate — "Coba beri label semua data di kantormu. Satu per satu."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty41-label-maker). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY41_S1, TY41_S2, TY41_S3, TY41_S4 (atau satu file utuh TY41 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. "CCTV" dibaca "si-si-ti-vi".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Coba beri label semua data di kantormu. Satu per satu."
+      Layar: Meja kantor: map, laptop, spreadsheet, lemari arsip, surel, CCTV, formulir, chat, kopi, tanaman.
+             Alat label mencetak DATA PRIBADI → ditempel ke map; di "Satu", ke laptop.
+[S2]  VO: "Spreadsheet. Email. si-si-ti-vi. Formulir. Chat. Arsip. Kopi? Tanaman?"
+      Layar: Label beterbangan makin cepat ke tiap benda; dua label terakhir salah sasaran: kopi dan tanaman
+             ("DATA PRIBADI?").
+[S3]  VO: "Atau biarkan pemindaian yang memberi label: umum, spesifik, dan kaitannya ke RoPA."
+      Layar: Sinar pemindai menyapu meja; label kacau lenyap; tanda rapi muncul: UMUM (biru), SPESIFIK (merah),
+             lalu pil "→ RoPA".
+[S4]  VO: "Data Discovery, di Privasimu Nexus. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Label yang benar, tanpa pegal.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Data Discovery: katalog sistem & sumber data; pemindaian kolom mendeteksi data pribadi umum dan spesifik;
+  keterkaitan kolom ke RoPA (fakta_produk.json: data-discovery).
+- Benda-benda dan pembagian umum/spesifik di layar = ilustrasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

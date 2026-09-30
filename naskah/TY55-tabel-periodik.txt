@@ -1,0 +1,48 @@
+NASKAH TY55 — "UNSUR-UNSUR KEPATUHAN" · GAYA: TABEL PERIODIK
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Tabel periodik — latar papan tulis gelap kebiruan; 12 kotak unsur berwarna per golongan (lambang dua
+             huruf, nomor, nama) jatuh ke tempatnya ala tabel periodik; kotak terpilih menyala & membesar; panah
+             reaksi; kotak bergetar; unsur bergeser membentuk baris rumus senyawa → lencana NEXUS
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Ro. Dp. Ds. Tiga unsur yang wajib ada di kantormu."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty55-tabel-periodik). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY55_S1, TY55_S2, TY55_S3, TY55_S4 (atau satu file utuh TY55 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Ro. Dp. Ds. Tiga unsur yang wajib ada di kantormu."
+      Layar: Kotak-kotak unsur berjatuhan ke posisi tabel; Ro, Dp, Ds menyala berurutan dan membesar saat
+             disebut.
+[S2]  VO: "Reaksinya: RoPA dengan data spesifik jadi risiko tinggi, otomatis memicu DPIA. Paling reaktif: Insiden, tenggat tiga kali dua puluh empat jam."
+      Layar: Ro berpendar merah berlabel "data spesifik → TINGGI"; panah reaksi ke Dp berlabel "draf otomatis";
+             In bergetar, berpijar, berlabel "3×24 jam".
+[S3]  VO: "Di Privasimu Nexus, semua unsur jadi satu senyawa. Satu platform, saling terhubung."
+      Layar: Kotak lain memudar; Ro·Dp·Ds·Cs·In·Pk·Tr meluncur membentuk satu baris rumus dengan titik pemisah;
+             panah → lencana "NEXUS" muncul berpendar.
+[S4]  VO: "Unsur lengkap, reaksi aman. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Unsur lengkap, reaksi aman.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): data spesifik menandai risiko TINGGI otomatis; RoPA berisiko TINGGI otomatis membuat
+  draf DPIA.
+- DSR: tenggat otomatis 72 jam. Insiden (breach): penghitung mundur pemberitahuan 3×24 jam.
+- Unsur lain = modul platform (Consent, Pihak ketiga/TPRM, Transfer lintas negara, GAP, Maturity, Simulasi,
+  Telaah kontrak, PPDP) — modul saling terhubung.
+- Nomor "unsur" & tata letak = permainan visual (bukan sistem periodik nyata; warna/tata letak dibuat sendiri).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

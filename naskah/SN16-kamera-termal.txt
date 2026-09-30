@@ -1,0 +1,49 @@
+NASKAH SN16 — "YANG PANAS" · GAYA: KAMERA TERMAL
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kamera termal — citra termal palet besi (ungu dingin → merah → kuning → putih panas) atas denah
+             kantor yang bergeser pelan; bercak panas berdenyut; HUD kamera: bidik silang, sudut bingkai, skala
+             warna, kode waktu; kuantisasi 5×5; kartu DPIA Risk Heatmap asli
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Dilihat dengan kamera termal, titik paling panas ada di sini."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn16-kamera-termal). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN16_S1, SN16_S2, SN16_S3, SN16_S4 (atau satu file utuh SN16 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dashboard-risiko
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Dilihat dengan kamera termal… titik paling panas ada di sini."
+      Layar: Kamera termal menyala (statis sesaat), menyapu denah kantor; pada "sini" bidik mengunci bercak
+             terpanas: "Penggajian karyawan · HR · 4 kategori data · HIGH".
+[S2]  VO: "Bukan cuma satu. Kesehatan pasien digital. Registrasi nasabah. Sembilan titik panas, dari tiga puluh pemrosesan."
+      Layar: Bidik melompat ke bercak lain saat disebut (kesehatan pasien · 9 kategori; registrasi nasabah);
+             penghitung HUD naik: HIGH 9 · MED 2 · LOW 19 (n=30).
+[S3]  VO: "Privasimu Nexus memetakannya di matriks lima kali lima: kemungkinan kali dampak, lalu rencana mitigasi. Yang panas, didinginkan dulu."
+      Layar: Citra termal terkuantisasi jadi grid 5×5 berwarna, lalu kartu asli "DPIA Risk Heatmap (5×5)" menyatu
+             di atasnya; bercak panas meredup ke biru pada "didinginkan".
+[S4]  VO: "Lihat yang panas, sebelum terbakar. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Lihat yang panas sebelum terbakar.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DPIA (fakta_produk.json): matriks kemungkinan × dampak 5×5; register risiko + rencana mitigasi; draf otomatis
+  dari RoPA berisiko TINGGI.
+- Titik panas & angka (Penggajian karyawan · 4 kategori data; Deteksi kesehatan pasien digital · 9 kategori;
+  Registrasi nasabah; distribusi High 9 · Medium 2 · Low 19 dari 30 RoPA) diambil dari tangkapan asli
+  assets/app/dashboard-risiko.png (tenant uji).
+- Denah kantor & citra termal = ilustrasi; bukan citra kamera sungguhan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

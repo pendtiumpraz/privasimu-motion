@@ -8,8 +8,8 @@ rem ================================================================
 rem  RENDER.bat - antrean render video Privasimu (tanpa Claude)
 rem
 rem  Cara pakai:
-rem    Klik dua kali RENDER.bat           : cek semua folder di antrian-render.txt, lalu render yang
-rem                                         BELUM jadi atau BERUBAH. Yang sudah jadi dilewati otomatis.
+rem    Klik dua kali RENDER.bat           : cek SEMUA folder video (yang baru ikut otomatis),       
+rem                                         render yang BELUM jadi/BERUBAH, lewati yang sudah jadi.    
 rem    RENDER.bat t01-stomp t02-tipografi : cek/render folder tertentu saja
 rem    Seret folder video ke RENDER.bat   : cek/render folder itu saja
 rem    RENDER.bat --paksa                 : render ulang walau sudah jadi (bisa digabung nama folder)
@@ -44,10 +44,9 @@ for %%A in (%*) do (
     set "DAFTAR=!DAFTAR! %%~A"
   )
 )
-if not defined DAFTAR (
-  if not exist "antrian-render.txt" (echo [GAGAL] antrian-render.txt tidak ditemukan. & goto :akhir)
-  for /f "usebackq eol=# tokens=* delims=" %%F in ("antrian-render.txt") do set "DAFTAR=!DAFTAR! %%F"
-)
+if not defined DAFTAR call :otomatis
+rem  :otomatis (di akhir file) = urutan dari antrian-render.txt + semua folder lain yang punya scenes.js
+rem -----------------------------------------------------------------------------------
 if not defined DAFTAR (echo [GAGAL] Antrean kosong. & goto :akhir)
 
 if not exist "out\log" mkdir "out\log"
@@ -112,3 +111,31 @@ echo Selesai: !OK! dirender, !LEWAT! dilewati, !GAGAL! gagal >> "!RINGKAS!"
 echo.
 pause
 endlocal
+exit /b
+
+rem ================================================================
+rem  :otomatis - menyusun antrean bila RENDER.bat dijalankan tanpa nama folder
+rem    1. folder di antrian-render.txt lebih dulu (urutan prioritas; file ini boleh tidak ada)
+rem    2. lalu SEMUA folder lain yang punya scenes.js, jadi video baru ikut otomatis
+rem    Baris "-nama-folder" di antrian-render.txt = jangan dirender.
+rem ================================================================
+:otomatis
+set "KECUALI= "
+set "URUT="
+if exist "antrian-render.txt" (
+  for /f "usebackq eol=# tokens=* delims=" %%F in ("antrian-render.txt") do (
+    set "BARIS=%%F"
+    if "!BARIS:~0,1!"=="-" (set "KECUALI=!KECUALI!!BARIS:~1! ") else (set "URUT=!URUT! %%F")
+  )
+)
+for /d %%D in (*) do if exist "%%D\scenes.js" (
+  set "ADA="
+  for %%X in (!URUT!) do if /i "%%X"=="%%D" set "ADA=1"
+  if not defined ADA set "URUT=!URUT! %%D"
+)
+for %%F in (!URUT!) do (
+  set "ADA="
+  for %%X in (!KECUALI!) do if /i "%%X"=="%%F" set "ADA=1"
+  if not defined ADA set "DAFTAR=!DAFTAR! %%F"
+)
+exit /b

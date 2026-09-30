@@ -1,0 +1,21 @@
+/* TY27 · HURUF 3D — langit pucat & tanah isometrik; huruf Archivo Black bermuka navy, sisi biru bertingkat */
+body { background: #DCE8F7; color: #0B1B4D; }
+#stage { background: #DCE8F7; }
+#vignette { opacity: .2; }
+#grain { opacity: .05; }
+.k3-kota { position: absolute; left: 0; width: var(--W); height: 0; transform-origin: 50% 100%; }
+.k3-huruf { position: absolute; bottom: 0; font-family: 'Archivo Black', sans-serif; line-height: 1; }
+.k3-huruf span { position: absolute; left: 0; bottom: 0; }
+.k3-huruf .sisi { color: #2F6BFF; opacity: 0; }
+.k3-huruf .sisi:nth-child(odd) { color: #2458D6; }
+.k3-huruf .muka { position: relative; display: block; color: #0B1B4D; opacity: 0; }
+.k3-huruf .jendela { position: absolute; width: 9%; height: 6%; background: #FFD34E; box-shadow: 0 0 14px rgba(255,211,78,.9); opacity: 0; }
+.k3-tanggal { position: absolute; transform: translateX(-50%); margin-left: -190px; padding: 14px 30px 16px; border-radius: 12px; background: #0B1B4D; color: #FFD34E; font: 800 44px/1 'Rubik', sans-serif; letter-spacing: .08em; box-shadow: 0 16px 40px rgba(11,27,77,.3); opacity: 0; white-space: nowrap; }
+.v .k3-tanggal { font-size: 40px; margin-left: -170px; }
+.k3-kunci { position: absolute; margin-left: -70px; font: 140px/1 'Noto Color Emoji', sans-serif; opacity: 0; transform-origin: 50% 50%; }
+.k3-kunci b { position: absolute; left: 130px; top: -30px; font: 900 150px/1 'Rubik', sans-serif; color: #E5484D; }
+.k3-teks { position: absolute; left: 100px; right: 100px; top: 60px; text-align: center; font: 800 58px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #0B1B4D; }
+.v .k3-teks { left: 60px; right: 60px; top: 1540px; font-size: 52px; }
+.k3-teks em { font-style: normal; color: #2F6BFF; }
+.k3-cip { position: absolute; padding: 12px 24px 14px; border-radius: 999px; background: #0B1B4D; color: #fff; font: 800 28px/1 'Rubik', sans-serif; box-shadow: 0 12px 30px rgba(11,27,77,.25); transform-origin: 50% 50%; opacity: 0; white-space: nowrap; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-acc: #FFD34E; --pd-btn: #2F6BFF; --pd-tirai: rgba(11,27,77,.96); }

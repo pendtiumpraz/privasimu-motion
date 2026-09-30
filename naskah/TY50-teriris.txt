@@ -1,0 +1,44 @@
+NASKAH TY50 — "INFORMASI YANG TERPOTONG" · GAYA: TEKS TERIRIS (SLICED)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Teks teriris (sliced) — kalimat raksasa diiris jadi 4 pita horizontal; tiap pita bergeser ke
+             kiri/kanan dengan label divisi, lalu meluncur menyatu jadi kalimat utuh
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Tiap divisi pegang sepotong. Tidak ada yang pegang kalimat utuhnya."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty50-teriris). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY50_S1, TY50_S2, TY50_S3, TY50_S4 (atau satu file utuh TY50 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tiap divisi pegang sepotong. Tidak ada yang pegang kalimat utuhnya."
+      Layar: Kalimat "KAMI TAHU DATA APA, DI MANA, UNTUK APA." teriris 4 pita yang bergeser; label LEGAL · IT ·
+             CS · MARKETING di tiap pita.
+[S2]  VO: "Legal pegang kontrak. IT pegang sistem. CS pegang keluhan. Marketing pegang persetujuan."
+      Layar: Tiap pita menyala dan bergeser sedikit saat divisinya disebut.
+[S3]  VO: "Di Privasimu Nexus, potongannya menyatu: RoPA, Consent, DSR, Insiden. Satu platform, saling terhubung."
+      Layar: Pita meluncur ke posisi semula → kalimat utuh terbaca; label divisi memudar; pil modul RoPA ·
+             Consent · DSR · Insiden muncul di bawah.
+[S4]  VO: "Kalimat utuh, baru bisa dipertanggungjawabkan. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Satu kalimat utuh, satu peta data.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json, kunci platform): modul saling terhubung — RoPA, DPIA, DSR, Consent,
+  insiden, pihak ketiga, transfer lintas negara.
+- Kalimat "Kami tahu data apa, di mana, untuk apa" = inti RoPA (kategori data, sistem/lokasi, tujuan
+  pemrosesan); bukan klaim angka.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

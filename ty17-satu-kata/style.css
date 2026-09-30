@@ -1,0 +1,12 @@
+/* TY17 · SATU KATA PER LAYAR — blok warna penuh berganti, Syne 800 raksasa, huruf fokus berwarna */
+body { background: #0B1B4D; color: #fff; }
+#stage { background: #0B1B4D; }
+#vignette { opacity: .25; }
+#grain { opacity: .06; }
+.sk-kata { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-family: 'Syne', sans-serif; font-weight: 800; line-height: 1; letter-spacing: -.04em; white-space: nowrap; }
+.v .sk-kata { top: 44%; }
+.sk-kata span { display: inline-block; }
+.sk-teks { position: absolute; left: 100px; right: 100px; top: 900px; text-align: center; font: 800 54px/1.16 'Syne', sans-serif; letter-spacing: -.01em; color: #0B1B4D; }
+.v .sk-teks { left: 60px; right: 60px; top: 1200px; font-size: 52px; }
+.sk-teks em { font-style: normal; color: #2F6BFF; }
+.pd-cta { --pd-font: 'Syne', sans-serif; --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-acc: #2F6BFF; --pd-btn: #0B1B4D; --pd-tirai: rgba(244,241,234,.97); --pd-logo: brightness(0) invert(13%) sepia(40%) saturate(2000%) hue-rotate(205deg); }

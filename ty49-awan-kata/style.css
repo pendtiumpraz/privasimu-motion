@@ -1,0 +1,15 @@
+/* TY49 · AWAN KATA — krem; kata Inter 900 warna-warni; kata utama berdenyut dengan glow; kata baru biru Nexus */
+body { background: #F7F1E4; color: #1B1B1B; }
+#stage { background: #F7F1E4; }
+#vignette { opacity: .18; }
+#grain { opacity: .05; }
+.ak-kata { position: absolute; left: 0; top: 0; font-family: 'Inter', sans-serif; font-weight: 900; line-height: 1; white-space: nowrap; opacity: 0; transform-origin: 50% 50%; letter-spacing: -.01em; }
+.ak-kata.nyala { text-shadow: 0 0 18px currentColor; }
+.ak-baru { position: absolute; left: 50%; top: 50%; text-align: center; opacity: 0; transform-origin: 50% 50%; }
+.v .ak-baru { top: 46%; }
+.ak-baru b { display: block; font: 900 190px/1 'Inter', sans-serif; color: #0B1B4D; letter-spacing: -.02em; text-shadow: 0 0 40px rgba(47,111,209,.45); }
+.v .ak-baru b { font-size: 150px; }
+.ak-baru img { width: 260px; margin-top: 18px; filter: brightness(0); opacity: .9; }
+.ak-catatan { position: absolute; right: 40px; bottom: 30px; font: 600 18px/1 'Inter', sans-serif; color: #8A7F6A; opacity: 0; }
+.v .ak-catatan { right: 40px; bottom: 460px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #E63946; --pd-btn: #0B1B4D; --pd-btn-ink: #fff; --pd-tirai: rgba(247,241,228,.97); --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-logo: brightness(0); }

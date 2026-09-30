@@ -1,0 +1,46 @@
+NASKAH TY52 — "HALO, NAMA SAYA DPO" · GAYA: LABEL NAMA "HALO" (STIKER NAME TAG)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Label nama "HALO" (stiker name tag) — stiker label nama merah-putih ditempel miring di latar kertas;
+             tulisan spidol hitam ditulis huruf demi huruf; stiker-stiker tugas menumpuk lalu berjatuhan
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "HALO, nama saya: DPO (sejak kemarin sore)."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty52-label-nama). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY52_S1, TY52_S2, TY52_S3, TY52_S4 (atau satu file utuh TY52 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dpo-academy
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Halo, nama saya DPO. Sejak kemarin sore."
+      Layar: Stiker "HALO / nama saya:" ditempel miring; spidol menulis "DPO", lalu kecil di bawahnya "(sejak
+             kemarin sore)".
+[S2]  VO: "Tugasnya? RoPA, DPIA, DSR, insiden, dan lainnya. Semua sejak kemarin sore."
+      Layar: Stiker-stiker tugas "HALO, tugas saya: …" ditampar ke layar satu per satu, miring dan menumpuk di
+             sekitar stiker utama.
+[S3]  VO: "Di Privasimu Nexus ada DPO Academy: kepatuhan, risiko, audit, tata kelola. Plus asisten AI Priva."
+      Layar: Stiker tugas berjatuhan; stiker utama naik mengecil; kartu DPO Academy asli (4 kartu kursus) muncul;
+             "(sejak kemarin sore)" dicoret, ditulis "siap ✓".
+[S4]  VO: "Nama boleh baru, kesiapannya jangan. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Nama boleh baru, kesiapan jangan.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DPO Academy = tangkapan layar asli (assets/app/dpo-academy.png): kursus Kepatuhan UU PDP Fundamentals,
+  Manajemen Risiko Data Pribadi, Audit Kepatuhan PDP, Tata Kelola Data Pribadi.
+- Dukungan PPDP (fakta_produk.json): asisten AI Priva yang menjawab berdasarkan knowledge base platform.
+- Tenggat: DSR 72 jam (deadline otomatis modul DSR); pemberitahuan insiden 3×24 jam (UU PDP Pasal 46).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

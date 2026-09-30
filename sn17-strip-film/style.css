@@ -1,0 +1,25 @@
+/* SN17 · STRIP FILM — meja cahaya krem; strip hitam berlubang sproket; bingkai sepia; lingkaran spidol merah; bingkai besar */
+body { background: #EFE6D2; color: #1B1B1B; }
+#stage { background: #EFE6D2; }
+#vignette { opacity: .25; }
+#grain { opacity: .08; }
+.fs-strip { position: absolute; left: 0; width: 2400px; background: #151515; box-shadow: 0 16px 34px rgba(0,0,0,.3); opacity: 0; }
+.fs-lubang { position: absolute; left: 0; right: 0; height: 26px; background: repeating-linear-gradient(90deg, transparent 0 14px, #EFE6D2 14px 34px, transparent 34px 52px); }
+.fs-lubang.atas { top: 8px; } .fs-lubang.bawah { bottom: 8px; }
+.fs-baris { position: absolute; left: 0; top: 40px; display: flex; gap: 10px; padding-left: 12px; }
+.v .fs-baris { top: 42px; }
+.fs-bingkai { position: relative; border-radius: 4px; background: linear-gradient(160deg, hsl(var(--h), 40%, 78%), hsl(var(--h), 35%, 52%)); display: flex; align-items: center; justify-content: center; font: 700 22px/1 'Inter', sans-serif; color: rgba(0,0,0,.72); box-shadow: inset 0 0 0 2px rgba(0,0,0,.25); filter: sepia(.55) contrast(.95); }
+.fs-bingkai i { position: absolute; right: 6px; bottom: 4px; font: 500 14px/1 'Inter', sans-serif; font-style: normal; color: rgba(0,0,0,.5); }
+.fs-bingkai.kunci { font-weight: 900; }
+.fs-bingkai.sorot { filter: none; box-shadow: inset 0 0 0 3px #C8102E; }
+.fs-svg { position: absolute; left: 0; top: 0; pointer-events: none; }
+.fs-ling { fill: none; stroke: #C8102E; stroke-width: 7; stroke-linecap: round; opacity: 0; transform-box: fill-box; transform-origin: center; transform: rotate(-12deg); }
+.fs-besar { position: absolute; left: 0; top: 0; width: 640px; height: 300px; background: #151515; padding: 40px 30px; box-sizing: border-box; opacity: 0; transform-origin: 50% 50%; box-shadow: 0 30px 60px rgba(0,0,0,.35); }
+.v .fs-besar { width: 900px; height: 320px; }
+.fs-besar .in { height: 100%; border-radius: 6px; background: linear-gradient(160deg, #FFF3D6, #E9C27A); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; box-shadow: inset 0 0 0 3px #C8102E; }
+.fs-besar b { font: 900 56px/1 'Inter', sans-serif; color: #1B1B1B; letter-spacing: .04em; }
+.fs-besar span { font: 700 26px/1.2 'Inter', sans-serif; color: #7A2E12; }
+.fs-besar em { font: 500 22px/1.2 'Inter', sans-serif; font-style: normal; color: #5B4A2E; }
+.v .fs-besar b { font-size: 60px; } .v .fs-besar span { font-size: 28px; } .v .fs-besar em { font-size: 24px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #C8102E; --pd-btn: #151515; --pd-btn-ink: #fff; --pd-tirai: rgba(239,230,210,.97); --pd-ink: #1B1B1B; --pd-mute: rgba(27,27,27,.62); --pd-logo: brightness(0); }

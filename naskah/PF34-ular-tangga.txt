@@ -1,0 +1,47 @@
+NASKAH PF34 — "ULAR TANGGA KEPATUHAN" · GAYA: ULAR TANGGA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Ular tangga — papan permainan 8×8 pastel bernomor di meja kayu; bidak bundar "DPO" melompat per
+             kotak (busur), dadu menggelinding; ular merah berkelok dengan label kelalaian; tangga hijau berlabel
+             modul; tangga emas panjang Nexus; konfeti di kotak 64 PATUH
+Durasi     : ± 32 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 60% edukasi · 40% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Kotak 47: lupa mencatat pihak ketiga. Turun ke kotak 12."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf34-ular-tangga). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF34_S1, PF34_S2, PF34_S3, PF34_S4 (atau satu file utuh PF34 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kotak empat puluh tujuh: lupa mencatat pihak ketiga. Turun… ke kotak dua belas."
+      Layar: Papan tampil; dadu menggelinding: 3; bidak dari 44 melompat ke 45, 46, 47; kepala ular merah "lupa
+             mencatat pihak ketiga" — bidak meluncur turun ke kotak 12.
+[S2]  VO: "Naik tangga RoPA. Naik tangga DPIA. Lalu ular lagi: insiden tak dilapor tiga kali dua puluh empat jam. Turun."
+      Layar: Bidak melompat ke 14 lalu memanjat tangga RoPA ke 35; melompat ke 38, memanjat tangga DPIA ke 51;
+             melompat ke 58 — ular "insiden tak dilapor 3×24 jam" menurunkannya ke 30.
+[S3]  VO: "Di Privasimu Nexus, tangganya panjang: satu platform, dari kotak tiga puluh langsung ke kotak patuh."
+      Layar: Tangga emas panjang Nexus tergambar dari 30 ke 64; bidak memanjat dalam satu tarikan; kotak 64
+             "PATUH" meledak konfeti.
+[S4]  VO: "Kurangi ularnya, panjangkan tangganya. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Kurangi ularnya, panjangkan tangganya.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Tangga = modul Nexus (fakta_produk.json): RoPA (catatan kegiatan), DPIA (penilaian dampak); tangga panjang =
+  platform dengan modul saling terhubung.
+- Ular = kelalaian umum: pihak ketiga tidak tercatat (modul Manajemen Pihak Ketiga), insiden tidak dilaporkan
+  dalam 3×24 jam (Manajemen Insiden).
+- Nomor kotak & dadu = permainan (ilustrasi).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

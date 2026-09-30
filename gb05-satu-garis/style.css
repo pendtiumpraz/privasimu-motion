@@ -1,0 +1,39 @@
+/* GB05 · ONE-LINE ART — kertas krem, satu garis tinta, bercak pastel, serif miring */
+body { background: #FAF6EE; color: #14213D; }
+#vignette { opacity: .1; }
+#grain { opacity: .05; mix-blend-mode: multiply; }
+#ol-world { position: absolute; left: 0; top: 0; width: 0; height: 0; transform-origin: 0 0; }
+.ol-lab { position: absolute; transform: translate(-50%, 0); text-align: center; white-space: nowrap; opacity: 0; color: #14213D; }
+.ol-lab b { display: block; font: italic 400 78px/1 'Instrument Serif', serif; letter-spacing: -.01em; }
+.ol-lab small { display: block; margin-top: 12px; font: 600 23px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .22em; text-transform: uppercase; color: #6B7593; }
+.ol-lab.dua b { color: #2F6BFF; }
+.ol-lab.dua small { color: #2F6BFF; }
+/* pita kertas di belakang narasi supaya teks tetap terbaca saat garis lewat */
+#ol-pita { position: absolute; left: 0; right: 0; pointer-events: none; }
+.h #ol-pita { bottom: 0; height: 400px; background: linear-gradient(to top, rgba(250,246,238,.97) 0%, rgba(250,246,238,.92) 52%, rgba(250,246,238,0) 100%); }
+.v #ol-pita { top: 0; height: 640px; background: linear-gradient(to bottom, rgba(250,246,238,.97) 0%, rgba(250,246,238,.92) 66%, rgba(250,246,238,0) 100%); }
+/* narasi */
+.ol-nar { position: absolute; left: 0; right: 0; padding: 0 80px; text-align: center; color: #14213D; }
+.h .ol-nar { bottom: 74px; }
+.v .ol-nar { top: 250px; }
+.ol-nar .ln { font: 400 62px/1.16 'Instrument Serif', serif; letter-spacing: -.005em; }
+.v .ol-nar .ln { font-size: 62px; }
+.ol-nar .w { display: inline-block; opacity: 0; }
+.ol-nar .w.ak { font-style: italic; color: #2F6BFF; }
+/* penutup */
+.ol-cta { position: absolute; display: flex; flex-direction: column; align-items: center; text-align: center; color: #14213D; }
+.h .ol-cta { left: 1010px; right: 110px; top: 50%; transform: translateY(-50%); }
+.v .ol-cta { left: 60px; right: 60px; top: 1160px; }
+.ol-cta .logo { display: block; width: 540px; filter: brightness(0) invert(13%) sepia(40%) saturate(2000%) hue-rotate(205deg); }
+.v .ol-cta .logo { width: 600px; }
+.ol-cta .nx { margin-top: 10px; font: 700 34px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; margin-right: -.6em; color: #2F6BFF; }
+.ol-cta .tag { margin-top: 34px; font: 400 66px/1.1 'Instrument Serif', serif; max-width: 780px; min-height: 146px; }
+.ol-cta .tag .w { display: inline-block; opacity: 0; }
+.ol-cta .tag .w.ak { font-style: italic; color: #2F6BFF; }
+.v .ol-cta .tag { font-size: 70px; max-width: 900px; min-height: 154px; }
+.ol-cta .btn { margin-top: 38px; padding: 20px 56px; border-radius: 999px; background: #2F6BFF; color: #fff; font: 800 52px/1 'Plus Jakarta Sans', sans-serif; }
+.ol-cta .chips { margin-top: 26px; display: flex; gap: 16px; justify-content: center; }
+.ol-cta .chips span { padding: 11px 24px; border-radius: 999px; border: 2px solid rgba(20,33,61,.28); font: 700 28px 'Plus Jakarta Sans', sans-serif; white-space: nowrap; }
+.ol-cta .chips b { color: #12924B; }
+.ol-cta .foot { margin-top: 22px; font: 600 25px 'Plus Jakarta Sans', sans-serif; color: #6B7593; }
+.ol-fade { position: absolute; inset: 0; background: #FAF6EE; opacity: 0; }

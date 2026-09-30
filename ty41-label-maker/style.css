@@ -1,0 +1,27 @@
+/* TY41 · LABEL MAKER — meja kayu terang, benda emoji, pita label hitam berhuruf timbul (Rubik Mono One) */
+body { background: #E9DFCB; color: #2A2418; }
+#stage { background: #E9DFCB; }
+#vignette { opacity: .3; }
+#grain { opacity: .06; }
+.lm-benda { position: absolute; width: 240px; text-align: center; transform: translate(-50%, -50%); }
+.v .lm-benda { width: 260px; }
+.lm-benda .e { display: block; font: 150px/1 'Noto Color Emoji', sans-serif; filter: drop-shadow(0 14px 18px rgba(60,40,10,.25)); }
+.v .lm-benda .e { font-size: 120px; }
+.lm-benda .nm { display: block; margin-top: 8px; font: 800 24px/1 'Nunito', sans-serif; color: rgba(42,36,24,.6); }
+.lm-label { position: absolute; left: 0; top: 0; padding: 10px 18px 12px; background: #111; color: #fff; white-space: nowrap; transform-origin: 0 50%;
+  font: 400 26px/1 'Rubik Mono One', sans-serif; letter-spacing: .04em; text-shadow: 0 1px 0 rgba(255,255,255,.35), 0 -1px 0 rgba(0,0,0,.9); box-shadow: 0 6px 14px rgba(0,0,0,.35); opacity: 0; }
+.v .lm-label { font-size: 22px; padding: 9px 14px 11px; }
+.lm-tanda { position: absolute; padding: 8px 16px 10px; border-radius: 999px; font: 800 22px/1 'Nunito', sans-serif; letter-spacing: .06em; color: #fff; opacity: 0; transform-origin: 50% 50%; }
+.lm-tanda.umum { background: #2F6BFF; }
+.lm-tanda.spesifik { background: #E5484D; }
+.lm-alat { position: absolute; width: 300px; height: 120px; }
+.lm-alat .badan { position: absolute; left: 0; top: 0; width: 240px; height: 120px; border-radius: 26px 26px 20px 20px; background: linear-gradient(180deg, #4A5568, #2D3748); box-shadow: 0 16px 30px rgba(0,0,0,.3); display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 22px 26px; }
+.lm-alat .badan i { border-radius: 8px; background: #CBD5E0; box-shadow: inset 0 -3px 0 rgba(0,0,0,.25); }
+.lm-alat .mulut { position: absolute; left: 236px; top: 40px; width: 64px; height: 40px; border-radius: 0 10px 10px 0; background: #1A202C; }
+.lm-sinar { position: absolute; left: 0; top: 0; width: 120px; height: 100%; background: linear-gradient(90deg, rgba(47,107,255,0), rgba(47,107,255,.38) 60%, rgba(255,255,255,.9) 92%, rgba(47,107,255,0)); opacity: 0; }
+.lm-ropa { position: absolute; left: 50%; top: 810px; transform: translateX(-50%); padding: 14px 30px 16px; border-radius: 999px; background: #0B1B4D; color: #fff; font: 800 30px/1 'Nunito', sans-serif; opacity: 0; white-space: nowrap; }
+.v .lm-ropa { top: 1290px; }
+.lm-teks { position: absolute; left: 100px; right: 100px; top: 900px; text-align: center; font: 800 58px/1.16 'Nunito', sans-serif; letter-spacing: -.01em; color: #2A2418; }
+.v .lm-teks { left: 60px; right: 60px; top: 1360px; font-size: 54px; }
+.lm-teks em { font-style: normal; color: #E5484D; }
+.pd-cta { --pd-font: 'Nunito', sans-serif; --pd-acc: #E5484D; --pd-btn: #111; --pd-tirai: rgba(233,223,203,.97); }

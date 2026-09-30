@@ -1,0 +1,48 @@
+NASKAH SN02 — "COOKED VS CHILL" · GAYA: NEON SIGN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Neon sign — dinding bata gelap, lantai basah memantulkan cahaya; kiri neon merah COOKED berkedip tak
+             stabil + baris neon panik; kanan neon biru CHILL stabil + baris neon rapi; jam neon 03:00 di atas;
+             kartu stepper insiden asli
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 40% edukasi · 60% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Jam 3 pagi, insiden. DPO A vs DPO B."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn02-neon-sign). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN02_S1, SN02_S2, SN02_S3, SN02_S4 (atau satu file utuh SN02 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. breach-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Jam tiga pagi, insiden. DPO A… versus DPO B."
+      Layar: Jam neon "03:00 · INSIDEN" menyala di atas; neon merah COOKED menyala tersendat (DPO A); neon biru
+             CHILL menyala mulus (DPO B).
+[S2]  VO: "DPO A: cari nomor siapa yang dihubungi, cari templat, cari apa pun. DPO B: buka Nexus. Daftar periksa ada, linimasa jalan, templat siap."
+      Layar: Kiri: baris neon merah berkedip "nomor siapa?", "templat?", "lapor ke mana?". Kanan: baris neon biru
+             stabil "checklist ✓", "timeline ✓", "templat ✓".
+[S3]  VO: "Bedanya bukan orangnya. Alurnya sudah siap, sebelum jam tiga pagi."
+      Layar: Neon merah padam, neon biru tetap; kartu asli stepper 5 fase insiden (Terdeteksi → Ditutup) naik di
+             tengah.
+[S4]  VO: "Jam tiga pagi, tetap chill. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jam 3 pagi: tetap chill.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Insiden (fakta_produk.json): daftar periksa penahanan & log linimasa dibuat otomatis saat insiden
+  dicatat; penghitung 3×24 jam; matriks RACI; templat pemberitahuan ke subjek data & lembaga.
+- Stepper 5 fase (Terdeteksi · Assessment · Containment · Notifikasi · Ditutup) = tangkapan asli
+  assets/app/breach-detail.png (header organisasi dipotong).
+- "DPO A/B" = tokoh fiktif tanpa wajah/nama; "cooked/chill" = bahasa gaul, bukan klaim.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

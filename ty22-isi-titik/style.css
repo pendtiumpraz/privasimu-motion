@@ -1,0 +1,33 @@
+/* TY22 · ISI TITIK-TITIK — meja hijau papan tulis, lembar soal bergaris biru, tulisan pensil Patrick Hand */
+body { background: #7B8A6A; color: #1F2430; }
+#stage { background: #7B8A6A; }
+#vignette { opacity: .35; }
+#grain { opacity: .07; }
+.it-kertas { position: absolute; padding: 40px 60px 44px; background: #FFFDF6 repeating-linear-gradient(180deg, transparent 0 62px, rgba(70,110,200,.22) 62px 64px); background-position: 0 30px; color: #1F2430; box-shadow: 0 30px 80px rgba(20,30,10,.35); transform-origin: 50% 50%; font-family: 'Nunito', sans-serif; }
+.it-kop { display: flex; justify-content: space-between; margin-bottom: 30px; font: 800 20px/1 'Nunito', sans-serif; letter-spacing: .08em; color: #6B7280; }
+.it-soal { margin: 0 0 20px; font-size: 44px; line-height: 64px; font-weight: 600; }
+.v .it-soal { font-size: 36px; }
+.it-soal.redup { color: rgba(31,36,48,.4); }
+.it-soal b { margin-right: 10px; }
+.it-blank { position: relative; display: inline-block; min-width: 440px; height: 1em; border-bottom: 3px solid #1F2430; vertical-align: -6px; }
+.v .it-blank { min-width: 360px; }
+.it-blank.kecil { min-width: 220px; border-color: rgba(31,36,48,.35); }
+.it-jwb { position: absolute; left: 14px; bottom: 2px; font: 400 62px/1 'Patrick Hand', cursive; color: #3B4557; white-space: nowrap; transform-origin: 0 100%; }
+.v .it-jwb { font-size: 48px; }
+.it-jwb span { display: inline-block; }
+.it-pensil { position: absolute; left: 0; top: 0; font: 90px/1 'Noto Color Emoji', sans-serif; transform-origin: 20% 90%; filter: drop-shadow(0 10px 12px rgba(0,0,0,.3)); }
+.it-kunci { position: absolute; padding: 26px 34px 30px; border-radius: 20px; background: #FFF6C8; color: #1F2430; box-shadow: 0 30px 80px rgba(20,30,10,.35); font-family: 'Nunito', sans-serif; opacity: 0; transform-origin: 50% 50%; }
+.it-kunci .kh { display: flex; justify-content: space-between; align-items: baseline; font: 800 24px/1.2 'Nunito', sans-serif; letter-spacing: .04em; color: #7A5A00; margin-bottom: 16px; }
+.it-kunci .kh span { font-size: 18px; font-weight: 600; letter-spacing: 0; color: rgba(31,36,48,.55); }
+.it-kunci .kr { display: flex; align-items: center; gap: 16px; padding: 12px 0; border-top: 1px dashed rgba(31,36,48,.2); font-size: 30px; }
+.v .it-kunci .kr { font-size: 27px; flex-wrap: wrap; }
+.it-kunci .kr .cek { flex: 0 0 34px; width: 34px; height: 34px; border-radius: 50%; background: #18B26B; transform: scale(0); position: relative; }
+.it-kunci .kr .cek::after { content: ''; position: absolute; left: 12px; top: 6px; width: 8px; height: 15px; border: solid #fff; border-width: 0 4px 4px 0; transform: rotate(45deg); }
+.it-kunci .kr b { flex: 0 0 auto; font-weight: 800; }
+.it-kunci .kr span { flex: 1 1 0; color: rgba(31,36,48,.6); font-size: .85em; }
+.it-kunci .kr em { flex: 0 0 auto; font-style: normal; padding: 6px 14px; border-radius: 999px; background: #0B1B4D; color: #fff; font-size: 22px; font-weight: 800; transform-origin: 50% 50%; opacity: 0; }
+.it-teks { position: absolute; left: 100px; right: 100px; top: 920px; text-align: center; font: 800 54px/1.16 'Nunito', sans-serif; color: #FFFDF6; text-shadow: 0 4px 20px rgba(0,0,0,.3); }
+.v .it-teks { left: 60px; right: 60px; top: 1420px; font-size: 52px; }
+.it-teks em { font-style: normal; color: #FFE14D; }
+.pd-cta { --pd-font: 'Nunito', sans-serif; --pd-ink: #1F2430; --pd-mute: rgba(31,36,48,.62); --pd-acc: #2F6BFF; --pd-btn: #1F2430; --pd-btn-ink: #FFFDF6; --pd-tirai: rgba(255,253,246,.97); --pd-logo: brightness(0); }
+.pd-tag em { font-family: 'Patrick Hand', cursive; font-weight: 400; font-size: 1.2em; }

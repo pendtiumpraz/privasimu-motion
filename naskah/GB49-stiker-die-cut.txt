@@ -1,0 +1,45 @@
+NASKAH GB49 — "DPO STARTER PACK" · GAYA: STIKER DIE-CUT
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Stiker die-cut — tutup laptop hijau tua (permukaan datar); stiker warna-warni bergaris tepi putih
+             tebal & bayangan ditampar masuk satu per satu, miring dan saling tumpuk; stiker terakhir logo
+             Privasimu Nexus besar di tengah
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "DPO starter pack."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb49-stiker-die-cut). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB49_S1, GB49_S2, GB49_S3, GB49_S4 (atau satu file utuh GB49 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "DPO starter pack."
+      Layar: Tutup laptop kosong; stiker spanduk kuning "DPO STARTER PACK" ditampar masuk di atas.
+[S2]  VO: "Kopi keempat, empat puluh tujuh tab, RoPA final final v3, grup chat urgent, dan tenggat tujuh puluh dua jam."
+      Layar: Stiker ditampar satu per satu saat disebut: ☕ kopi ke-4 · 47 tab · RoPA_final_final_v3.xlsx · grup
+             chat URGENT 99+ · ⏱ 72 jam · 📎 audit minggu depan.
+[S3]  VO: "Stiker terakhir: Privasimu Nexus. Semua modul, satu platform, satu tab."
+      Layar: Stiker besar logo Privasimu Nexus ditampar di tengah menutupi tumpukan; stiker kecil "satu tab 🙂"
+             menyusul.
+[S4]  VO: "DPO starter pack: cukup satu stiker. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "DPO starter pack: cukup satu stiker.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json): platform dengan modul saling terhubung — RoPA, DPIA, DSR, Consent,
+  insiden ("satu tab" = kiasan satu platform).
+- Isi stiker (kopi ke-4, 47 tab, RoPA_final_final_v3, grup chat URGENT) = lelucon keseharian, bukan klaim
+  produk; "72 jam" = tenggat DSR otomatis.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

@@ -1,0 +1,50 @@
+NASKAH PF08 — "EMOTIONAL DAMAGE: DENDA 2%" · GAYA: STRUK BELANJA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Struk belanja — meja kasir gelap; celah printer termal di atas; kertas putih memanjang ke bawah saat
+             baris dicetak (huruf mono abu-hitam ala termal), garis putus-putus, TOTAL besar, barcode, cap merah
+             miring, tepi sobek zigzag; versi kedua bergaya sama dengan chip modul
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 40% edukasi · 60% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "CFO membaca: denda administratif hingga 2% dari pendapatan tahunan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf08-struk-belanja). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF08_S1, PF08_S2, PF08_S3, PF08_S4 (atau satu file utuh PF08 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "CFO membaca struk ini: denda administratif, hingga dua persen dari pendapatan tahunan."
+      Layar: Struk keluar dari celah: kop "TOKO KEPATUHAN · struk tagihan UU PDP", lalu baris: "Tanpa dasar
+             pemrosesan … peringatan tertulis", "Pemberitahuan insiden terlambat … penghentian sementara".
+[S2]  VO: "Data spesifik tanpa DPIA. Persetujuan tanpa bukti. Total: hingga dua persen pendapatan tahunan. Emotional damage."
+      Layar: Baris terus dicetak: "Data spesifik tanpa DPIA … penghapusan data", "Persetujuan tanpa bukti … denda
+             administratif"; garis putus; TOTAL besar "DENDA: hingga 2% pendapatan tahunan"; barcode; cap merah
+             EMOTIONAL DAMAGE menghantam.
+[S3]  VO: "Privasimu Nexus memetakan tiap pasal bersanksi ke modulnya: RoPA, Insiden, DPIA, Consent. Kelihatan sebelum ditagih."
+      Layar: Struk disobek zigzag dan jatuh; struk baru "PAPARAN SANKSI · terpetakan" tercetak: tiap kelalaian →
+             chip modul (RoPA · Insiden · DPIA · Consent) dengan status; TOTAL berubah "paparan: terpetakan ✓".
+[S4]  VO: "Baca struknya sekarang, bukan saat ditagih. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Baca struknya sekarang, bukan saat ditagih.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- UU PDP (UU 27/2022) Pasal 57: sanksi administratif berupa peringatan tertulis, penghentian sementara kegiatan
+  pemrosesan, penghapusan/pemusnahan data pribadi, dan denda administratif paling tinggi 2% dari pendapatan
+  tahunan.
+- Paparan Sanksi Administratif (fakta_produk.json): pemetaan pasal bersanksi ke modul kepatuhan terkait;
+  penilaian paparan sanksi.
+- Frasa "Emotional Damage" dipakai sebagai teks meme saja, tanpa meniru persona/suara siapa pun; tidak ada
+  nominal rupiah.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

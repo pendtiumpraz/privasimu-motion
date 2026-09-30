@@ -1,0 +1,44 @@
+NASKAH TY31 — "KE MANA PERGINYA?" · GAYA: TEKS DI JALUR / PUSARAN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Teks di jalur / pusaran — tombol KIRIM ditekan; kata nama · email · NIK mengalir di jalur spiral
+             menuju pusaran gelap; keluar sebagai baris RoPA rapi; notifikasi "RoPA berhasil dibuat" asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Ke mana perginya data setelah tombol 'Kirim' ditekan?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty31-teks-jalur). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY31_S1, TY31_S2, TY31_S3, TY31_S4 (atau satu file utuh TY31 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Ke mana perginya data, setelah tombol Kirim ditekan?"
+      Layar: Tombol KIRIM besar ditekan di "Kirim"; kata-kata (nama · email · no. HP · NIK) mulai mengalir di
+             jalur spiral menuju pusaran.
+[S2]  VO: "Berputar. Turun. Hilang ke sistem yang tidak ada yang mencatatnya."
+      Layar: Aliran makin cepat ke pusat; pusaran menggelap.
+[S3]  VO: "Di Privasimu Nexus, data yang masuk keluar sebagai catatan RoPA: tujuan, penerima, retensi. Tersimpan."
+      Layar: Dari pusaran keluar baris RoPA rapi: Tujuan · Penerima · Retensi; notifikasi asli "RoPA berhasil
+             dibuat".
+[S4]  VO: "Tahu ke mana perginya. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Tahu ke mana perginya.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA: wizard mencatat tujuan, dasar pemrosesan, kategori data, subjek, penerima, retensi, dan pengamanan
+  (fakta_produk.json: ropa). Layar = assets/app/ropa-tersimpan.png (notifikasi "RoPA berhasil dibuat", data
+  demo).
+- Isi baris RoPA di layar (tujuan/penerima/retensi) = contoh ilustrasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

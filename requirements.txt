@@ -2,3 +2,5 @@
 edge-tts
 # generator Excel rancangan (rancangan/sumber/buat_excel.py)
 openpyxl
+# cek rumus Excel tanpa Excel/LibreOffice (rancangan/sumber/cek_rumus.py)
+formulas

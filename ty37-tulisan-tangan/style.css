@@ -1,0 +1,26 @@
+/* TY37 · WRITE-ON — meja kayu terang, kertas tempel kuning, tulisan tangan biru tinta (Caveat), tumpukan laporan putih */
+body { background: #DCC7A6; color: #1A1A1A; }
+#stage { background: #DCC7A6; }
+#vignette { opacity: .3; }
+#grain { opacity: .06; }
+.wo-kertas { position: absolute; left: 0; top: 0; padding: 44px 40px 40px; background: linear-gradient(180deg, #FFF0A8, #FFE27A); box-shadow: 0 22px 40px rgba(60,40,10,.3); opacity: 0; transform-origin: 50% 50%; }
+.wo-kertas.n3 { padding: 18px 20px 16px; background: linear-gradient(180deg, #CDEFFF, #A9DFF7); }
+.wo-selotip { position: absolute; left: 50%; top: -16px; width: 150px; height: 36px; translate: -50% 0; background: rgba(255,255,255,.55); box-shadow: 0 2px 6px rgba(0,0,0,.12); transform: rotate(-2deg); }
+.wo-isi { position: relative; }
+.wo-b { font: 700 74px/1.18 'Caveat', cursive; color: #1F2A6B; white-space: nowrap; }
+.wo-kertas.n2 .wo-b { font-size: 62px; }
+.wo-kertas.n3 .wo-b { font-size: 56px; color: #0B4F6C; }
+.wo-b small { font: 400 26px/1 'Patrick Hand', cursive; color: #6B5E2E; margin-left: 8px; vertical-align: middle; }
+.wo-h { display: inline-block; opacity: 0; white-space: pre; }
+.wo-pena { position: absolute; left: 0; top: 0; width: 40px; height: 160px; margin-left: -20px; opacity: 0; pointer-events: none; transform-origin: 50% 100%; filter: drop-shadow(6px 10px 8px rgba(0,0,0,.25)); }
+.wo-pena svg { width: 100%; height: 100%; transform: rotate(28deg); transform-origin: 50% 96%; }
+.wo-tumpuk { position: absolute; left: 0; top: 0; width: 520px; height: 300px; opacity: 0; }
+.wo-lap { position: absolute; left: 0; right: 0; height: 240px; background: #FBFBF8; border: 2px solid #D8D2C4; box-shadow: 0 10px 20px rgba(60,40,10,.18); }
+.wo-lap.l3 { top: 44px; transform: rotate(3deg); } .wo-lap.l2 { top: 24px; transform: rotate(-2deg); } .wo-lap.l1 { top: 0; display: flex; align-items: center; justify-content: center; text-align: center; }
+.wo-lap.l1 span { font: 700 26px/1.3 'Inter', sans-serif; letter-spacing: .14em; color: #55524A; }
+.wo-lap.l1 b { display: block; font-size: 64px; letter-spacing: 0; color: #1F2A6B; margin-top: 6px; }
+.wo-lap.l1 i { display: block; font: 400 22px/1 'Patrick Hand', cursive; color: #8A8474; margin-top: 6px; letter-spacing: 0; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Caveat', cursive; --pd-acc: #1F2A6B; --pd-btn: #1F2A6B; --pd-btn-ink: #fff; --pd-tirai: rgba(255,240,168,.97); --pd-ink: #1F2A6B; --pd-mute: rgba(31,42,107,.62); --pd-logo: brightness(0); }
+.pd-tag { font-weight: 700; font-size: 82px; }
+.v .pd-tag { font-size: 86px; }

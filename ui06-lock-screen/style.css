@@ -1,0 +1,38 @@
+/* UI06 · LOCK SCREEN — meja gelap; ponsel dengan wallpaper gradien ungu-biru; jam putih tipis besar; kartu notifikasi kaca */
+body { background: #111827; color: #fff; }
+#stage { background: #111827; }
+#vignette { opacity: .5; }
+#grain { opacity: .05; }
+.lsc-phone { position: absolute; overflow: hidden; border-radius: 56px; box-shadow: 0 40px 100px rgba(0,0,0,.6), 0 0 0 12px #0B0F19, 0 0 0 14px #2A3242; font-family: 'Inter', sans-serif; }
+.v .lsc-phone { border-radius: 0; box-shadow: none; }
+.lsc-wall { position: absolute; inset: 0; background: radial-gradient(ellipse at 30% 20%, #7C3AED 0%, #2563EB 45%, #0F172A 100%); transition: none; }
+.lsc-phone.malam .lsc-wall { background: radial-gradient(ellipse at 30% 20%, #3B2A7A 0%, #1E2A5A 45%, #05070F 100%); }
+.lsc-status { position: absolute; left: 28px; right: 28px; top: 18px; display: flex; justify-content: space-between; font: 600 16px/1 'Inter', sans-serif; opacity: .9; }
+.v .lsc-status { left: 60px; right: 60px; top: 60px; font-size: 26px; }
+.lsc-tgl { position: absolute; left: 0; right: 0; top: 78px; text-align: center; font: 500 24px/1 'Inter', sans-serif; letter-spacing: .02em; opacity: .92; }
+.v .lsc-tgl { top: 250px; font-size: 40px; }
+.lsc-jam { position: absolute; left: 0; right: 0; top: 108px; text-align: center; font: 300 150px/1 'Inter', sans-serif; letter-spacing: -.03em; font-weight: 400; }
+.v .lsc-jam { top: 300px; font-size: 250px; }
+.lsc-tumpuk { position: absolute; left: 18px; right: 18px; top: 330px; }
+.v .lsc-tumpuk { left: 40px; right: 40px; top: 640px; }
+.lsc-kartu { position: absolute; left: 0; right: 0; top: 0; display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 22px; background: rgba(255,255,255,.86); color: #111827; box-shadow: 0 10px 30px rgba(0,0,0,.25); opacity: 0; backdrop-filter: blur(10px); }
+.v .lsc-kartu { padding: 20px 22px; border-radius: 30px; gap: 18px; }
+.lsc-kartu .ik { width: 44px; height: 44px; border-radius: 12px; background: #E5E7EB; display: flex; align-items: center; justify-content: center; font-size: 24px; flex: 0 0 auto; }
+.v .lsc-kartu .ik { width: 66px; height: 66px; border-radius: 18px; font-size: 36px; }
+.lsc-kartu.mail .ik { background: #DBEAFE; } .lsc-kartu.cal .ik { background: #FEE2E2; } .lsc-kartu.dsr .ik { background: #FEF3C7; } .lsc-kartu.chat .ik { background: #DCFCE7; }
+.lsc-kartu.sec { background: rgba(220,38,38,.95); color: #fff; } .lsc-kartu.sec .ik { background: rgba(255,255,255,.2); }
+.lsc-kartu .tx { flex: 1 1 0; min-width: 0; }
+.lsc-kartu .ap { display: flex; justify-content: space-between; font: 700 15px/1.2 'Inter', sans-serif; opacity: .8; }
+.lsc-kartu .ap span { font-weight: 500; }
+.lsc-kartu .isi { margin-top: 4px; font: 600 18px/1.25 'Inter', sans-serif; }
+.v .lsc-kartu .ap { font-size: 24px; } .v .lsc-kartu .isi { margin-top: 6px; font-size: 29px; }
+.lsc-kartu.nexus { background: #fff; box-shadow: 0 16px 40px rgba(0,0,0,.35), 0 0 0 3px #FFD166; }
+.lsc-kartu.nexus .ik { background: #0B1B4D; padding: 6px; } .lsc-kartu.nexus .ik img { width: 100%; }
+.lsc-kartu.nexus .isi em { display: block; margin-top: 4px; font: 500 12px/1 'Inter', sans-serif; color: #6B7280; font-style: normal; }
+.v .lsc-kartu.nexus .isi em { font-size: 20px; }
+.lsc-kartu.priva { background: rgba(255,255,255,.92); }
+.lsc-kartu.priva .ik { background: #FDE68A; color: #92400E; font-size: 26px; }
+.lsc-bawah { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; }
+.lsc-bawah i { width: 140px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.85); }
+.v .lsc-bawah { bottom: 40px; } .v .lsc-bawah i { width: 220px; height: 9px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #FFD166; --pd-btn: #FFD166; --pd-btn-ink: #111827; --pd-tirai: rgba(17,24,39,.97); }

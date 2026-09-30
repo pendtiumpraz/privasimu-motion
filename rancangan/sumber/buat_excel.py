@@ -11,6 +11,8 @@ from openpyxl.utils import get_column_letter
 from openpyxl.workbook.defined_name import DefinedName
 from openpyxl.worksheet.datavalidation import DataValidation
 
+import data_frasa as DFR
+import data_gaya as DG
 import data_meme as DM
 import data_rancangan as DR
 
@@ -281,13 +283,132 @@ for k, (a, b) in enumerate(kpi, start=26):
     c = wm.cell(row=k, column=3, value=b); c.alignment = WRAP; wm.merge_cells(start_row=k, start_column=3, end_row=k, end_column=6); wm.row_dimensions[k].height = 30
 widths(wm, [4, 20, 34, 40, 20, 20])
 
+# ====================================================================== Katalog Gaya (7 keluarga)
+wg = wb.create_sheet('Katalog Gaya')
+GH = ['Kode', 'Keluarga', 'Gaya', 'Tampilannya', 'Status', 'Dipakai di', 'Upaya (1–5)', 'Wow (1–10)', 'Cocok merek (1–10)', 'SKOR PRIORITAS', 'Peringkat di keluarga',
+      'Gelombang produksi', 'Video usulan', 'Jenis hook', 'Hook (0–3 detik)', 'Alur singkat', 'Meme %', 'Edukasi %', 'Komposisi', 'Modul / fitur',
+      'Aset layar (motion/assets/app)', 'Durasi', 'Sumber di plan', 'Teknik (cara buat di mesin kita)', 'Catatan / risiko', 'siap', 'kunci skor', 'kunci peringkat']
+header(wg, 1, GH, height=40)
+ng = len(DG.G)
+GL = ng + 1  # baris terakhir data
+for i, g in enumerate(DG.G, start=2):
+    meme = None if g['meme'] is None else g['meme'] / 100
+    row = [g['kode'], g['keluarga'], g['gaya'], g['tampilan'], g['status'], g['dipakai'], g['upaya'], g['wow'], g['brand'],
+           f'=IF(E{i}="Tidak cocok","",ROUND(H{i}*W_GAYA_WOW+I{i}*W_GAYA_MEREK+(11-2*G{i})*W_GAYA_MUDAH,1))',
+           f'=IF(Z{i}=1,COUNTIFS($B$2:$B${GL},B{i},$AA$2:$AA${GL},">"&AA{i})+1,"—")',
+           g['gelombang'], g['judul'], g['jenis_hook'], g['hook'], g['alur'], meme,
+           f'=IF(Q{i}="","",1-Q{i})', f'=IF(Q{i}="","—",TEXT(1-Q{i},"0%")&" edukasi · "&TEXT(Q{i},"0%")&" meme")',
+           g['modul'], g['aset'], g['durasi'], g['sumber'], g['teknik'], g['catatan'],
+           f'=IF(OR(E{i}="Bisa",E{i}="Berat"),1,0)', f'=IF(Z{i}=1,J{i}-ROW()/100000,"")', f'=B{i}&"|"&K{i}']
+    fill = FILL['hook'] if g['gelombang'] == 0 else (FILL['zebra'] if i % 2 == 0 else None)
+    put_row(wg, i, row, center_cols=(1, 5, 6, 7, 8, 9, 10, 11, 12, 14, 17, 18, 22), height=78, fill=fill, bold_cols=(3, 13))
+    wg.cell(row=i, column=10).font = Font(bold=True, size=12, color=NAVY)
+    for c in (17, 18): wg.cell(row=i, column=c).number_format = '0%'
+    wg.cell(row=i, column=17).fill = PatternFill('solid', fgColor='FFF7CC')
+    st = wg.cell(row=i, column=5)
+    st.fill = FILL['ok'] if g['status'] == 'Sudah' else FILL['mid'] if g['status'] == 'Berat' else FILL['warn'] if g['status'] == 'Tidak cocok' else FILL['cta']
+widths(wg, [8, 18, 30, 44, 12, 12, 9, 9, 10, 11, 11, 11, 32, 18, 50, 60, 9, 10, 26, 30, 34, 10, 26, 50, 40, 6, 6, 6])
+for col in ('Z', 'AA', 'AB'):
+    wg.column_dimensions[col].hidden = True
+wg.freeze_panes = 'D2'
+wg.auto_filter.ref = f'A1:Y{GL}'
+for col, lo, mid, hi in (('H', 5, 7, 10), ('I', 5, 7, 10), ('J', 5, 7, 9)):
+    wg.conditional_formatting.add(f'{col}2:{col}{GL}', ColorScaleRule(start_type='num', start_value=lo, start_color='F8696B', mid_type='num', mid_value=mid, mid_color='FFEB84', end_type='num', end_value=hi, end_color='63BE7B'))
+wg.conditional_formatting.add(f'G2:G{GL}', ColorScaleRule(start_type='num', start_value=1, start_color='63BE7B', mid_type='num', mid_value=3, mid_color='FFEB84', end_type='num', end_value=5, end_color='F8696B'))
+for c, a, b in ((7, 1, 5), (8, 1, 10), (9, 1, 10)):
+    dv = DataValidation(type='whole', operator='between', formula1=str(a), formula2=str(b)); dv.error = f'Isi {a}–{b}'
+    wg.add_data_validation(dv); dv.add(f'{get_column_letter(c)}2:{get_column_letter(c)}{GL}')
+dvm = DataValidation(type='decimal', operator='between', formula1='0', formula2='1'); dvm.error = 'Isi 0%–100%'
+wg.add_data_validation(dvm); dvm.add(f'Q2:Q{GL}')
+dvs = DataValidation(type='list', formula1='"' + ','.join(DG.STATUS) + '"', allow_blank=False)
+wg.add_data_validation(dvs); dvs.add(f'E2:E{GL}')
+
+# ====================================================================== Ringkasan Gaya
+wq = wb.create_sheet('Ringkasan Gaya')
+title(wq, 'Peta gaya motion graphic: 7 keluarga',
+      f'{ng} gaya, masing-masing dengan usulan video (hook, alur, modul, komposisi edukasi vs meme). Urutan produksi: one-line art dulu (permintaan), lalu SEMUA tipografi, '
+      'lalu SEMUA grafis & bentuk, baru keluarga lain. Daftar lengkap di sheet "Katalog Gaya" (saring kolom Keluarga, urutkan kolom Peringkat).', span=10)
+header(wq, 4, ['Kode', 'Keluarga', 'Ciri', 'Gelombang', 'Jumlah gaya', 'Sudah dipakai', 'Bisa', 'Berat', 'Tidak cocok', 'Rata-rata wow'])
+KG = "'Katalog Gaya'"
+for k, (kode, nama, gel, ciri) in enumerate(DG.KELUARGA, start=5):
+    put_row(wq, k, [kode, nama, ciri, gel, f'=COUNTIF({KG}!$B$2:$B${GL},B{k})'] +
+            [f'=COUNTIFS({KG}!$B$2:$B${GL},$B{k},{KG}!$E$2:$E${GL},"{s}")' for s in DG.STATUS] +
+            [f'=ROUND(AVERAGEIF({KG}!$B$2:$B${GL},B{k},{KG}!$H$2:$H${GL}),1)'], center_cols=(1, 4, 5, 6, 7, 8, 9, 10), height=30, bold_cols=(2,))
+rt = 5 + len(DG.KELUARGA)
+put_row(wq, rt, ['', 'TOTAL', '', ''] + [f'=SUM({get_column_letter(c)}5:{get_column_letter(c)}{rt - 1})' for c in range(5, 10)] +
+        [f'=ROUND(AVERAGE({KG}!$H$2:$H${GL}),1)'], center_cols=(5, 6, 7, 8, 9, 10), height=24, bold_cols=(2, 5, 6, 7, 8, 9, 10), fill=FILL['mod'])
+
+rw = rt + 2
+wq.cell(row=rw, column=1, value='Bobot skor prioritas (ubah angka di kolom C; skor & peringkat di "Katalog Gaya" ikut berubah)').font = Font(bold=True, size=12, color=NAVY)
+for k, (lab, val, nm, ket) in enumerate([('Wow (daya tarik visual)', 0.45, 'W_GAYA_WOW', 'Seberapa kuat gaya ini menghentikan scroll.'),
+                                         ('Cocok merek', 0.35, 'W_GAYA_MEREK', 'Seberapa pas untuk merek B2B yang serius.'),
+                                         ('Mudah dibuat', 0.20, 'W_GAYA_MUDAH', 'Dari kolom Upaya: upaya 1 = nilai 9, upaya 5 = nilai 1 (rumus 11 − 2 × upaya).')], start=rw + 1):
+    wq.cell(row=k, column=2, value=lab).font = Font(bold=True)
+    c = wq.cell(row=k, column=3, value=val); c.number_format = '0%'; c.fill = PatternFill('solid', fgColor='FFF7CC'); c.border = BORDER; c.alignment = Alignment(horizontal='left')
+    d = wq.cell(row=k, column=4, value=ket); d.alignment = WRAP; wq.merge_cells(start_row=k, start_column=4, end_row=k, end_column=10)
+    wb.defined_names[nm] = DefinedName(nm, attr_text=f"'Ringkasan Gaya'!$C${k}")
+wq.cell(row=rw + 4, column=2, value='Total bobot').font = Font(bold=True)
+c = wq.cell(row=rw + 4, column=3, value=f'=SUM(C{rw + 1}:C{rw + 3})'); c.number_format = '0%'; c.alignment = Alignment(horizontal='left')
+
+rl = rw + 6
+wq.cell(row=rl, column=1, value='Cara membaca').font = Font(bold=True, size=12, color=NAVY)
+LEG = [('Status', 'Sudah = sudah dipakai di video yang ada · Bisa = bisa dibuat dengan mesin sekarang · Berat = bisa, tapi butuh waktu/aset lebih · Tidak cocok = butuh footage asli, 3D, ilustrator, atau izin.'),
+       ('Upaya', '1 = beberapa jam kerja · 3 = sekelas video T01–T03 · 5 = paling berat (banyak objek atau 3D semu).'),
+       ('Komposisi', 'Porsi durasi untuk hiburan/format meme vs penjelasan & bukti produk. Ubah kolom "Meme %"; kolom Edukasi & Komposisi mengikuti. 0% = murni edukasi, 100% = full meme.'),
+       ('Gelombang', '0 = dikerjakan pertama (one-line art) · 1 = tipografi · 2 = grafis & bentuk · 3–7 = keluarga lain. Di dalam satu gelombang, ikuti kolom Peringkat.'),
+       ('Skor', 'Skor wow, cocok merek, dan upaya adalah ESTIMASI EDITORIAL, bukan data. Validasi dengan uji tayang.'),
+       ('Aturan isi', 'Fitur hanya dari fakta_produk.json/screenshot asli · angka di hook yang bukan fakta = ilustrasi (diberi label) · "pihak ketiga", bukan "vendor" · tanpa wajah/suara/nama tokoh nyata dan tanpa merek pihak lain.')]
+for k, (a, b) in enumerate(LEG, start=rl + 1):
+    wq.cell(row=k, column=2, value=a).font = Font(bold=True)
+    c = wq.cell(row=k, column=3, value=b); c.alignment = WRAP; wq.merge_cells(start_row=k, start_column=3, end_row=k, end_column=10); wq.row_dimensions[k].height = 34
+
+rp = rl + len(LEG) + 2
+wq.cell(row=rp, column=1, value='Urutan produksi: 10 teratas tiap gelombang prioritas (mengikuti skor; berubah otomatis bila bobot/skor diubah)').font = Font(bold=True, size=12, color=NAVY)
+header(wq, rp + 1, ['#', 'Tipografi: gaya', 'Video usulan', 'Komposisi', 'Skor', '#', 'Grafis & bentuk: gaya', 'Video usulan', 'Komposisi', 'Skor'])
+ambil = lambda kol, nama, n: f'=IFERROR(INDEX({KG}!${kol}$2:${kol}${GL},MATCH("{nama}|"&{n},{KG}!$AB$2:$AB${GL},0)),"")'
+for n in range(1, 11):
+    k = rp + 1 + n
+    put_row(wq, k, [n, ambil('C', 'Tipografi', n), ambil('M', 'Tipografi', n), ambil('S', 'Tipografi', n), ambil('J', 'Tipografi', n),
+                    n, ambil('C', 'Grafis & bentuk', n), ambil('M', 'Grafis & bentuk', n), ambil('S', 'Grafis & bentuk', n), ambil('J', 'Grafis & bentuk', n)],
+            center_cols=(1, 5, 6, 10), height=30, bold_cols=(2, 7))
+satu = next(g for g in DG.G if g['gelombang'] == 0)
+c = wq.cell(row=rp + 13, column=1, value=f"Dikerjakan pertama: {satu['kode']} · {satu['gaya']} · video “{satu['judul']}” ({satu['durasi']})"
+            + (' — sudah dirakit, tinggal render.' if satu['status'] == 'Sudah' else '.'))
+c.font = Font(bold=True, color=NAVY); c.fill = FILL['hook']; wq.merge_cells(start_row=rp + 13, start_column=1, end_row=rp + 13, end_column=10)
+widths(wq, [7, 30, 34, 26, 12, 13, 30, 34, 26, 13])
+wq.freeze_panes = 'A5'
+
+# ====================================================================== Hook Frasa Viral
+wh = wb.create_sheet('Hook Frasa Viral')
+title(wh, 'Hook frasa viral (termasuk frasa politik): pemancing perhatian, versi aman',
+      'Frasa dipakai sebagai PEMANCING di 0–3 detik pertama, lalu video kembali ke pesan produk. Yang dipakai hanya frasanya (teks + suara tim); '
+      'wajah, suara asli, nama, klip video, dan gambar meme tokoh TIDAK dipakai. Konteks tiap frasa cepat berubah: cek ulang sebelum tayang.', span=9)
+wh['A2'].fill = FILL['warn']
+wh.cell(row=4, column=1, value='Aturan pakai').font = Font(bold=True, size=12, color=NAVY)
+for k, t in enumerate(DFR.ATURAN, start=5):
+    c = wh.cell(row=k, column=1, value=f'{k - 4}. {t}'); wh.merge_cells(start_row=k, start_column=1, end_row=k, end_column=9); c.alignment = WRAP; wh.row_dimensions[k].height = 30
+hf = 5 + len(DFR.ATURAN) + 1
+header(wh, hf, ['No', 'Frasa', 'Jenis', 'Konteks singkat', 'Contoh hook Privasimu', 'Modul', 'Cara pakai aman', 'Risiko', 'Catatan'])
+for i, row in enumerate(DFR.FRASA, start=1):
+    rr = hf + i
+    put_row(wh, rr, [i] + list(row), center_cols=(1, 3, 8), height=62, bold_cols=(2,))
+    wh.cell(row=rr, column=8).fill = FILL['warn'] if row[6] == 'Tinggi' else FILL['mid'] if row[6] == 'Sedang' else FILL['ok']
+widths(wh, [5, 30, 16, 40, 56, 22, 30, 10, 40])
+wh.freeze_panes = f'C{hf + 1}'
+wh.auto_filter.ref = f'A{hf}:I{hf + len(DFR.FRASA)}'
+
 # ====================================================================== isi Ringkasan
 wr['A1'] = 'Rancangan Iklan & Video Privasimu: Q4 2026 → PP 33 berlaku (16 Jan 2027)'; wr['A1'].font = Font(bold=True, size=18, color=NAVY)
-wr['A2'] = (f'Isi: 1 flow unggulan "semua modul" (± 3 menit, dengan versi 60 & 30 dtk) · {len(DR.M)} video modul · {len(DR.S)} video pendek 5/10/15 dtk · {len(DM.A)} konsep iklan meme. '
-            'Setiap video punya hook (reverse psychology / relate / anomali / logika dipatahkan) dan lokasi screenshot per adegan. Dibuat 29 Sep 2026. Rancangan saja; videonya belum dibuat.')
+wr['A2'] = (f'Isi: 1 flow unggulan "semua modul" (± 3 menit, dengan versi 60 & 30 dtk) · {len(DR.M)} video modul · {len(DR.S)} video pendek 5/10/15 dtk · {len(DM.A)} konsep iklan meme · '
+            f'{ng} gaya motion graphic (7 keluarga) · {len(DFR.FRASA)} frasa hook. '
+            'Setiap video punya hook (reverse psychology / relate / anomali / logika dipatahkan) dan lokasi screenshot per adegan. Dibuat 29 Sep 2026, diperbarui 30 Sep 2026. '
+            'Yang sudah jadi video: N01–N11, M01, M02, A22, T01–T03, GB05 (lihat kolom Status di Katalog Gaya).')
 wr['A2'].alignment = WRAP; wr.merge_cells('A2:F2'); wr.row_dimensions[2].height = 46
 header(wr, 4, ['Sheet', 'Isi', '', '', '', ''])
-TOC = [('Flow Semua Modul', 'Flow unggulan "Perjalanan Satu Data": semua modul dalam satu video (± 3 menit), per adegan + screenshot. Kolom terakhir menandai adegan untuk versi 60 & 30 dtk.'),
+TOC = [('Ringkasan Gaya', f'Peta {ng} gaya motion graphic dalam 7 keluarga: jumlah per status, bobot skor, cara membaca, dan 10 teratas tipografi & grafis-bentuk.'),
+       ('Katalog Gaya', 'Daftar lengkap gaya: tampilan, status, skor, video usulan (hook, alur, komposisi edukasi vs meme), modul, aset layar, teknik, catatan.'),
+       ('Hook Frasa Viral', f'{len(DFR.FRASA)} frasa pemancing (politik, warganet, kantor, suara meme) + aturan pakai aman dan tingkat risikonya.'),
+       ('Flow Semua Modul', 'Flow unggulan "Perjalanan Satu Data": semua modul dalam satu video (± 3 menit), per adegan + screenshot. Kolom terakhir menandai adegan untuk versi 60 & 30 dtk.'),
        ('Daftar Video Modul', f'Ringkasan {len(DR.M)} video modul: judul, hook & jenisnya, target, pesan, CTA, dasar klaim, status screenshot.'),
        ('Flow per Modul', 'Flow adegan per video modul: waktu, visual, path screenshot, crop/sorot/blur, teks layar, VO, SFX.'),
        ('Video Pendek 5-10-15', f'{len(DR.S)} video pendek (bumper 5 dtk, 10 dtk, 15 dtk), meme & serius.'),
@@ -326,9 +447,14 @@ for i, x in enumerate(sorted(DM.A, key=lambda x: (-tot(x), x[0]))[:10], start=1)
     put_row(wr, r + 1 + i, [i, x[0], x[1], DR.HOOK_A.get(x[0], ''), tot(x), x[20]], center_cols=(1, 2, 5), height=22)
 widths(wr, [24, 8, 46, 18, 9, 30])
 
+# sheet peta gaya ditaruh tepat setelah Ringkasan
+DEPAN = ['Ringkasan', 'Ringkasan Gaya', 'Katalog Gaya', 'Hook Frasa Viral']
+wb._sheets = [wb[n] for n in DEPAN] + [ws for ws in wb._sheets if ws.title not in DEPAN]
+
 wb.calculation.fullCalcOnLoad = True
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 wb.save(OUT)
 print('OK', OUT)
+print(f'gaya {ng} · frasa {len(DFR.FRASA)}')
 print(f'video modul {len(DR.M)} ({sum(len(m["scenes"]) for m in DR.M)} adegan) · unggulan {len(DR.FLAG["scenes"])} adegan · pendek {len(DR.S)} · meme {len(DM.A)} · inventaris {len(DR.INV)}')
 print('SFX siap:', len(SFX_OK), '· voFx:', VOFX_OK, '· demo VO:', DEMO_VO, '· demo SFX:', DEMO_SFX)

@@ -1,0 +1,50 @@
+NASKAH GB45 — "TIGA LAPIS" · GAYA: LAPISAN TERURAI (EXPLODED VIEW)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Lapisan terurai (exploded view) — latar biru keabu-abuan; ubin skor besar "56 · Cukup" dalam
+             pandangan isometrik; ubin terangkat dan terurai jadi tiga panel kaca bertumpuk (biru Data, ungu
+             Proses, jingga Respons) dengan jarak antarlapis yang membesar; label & bobot di samping dengan garis
+             penunjuk; lapis terlemah berdenyut merah; panel menyatu kembali jadi kartu asli
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Skor ini ternyata punya tiga lapis."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb45-exploded). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB45_S1, GB45_S2, GB45_S3, GB45_S4 (atau satu file utuh GB45 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. postur-privasi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Skor ini… ternyata punya tiga lapis."
+      Layar: Ubin isometrik "56 · Cukup" muncul; pada "tiga" ubin terangkat dan terurai jadi tiga panel yang
+             saling menjauh.
+[S2]  VO: "Lapis data: empat puluh sembilan. Lapis proses: delapan puluh. Lapis respons: tiga puluh delapan, yang terlemah."
+      Layar: Tiap panel menyala saat disebut dengan label (Data 49 · 50% · discovery, klasifikasi, proteksi;
+             Proses 80 · 30%; Respons 38 · 20% · Breach, DSR, Maturity); panel Respons berdenyut merah
+             "TERLEMAH".
+[S3]  VO: "Privasimu Nexus menghitungnya dari data nyata tiap modul, bobot lima puluh, tiga puluh, dua puluh. Perbaiki lapis terlemah, skornya ikut naik."
+      Layar: Panel menyatu kembali; kartu asli Privacy Posture Score (gauge 56 + 3-Layer Breakdown) muncul;
+             lencana "prioritas: Response Layer".
+[S4]  VO: "Satu skor, tiga lapis. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Satu skor, tiga lapis.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privacy Posture Score = tangkapan asli assets/app/postur-privasi.png (tenant uji): skor agregat 56 "Cukup"
+  dari 3 layer — Data Layer 49 (bobot 50%, DSPM: discovery, klasifikasi, proteksi), Process Layer 80 (30%, RoPA,
+  DPIA, RTP, Pihak Ketiga, CBDT), Response Layer 38 (20%, Breach, DSR, Maturity).
+- Crop tangkapan dimulai di bawah baris deskripsi (menghindari istilah lama untuk pihak ketiga di UI & nama
+  organisasi).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

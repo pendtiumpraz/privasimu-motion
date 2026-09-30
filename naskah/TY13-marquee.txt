@@ -1,0 +1,44 @@
+NASKAH TY13 — "YANG MANA PUNYAMU?" · GAYA: MARQUEE BRUTALIST (TEKS BERJALAN BERTUMPUK)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Marquee brutalist (teks berjalan bertumpuk) — hitam-putih-kuning asam; tujuh pita teks kapital
+             raksasa berjalan berlawanan arah, berhenti serentak, lalu dicap modul
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Semua tulisan ini kewajiban. Yang mana yang sudah kamu kerjakan?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty13-marquee). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY13_S1, TY13_S2, TY13_S3, TY13_S4 (atau satu file utuh TY13 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Semua tulisan ini: kewajiban."
+      Layar: Tujuh pita teks kapital raksasa berjalan cepat berlawanan arah: CATAT PEMROSESAN · NILAI RISIKO ·
+             JAWAB PERMOHONAN · LAPOR INSIDEN 3×24 JAM · …
+[S2]  VO: "Yang mana yang sudah kamu kerjakan?"
+      Layar: Pita melambat lalu berhenti serentak di "kerjakan"; kotak centang kosong muncul di depan tiap
+             kewajiban.
+[S3]  VO: "Di Privasimu Nexus, tiap kewajiban punya modulnya: RoPA, DPIA, DSR, Insiden, Consent, pihak ketiga, transfer."
+      Layar: Kotak dicentang satu per satu dan cap modul (RoPA, DPIA, DSR, INSIDEN, CONSENT, PIHAK KETIGA,
+             TRANSFER) menempel di tiap baris.
+[S4]  VO: "Tujuh kewajiban, satu platform. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup brutalist: logo, "Tujuh kewajiban, satu platform.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Kewajiban di pita = ringkasan kewajiban UU PDP yang ditangani modul Nexus: catat pemrosesan (RoPA), nilai
+  risiko (DPIA), jawab permohonan (DSR), lapor insiden 3×24 jam (Insiden; UU PDP Pasal 46), kelola persetujuan
+  (Consent), nilai pihak ketiga (TPRM), catat transfer (Transfer Lintas Negara) — fakta_produk.json.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

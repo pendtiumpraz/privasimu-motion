@@ -1,0 +1,44 @@
+NASKAH TY46 — "TANDA BINTANG" · GAYA: TULISAN KECIL (FINE PRINT) ZOOM
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Tulisan kecil (fine print) zoom — formulir pendaftaran bersih dengan tombol Setuju; kamera menyelam
+             ke catatan kaki bertanda bintang, lalu masuk ke dalam tanda bintangnya: log persetujuan
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik produk digital, tim pemasaran & legal, DPO/PPDP
+Hook       : anomali — "Pelanggan sudah klik Setuju. Pertanyaannya: bisa kamu buktikan?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty46-fine-print). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY46_S1, TY46_S2, TY46_S3, TY46_S4 (atau satu file utuh TY46 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Pelanggan sudah klik Setuju."
+      Layar: Formulir "Buat akun" dengan kotak centang syarat & ketentuan*. Di "klik", tombol Setuju ditekan;
+             centang menyala.
+[S2]  VO: "Pertanyaannya: bisa kamu buktikan?"
+      Layar: Kamera menyelam ke catatan kaki kecil di bawah formulir: "*bukti persetujuan: ada / tidak ada?"
+[S3]  VO: "Di Privasimu Nexus, setiap persetujuan tersimpan beserta buktinya: siapa, kapan, kanal apa, versi apa."
+      Layar: Kamera terus masuk ke dalam tanda bintang → log persetujuan per subjek: kolom subjek, waktu, kanal,
+             versi, bukti ✓. Label "*ilustrasi tampilan".
+[S4]  VO: "Buktinya juga harus satu klik. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Setuju satu klik. Buktinya juga.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Consent & Cookie: log persetujuan beserta bukti untuk setiap subjek; titik pengumpulan per kanal (web,
+  aplikasi, loket); penarikan dihormati di seluruh kanal (fakta_produk.json: consent).
+- Formulir dan tabel log di layar = ilustrasi tampilan (diberi label), bukan tangkapan layar aplikasi; nama
+  subjek disamarkan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

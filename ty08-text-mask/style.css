@@ -1,0 +1,19 @@
+/* TY08 · TEXT MASK — navy gelap, huruf Archivo 900 raksasa sebagai jendela ke layar aplikasi */
+body { background: #060A1E; color: #fff; }
+#stage { background: #060A1E; }
+#vignette { opacity: .5; }
+#grain { opacity: .05; }
+.tk-dalam { position: absolute; inset: 0; background: linear-gradient(160deg, #F4F7FF 0%, #E3EAFB 55%, #D5DFF8 100%); overflow: hidden; }
+.tk-isi { position: absolute; inset: 0; transform-origin: 50% 46%; }
+.tk-dalam .pd-layar { box-shadow: 0 30px 80px rgba(20,40,110,.28), 0 0 0 1px rgba(20,40,110,.12); }
+.tk-tepi { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.tk-tepi .garis { fill: none; stroke: rgba(255,255,255,.9); stroke-width: 3px; vector-effect: non-scaling-stroke; }
+.tk-bawah { position: absolute; left: 0; right: 0; padding-left: .3em; text-align: center; font: 700 56px/1 'Archivo', sans-serif; font-stretch: 112%; letter-spacing: .3em; text-transform: uppercase; color: #8FB0FF; }
+.v .tk-bawah { font-size: 50px; letter-spacing: .24em; }
+.tk-pita { position: absolute; left: 50%; bottom: 64px; margin-left: -760px; width: 1520px; padding: 26px 44px 30px; border-radius: 28px; background: rgba(6,10,30,.94); color: #fff;
+  text-align: center; font: 700 58px/1.16 'Archivo', sans-serif; letter-spacing: -.015em; box-shadow: 0 24px 60px rgba(6,10,30,.45); opacity: 0; }
+.v .tk-pita { bottom: 470px; margin-left: -490px; width: 980px; font-size: 62px; padding: 28px 36px 32px; }
+.tk-pita em { font-style: normal; color: #FFD34E; }
+.pd-cta { --pd-font: 'Archivo', sans-serif; --pd-acc: #FFD34E; --pd-btn: #2F6BFF; }
+.tk-lensa { border-radius: 26px; box-shadow: 0 0 0 8px #fff, 0 0 0 11px #2F6BFF, 0 30px 70px rgba(20,40,110,.35) !important; }
+.tk-penuh { opacity: 0; }

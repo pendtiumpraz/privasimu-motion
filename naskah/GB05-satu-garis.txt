@@ -1,0 +1,74 @@
+NASKAH GB05 — "SATU GARIS" (ONE-LINE ART)
+================================================================
+Jenis      : FILM MEREK / AWARENESS → TOOLS, gaya ONE-LINE ART: satu garis tinta yang tidak pernah putus menggambar
+             perjalanan satu data pelanggan. Saat kamera mundur, seluruh garis ternyata membentuk gembok.
+Durasi     : ± 64 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar; narasi tampil di layar sebagai bagian desain; .srt tetap ada)
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP, tim legal & kepatuhan
+Komposisi  : ± 90% edukasi · 10% meme (nada tenang, nyaris tanpa lelucon)
+Hook       : psikologi terbalik — "Jangan ikuti garis ini… kalau kamu sudah tahu ke mana saja data pelangganmu pergi."
+Pengisi    : 1 suara (versi TTS memakai suara wanita), gaya bercerita: pelan, hangat, jelas
+Sumber     : flow unggulan "Perjalanan Satu Data" (versi 60 detik) di Excel rancangan
+Video      : SUDAH DIRAKIT (folder motion/gb05-satu-garis). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB05_S1 … GB05_S8 (atau satu file utuh GB05 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO. Garis digambar mengikuti kata-kata ini (tiap ikon mulai tergambar di kata tertentu).
+3. Tempo pelan. Di S3, beri jeda pendek di antara "Ke tim marketing." "Ke layanan pelanggan." "Ke pihak ketiga."
+   "Ke cloud." (tiap kalimat = satu ikon).
+4. Lafal: "RoPA" (ro-pa), "DPIA" (de-pe-i-a), "Privasimu Nexus" (pri-va-si-mu nek-sus), "dot com" (dot kom).
+5. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1] ± 7 detik
+VO     : "Jangan ikuti garis ini… kalau kamu sudah tahu ke mana saja data pelangganmu pergi."
+Arahan : setengah berbisik, menggoda; jeda di tanda "…".
+Layar  : kertas krem kosong, titik pena muncul, garis mulai mengalir membentuk lengkungan bebas.
+
+[S2] ± 6 detik
+VO     : "Ini Rina. Dia baru saja mengisi formulir, dan klik setuju."
+Layar  : garis menggambar Rina (label "Rina · tokoh ilustrasi"), lalu formulir dengan tanda centang ("Setuju").
+
+[S3] ± 9 detik
+VO     : "Sejak itu, datanya berjalan. Ke tim marketing. Ke layanan pelanggan. Ke pihak ketiga. Ke cloud."
+Layar  : garis berjalan cepat: megafon (Marketing) → headset (Layanan pelanggan) → gedung (Pihak ketiga) → awan (Cloud).
+
+[S4] ± 10 detik
+VO     : "Lalu Rina minta datanya dihapus. Tanpa catatan, tidak ada yang tahu harus mulai dari mana. Garisnya… kusut."
+Arahan : makin pelan; "kusut" diucapkan seperti menghela napas.
+Layar  : amplop “Tolong hapus data saya.” → garis berubah jadi coretan kusut yang terus membesar.
+
+[S5] ± 6 detik
+VO     : "Di Privasimu Nexus, garisnya rapi. Setiap langkah tercatat."
+Arahan : lega, lebih terang.
+Layar  : coretan kusut terurai menjadi gulungan spiral yang rapi dan berubah biru ("Rapi · Privasimu Nexus").
+
+[S6] ± 9 detik
+VO     : "Persetujuannya tersimpan beserta buktinya. Pemrosesannya tercatat di RoPA. Risikonya dinilai lewat DPIA."
+Layar  : lembar bukti bercentang (Bukti persetujuan) → dokumen (RoPA) → kisi penilaian (DPIA).
+
+[S7] ± 5 detik
+VO     : "Dan permintaan Rina? Terlacak, sampai selesai."
+Layar  : linimasa tiga titik dengan centang (DSR · permintaan terlacak).
+
+[S8] ± 12 detik
+VO     : "Satu data, satu garis, satu platform. Privasimu Nexus. Cek kesiapanmu gratis, di privasimu dot com."
+Layar  : kamera mundur: seluruh garis ternyata membentuk gembok; garis terakhir menggambar lubang kunci.
+         Logo Privasimu Nexus, "Satu data, satu garis, satu platform.", tombol privasimu.com,
+         chip Cek kesiapan · gratis / Schedule Demo, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Rina adalah tokoh ilustrasi (diberi label di layar). Tidak ada data orang sungguhan.
+- Consent: log persetujuan beserta bukti untuk setiap subjek (fakta_produk.json: consent).
+- RoPA: pencatatan kegiatan pemrosesan; DPIA: penilaian dampak dengan matriks kemungkinan × dampak.
+- DSR: tenggat otomatis 72 jam, alur Handler–Reviewer–Approver, jejak audit ("terlacak sampai selesai").
+- "Cek kesiapan gratis" = Start Pre Check: pastikan masih berlaku sebelum tayang.
+- Semua gambar digambar dengan kode (satu rangkaian path SVG); font Instrument Serif & Plus Jakarta Sans (OFL);
+  musik dan bunyi goresan pena disintesis sendiri.
+- Kontak: support@privasimu.com · 0851 8318 2722 (privasimu.com).

@@ -1,0 +1,48 @@
+NASKAH TY15 — "ANGKA YANG MULAI BERJALAN" · GAYA: ANGKA DIGITAL / ODOMETER
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Angka digital / odometer — panel odometer gelap dengan sel digit putih bergulir vertikal (72:00:00),
+             label JAM · MENIT · DETIK; kartu tangkapan layar asli di bawahnya; stempel hijau saat berhenti
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Angka ini mulai berjalan begitu insiden dicatat."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty15-odometer). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY15_S1, TY15_S2, TY15_S3, TY15_S4 (atau satu file utuh TY15 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. breach-fase
+5. breach-aksi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Angka ini mulai berjalan… begitu insiden dicatat."
+      Layar: Odometer 72:00:00 redup; pada "dicatat" panel menyala dan detik mulai bergulir ke bawah.
+[S2]  VO: "Tiga kali dua puluh empat jam. Sementara itu, tugas fase satu: severity, deskripsi, jumlah terdampak, wajib notifikasi."
+      Layar: Kartu asli "Fase 1: Deteksi & Eskalasi" — 4 tugas disorot satu per satu; odometer berputar cepat
+             (time-lapse jam).
+[S3]  VO: "Templat pemberitahuannya sudah disiapkan Privasimu Nexus: untuk subjek data dan lembaga. Kirim, sebelum angkanya habis."
+      Layar: Bilah aksi asli (Template Pemberitahuan disorot cincin); pada "Kirim" odometer berhenti dan stempel
+             "PEMBERITAHUAN TERKIRIM" muncul.
+[S4]  VO: "Angkanya boleh jalan, kamu jangan panik. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Angka boleh jalan, kamu jangan panik.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Insiden (fakta_produk.json): penghitung mundur batas pemberitahuan 3×24 jam; daftar periksa
+  penahanan & log linimasa dibuat otomatis saat insiden dicatat; templat pemberitahuan tertulis kepada subjek
+  data dan lembaga.
+- Tugas Fase 1 (tangkapan asli breach-fase.png): tentukan severity, isi deskripsi, estimasi jumlah subjek
+  terdampak, tentukan wajib notifikasi.
+- Angka jam saat berhenti (mis. 50:xx:xx) hanya contoh → ditandai *ilustrasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

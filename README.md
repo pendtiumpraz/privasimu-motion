@@ -10,15 +10,28 @@ lengkap dengan subtitle. Satu folder = satu video.
 
 ## Mulai cepat
 
-**Render (tanpa AI):** klik dua kali **`RENDER.bat`**. Semua folder di `antrian-render.txt` dicek; hanya video yang
-belum jadi atau sumbernya berubah yang dirender (± 10–15 menit per video). Hasil: `out/<folder>/<folder>-16x9.mp4`
+**Render (tanpa AI):** klik dua kali **`RENDER.bat`**. Semua folder video dicek otomatis (video baru ikut tanpa perlu
+didaftarkan); hanya yang belum jadi atau sumbernya berubah yang dirender (± 10–15 menit per video). Hasil: `out/<folder>/<folder>-16x9.mp4`
 dan `-9x16.mp4`.
 
 ```bat
-RENDER.bat                             :: cek semua di antrian-render.txt, render hanya yang belum jadi / berubah
+RENDER.bat                             :: cek SEMUA folder video, render hanya yang belum jadi / berubah
 RENDER.bat t01-stomp n05-dsr           :: cek/render folder tertentu saja (atau seret folder ke RENDER.bat)
 RENDER.bat --paksa n05-dsr             :: render ulang walau sudah jadi
 RENDER.bat --audio-only                :: cepat: timeline + audio saja (cek naskah/VN)
+```
+
+`antrian-render.txt` sekarang opsional: isinya urutan prioritas (folder yang tertulis dirender lebih dulu), dan baris
+`-nama-folder` berarti jangan dirender.
+
+**WebP animasi (pratinjau ringan):** klik dua kali **`KONVERSI-WEBP.bat`**. Semua `out/*/*.mp4` diubah menjadi
+`.webp` berdampingan (`out/<folder>/<folder>-16x9.webp`, sisi terpanjang 720 px, 15 fps, ± 5 MB per 40 dtk). MP4 asli
+tidak disentuh; yang sudah punya `.webp` dilewati, jadi aman dijalankan berulang (MP4 yang dirender ulang dikonversi lagi).
+
+```bat
+KONVERSI-WEBP.bat                      :: semua MP4 yang belum punya .webp
+KONVERSI-WEBP.bat gb05-satu-garis      :: folder tertentu saja
+KONVERSI-WEBP.bat --paksa --sisi=480 --fps=12 --q=60   :: buat ulang, lebih kecil (± 2 MB)
 ```
 
 Selama render berjalan, jangan jalankan pekerjaan berat lain di komputer yang sama (render memakai 4 Chromium +
@@ -49,6 +62,7 @@ node lib/status-render.js t01-stomp     # sudah dirender & tidak berubah? (dipak
 node lib/app-shots.js                   # kurasi ulang screenshot aplikasi -> assets/app (hanya di monorepo)
 node lib/demo-audio.js                  # demo efek VO & SFX meme -> out/_demo/
 cd rancangan/sumber && python buat_excel.py     # buat ulang Excel rancangan
+cd rancangan/sumber && python cek_rumus.py      # hitung semua rumus Excel, laporkan galat (pip install formulas)
 ```
 
 Pratinjau di browser: buka `<folder>/index.html?fmt=9x16` (setelah build; `timeline.js` dibuat oleh build).
@@ -57,7 +71,7 @@ Setiap build memverifikasi hasil (gagal bila MP4 tanpa track audio atau senyap);
 Setelah render berhasil, sidik jari sumber dicatat di `out/<folder>/render-info.json` sehingga `RENDER.bat` melewati
 video yang tidak berubah; rekaman VN baru di `vn/` otomatis memicu render ulang video itu.
 
-## Daftar video (semua sudah dirender per 29-09-2026)
+## Daftar video (N01–T03 sudah dirender; GB05 siap render)
 
 | Kode | Folder | Jenis iklan | Gaya visual | Durasi |
 |---|---|---|---|---|
@@ -78,6 +92,7 @@ video yang tidak berubah; rekaman VN baru di `vn/` otomatis memicu render ulang 
 | T01 | `t01-stomp` | Tools (gaya stomp) | Tipografi menghentak tiap ketukan stomp-clap 100 bpm, screenshot asli menghantam | 38,2 dtk |
 | T02 | `t02-tipografi` | Awareness → tools (full typography) | Kinetic type tanpa gambar: kamera menjelajah satu kanvas teks lalu mundur jadi poster | 53,6 dtk |
 | T03 | `t03-stop-motion` | Relate → tools (stop motion) | Papan gabus 12 fps: huruf guntingan, sticky note, stempel nilai 1/10…0/10 → 10/10 | 51,4 dtk |
+| GB05 | `gb05-satu-garis` | Film merek → tools (one-line art) | Satu garis tinta tanpa putus menggambar perjalanan satu data; saat kamera mundur, garisnya membentuk gembok | 64,1 dtk |
 
 Hasil tiap video: `out/<folder>/<folder>-16x9.mp4` (1920×1080) dan `-9x16.mp4` (1080×1920, subtitle karaoke dibakar
 kecuali video tipografi), 30 fps, AAC 48 kHz, -14 LUFS, plus `<folder>.srt`. Folder `out/` tidak ikut repo git.
@@ -90,10 +105,10 @@ kecuali video tipografi), 30 fps, AAC 48 kHz, -14 LUFS, plus `<folder>.srt`. Fol
 | `lib/` | Mesin bersama: `engine.js` (waktu, easing, subtitle, pratinjau), `kit.js`/`kit.css`/`kit-events.js` (tipe scene umum), `seri-modul.js`/`.css` (seri "Nexus Explained"), `audio.js` (synth, 53 SFX, mix), `music-kit.js`, `render.js`, `captions.js`, `wordtime.js`, `tts.py`, `vn.js`, `vofx.js`, `status-render.js`, `cek-cue.js`, `qa-sheet.sh`, `app-shots.js`, `contact.js`, `demo-audio.js` |
 | `assets/app/` | 32 screenshot ASLI aplikasi yang sudah dipotong & diburamkan (daftar + deskripsi di `manifest.json`) |
 | `assets/privasimu_logo.png` | Logo (putih) · `assets/meme/` gambar meme milik sendiri/berlisensi |
-| `naskah/` | 17 naskah VO (.txt) untuk direkam tim + `cadangan/` |
+| `naskah/` | 18 naskah VO (.txt) untuk direkam tim + `cadangan/` |
 | `vn/` | Tempat rekaman tim (tidak ikut repo git) |
 | `sfx-kustom/` | SFX milik sendiri/berlisensi → dipakai sebagai `'file:nama'` |
-| `rancangan/` | Excel rancangan iklan (flow semua modul, 22 video modul, 32 video pendek, 48 konsep meme, bank sound, efek VO, opsi TTS, kalender) + generator `rancangan/sumber/` |
+| `rancangan/` | Excel rancangan iklan: **peta 253 gaya motion graphic (7 keluarga) + 33 frasa hook**, flow semua modul, 22 video modul, 32 video pendek, 48 konsep meme, bank sound, efek VO, opsi TTS, kalender. Generator di `rancangan/sumber/` (`buat_excel.py`, data `gaya_*.py`, `data_frasa.py`; cek rumus: `cek_rumus.py`) |
 | `RENDER.bat`, `antrian-render.txt` | Antrean render tanpa AI |
 | `RENDER-SALES.bat`, `sales/` | Versi video per sales dari `sales/daftar-sales.xlsx` (`lib/sales.js`, `lib/baca_sales.py`, `lib/buat_template_sales.py`) |
 | `BRIEF-AGEN.md`, `PUSTAKA-GAYA.md`, `CONTEXT.md` | Referensi API kit · pustaka gaya · konteks untuk AI |
@@ -110,7 +125,7 @@ Cara kerjanya: kontak umum `support@privasimu.com · 0851 8318 2722` di penutup 
 (parameter `&kontak=` dibaca `lib/engine.js`/`lib/kit.js`), dan **hanya bagian akhir** video (sejak keyframe terakhir
 sebelum kontak muncul) yang dirender ulang lalu disambung ke video dasar tanpa encode ulang; suara tetap. ± 20–60 detik
 per video per format per sales. Versi yang sudah jadi dilewati otomatis (`out/<folder>/sales-info.json`), jadi menambah
-sales baru hanya merender sales itu. Video dasar harus sudah dirender (`RENDER.bat`). Opsi: `RENDER-SALES.bat t01-stomp
+sales baru hanya merender sales itu. Video baru yang belum tercantum di sheet Video ikut otomatis (format 9:16). Video dasar harus sudah dirender (`RENDER.bat`). Opsi: `RENDER-SALES.bat t01-stomp
 --fmt=16x9 --paksa`. A22 tidak punya nomor kontak di CTA-nya (bawaan: tidak dibuatkan versi sales).
 
 `sales/daftar-sales.xlsx` berisi data pribadi (nama & nomor HP) dan **tidak ikut repo git**.

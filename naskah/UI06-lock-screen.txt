@@ -1,0 +1,49 @@
+NASKAH UI06 — "SEHARI DALAM NOTIFIKASI" · GAYA: LOCK SCREEN (NOTIFIKASI)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Lock screen (notifikasi) — layar kunci ponsel (bingkai ponsel di 16:9, penuh layar di 9:16) dengan
+             wallpaper gradien; jam & tanggal besar; kartu notifikasi kaca masuk dari atas dan menumpuk;
+             notifikasi merah jam 03.12 bergetar; satu kartu Privasimu Nexus rapi
+Durasi     : ± 33 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "07.00: 'Pagi, bisa minta RoPA terbaru?'"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui06-lock-screen). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI06_S1, UI06_S2, UI06_S3, UI06_S4, UI06_S5 (atau satu file utuh UI06 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tujuh pagi: "Pagi, bisa minta RoPA terbaru?""
+      Layar: Layar kunci 07.00, Senin; notifikasi "Chat tim · Pagi, bisa minta RoPA terbaru?" masuk dari atas.
+[S2]  VO: "Setengah sepuluh, audit internal. Siang, kontrak pihak ketiga. Sore, permohonan hapus data. Malam, penarikan persetujuan."
+      Layar: Jam melompat 09.30 → 12.15 → 17.40 → 23.00; empat notifikasi menumpuk (Email, Kalender, Portal DSR,
+             Chat tim).
+[S3]  VO: "Tiga pagi: dugaan insiden. Laptop hilang."
+      Layar: Jam 03.12, layar redup; notifikasi merah "Keamanan · Dugaan insiden: laptop berisi data pelanggan
+             hilang" masuk, ponsel bergetar.
+[S4]  VO: "Di Privasimu Nexus, semuanya jadi satu antrean kerja: tugas, tenggat, insiden. Plus asisten AI Priva."
+      Layar: Semua notifikasi tersapu; satu kartu rapi "Privasimu Nexus · Antrean kerja PPDP: 5 tugas · 1 insiden
+             · tenggat 71 jam*" + "Asisten AI Priva siap"; jam 07.00 hari baru.
+[S5]  VO: "Notifikasi boleh banyak, antreannya satu. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Notifikasi boleh banyak, antrean cuma satu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dukungan PPDP (fakta_produk.json): antrean pekerjaan yang menunggu tindakan; dasbor kepatuhan lintas modul;
+  asisten AI Priva.
+- DSR: tenggat otomatis 72 jam. Insiden: daftar periksa & linimasa otomatis, penghitung 3×24 jam.
+- Isi notifikasi & angka antrean (5 tugas · 1 insiden · 71 jam) = ilustrasi (ditandai *); aplikasi pengirim
+  generik.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

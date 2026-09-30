@@ -1,0 +1,43 @@
+NASKAH TY30 — "12 DEFINISI PATUH" · GAYA: POLA KATA BERULANG
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Pola kata berulang — grid 12 sel bertuliskan PATUH, tiap sel beda font/warna/gaya; kamera mendekat
+             ke sel yang aneh; lalu semua diseragamkan; header dasbor grup asli
+Durasi     : ± 21 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : holding / grup usaha, direksi, DPO grup
+Hook       : anomali — "1 grup usaha. 12 anak perusahaan. 12 definisi 'patuh'."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty30-pola-kata). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY30_S1, TY30_S2, TY30_S3, TY30_S4 (atau satu file utuh TY30 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Satu grup usaha. Dua belas anak perusahaan."
+      Layar: Grid 12 sel muncul cepat, tiap sel bertuliskan PATUH dengan gaya huruf berbeda-beda.
+[S2]  VO: "Dua belas definisi patuh. Termasuk yang ini."
+      Layar: Tiap sel berdenyut bergantian; di "yang ini", kamera mendekat ke sel "patuh (nanti)".
+[S3]  VO: "Satu standar untuk semua anak usaha, dipantau dari dasbor grup."
+      Layar: Kamera mundur; sapuan biru menyeragamkan semua sel jadi PATUH ✓ yang sama; header Holding Group
+             Dashboard asli masuk di atas.
+[S4]  VO: "Untuk grup usaha: konsultasi gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "12 anak usaha, 1 definisi patuh.", tombol privasimu.com, "Konsultasi gratis",
+             kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Holding Group Dashboard (monitoring & manajemen compliance seluruh anak perusahaan) terlihat di layar asli
+  assets/app/holding-header.png (tanpa data grup).
+- Angka "12 anak perusahaan" = ilustrasi; tanpa nama grup/perusahaan nyata.
+- CTA "konsultasi gratis": pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

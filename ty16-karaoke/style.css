@@ -1,0 +1,25 @@
+/* TY16 · KARAOKE — latar ungu-magenta berdenyut, lirik putih Baloo 2 terisi kuning, bola kuning, judul lagu bermikrofon */
+body { background: #170A2E; color: #fff; }
+#stage { background: #170A2E; }
+#vignette { opacity: .5; }
+#grain { opacity: .06; }
+.kr-judul { position: absolute; left: 60px; top: 50px; display: flex; align-items: center; gap: 14px; padding: 12px 22px 12px 14px; border-radius: 999px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); font: 800 24px/1 'Inter', sans-serif; letter-spacing: .08em; opacity: 0; }
+.v .kr-judul { left: 50%; top: 210px; translate: -50% 0; font-size: 22px; white-space: nowrap; }
+.kr-judul i { font-style: normal; font-size: 30px; }
+.kr-judul em { font: 600 16px/1 'Inter', sans-serif; letter-spacing: 0; opacity: .7; font-style: normal; margin-left: 6px; }
+.kr-bait { position: absolute; left: 100px; right: 100px; top: 50%; translate: 0 -50%; text-align: center; margin-top: 40px; }
+.v .kr-bait { left: 50px; right: 50px; margin-top: 0; }
+.kr-baris { font: 800 92px/1.35 'Baloo 2', sans-serif; color: #fff; letter-spacing: .01em; }
+.v .kr-baris { font-size: 78px; line-height: 1.3; }
+.kr-baris .pd-w { color: #fff; text-shadow: 0 6px 0 rgba(0,0,0,.25); }
+.kr-baris em { font-style: normal; color: #FFD166; }
+.kr-baris .pd-w.pd-on { color: #FFD166; text-shadow: 0 6px 0 rgba(0,0,0,.25), 0 0 18px rgba(255,209,102,.5); }
+.kr-bait.hening .kr-baris:last-child { color: rgba(255,255,255,.55); font-size: .7em; font-style: italic; }
+.kr-bola { position: absolute; left: 0; top: 0; width: 44px; height: 44px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #FFF3B0, #FFD166 55%, #E9A800); box-shadow: 0 10px 24px rgba(0,0,0,.4), 0 0 24px rgba(255,209,102,.7); opacity: 0; }
+.kr-lihat { position: absolute; left: 50%; top: 820px; padding: 14px 30px; border-radius: 999px; background: #fff; color: #170A2E; font: 800 40px/1 'Baloo 2', sans-serif; opacity: 0; white-space: nowrap; }
+.v .kr-lihat { top: 1240px; font-size: 40px; }
+.kr-logo { position: absolute; left: 50%; top: 190px; opacity: 0; text-align: center; filter: drop-shadow(0 0 30px rgba(255,209,102,.6)); }
+.v .kr-logo { top: 560px; }
+.kr-logo img { width: 360px; display: block; }
+.kr-logo b { display: block; margin-top: 6px; font: 800 22px/1 'Inter', sans-serif; letter-spacing: .5em; color: #FFD166; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Baloo 2', sans-serif; --pd-acc: #FFD166; --pd-btn: #FFD166; --pd-btn-ink: #170A2E; --pd-tirai: rgba(23,10,46,.97); }

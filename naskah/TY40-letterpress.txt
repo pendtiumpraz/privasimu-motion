@@ -1,0 +1,43 @@
+NASKAH TY40 — "PENGUMUMAN" · GAYA: LETTERPRESS / POSTER HURUF KAYU
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Letterpress / poster huruf kayu — poster pengumuman jadul di kertas krem bernoda: huruf kayu besar
+             (Rye, Alfa Slab, Playfair Black) dengan tinta tidak rata, garis hias ganda; tiap baris dicap masuk
+Durasi     : ± 26 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "PENGUMUMAN: mulai 16 Januari 2027, 'nanti saja' tidak berlaku."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty40-letterpress). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY40_S1, TY40_S2, TY40_S3, TY40_S4 (atau satu file utuh TY40 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Dibaca seperti juru warta/pengumuman resmi jadul, tegas dan berirama.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Pengumuman. Kepada seluruh pengendali data pribadi."
+      Layar: Poster kertas tua. Baris "PENGUMUMAN" dicap keras (Rye), lalu "KEPADA SELURUH PENGENDALI DATA
+             PRIBADI" dan garis hias.
+[S2]  VO: "Mulai enam belas Januari dua ribu dua puluh tujuh, nanti saja, tidak berlaku."
+      Layar: Baris "MULAI 16 JANUARI 2027" (Alfa Slab) dicap; lalu "“NANTI SAJA” TIDAK BERLAKU" merah miring.
+[S3]  VO: "Siapkan: catatan pemrosesan, penilaian dampak, penanganan permohonan, persetujuan, pemberitahuan insiden. Program siap PP tiga puluh tiga."
+      Layar: Baris "SIAPKAN: RoPA · DPIA · DSR · CONSENT · INSIDEN" dicap per kata; baris terakhir "PROGRAM SIAP
+             PP 33 — privasimu.com".
+[S4]  VO: "Demikian pengumuman ini. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup bergaya poster: logo, "Demikian pengumuman ini.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PP 33/2026 berlaku 16 Januari 2027. Kewajiban di poster = modul Nexus: RoPA, DPIA, DSR, Consent, Insiden
+  (fakta_produk.json). "Program siap PP 33" = nama program pendampingan; pastikan masih ditawarkan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

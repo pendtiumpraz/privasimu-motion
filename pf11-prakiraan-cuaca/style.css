@@ -1,0 +1,33 @@
+/* PF11 · PRAKIRAAN CUACA — biru TV cuaca, wilayah biru muda, ikon putih/kuning, lower-third merah-putih */
+body { background: #0A1836; color: #fff; }
+#stage { background: #0A1836; }
+#vignette { opacity: .4; }
+#grain { opacity: .05; }
+.cw-peta { position: absolute; left: 50%; top: 40px; width: 1500px; translate: -50% 0; opacity: 0; transform-origin: 50% 50%; overflow: visible; }
+.v .cw-peta { top: 190px; width: 1000px; }
+.cw-wil { fill: #2F6FD1; stroke: #9CC4FF; stroke-width: 3; opacity: .92; }
+.cw-nama { fill: #fff; font: 900 26px 'Inter', sans-serif; letter-spacing: .18em; text-anchor: middle; }
+.v .cw-nama { font-size: 30px; }
+.cw-ikon { opacity: 0; transform-origin: 0 0; }
+.cw-sun circle { fill: #FFD84D; }
+.cw-sun line { stroke: #FFD84D; stroke-width: 6; stroke-linecap: round; }
+.cw-cloud path { fill: #F4F7FB; }
+.cw-storm .cw-cloud path { fill: #B9C4D4; }
+.cw-storm .bolt { fill: #FFD84D; }
+.cw-rain line { stroke: #9CC4FF; stroke-width: 5; stroke-linecap: round; }
+.cw-wind path { fill: none; stroke: #E8F0FF; stroke-width: 6; stroke-linecap: round; }
+.cw-bar { position: absolute; left: 60px; right: 60px; bottom: 60px; display: flex; align-items: stretch; border-radius: 14px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,.4); opacity: 0; }
+.v .cw-bar { left: 40px; right: 40px; bottom: auto; top: 1300px; flex-direction: column; }
+.cw-judul { display: flex; flex-direction: column; justify-content: center; padding: 16px 28px; background: #E5333F; color: #fff; }
+.cw-judul b { font: 900 34px/1 'Inter', sans-serif; letter-spacing: .06em; }
+.cw-judul span { margin-top: 6px; font: 700 18px/1 'Inter', sans-serif; letter-spacing: .2em; opacity: .9; }
+.cw-ticker { flex: 1 1 0; display: flex; align-items: center; background: #fff; color: #0A1836; font: 700 26px/1 'Inter', sans-serif; overflow: hidden; white-space: nowrap; opacity: 0; min-height: 60px; }
+.cw-ticker.on { opacity: 1; }
+.cw-ticker span { display: inline-block; padding-left: 100%; }
+.cw-strip { position: absolute; left: 50%; top: 40px; translate: -50% 0; display: flex; gap: 14px; align-items: center; opacity: 0; white-space: nowrap; }
+.v .cw-strip { top: 1440px; flex-wrap: wrap; justify-content: center; width: 1000px; gap: 12px; }
+.cw-chip { display: flex; align-items: center; gap: 12px; padding: 10px 18px; border-radius: 999px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25); font: 700 22px/1 'Inter', sans-serif; }
+.cw-chip b { font-size: 26px; color: #FFD84D; }
+.cw-strip i { font: 500 18px/1 'Inter', sans-serif; color: rgba(255,255,255,.65); font-style: normal; margin-left: 8px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #FFD84D; --pd-btn: #E5333F; --pd-btn-ink: #fff; --pd-tirai: rgba(10,24,54,.97); }

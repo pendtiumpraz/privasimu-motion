@@ -1,0 +1,26 @@
+/* TY26 · ANGKA RAKSASA — hitam pekat, Bricolage Grotesque 800 selebar layar, aksen merah-oranye */
+body { background: #0C0C0F; color: #F5F2EC; }
+#stage { background: #0C0C0F; }
+#vignette { opacity: .55; }
+#grain { opacity: .07; }
+.bn-angka { position: absolute; left: 0; right: 0; text-align: center; transform-origin: 50% 50%; margin-top: -.5em; line-height: 1;
+  font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; letter-spacing: -.06em; color: #F5F2EC; white-space: nowrap; }
+.bn-angka .p { letter-spacing: 0; margin-left: .02em; }
+.bn-teks { position: absolute; left: 100px; right: 100px; top: 850px; text-align: center; font: 600 64px/1.14 'Bricolage Grotesque', sans-serif; letter-spacing: -.02em; color: #F5F2EC; }
+.v .bn-teks { left: 60px; right: 60px; top: 1120px; font-size: 66px; }
+.bn-teks em { font-style: normal; color: #FF4D2E; }
+.bn-teks.atas { top: 292px; font-size: 54px; }
+.v .bn-teks.atas { top: 470px; font-size: 56px; }
+.bn-cat { position: absolute; left: 0; right: 0; top: 960px; text-align: center; font: 600 24px/1.2 'JetBrains Mono', monospace; letter-spacing: .04em; color: rgba(245,242,236,.55); }
+.v .bn-cat { top: 1290px; font-size: 26px; padding: 0 60px; }
+.bn-peta { position: absolute; left: 50%; top: 400px; width: 1400px; margin-left: -700px; display: flex; flex-direction: column; gap: 22px; }
+.v .bn-peta { top: 620px; width: 960px; margin-left: -480px; gap: 26px; }
+.bn-row { display: flex; align-items: center; padding: 22px 34px; border-radius: 22px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); font: 600 44px/1.1 'Bricolage Grotesque', sans-serif; letter-spacing: -.01em; }
+.v .bn-row { font-size: 40px; padding: 22px 26px; }
+.bn-row .kw { flex: 1 1 0; color: rgba(245,242,236,.9); }
+.bn-row .ar { flex: 0 0 120px; height: 40px; margin: 0 24px; }
+.v .bn-row .ar { flex-basis: 80px; margin: 0 14px; }
+.bn-row .ar path { fill: none; stroke: #FF4D2E; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; }
+.bn-row .mod { flex: 0 0 auto; min-width: 250px; text-align: center; padding: 10px 26px 12px; border-radius: 999px; background: #F5F2EC; color: #0C0C0F; font-weight: 800; }
+.v .bn-row .mod { min-width: 200px; padding: 10px 20px 12px; }
+.pd-cta { --pd-font: 'Bricolage Grotesque', sans-serif; --pd-acc: #FF4D2E; --pd-btn: #F5F2EC; --pd-btn-ink: #0C0C0F; --pd-tirai: rgba(12,12,15,.96); }

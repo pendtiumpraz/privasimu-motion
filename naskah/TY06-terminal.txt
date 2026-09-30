@@ -1,0 +1,46 @@
+NASKAH TY06 — "CARI --NAMA "RINA"" · GAYA: TERMINAL / COMMAND LINE
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Terminal / command line — jendela terminal gelap berhuruf IBM Plex Mono; perintah diketik dengan
+             kursor blok berkedip; hasil pencarian muncul baris demi baris; scanline tipis
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : tim TI/data, DPO/PPDP
+Hook       : anomali — "Ketik nama satu pelanggan. Di berapa sistem datanya tersimpan?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty06-terminal). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY06_S1, TY06_S2, TY06_S3, TY06_S4, TY06_S5 (atau satu file utuh TY06 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Ketik nama satu pelanggan."
+      Layar: Terminal: prompt lalu perintah diketik: cari --nama "rina" --semua-sistem
+[S2]  VO: "Di berapa sistem datanya tersimpan?"
+      Layar: Enter; bilah pemindaian berjalan; dua hasil pertama: CRM ✓, Email ✓.
+[S3]  VO: "Yang kamu tahu: dua. Yang ditemukan: tujuh. Layanan pelanggan, arsip, spreadsheet, cadangan, formulir lama."
+      Layar: Hasil terus bertambah sampai [7/7]; baris kuning: "yang kamu tahu: 2 · ditemukan: 7 *ilustrasi".
+[S4]  VO: "Data Discovery menemukan datanya di semua sistem, lalu mengaitkannya ke RoPA. Siap untuk permohonan hak subjek data."
+      Layar: Baris ringkasan: "→ dikaitkan ke RoPA: ROPA-IT-2026-002" dan "siap untuk permohonan hak subjek data
+             (DSR)".
+[S5]  VO: "Tahu di mana datamu, sebelum ditanya. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup bergaya terminal: logo, "Tahu di mana datamu, sebelum ditanya.", tombol privasimu.com,
+             kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Data Discovery: pencarian data milik satu subjek untuk mendukung permohonan DSR; katalog sistem & sumber data;
+  keterkaitan ke RoPA (fakta_produk.json: data-discovery).
+- Jumlah sistem (2 vs 7), nama sistem, dan perintah "cari" = ilustrasi (bukan sintaks produk); diberi label
+  "*ilustrasi". Rina = tokoh ilustrasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

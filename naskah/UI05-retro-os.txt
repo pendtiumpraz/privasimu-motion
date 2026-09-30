@@ -1,0 +1,47 @@
+NASKAH UI05 — "FAAAH" · GAYA: RETRO OS (DIALOG ERROR BERUNTUN)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Retro OS (dialog error beruntun) — desktop teal jadul dengan ikon; jendela abu-abu ber-bevel dan
+             bilah judul biru tua (OS fiktif "Sistem 98"); kursor panah & jam pasir; dialog error merah-putih
+             beranak-pinak berjejer diagonal; teks raksasa FAAAH; jendela modern berisi register RoPA asli
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "POV: auditor minta RoPA. Kamu buka RoPA_final_revisi3_FIX.xlsx."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui05-retro-os). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI05_S1, UI05_S2, UI05_S3, UI05_S4 (atau satu file utuh UI05 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "POV: auditor minta RoPA. Kamu buka RoPA, final, revisi tiga, FIX."
+      Layar: Desktop jadul; kursor bergerak ke ikon "RoPA_final_revisi3_FIX.xlsx", klik dua kali; jendela
+             spreadsheet terbuka dengan jam pasir; dialog "Berkas dikunci oleh pengguna lain".
+[S2]  VO: "Tidak merespons. Simpan sebagai FIX dua? Versi ini bukan yang terbaru. Makro dinonaktifkan. Memori kepatuhan penuh. Faaah."
+      Layar: Jendela memutih "tidak merespons"; dialog error bermunculan berjejer diagonal makin cepat (Simpan
+             sebagai FIX2? · Bukan versi terbaru · Makro dinonaktifkan · Memori kepatuhan penuh · …); teks
+             raksasa FAAAH menghantam.
+[S3]  VO: "Akhiri tugasnya. Di Privasimu Nexus, RoPA punya satu versi, kode otomatis, alur maker, reviewer, approver."
+      Layar: Dialog "Akhiri tugas" → semua jendela lenyap; jendela modern berisi register RoPA asli
+             (ROPA-IT-2026-002 …) dengan pil "1 versi · kode otomatis · Maker → Reviewer → Approver".
+[S4]  VO: "Satu versi, tanpa FIX dua. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Satu versi. Tanpa FIX2.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): kode rekaman otomatis ROPA-TAHUN-NOMOR; alur Maker–Reviewer–Approver dengan riwayat
+  perubahan; register = tangkapan asli assets/app/ropa-list-baru.png (crop tanpa nama organisasi).
+- Tampilan OS, nama berkas, dan pesan error = fiktif/lelucon (tanpa merek sistem operasi nyata).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

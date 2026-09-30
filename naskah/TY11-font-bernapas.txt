@@ -1,0 +1,44 @@
+NASKAH TY11 — "MINGGU DEPAN YA" · GAYA: FONT VARIABEL "BERNAPAS"
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Font variabel "bernapas" — satu kata AUDIT raksasa; tiap hari (H-7 → H-1) hurufnya menebal,
+             menyempit, memerah, dan bergetar; setelah satu klik ekspor, kembali ringan dan bernapas
+Durasi     : ± 25 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : DPO/PPDP, manajemen
+Hook       : relate — "Begini rasanya saat auditor bilang: minggu depan ya."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty11-font-bernapas). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY11_S1, TY11_S2, TY11_S3, TY11_S4 (atau satu file utuh TY11 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. S2 dibaca cepat seperti hitung mundur: "H-6" dibaca "ha min enam", lalu "lima, empat, tiga, dua, satu".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Begini rasanya saat auditor bilang: minggu depan ya."
+      Layar: Kata AUDIT tipis dan lebar, tenang, bernapas pelan. Pil "H-7". Di "minggu depan ya", kata sedikit
+             menebal.
+[S2]  VO: "ha min enam. lima. empat. tiga. dua. satu."
+      Layar: Tiap hari: H-6 … H-1, kata makin tebal, makin sempit, makin merah, getaran bertambah; detak jantung
+             makin cepat.
+[S3]  VO: "Atau: satu klik. Ekspor laporan kepatuhan dari dasbor. Dan bernapas."
+      Layar: Di "klik", potongan dasbor asli dengan tombol Export Compliance Report muncul dan diklik; kata AUDIT
+             melepas: tipis, lebar, hijau tenang, bernapas.
+[S4]  VO: "Bernapas lega sebelum audit. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Bernapas lega sebelum audit.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dasbor kepatuhan lintas modul (fakta_produk.json: ppdp); tombol "Export Compliance Report" terlihat di dasbor
+  asli (assets/app/dashboard.png). GAP Assessment: skor kepatuhan (fakta_produk.json: gap-assessment).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

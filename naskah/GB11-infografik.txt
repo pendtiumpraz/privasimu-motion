@@ -1,0 +1,47 @@
+NASKAH GB11 — "PATUH ITU BUKAN YA/TIDAK" · GAYA: INFOGRAFIK ANIMASI
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Infografik animasi — latar putih gading dengan kisi tipis; sakelar besar YA/TIDAK bolak-balik lalu
+             dicoret merah; tangga 5 tingkat kematangan tumbuh; batang horizontal per domain memanjang dengan
+             angka menghitung; donat rata-rata, garis tren kuartal, pil rekomendasi
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "'Sudah patuh atau belum?' itu pertanyaan yang salah."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb11-infografik). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB11_S1, GB11_S2, GB11_S3, GB11_S4 (atau satu file utuh GB11 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: ""Sudah patuh, atau belum?" Itu pertanyaan yang salah."
+      Layar: Sakelar raksasa PATUH? YA/TIDAK bolak-balik cepat; pada "salah" coretan ✕ merah menghantam sakelar
+             dan sakelar bergetar.
+[S2]  VO: "Kematangan itu tangga, bukan sakelar. Tiap domain punya tingkatnya: tata kelola, hak subjek data, insiden, pihak ketiga, pelatihan."
+      Layar: Sakelar melebur jadi tangga 5 tingkat (Awal → Optimal); batang per domain tumbuh satu per satu
+             dengan angka tingkat menghitung (*ilustrasi).
+[S3]  VO: "Maturity Assessment di Privasimu Nexus mengukur tiap domain, menganalisis bukti dengan AI, memberi rekomendasi. Terukur, bisa dibandingkan tiap kuartal."
+      Layar: Panel berganti: donat rata-rata 2,8 → target 4,0* mengisi; pil rekomendasi per domain muncul; garis
+             tren Q1–Q4 naik tergambar.
+[S4]  VO: "Bukan ya atau tidak, tapi tingkat berapa. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Bukan ya/tidak, tapi tingkat berapa.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Maturity Assessment (fakta_produk.json): penilaian tingkat kematangan per domain; analisis dokumen bukti oleh
+  AI; rekomendasi peningkatan; hasil terukur dan dapat dibandingkan dari waktu ke waktu.
+- Semua angka (tingkat per domain, rata-rata 2,8 → target 4,0; tren kuartal) = ilustrasi, ditandai *ilustrasi;
+  skala 5 tingkat = kerangka kematangan umum.
+- Tidak ada tangkapan layar Maturity di assets → tanpa kartu layar produk.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

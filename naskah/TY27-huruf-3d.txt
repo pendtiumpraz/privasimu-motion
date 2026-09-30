@@ -1,0 +1,44 @@
+NASKAH TY27 — "KOTA PP 33" · GAYA: HURUF 3D / ISOMETRIK
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Huruf 3D / isometrik — huruf PP 33 sebagai gedung bersisi biru di atas tanah isometrik; dibangun
+             lantai demi lantai; papan tanggal; jendela menyala
+Durasi     : ± 20 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Bangunan ini selesai 16 Januari 2027. Kantormu sudah punya kuncinya?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty27-huruf-3d). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY27_S1, TY27_S2, TY27_S3, TY27_S4 (atau satu file utuh TY27 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. "PP 33" dibaca "pe-pe tiga puluh tiga".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Bangunan ini selesai enam belas Januari dua ribu dua puluh tujuh."
+      Layar: Huruf PP 33 tumbuh lantai demi lantai dari tanah isometrik (bunyi konstruksi); papan tanggal 16 · 01
+             · 2027 naik di depannya.
+[S2]  VO: "Kantormu sudah punya kuncinya?"
+      Layar: Kunci besar berputar di depan gedung dengan tanda tanya.
+[S3]  VO: "Program siap PP tiga puluh tiga: GAP Assessment, rencana perbaikan, dan bukti yang tersusun rapi."
+      Layar: Jendela-jendela gedung menyala satu per satu; cip: GAP Assessment · rencana perbaikan · bukti
+             tersusun.
+[S4]  VO: "Mulai dari cek kesiapan gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Kuncinya: mulai sekarang.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PP 33/2026 (peraturan pelaksana UU PDP) berlaku 16 Januari 2027. Cek ulang tanggal sebelum tayang.
+- GAP Assessment: kuesioner kepatuhan UU PDP, skor dan rencana remediasi (fakta_produk.json: gap-assessment).
+  "Program siap PP 33" = nama program pendampingan; pastikan masih ditawarkan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

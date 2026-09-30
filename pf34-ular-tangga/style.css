@@ -1,0 +1,39 @@
+/* PF34 · ULAR TANGGA — meja krem; papan pastel dua warna bernomor; ular merah, tangga hijau, tangga emas Nexus; bidak DPO biru */
+body { background: #EADBC0; color: #1B1B1B; }
+#stage { background: #EADBC0; }
+#vignette { opacity: .25; }
+#grain { opacity: .05; }
+.ut-papan { position: absolute; border: 10px solid #2F2A24; border-radius: 12px; box-shadow: 0 30px 60px rgba(60,40,10,.35); box-sizing: content-box; margin: -10px 0 0 -10px; background: #fff; }
+.ut-kotak { position: absolute; display: flex; align-items: flex-start; justify-content: flex-start; box-sizing: border-box; border: 1px solid rgba(0,0,0,.08); font: 800 22px/1 'Inter', sans-serif; color: rgba(0,0,0,.55); }
+.ut-kotak span { padding: 6px 8px; }
+.ut-kotak.ka { background: #FFF4D6; } .ut-kotak.kb { background: #DFF3EA; }
+.ut-kotak.akhir { background: #FFD166; align-items: center; justify-content: center; }
+.ut-kotak.akhir span { font: 400 26px/1 'Luckiest Guy', sans-serif; color: #7A4B00; padding: 0; }
+.v .ut-kotak { font-size: 24px; }
+.ut-svg { position: absolute; left: 0; top: 0; }
+.ular .badan { fill: none; stroke: #E63946; stroke-width: 22; stroke-linecap: round; opacity: .92; }
+.ular .kepala { fill: #E63946; stroke: #fff; stroke-width: 4; }
+.tangga .tg { fill: none; stroke: #2A9D8F; stroke-width: 9; stroke-linecap: round; }
+.tangga .tg.emas { stroke: #E9A800; stroke-width: 12; filter: drop-shadow(0 0 10px rgba(233,168,0,.7)); }
+.tangga.t2 { opacity: 0; }
+.ut-label { position: absolute; translate: -50% -50%; padding: 6px 12px; border-radius: 999px; font: 800 17px/1 'Inter', sans-serif; white-space: nowrap; color: #fff; box-shadow: 0 6px 16px rgba(0,0,0,.25); }
+.v .ut-label { font-size: 19px; }
+.ut-label.merah { background: #E63946; }
+.ut-label.hijau { background: #2A9D8F; }
+.ut-label.emas { background: #E9A800; color: #3B2A00; font-size: 20px; opacity: 0; }
+.ut-bidak { position: absolute; left: 0; top: 0; width: 64px; height: 64px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #7FB3FF, #1F5FCC 60%, #0B2A6B); border: 4px solid #fff; box-shadow: 0 10px 20px rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; color: #fff; font: 800 18px/1 'Inter', sans-serif; z-index: 5; }
+.v .ut-bidak { width: 74px; height: 74px; font-size: 20px; }
+.ut-skor { position: absolute; left: 1040px; top: 300px; width: 760px; padding: 30px 40px; border-radius: 26px; background: #fff; box-shadow: 0 24px 50px rgba(60,40,10,.25); font-family: 'Inter', sans-serif; }
+.v .ut-skor { left: 68px; top: 150px; width: 944px; padding: 22px 32px; box-sizing: border-box; }
+.sk-l { font: 800 22px/1 'Inter', sans-serif; letter-spacing: .3em; color: #8A7A60; }
+.sk-no { margin-top: 8px; font: 400 150px/1 'Luckiest Guy', sans-serif; color: #2F2A24; }
+.sk-no.kecil { font-size: 96px; color: #E9A800; }
+.v .sk-no { font-size: 110px; } .v .sk-no.kecil { font-size: 80px; }
+.sk-ev { margin-top: 10px; font: 800 30px/1.2 'Inter', sans-serif; color: #2F2A24; padding-right: 160px; }
+.v .sk-ev { font-size: 26px; }
+.sk-ev.merah { color: #E63946; } .sk-ev.hijau { color: #2A9D8F; }
+.ut-dadu { position: absolute; right: 40px; top: 50%; margin-top: -60px; width: 120px; height: 120px; border-radius: 22px; background: #fff; border: 4px solid #2F2A24; box-shadow: 0 14px 30px rgba(0,0,0,.3); display: flex; align-items: center; justify-content: center; font: 400 70px/1 'Luckiest Guy', sans-serif; color: #E63946; opacity: 0; }
+.v .ut-dadu { right: 32px; }
+.ut-konf { position: absolute; left: 0; top: 0; width: 14px; height: 22px; border-radius: 3px; opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Luckiest Guy', sans-serif; --pd-acc: #E9A800; --pd-btn: #2A9D8F; --pd-btn-ink: #fff; --pd-tirai: rgba(47,42,36,.97); }
+.pd-tag { letter-spacing: .02em; }

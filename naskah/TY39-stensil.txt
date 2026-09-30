@@ -1,0 +1,46 @@
+NASKAH TY39 — "DILARANG PATUH SETENGAH-SETENGAH" · GAYA: STENSIL / CAT SEMPROT
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Stensil / cat semprot — dinding beton abu bertekstur; huruf stensil merah disemprot kata demi kata
+             dengan halo overspray dan tetesan cat yang turun; panah semprot; daftar "setengah" hitam; kartu
+             rekomendasi GAP asli ditempel seperti poster
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 20% edukasi · 80% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : reverse psychology — "DILARANG PATUH SETENGAH-SETENGAH."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty39-stensil). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY39_S1, TY39_S2, TY39_S3, TY39_S4 (atau satu file utuh TY39 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. gap-rekomendasi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Dilarang. Patuh. Setengah-setengah."
+      Layar: Dinding beton; kata demi kata disemprot merah: DILARANG / PATUH / SETENGAH-SETENGAH — cat menetes.
+[S2]  VO: "RoPA ada, bukti tidak. Kebijakan ada, pelatihan tidak. DPIA ada, mitigasi tidak."
+      Layar: Panah semprot ke bawah; tiga baris stensil hitam disemprot: RoPA ADA — BUKTI TIDAK / KEBIJAKAN ADA —
+             PELATIHAN TIDAK / DPIA ADA — MITIGASI TIDAK.
+[S3]  VO: "GAP Assessment di Privasimu Nexus menunjukkan yang setengah: skor per area, rekomendasi per pasal, rencana remediasi."
+      Layar: Tulisan memudar; label semprot "GAP ASSESSMENT ↓"; kartu asli Rekomendasi Perbaikan (9 CRITICAL · 1
+             HIGH · 1 MEDIUM) ditempel di dinding.
+[S4]  VO: "Patuh itu penuh, bukan setengah. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Patuh itu penuh, bukan setengah.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment (fakta_produk.json): kuesioner kepatuhan UU PDP; skor kepatuhan dan rencana remediasi; analisis
+  dokumen bukti oleh AI per pertanyaan.
+- Kartu "Rekomendasi Perbaikan (CRITICAL/HIGH/MEDIUM)" = tangkapan asli assets/app/gap-rekomendasi.png.
+- Daftar "setengah" = contoh situasi umum (ilustrasi), bukan data pelanggan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

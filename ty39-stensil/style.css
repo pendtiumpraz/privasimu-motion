@@ -1,0 +1,24 @@
+/* TY39 · STENSIL — dinding beton abu; huruf stensil Black Ops One merah semprot & hitam; halo overspray via text-shadow */
+body { background: #8E8B85; color: #1B1B1B; }
+#stage { background: #8E8B85; }
+#vignette { opacity: .5; }
+#grain { opacity: .12; }
+.st-blok { position: absolute; left: 50%; top: 90px; translate: -50% 0; text-align: center; white-space: nowrap; }
+.v .st-blok { top: 260px; }
+.st-kata { font: 400 170px/1.05 'Black Ops One', sans-serif; color: #C8102E; letter-spacing: .02em; filter: url(#st-kasar); }
+.st-kata.k2 { font-size: 120px; }
+.v .st-kata { font-size: 150px; } .v .st-kata.k2 { font-size: 78px; letter-spacing: 0; }
+.st-h { display: inline-block; opacity: 0; transform-origin: 50% 70%; text-shadow: 0 0 3px rgba(200,16,46,.9), 0 0 10px rgba(200,16,46,.55), 0 0 22px rgba(200,16,46,.35), 1px 2px 0 rgba(120,0,20,.5); }
+.st-tetes { position: absolute; height: 0; background: #C8102E; border-radius: 0 0 6px 6px; box-shadow: 0 0 6px rgba(200,16,46,.6); opacity: 0; }
+.st-panah { position: absolute; left: 50%; top: 560px; font: 400 150px/1 'Black Ops One', sans-serif; color: #1B1B1B; opacity: 0; transform-origin: 50% 50%; text-shadow: 0 0 10px rgba(0,0,0,.5); }
+.v .st-panah { top: 800px; font-size: 130px; }
+.st-daftar { position: absolute; left: 50%; top: 720px; translate: -50% 0; text-align: center; white-space: nowrap; }
+.v .st-daftar { top: 960px; }
+.st-baris { font: 400 62px/1.3 'Black Ops One', sans-serif; color: #1B1B1B; letter-spacing: .02em; filter: url(#st-kasar); }
+.v .st-baris { font-size: 46px; line-height: 1.5; }
+.st-baris .st-h { text-shadow: 0 0 3px rgba(0,0,0,.8), 0 0 10px rgba(0,0,0,.45), 0 0 20px rgba(0,0,0,.3); }
+.st-label { position: absolute; left: 50%; top: 150px; font: 400 76px/1 'Black Ops One', sans-serif; color: #C8102E; opacity: 0; transform-origin: 50% 50%; text-shadow: 0 0 3px rgba(200,16,46,.9), 0 0 12px rgba(200,16,46,.5); white-space: nowrap; }
+.v .st-label { top: 400px; font-size: 66px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Black Ops One', sans-serif; --pd-acc: #C8102E; --pd-btn: #1B1B1B; --pd-btn-ink: #fff; --pd-tirai: rgba(142,139,133,.97); --pd-ink: #1B1B1B; --pd-mute: rgba(27,27,27,.66); --pd-logo: brightness(0); }
+.pd-tag { font-weight: 400; }

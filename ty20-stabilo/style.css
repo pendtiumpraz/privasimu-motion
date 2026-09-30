@@ -1,0 +1,41 @@
+/* TY20 · STABILO — kertas bergaris krem, obrolan bersih, pasal berhuruf Source Serif, stabilo kuning bertepi kasar */
+body { background: #F1EDE4; color: #1D2233; }
+#stage { background: #F1EDE4; }
+#vignette { opacity: .18; }
+#grain { opacity: .05; }
+.st-chat { position: absolute; display: flex; flex-direction: column; gap: 18px; font-family: 'Plus Jakarta Sans', sans-serif; }
+.st-b { position: relative; max-width: 92%; padding: 22px 28px 24px; border-radius: 26px; font-size: 32px; line-height: 1.32; box-shadow: 0 14px 40px rgba(29,34,51,.12); }
+.v .st-b { font-size: 34px; }
+.st-b.u { align-self: flex-end; background: #2F6BFF; color: #fff; border-bottom-right-radius: 8px; }
+.st-b.a { align-self: flex-start; background: #fff; color: #1D2233; border-bottom-left-radius: 8px; }
+.st-b .ai { display: block; margin-bottom: 8px; font-size: 20px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: #8A93B3; }
+.st-b.priva .ai { color: #6D4CFF; }
+.st-b .tx { display: block; }
+.st-b .tx b { color: #0B1B4D; }
+.st-b .tx u { display: block; margin-top: 8px; text-decoration: none; font-size: 24px; font-weight: 700; color: #2F6BFF; }
+.st-b .coret { position: absolute; left: 24px; right: 24px; top: 58%; height: 6px; background: #E5484D; transform-origin: 0 50%; transform: scaleX(0); border-radius: 3px; }
+.st-b.salah { transition: none; }
+.st-stempel { position: absolute; right: -20px; top: -26px; padding: 8px 16px; border: 5px solid #E5484D; border-radius: 10px; color: #E5484D; font: 800 26px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .08em; transform-origin: 50% 50%; opacity: 0; background: rgba(255,255,255,.7); }
+.st-b.priva { opacity: 0; border: 2px solid rgba(109,76,255,.35); }
+.st-b .kb { position: absolute; right: 18px; bottom: -18px; padding: 8px 16px; border-radius: 999px; background: #6D4CFF; color: #fff; font: 700 20px/1 'Plus Jakarta Sans', sans-serif; font-style: normal; }
+.st-kertas { position: absolute; padding: 36px 44px 30px; background: #FFFDF7; color: #1D2233; box-shadow: 0 30px 70px rgba(29,34,51,.18), 0 0 0 1px rgba(29,34,51,.08); font-family: 'Source Serif 4', serif; opacity: 0; transform-origin: 50% 50%; }
+.st-kop { font: 600 17px/1.3 'Plus Jakarta Sans', sans-serif; letter-spacing: .08em; color: #8A93B3; margin-bottom: 18px; }
+.st-pasal { font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 14px; }
+.st-kertas p { margin: 0; font-size: 33px; line-height: 1.5; text-align: justify; }
+.v .st-kertas p { font-size: 32px; }
+.st-kertas mark { background: linear-gradient(100deg, rgba(255,225,77,0) 0%, #FFE14D 4%, #FFE14D 96%, rgba(255,225,77,0) 100%) no-repeat 0 0 / 0% 100%; color: inherit; padding: 2px 4px; margin: 0 -4px; border-radius: 4px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.st-sumber { margin-top: 18px; font: 600 19px/1 'JetBrains Mono', monospace; letter-spacing: .04em; color: #6D4CFF; }
+.st-temuan { position: absolute; padding: 26px 34px 30px; border-radius: 22px; background: #fff; color: #1D2233; box-shadow: 0 30px 70px rgba(29,34,51,.16), 0 0 0 1px rgba(29,34,51,.08); font-family: 'Plus Jakarta Sans', sans-serif; opacity: 0; }
+.st-temuan .th { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 18px; font-size: 22px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #8A93B3; }
+.st-temuan .pensil { font-style: normal; text-transform: none; letter-spacing: 0; padding: 6px 14px; border-radius: 999px; background: #FFF2C2; color: #7A5A00; font-size: 20px; }
+.st-temuan .tr { display: flex; gap: 18px; padding: 14px 0; border-top: 1px solid #EEF1F8; font-size: 27px; line-height: 1.35; }
+.st-temuan .tr b { flex: 0 0 190px; color: #0B1B4D; }
+.v .st-temuan .tr b { flex-basis: 170px; }
+.st-temuan .edit { position: relative; padding: 8px 12px; margin: -8px -12px; border-radius: 10px; background: #F4F7FF; outline: 2px solid #2F6BFF; }
+.st-temuan .kursor { display: inline-block; width: 3px; height: 1em; margin-left: 2px; vertical-align: -0.15em; background: #0B1B4D; }
+.st-teks { position: absolute; left: 100px; right: 100px; top: 880px; text-align: center; font: 700 56px/1.16 'Plus Jakarta Sans', sans-serif; letter-spacing: -.02em; color: #1D2233; }
+.v .st-teks { left: 60px; right: 60px; top: 1300px; font-size: 54px; }
+.st-teks em { font-style: normal; }
+.st-teks em .pd-i { background: linear-gradient(100deg, rgba(255,225,77,0) 0%, #FFE14D 6%, #FFE14D 94%, rgba(255,225,77,0)); padding: 0 6px; margin: 0 -2px; }
+.pd-cta { --pd-font: 'Plus Jakarta Sans', sans-serif; --pd-acc: #6D4CFF; --pd-tirai: rgba(241,237,228,.97); }
+.pd-tag em { font-style: normal; background: linear-gradient(100deg, rgba(255,225,77,0) 0%, #FFE14D 6%, #FFE14D 94%, rgba(255,225,77,0)); color: #0B1B4D; padding: 0 8px; }

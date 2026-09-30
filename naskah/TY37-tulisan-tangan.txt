@@ -1,0 +1,47 @@
+NASKAH TY37 — "CATATAN KECIL UNTUK DIREKSI" · GAYA: TULISAN TANGAN (WRITE-ON)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Tulisan tangan (write-on) — meja kayu terang; kertas tempel kuning dengan tulisan tangan yang muncul
+             huruf demi huruf, ujung pena mengikuti; tumpukan laporan putih tebal; kartu dasbor asli
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Pak, laporannya 482 halaman*. Ringkasannya satu layar."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty37-tulisan-tangan). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY37_S1, TY37_S2, TY37_S3, TY37_S4 (atau satu file utuh TY37 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dashboard
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Pak, laporannya empat ratus delapan puluh dua halaman. Ringkasannya? Satu layar."
+      Layar: Kertas tempel kuning besar; pena menulis: "Pak, laporannya 482 halaman*." lalu "Ringkasannya: satu
+             layar."
+[S2]  VO: "Yang perlu direksi tahu: skor kepatuhan, permintaan tertunda, insiden aktif."
+      Layar: Catatan pertama ditempel di tumpukan laporan (kiri); catatan kedua ditulis: "Yang perlu direksi
+             tahu:" + 3 poin.
+[S3]  VO: "Dasbor Privasimu Nexus merangkumnya di satu layar: skor GAP, DSR, insiden."
+      Layar: Kedua catatan tersingkir; kartu dasbor asli muncul (Selamat Datang, Perlu Perhatian, GAP 81%, DSR,
+             Breach); catatan kecil "satu layar ✓" ditempel di sudut kartu.
+[S4]  VO: "Laporan untuk auditor, satu layar untuk direksi. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Laporan untuk auditor, satu layar untuk direksi.", tombol privasimu.com,
+             kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dasbor (tangkapan asli assets/app/dashboard.png, header berisi nama organisasi dipotong): GAP Score 81%, 4 DSR
+  pending, 20 breach aktif, risiko DPIA belum dimitigasi — angka dari tenant uji, tampil apa adanya.
+- Dukungan PPDP (fakta_produk.json): dasbor kepatuhan lintas modul; antrean pekerjaan yang menunggu tindakan.
+- "482 halaman" = angka ilustrasi (ditandai *ilustrasi di catatan).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

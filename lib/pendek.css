@@ -1,0 +1,42 @@
+/* Pustaka video pendek (lib/pendek.js): kata bertanda waktu + kartu penutup.
+   Kartu penutup memakai variabel di bawah; tiap video menimpanya di style.css supaya penutup ikut gayanya:
+     .pd-cta { --pd-ink: …; --pd-mute: …; --pd-acc: …; --pd-btn: …; --pd-btn-ink: …; --pd-tirai: …; --pd-font: …; --pd-head: …; } */
+.pd-w { display: inline-block; vertical-align: top; }
+.pd-w.klip { overflow: hidden; padding: .04em .02em .16em; margin-bottom: -.16em; }
+.pd-i { display: inline-block; transform-origin: 50% 60%; }
+.pd-l { display: inline-block; }
+
+.pd-cta { --pd-ink: #fff; --pd-mute: rgba(255,255,255,.66); --pd-acc: #FFE14D; --pd-btn: #2F6BFF; --pd-btn-ink: #fff; --pd-tirai: rgba(5,10,32,.93);
+  --pd-font: 'Plus Jakarta Sans', sans-serif; --pd-head: var(--pd-font); --pd-logo: none;
+  position: absolute; inset: 0; visibility: hidden; color: var(--pd-ink); font-family: var(--pd-font); z-index: 20; }
+.pd-cta.terang { --pd-ink: #0B1B4D; --pd-mute: rgba(11,27,77,.62); --pd-acc: #2F6BFF; --pd-btn: #0B1B4D; --pd-btn-ink: #fff; --pd-tirai: rgba(250,247,240,.95);
+  --pd-logo: brightness(0) invert(13%) sepia(40%) saturate(2000%) hue-rotate(205deg); }
+.pd-tirai { position: absolute; inset: 0; background: var(--pd-tirai); opacity: 0; }
+.pd-kol { position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 120px; }
+.v .pd-kol { bottom: 300px; padding: 0 70px; }
+.pd-logo { display: flex; flex-direction: column; align-items: center; }
+.pd-logo img { width: 500px; display: block; filter: var(--pd-logo); }
+.v .pd-logo img { width: 600px; }
+.pd-nx { margin-top: 12px; font: 700 30px/1 var(--pd-font); letter-spacing: .52em; margin-right: -.52em; color: var(--pd-acc); }
+.v .pd-nx { font-size: 34px; }
+.pd-tag { margin-top: 40px; max-width: 1400px; font: 800 64px/1.12 var(--pd-head); letter-spacing: -.02em; }
+.v .pd-tag { font-size: 70px; max-width: 940px; }
+.pd-tag em { color: var(--pd-acc); font-style: normal; }
+.pd-btn { margin-top: 44px; padding: 20px 56px 24px; border-radius: 999px; background: var(--pd-btn); color: var(--pd-btn-ink); font: 800 62px/1 var(--pd-font); letter-spacing: -.02em; }
+.v .pd-btn { font-size: 72px; padding: 24px 60px 28px; }
+.pd-sub { margin-top: 24px; font: 700 34px/1.2 var(--pd-font); color: var(--pd-mute); }
+.v .pd-sub { font-size: 40px; }
+.pd-sub em { color: var(--pd-acc); font-style: normal; }
+.pd-foot { margin-top: 30px; font: 600 27px/1.2 var(--pd-font); color: var(--pd-mute); letter-spacing: .01em; }
+.v .pd-foot { font-size: 31px; }
+
+/* kartu layar aplikasi asli (PD.layar) */
+.pd-layar { position: absolute; border-radius: 22px; overflow: hidden; background: #fff; box-shadow: 0 40px 100px rgba(8,15,40,.35), 0 0 0 1px rgba(8,15,40,.10); transform-origin: 50% 50%; }
+.pd-bar { height: 46px; display: flex; align-items: center; gap: 9px; padding: 0 20px; background: #EEF1F7; font: 600 19px/1 'Plus Jakarta Sans', sans-serif; color: #56607A; }
+.pd-bar i { width: 13px; height: 13px; border-radius: 50%; background: #CBD2E1; }
+.pd-bar span { margin-left: 14px; }
+.pd-shot { position: relative; overflow: hidden; background: #fff; }
+.pd-shot img { position: absolute; left: 0; top: 0; transform-origin: 0 0; max-width: none; }
+
+/* lapisan lintas scene (PD.lapis) */
+.pd-lapis { position: absolute; left: 0; top: 0; width: var(--W); height: var(--H); pointer-events: none; }

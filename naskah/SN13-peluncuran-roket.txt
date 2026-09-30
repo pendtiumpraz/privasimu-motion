@@ -1,0 +1,47 @@
+NASKAH SN13 — "NILAI DULU, BARU MELUNCUR" · GAYA: PELUNCURAN ROKET
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Peluncuran roket — langit fajar ungu-jingga, landasan & menara garis, roket putih sederhana berlabel
+             PROYEK BARU; angka hitung mundur raksasa Orbitron; HOLD merah "DPIA?"; GO hijau; asap partikel, api
+             berkedip, guncangan kamera saat lepas landas
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Proyek paling berisiko di kantormu biasanya yang paling ditunggu-tunggu."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn13-peluncuran-roket). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN13_S1, SN13_S2, SN13_S3, SN13_S4 (atau satu file utuh SN13 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dpia-risiko
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Proyek paling berisiko di kantormu… biasanya yang paling ditunggu-tunggu."
+      Layar: Landasan fajar; roket berlabel PROYEK BARU berdiri di menara; papan "PELUNCURAN HARI INI"; lampu
+             landasan berkedip.
+[S2]  VO: "Tiga. Dua. Sa— tunggu. DPIA-nya?"
+      Layar: Hitung mundur raksasa 3 → 2 → "1" terpotong: layar merah HOLD, label "DPIA?"; alarm.
+[S3]  VO: "Di Privasimu Nexus, DPIA dinilai dulu: matriks kemungkinan kali dampak, register risiko, rencana mitigasi. Selesai? GO. Meluncur."
+      Layar: Kartu asli wizard DPIA "Potensi Risiko" masuk; pada "GO" layar hijau GO; pada "Meluncur" roket lepas
+             landas: api, asap partikel, kamera berguncang, tulisan LIFT-OFF.
+[S4]  VO: "Nilai dulu, baru meluncur. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Nilai dulu, baru meluncur.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- DPIA (fakta_produk.json): matriks kemungkinan × dampak 5×5; register risiko dengan rencana mitigasi; draf
+  otomatis dari RoPA berisiko TINGGI; kode DPIA-TAHUN-NOMOR.
+- Kartu "Potensi Risiko · Section 3 of 4" = tangkapan asli assets/app/dpia-risiko.png (header organisasi
+  dipotong).
+- Roket & proyek = ilustrasi; tanpa lembaga antariksa/merek.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

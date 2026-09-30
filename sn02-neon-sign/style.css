@@ -1,0 +1,28 @@
+/* SN02 · NEON — dinding bata malam; neon merah (COOKED) & biru (CHILL) dengan glow berlapis; pantulan di lantai */
+body { background: #0B0A10; color: #fff; }
+#stage { background: #0B0A10; }
+#vignette { opacity: .65; }
+#grain { opacity: .1; }
+.ne { position: relative; --n: 0; --c: #FF2E63; opacity: 0; font-family: 'Tilt Neon', sans-serif; text-align: center; }
+.ne.biru { --c: #3DDCFF; }
+.ne.merah { --c: #FF2E63; }
+.ne.jam { --c: #FFD166; position: absolute; left: 50%; top: 70px; translate: -50% 0; font-size: 44px; letter-spacing: .3em; }
+.v .ne.jam { top: 240px; font-size: 40px; letter-spacing: .22em; }
+.ne .ne-t { color: color-mix(in srgb, var(--c) calc(var(--n) * 100%), #3a2a33); text-shadow: 0 0 calc(var(--n) * 8px) #fff, 0 0 calc(var(--n) * 18px) var(--c), 0 0 calc(var(--n) * 40px) var(--c), 0 0 calc(var(--n) * 90px) var(--c); -webkit-text-stroke: 1px rgba(255,255,255,calc(var(--n) * .6)); }
+.ne-sisi { position: absolute; top: 200px; width: 50%; display: flex; flex-direction: column; align-items: center; gap: 40px; }
+.ne-sisi.kiri { left: 0; } .ne-sisi.kanan { right: 0; }
+.v .ne-sisi { width: 100%; top: 360px; gap: 26px; }
+.v .ne-sisi.kanan { top: 980px; }
+.ne.besar { font-size: 190px; line-height: 1; }
+.v .ne.besar { font-size: 170px; }
+.ne-sub { margin-top: 10px; font: 700 30px/1 'Inter', sans-serif; letter-spacing: .4em; color: rgba(255,255,255,.7); }
+.ne.kecil { font-size: 46px; line-height: 1.3; }
+.v .ne.kecil { font-size: 44px; }
+.ne-baris { display: flex; flex-direction: column; gap: 14px; }
+.v .ne-baris { flex-direction: row; gap: 30px; flex-wrap: wrap; justify-content: center; }
+.ne-r { position: absolute; left: 0; right: 0; top: 100%; margin-top: 380px; transform: scaleY(-1); filter: blur(6px); opacity: calc(var(--n) * .35); -webkit-mask-image: linear-gradient(180deg, transparent 20%, #000 100%); mask-image: linear-gradient(180deg, transparent 20%, #000 100%); pointer-events: none; }
+.v .ne-r { display: none; }
+.ne.jam .ne-r, .ne.kecil .ne-r { display: none; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Tilt Neon', sans-serif; --pd-acc: #3DDCFF; --pd-btn: #3DDCFF; --pd-btn-ink: #0B0A10; --pd-tirai: rgba(11,10,16,.97); }
+.pd-tag em { text-shadow: 0 0 18px #3DDCFF, 0 0 40px #3DDCFF; }

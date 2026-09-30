@@ -1,0 +1,45 @@
+NASKAH TY54 — "PERSETUJUAN YANG BISA DIBACA" · GAYA: TIPOGRAFI AKSESIBEL (MORPH)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Tipografi aksesibel (morph) — satu kalimat persetujuan berubah dari kecil, rapat, dan pudar menjadi
+             besar, renggang, dan kontras tinggi; ikon pembaca layar; lalu layar Inclusive Privacy asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik produk digital, tim UX & legal, DPO/PPDP
+Hook       : logika dipatahkan — "Persetujuan yang tidak bisa dibaca, bukan persetujuan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty54-aksesibel). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY54_S1, TY54_S2, TY54_S3, TY54_S4 (atau satu file utuh TY54 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Persetujuan yang tidak bisa dibaca, bukan persetujuan."
+      Layar: Kalimat persetujuan kecil, rapat, abu-abu pudar di tengah layar. Di "bukan", kalimat mulai membesar
+             dan menajam.
+[S2]  VO: "Ukuran. Jarak. Kontras. Dan dibacakan, bila perlu."
+      Layar: Tiap kata: ukuran naik, jarak huruf melebar, kontras jadi hitam di atas putih. Di "dibacakan", ikon
+             pengeras suara + gelombang suara bergerak.
+[S3]  VO: "Inclusive Privacy: persetujuan yang aksesibel bagi penyandang disabilitas, di tiap kanal."
+      Layar: Kalimat mengecil ke atas; layar Inclusive Privacy asli (tab Aksesibilitas) masuk; catatan kecil UU
+             PDP Pasal 22.
+[S4]  VO: "Semua orang berhak paham. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup kontras tinggi: logo, "Semua orang berhak paham.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Inclusive Privacy: persetujuan yang aksesibel bagi penyandang disabilitas; titik pengumpulan persetujuan per
+  kanal (fakta_produk.json: consent). Layar = assets/app/inclusive-privacy.png.
+- UU PDP Pasal 22 ayat (4): permintaan persetujuan dibuat dengan format yang dapat dipahami dan mudah diakses,
+  bahasa sederhana dan jelas. Cek ulang bunyi pasal sebelum tayang.
+- Kalimat persetujuan di layar = contoh ilustrasi.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

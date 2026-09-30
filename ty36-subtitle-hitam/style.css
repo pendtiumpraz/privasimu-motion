@@ -1,0 +1,17 @@
+/* TY36 · SUBTITLE DI LAYAR HITAM — hitam pekat, subtitle putih (Inter), keterangan bunyi miring abu-abu */
+body { background: #000; color: #fff; }
+#stage { background: #000; }
+#vignette { opacity: 0; }
+#grain { opacity: .05; }
+.sb-sub { position: absolute; left: 0; right: 0; bottom: 96px; text-align: center; }
+.v .sb-sub { bottom: 560px; }
+.sb-sub .ln { display: none; margin: 0 auto; max-width: 1500px; font: 600 60px/1.28 'Inter', sans-serif; letter-spacing: -.005em; color: #fff; text-shadow: 0 2px 0 rgba(0,0,0,.9), 0 0 18px rgba(0,0,0,.9); }
+.v .sb-sub .ln { max-width: 960px; font-size: 58px; }
+.sb-sub .ln.b { font-style: italic; font-weight: 500; color: #B4B9C6; }
+.sb-monitor { border-radius: 14px; box-shadow: 0 0 0 10px #15171C, 0 0 0 12px #2A2E37, 0 40px 120px rgba(80,140,255,.28); transform-origin: 50% 50%; opacity: 0; }
+.sb-kilat { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+.sb-sinar { position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0;
+  background: radial-gradient(ellipse 70% 60% at 50% 36%, rgba(70,120,255,.30), rgba(30,60,160,.10) 55%, rgba(0,0,0,0) 78%); }
+.v .sb-sinar { background: radial-gradient(ellipse 100% 45% at 50% 32%, rgba(70,120,255,.30), rgba(30,60,160,.10) 55%, rgba(0,0,0,0) 80%); }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-acc: #FFE14D; --pd-btn: #fff; --pd-btn-ink: #000; }
+.sb-hitam { position: absolute; inset: 0; background: #000; }

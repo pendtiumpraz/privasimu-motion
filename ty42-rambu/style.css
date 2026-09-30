@@ -1,0 +1,28 @@
+/* TY42 · RAMBU JALAN — langit biru, rumput, aspal berperspektif; rambu bulat biru, segitiga kuning, persegi merah; papan hijau */
+body { background: #4A4B52; color: #fff; }
+#stage { background: #4A4B52; }
+#vignette { opacity: .3; }
+#grain { opacity: .05; }
+.rb-rambu { position: absolute; left: 0; top: 0; transform-origin: 50% 100%; opacity: 0; font-family: 'Overpass', sans-serif; text-align: center; }
+.rb-rambu .tiang { width: 18px; height: 220px; margin: -6px auto 0; background: linear-gradient(90deg, #9AA0A6, #5F656B); }
+.rb-bulat { width: 300px; height: 300px; border-radius: 50%; background: #1F5FCC; border: 16px solid #fff; box-shadow: 0 0 0 6px #1F5FCC, 0 20px 40px rgba(0,0,0,.3); display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; }
+.rb-bulat b { font-size: 52px; line-height: 1; font-weight: 900; }
+.rb-bulat i { margin-top: 10px; font-style: normal; font-size: 26px; font-weight: 800; letter-spacing: .1em; opacity: .85; }
+.rb-segitiga { position: relative; width: 320px; height: 282px; }
+.rb-segitiga svg { width: 100%; height: 100%; display: block; filter: drop-shadow(0 20px 30px rgba(0,0,0,.3)); }
+.rb-segitiga b { position: absolute; left: 0; right: 0; top: 92px; font-size: 34px; line-height: 1.02; font-weight: 900; color: #1A1A1A; }
+.rb-persegi { width: 320px; padding: 26px 20px 28px; background: #D91E1E; border: 14px solid #fff; box-shadow: 0 0 0 6px #D91E1E, 0 20px 40px rgba(0,0,0,.3); color: #fff; }
+.rb-persegi b { display: block; font-size: 50px; line-height: 1; font-weight: 900; }
+.rb-persegi i { display: block; margin-top: 12px; font-style: normal; font-size: 40px; font-weight: 800; letter-spacing: .04em; color: #FFD400; }
+.rb-papan { position: absolute; left: 0; top: 0; width: 900px; padding: 26px 34px 30px; border-radius: 22px; background: #1C7A3E; border: 12px solid #fff; box-shadow: 0 0 0 6px #1C7A3E, 0 30px 60px rgba(0,0,0,.4); color: #fff; font-family: 'Overpass', sans-serif; transform-origin: 50% 100%; opacity: 0; }
+.v .rb-papan { width: 820px; }
+.rb-papan .ph { font-size: 46px; font-weight: 900; letter-spacing: .06em; padding-bottom: 14px; margin-bottom: 8px; border-bottom: 5px solid rgba(255,255,255,.7); }
+.rb-papan .pm { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; font-size: 44px; font-weight: 800; opacity: .28; }
+.rb-papan .pm.on { opacity: 1; }
+.rb-papan .pm b { font-size: 40px; color: #FFD400; }
+.rb-papan .pk { position: absolute; left: 90px; top: 100%; width: 22px; height: 210px; margin-top: 12px; background: linear-gradient(90deg, #9AA0A6, #5F656B); }
+.rb-papan .pk.kn { left: auto; right: 90px; }
+.rb-teks { position: absolute; left: 300px; right: 300px; top: 56px; text-align: center; font: 900 50px/1.16 'Overpass', sans-serif; letter-spacing: -.01em; color: #0B1B4D; }
+.v .rb-teks { left: 60px; right: 60px; top: 300px; font-size: 52px; }
+.rb-teks em { font-style: normal; color: #D91E1E; }
+.pd-cta { --pd-font: 'Overpass', sans-serif; --pd-acc: #FFD400; --pd-btn: #1C7A3E; --pd-tirai: rgba(11,27,77,.96); }

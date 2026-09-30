@@ -1,0 +1,49 @@
+NASKAH TY20 — "AI YANG TIDAK MENGARANG PASAL" · GAYA: STABILO PADA PASAL
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Stabilo pada pasal — kertas peraturan; stabilo kuning bertepi kasar menyapu frasa pasal saat
+             diucapkan; gelembung jawaban AI di sampingnya
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : DPO/PPDP, konsultan, legal
+Hook       : logika dipatahkan — "AI terbaik untuk DPO bukan yang paling kreatif. Tapi yang tidak mengarang
+             pasal."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty20-stabilo). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY20_S1, TY20_S2, TY20_S3, TY20_S4, TY20_S5 (atau satu file utuh TY20 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "AI terbaik untuk DPO bukan yang paling kreatif."
+      Layar: Gelembung tanya: "Batas pemberitahuan kebocoran data berapa lama?" → jawaban AI "kreatif":
+             "Kira-kira seminggu, mungkin?" dicoret merah, stempel MENGARANG.
+[S2]  VO: "Tapi yang tidak mengarang pasal."
+      Layar: Jawaban Priva masuk: "Paling lambat 3×24 jam — UU PDP Pasal 46 ayat (1)", lencana "dari knowledge
+             base".
+[S3]  VO: "Bunyi pasalnya disorot langsung dari knowledge base regulasi: paling lambat tiga kali dua puluh empat jam, secara tertulis, kepada subjek data dan lembaga."
+      Layar: Kertas UU PDP Pasal 46 ayat (1). Stabilo kuning menyapu "paling lambat 3 x 24 jam", "secara
+             tertulis", "Subjek Data Pribadi dan lembaga" tepat saat diucapkan.
+[S4]  VO: "Hasil telaahnya bisa disunting konsultan sebelum dipakai."
+      Layar: Kartu temuan telaah per bab dengan ikon pensil; kursor teks berkedip di kolom rekomendasi.
+[S5]  VO: "Priva, asisten AI di Privasimu Nexus. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "AI yang mengutip, bukan mengarang.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Telaah Kebijakan: bunyi pasal diambil dari knowledge base regulasi, bukan ditulis AI; hasil telaah dapat
+  disunting konsultan; telaah per bab dengan temuan & rekomendasi (fakta_produk.json: policy-review). Priva
+  menjawab berdasarkan knowledge base platform (ppdp).
+- Kutipan di layar: UU PDP (UU 27/2022) Pasal 46 ayat (1) — pemberitahuan tertulis paling lambat 3 x 24 jam
+  kepada Subjek Data Pribadi dan lembaga. CEK ULANG bunyi pasal persis sebelum tayang.
+- Jawaban "kira-kira seminggu" = contoh jawaban keliru (ilustrasi), bukan keluaran produk mana pun.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

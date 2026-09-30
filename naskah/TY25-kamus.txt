@@ -1,0 +1,44 @@
+NASKAH TY25 — "DPO (N.)" · GAYA: ENTRI KAMUS
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Entri kamus — halaman kamus krem berhuruf serif: kata kepala DPO, cara baca, kelas kata, arti 1–3
+             yang makin jujur, gambar ilustrasi = layar Priva asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : DPO/PPDP dan rekan kerjanya
+Hook       : relate — "DPO (n.): orang yang ditanya semua hal tentang data, termasuk yang bukan urusannya."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty25-kamus). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY25_S1, TY25_S2, TY25_S3, TY25_S4 (atau satu file utuh TY25 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Dibaca seperti pembaca kamus: datar, jelas, sedikit jenaka di arti 1 dan 2.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "DPO. Kata benda. Satu: orang yang ditanya semua hal tentang data, termasuk yang bukan urusannya."
+      Layar: Halaman kamus: DPO /de·pe·o/ n. — arti 1 sudah terlihat redup sejak frame pertama dan menyala per
+             kata.
+[S2]  VO: "Dua: orang yang membuka enam spreadsheet dulu sebelum menjawab: sebentar, saya cek."
+      Layar: Arti 2 muncul per kata; catatan kecil "*angka ilustrasi".
+[S3]  VO: "Tiga: dengan Privasimu Nexus, orang dengan satu dasbor kepatuhan, antrean kerja, dan asisten AI bernama Priva."
+      Layar: Arti 3 muncul; gambar ilustrasi kamus: layar AI Agent asli dengan keterangan "Gambar 1. Priva".
+[S4]  VO: "Lihat juga: privasimu dot com. Cek kesiapanmu, gratis."
+      Layar: Baris "Lihat juga" → kartu penutup bergaya kamus: logo, "Lihat juga: privasimu.com", kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dukungan PPDP: dasbor kepatuhan lintas modul, antrean pekerjaan, asisten AI Priva yang menjawab berdasarkan
+  knowledge base platform (fakta_produk.json: ppdp).
+- "Enam spreadsheet" = angka ilustrasi (diberi label). Layar yang tampil = AI Agent asli
+  (assets/app/ai-agent-home.png).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

@@ -1,0 +1,49 @@
+NASKAH GB03 — "TIGA BENTUK" · GAYA: FLAT GEOMETRIC (BAUHAUS)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Flat geometric (Bauhaus) — kanvas krem bergaris grid tipis; lingkaran merah, persegi biru, segitiga
+             kuning + garis hitam tebal; masuk mekanis (menggelinding/geser/putar) tepat di beat; fase kacau:
+             salinan bentuk memantul saling tumpang; fase poster: bentuk mengunci ke komposisi Bauhaus berlabel
+             RoPA · DPIA · DSR + tulisan vertikal PRIVASIMU NEXUS
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Semua urusan data pribadi bisa digambar dengan tiga bentuk."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb03-bauhaus). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB03_S1, GB03_S2, GB03_S3, GB03_S4 (atau satu file utuh GB03 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Semua urusan data pribadi bisa digambar dengan tiga bentuk. Orang. Sistem. Risiko."
+      Layar: Grid krem; lingkaran merah menggelinding masuk (ORANG), persegi biru meluncur (SISTEM), segitiga
+             kuning berputar masuk (RISIKO) — masing-masing tepat saat disebut.
+[S2]  VO: "Orang masuk ke sistem. Sistem menyimpan. Risiko muncul di antaranya. Tanpa pola, semuanya bertabrakan."
+      Layar: Bentuk berlipat ganda dan memantul saling tumpang tindih (gerak deterministik), garis hitam
+             tercerai-berai; tanda tanya hitam besar berdenyut di tengah.
+[S3]  VO: "Di Privasimu Nexus, tiga bentuk itu tersusun: RoPA mencatat orang dan sistem, DPIA menilai risiko, DSR menjawab orang. Satu alur."
+      Layar: Semua bentuk mengunci ke poster Bauhaus: baris RoPA (lingkaran → persegi), baris DPIA (segitiga +
+             bar hitam), baris DSR (persegi → lingkaran, tag 72 jam); tulisan vertikal PRIVASIMU NEXUS; salinan
+             kacau lenyap.
+[S4]  VO: "Tiga bentuk, satu alur. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Tiga bentuk, satu alur.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json, kunci platform): modul saling terhubung — RoPA, DPIA, DSR, Consent,
+  insiden, pihak ketiga, transfer lintas negara.
+- RoPA mencatat kegiatan pemrosesan (orang ↔ sistem); DPIA menilai risiko (matriks 5×5, register risiko); DSR
+  menjawab permohonan subjek data dengan tenggat otomatis 72 jam.
+- Tanpa angka pelanggan; simbol bentuk = metafora.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

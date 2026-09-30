@@ -1,0 +1,24 @@
+/* TY32 · HURUF JATUH — kertas krem, paragraf legal Newsreader hitam, daftar temuan Inter merah/hitam */
+body { background: #F4EFE6; color: #1C1914; }
+#stage { background: #F4EFE6; }
+#vignette { opacity: .2; }
+#grain { opacity: .06; }
+.hj-hal { position: absolute; left: 50%; top: 90px; width: 1360px; translate: -50% 0; }
+.v .hj-hal { top: 260px; width: 940px; }
+.hj-kop { font: 700 22px/1 'Inter', sans-serif; letter-spacing: .26em; color: #8A7F6A; margin-bottom: 26px; display: flex; justify-content: space-between; }
+.hj-kop i { font-style: normal; letter-spacing: .05em; font-weight: 500; }
+.hj-p { position: relative; margin: 0; font: 400 34px/1.55 'Newsreader', serif; text-align: justify; color: #1C1914; letter-spacing: .005em; }
+.v .hj-p { font-size: 33px; line-height: 1.5; }
+.hj-h { display: inline-block; transform-origin: 50% 60%; will-change: transform; }
+.hj-temuan { position: absolute; left: 50%; top: 110px; width: 1200px; translate: -50% 0; opacity: 0; }
+.v .hj-temuan { top: 300px; width: 940px; }
+.hj-t { position: relative; white-space: nowrap; font: 700 40px/1.35 'Inter', sans-serif; color: #1C1914; padding: 6px 0; }
+.hj-t.k { font-size: 54px; font-weight: 800; letter-spacing: .12em; color: #B4261E; padding-bottom: 18px; }
+.hj-t.c { font-size: 24px; font-weight: 500; color: #8A7F6A; padding-top: 14px; }
+.v .hj-t { font-size: 34px; } .v .hj-t.k { font-size: 46px; } .v .hj-t.c { font-size: 22px; white-space: normal; }
+.hj-teks { position: absolute; left: 160px; right: 160px; top: 725px; text-align: center; font: 700 46px/1.2 'Inter', sans-serif; color: #1C1914; }
+.v .hj-teks { left: 60px; right: 60px; top: 1290px; font-size: 48px; }
+.hj-teks em { font-style: normal; color: #B4261E; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Newsreader', serif; --pd-acc: #B4261E; --pd-btn: #1C1914; --pd-btn-ink: #F4EFE6; --pd-tirai: rgba(244,239,230,.97); --pd-ink: #1C1914; --pd-mute: rgba(28,25,20,.62); --pd-logo: brightness(0); }
+.pd-tag { font-weight: 600; }

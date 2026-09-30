@@ -1,0 +1,22 @@
+/* TY44 · PAPAN HURUF — dinding kayu hangat, papan kain hitam beralur berbingkai kayu terang, huruf plastik putih */
+body { background: #3A2C22; color: #fff; }
+#stage { background: #3A2C22; }
+#vignette { opacity: .5; }
+#grain { opacity: .08; }
+.lb-papan { position: absolute; left: 50%; top: 130px; width: 1480px; translate: -50% 0; padding: 22px; background: linear-gradient(135deg, #D8B98C, #B8925F 55%, #CDA774); border-radius: 10px; box-shadow: 0 30px 70px rgba(0,0,0,.55), inset 0 0 0 4px rgba(0,0,0,.18); }
+.v .lb-papan { top: 280px; width: 1000px; }
+.lb-kain { padding: 36px 30px 40px; background: repeating-linear-gradient(180deg, #202020 0 26px, #151515 26px 30px), #1C1C1C; box-shadow: inset 0 0 40px rgba(0,0,0,.8); }
+.lb-row { position: relative; display: flex; justify-content: center; }
+.lb-row.r0 { height: 78px; } .lb-row.r1 { height: 200px; margin: 12px 0 18px; } .lb-row.r2 { height: 92px; }
+.v .lb-row.r0 { height: 66px; } .v .lb-row.r1 { height: 160px; margin: 10px 0 14px; } .v .lb-row.r2 { height: 78px; }
+.lb-set { position: absolute; left: 0; right: 0; top: 0; display: flex; justify-content: center; align-items: center; white-space: nowrap; }
+.lb-h { display: inline-block; opacity: 0; color: #F4F1EA; transform-origin: 50% 60%; text-shadow: 0 2px 0 #B9B4A8, 0 4px 0 #8E897E, 0 8px 10px rgba(0,0,0,.6); }
+.lb-h.sp { width: .32em; opacity: 0; }
+.lb-row.r0 .lb-h { font: 500 50px/78px 'Oswald', sans-serif; letter-spacing: .06em; padding: 0 3px; }
+.lb-row.r1 .lb-h { font: 400 176px/200px 'Anton', sans-serif; letter-spacing: .02em; padding: 0 5px; }
+.lb-row.r2 .lb-h { font: 700 58px/92px 'Oswald', sans-serif; letter-spacing: .05em; padding: 0 3px; color: #FFD166; text-shadow: 0 2px 0 #B98F2C, 0 4px 0 #8A6A1E, 0 8px 10px rgba(0,0,0,.6); }
+.v .lb-row.r0 .lb-h { font-size: 42px; line-height: 66px; }
+.v .lb-row.r1 .lb-h { font-size: 136px; line-height: 160px; padding: 0 4px; }
+.v .lb-row.r2 .lb-h { font-size: 44px; line-height: 78px; padding: 0 2px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Oswald', sans-serif; --pd-head: 'Anton', sans-serif; --pd-acc: #FFD166; --pd-btn: #F4F1EA; --pd-btn-ink: #1C1C1C; --pd-tirai: rgba(28,28,28,.97); }

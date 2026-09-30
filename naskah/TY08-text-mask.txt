@@ -1,0 +1,46 @@
+NASKAH TY08 — "ADA APA DI DALAM EMPAT HURUF INI?" · GAYA: TEXT MASK (LAYAR DI DALAM HURUF)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Text mask (layar di dalam huruf) — singkatan raksasa di atas navy gelap; isi hurufnya adalah layar
+             aplikasi asli; kamera masuk ke satu huruf sampai jadi layar penuh
+Durasi     : ± 22 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "RoPA. Empat huruf. Isinya: semua yang kantormu lakukan terhadap data pribadi."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty08-text-mask). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY08_S1, TY08_S2, TY08_S3, TY08_S4 (atau satu file utuh TY08 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Singkatan dibaca seperti biasa diucapkan: "ropa", "de-pe-i-a", "de-es-er".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "RoPA. Empat huruf. Isinya: semua yang kantormu lakukan terhadap data pribadi."
+      Layar: Kata RoPA raksasa; di dalam hurufnya terlihat register RoPA asli. Di "Isinya" kamera masuk ke huruf
+             R sampai layar penuh.
+[S2]  VO: "de-pe-i-a. Risikonya dinilai dengan satu matriks."
+      Layar: Kata DPIA raksasa berisi layar penilaian risiko asli; kamera masuk ke huruf D.
+[S3]  VO: "de-es-er. Tenggat tujuh puluh dua jam, dihitung otomatis."
+      Layar: Kata DSR raksasa berisi layar detail permohonan asli; kamera masuk ke huruf D. Pil tenggat
+             diperbesar.
+[S4]  VO: "Tiga singkatan, satu platform. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo Privasimu Nexus, "Tiga singkatan, satu platform.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA = catatan kegiatan pemrosesan (UU PDP mewajibkan perekaman kegiatan pemrosesan); di Nexus berupa satu
+  register terpusat dengan kode rekaman otomatis (fakta_produk.json: ropa).
+- DPIA: matriks kemungkinan × dampak 5×5, satu matriks yang sama untuk semua penilai (fakta_produk.json: dpia).
+- DSR: tenggat otomatis 72 jam sejak permohonan dicatat (fakta_produk.json: dsr).
+- Layar yang tampil = layar asli (ropa-list-baru, dpia-risiko, dsr-detail), dipotong tanpa nama organisasi;
+  isinya data demo.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

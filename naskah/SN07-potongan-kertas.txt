@@ -1,0 +1,48 @@
+NASKAH SN07 — "PEMBUKA" · GAYA: TITLE SEQUENCE POTONGAN KERTAS
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Title sequence potongan kertas — lapisan kertas bertepi kasar (krem, jingga bata, biru tua) bergerak
+             paralaks dengan bayangan berlapis; bentuk geometris tajam (segitiga, lingkaran, garis diagonal)
+             bergerak kaku; kartu judul modul "dipotong" & terbuka satu per satu; akhir: lapisan menyatu jadi
+             perisai Privasimu Nexus
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Dipersembahkan oleh: tenggat yang tidak menunggu."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn07-potongan-kertas). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN07_S1, SN07_S2, SN07_S3, SN07_S4 (atau satu file utuh SN07 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Dipersembahkan oleh… tenggat yang tidak menunggu."
+      Layar: Tirai kertas krem terbuka; bentuk geometris (segitiga bata, lingkaran biru) meluncur kaku; kartu
+             kredit "DIPERSEMBAHKAN OLEH" lalu potongan kertas besar "TENGGAT YANG TIDAK MENUNGGU" terbuka
+             miring.
+[S2]  VO: "Menampilkan: RoPA, DPIA, DSR, Consent, Insiden, pihak ketiga, dan transfer lintas negara."
+      Layar: Kredit "MENAMPILKAN"; tujuh kartu judul modul dipotong dari kertas dan terbuka satu per satu di
+             posisi berbeda (paralaks 3 lapisan), palet bata/biru/krem.
+[S3]  VO: "Tujuh potongan, satu lapisan: Privasimu Nexus. Modul saling terhubung, tersedia SaaS maupun on-premise."
+      Layar: Payoff: tujuh kartu meluncur ke tengah dan menumpuk menjadi perisai kertas berlapis; logo Privasimu
+             Nexus muncul di atasnya; garis diagonal kertas menyapu.
+[S4]  VO: "Pembukanya sudah. Sekarang giliranmu. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Pembukanya sudah, sekarang giliranmu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json, kunci platform): platform manajemen privasi untuk UU PDP & PP 33/2026;
+  modul saling terhubung — RoPA, DPIA, DSR, Consent, insiden, pihak ketiga, transfer lintas negara; tersedia
+  SaaS maupun on-premise.
+- Gaya pembuka film era potongan kertas secara umum; tidak meniru judul/film tertentu; tanpa nama orang.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

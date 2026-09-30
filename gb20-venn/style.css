@@ -1,0 +1,30 @@
+/* GB20 · VENN — kertas putih hangat; lingkaran biru/hijau/jingga multiply; label irisan putih; panel antrean navy */
+body { background: #FBF8F2; color: #1B1B1B; }
+#stage { background: #FBF8F2; }
+#vignette { opacity: .18; }
+#grain { opacity: .05; }
+.vn-ling { position: absolute; left: 0; top: 0; border-radius: 50%; mix-blend-mode: multiply; opacity: 0; }
+.vn-nama { position: absolute; left: 0; top: 0; font: 900 44px/1 'Inter', sans-serif; letter-spacing: .06em; opacity: 0; white-space: nowrap; mix-blend-mode: multiply; }
+.v .vn-nama { font-size: 40px; }
+.vn-tengah { position: absolute; left: 0; top: 0; padding: 14px 24px; border-radius: 16px; background: #1B1B1B; color: #fff; text-align: center; opacity: 0; transform-origin: 50% 50%; box-shadow: 0 14px 30px rgba(0,0,0,.25); }
+.vn-tengah b { display: block; font: 900 34px/1 'Inter', sans-serif; letter-spacing: .1em; }
+.vn-tengah span { display: block; margin-top: 4px; font: 700 20px/1 'Inter', sans-serif; letter-spacing: .3em; color: #FFD166; }
+.vn-tengah.terjepit { background: #C8102E; }
+.vn-tugas { position: absolute; left: 0; top: 0; padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,.92); color: #1B1B1B; font: 700 22px/1 'Inter', sans-serif; white-space: nowrap; box-shadow: 0 8px 20px rgba(0,0,0,.18); opacity: 0; transform-origin: 50% 50%; }
+.v .vn-tugas { font-size: 20px; }
+.vn-hitung { position: absolute; left: 0; top: 0; display: flex; align-items: baseline; gap: 10px; opacity: 0; white-space: nowrap; }
+.vn-hitung b { font: 900 64px/1 'Inter', sans-serif; color: #C8102E; }
+.vn-hitung span { font: 700 22px/1 'Inter', sans-serif; color: #1B1B1B; }
+.vn-antrean { position: absolute; left: 50%; top: 340px; width: 620px; margin-left: -900px; padding: 22px 26px; border-radius: 20px; background: #fff; color: #0B1B4D; opacity: 0; box-shadow: 0 20px 50px rgba(11,27,77,.25); }
+.v .vn-antrean { margin-left: -350px; width: 700px; top: 560px; }
+.ah { display: flex; justify-content: space-between; align-items: baseline; font: 900 22px/1 'Inter', sans-serif; letter-spacing: .2em; color: #F2892A; padding-bottom: 12px; border-bottom: 1px solid rgba(11,27,77,.15); }
+.ah i { font: 500 14px/1 'Inter', sans-serif; letter-spacing: 0; color: rgba(11,27,77,.55); font-style: normal; }
+.ai { display: flex; align-items: center; gap: 12px; padding: 12px 0; font: 600 22px/1.2 'Inter', sans-serif; opacity: .35; }
+.ai.on { opacity: 1; }
+.ai em { width: 14px; height: 14px; border-radius: 50%; background: #F2892A; flex: 0 0 auto; }
+.vn-satu { position: absolute; left: 0; top: 0; text-align: center; color: #fff; opacity: 0; transform-origin: 50% 50%; white-space: nowrap; }
+.vn-satu b { display: block; font: 900 40px/1 'Inter', sans-serif; letter-spacing: .12em; }
+.vn-satu span { display: block; margin-top: 8px; font: 700 22px/1 'Inter', sans-serif; letter-spacing: .3em; color: #FFD166; }
+.v .vn-satu b { font-size: 34px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #F2892A; --pd-btn: #0B1B4D; --pd-btn-ink: #fff; --pd-tirai: rgba(251,248,242,.97); --pd-ink: #1B1B1B; --pd-mute: rgba(27,27,27,.62); --pd-logo: brightness(0); }

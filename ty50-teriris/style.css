@@ -1,0 +1,19 @@
+/* TY50 · TEKS TERIRIS — latar arang bergaris, kalimat putih Archivo Black, label divisi Space Grotesk, aksen kuning */
+body { background: #0E1116; color: #fff; }
+#stage { background: #0E1116; }
+#vignette { opacity: .45; }
+#grain { opacity: .07; }
+.sl-blok { position: absolute; left: 50%; top: 50%; width: 1560px; translate: -50% -50%; opacity: 0; transform-origin: 50% 50%; margin-top: -60px; }
+.v .sl-blok { width: 760px; margin-top: -120px; }
+.sl-irisan { position: absolute; left: 0; top: 0; width: 100%; }
+.sl-irisan:first-child { position: relative; }
+.sl-teks { font: 400 128px/1.08 'Archivo Black', sans-serif; text-align: center; letter-spacing: -.01em; color: #F3F4F6; white-space: nowrap; }
+.v .sl-teks { font-size: 128px; line-height: 1.08; }
+.sl-blok.utuh .sl-teks { color: #fff; text-shadow: 0 0 40px rgba(255,209,102,.35); }
+.sl-tag { position: absolute; left: -150px; translate: 0 -50%; padding: 6px 14px; border-radius: 8px; font: 700 32px/1 'Space Grotesk', sans-serif; letter-spacing: .1em; color: #FFD166; border: 2px solid rgba(255,209,102,.6); background: rgba(14,17,22,.9); opacity: 0; }
+.v .sl-tag { left: -130px; font-size: 22px; padding: 5px 9px; letter-spacing: .04em; }
+.sl-pil { position: absolute; left: 50%; top: 790px; translate: -50% 0; display: flex; gap: 18px; white-space: nowrap; }
+.v .sl-pil { top: 1320px; gap: 14px; }
+.sl-pil span { display: inline-block; padding: 14px 30px; border-radius: 999px; background: #FFD166; color: #111; font: 700 36px/1 'Space Grotesk', sans-serif; opacity: 0; transform-origin: 50% 50%; }
+.v .sl-pil span { padding: 12px 22px; font-size: 30px; }
+.pd-cta { --pd-font: 'Space Grotesk', sans-serif; --pd-head: 'Archivo Black', sans-serif; --pd-acc: #FFD166; --pd-btn: #FFD166; --pd-btn-ink: #111; --pd-tirai: rgba(14,17,22,.97); }

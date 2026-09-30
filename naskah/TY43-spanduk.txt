@@ -1,0 +1,45 @@
+NASKAH TY43 — "WARUNG KEPATUHAN" · GAYA: SPANDUK WARUNG TENDA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Spanduk warung tenda — spanduk vinil kuning-merah berhuruf Lilita One bergradasi dengan garis tepi
+             ganda, bergelombang seperti kain; papan menu modul; lencana BUKA 24 JAM
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Kalau urusan data pribadi buka warung tenda: SEDIA RoPA, DPIA, DSR. Buka 24 jam."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty43-spanduk). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY43_S1, TY43_S2, TY43_S3, TY43_S4 (atau satu file utuh TY43 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kalau urusan data pribadi buka warung tenda…"
+      Layar: Spanduk vinil terbentang dari atas: WARUNG KEPATUHAN (huruf bergradasi, outline ganda), kain
+             bergelombang.
+[S2]  VO: "Sedia: RoPA, DPIA, DSR, Consent, Insiden, pihak ketiga, transfer. Buka dua puluh empat jam."
+      Layar: Papan menu: SEDIA → RoPA · DPIA · DSR · Consent · Insiden · Pihak Ketiga · Transfer muncul
+             satu-satu; lencana BUKA 24 JAM berputar masuk.
+[S3]  VO: "Bisa dibungkus: ekspor laporan kepatuhan, satu klik."
+      Layar: Label "BISA DIBUNGKUS" + tombol Export Compliance Report asli membesar dan diklik.
+[S4]  VO: "Mampir dulu. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup bergaya spanduk: logo, "Mampir dulu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- "Menu" = modul nyata Privasimu Nexus: RoPA, DPIA, DSR, Consent, Insiden, Pihak Ketiga, Transfer
+  (fakta_produk.json: platform). "Bisa dibungkus" = tombol Export Compliance Report di dasbor asli
+  (assets/app/dashboard.png).
+- "Buka 24 jam" = gaya spanduk warung (SaaS dapat diakses kapan saja), bukan klaim layanan dukungan 24 jam.
+- Gaya huruf umum; tidak meniru spanduk warung tertentu. "Cek kesiapan gratis" = Start Pre Check: pastikan
+  penawaran masih berlaku.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

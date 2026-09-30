@@ -1,0 +1,44 @@
+NASKAH TY42 — "RAMBU-RAMBU DATA PRIBADI" · GAYA: RAMBU & MARKA JALAN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Rambu & marka jalan — jalan aspal berperspektif dengan marka putus-putus yang bergerak; rambu bulat,
+             segitiga, persegi berdatangan membesar; papan petunjuk hijau berisi modul
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Kalau kewajiban data pribadi dipasang seperti rambu jalan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty42-rambu). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY42_S1, TY42_S2, TY42_S3, TY42_S4 (atau satu file utuh TY42 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kalau kewajiban data pribadi dipasang seperti rambu jalan…"
+      Layar: Jalan bergerak; rambu pertama muncul dari kejauhan: bulat biru "WAJIB CATAT" (RoPA), membesar lalu
+             lewat.
+[S2]  VO: "Wajib catat pemrosesan. Hati-hati, data spesifik. Lapor insiden, tiga kali dua puluh empat jam."
+      Layar: Rambu-rambu berdatangan tepat saat disebut: segitiga kuning "HATI-HATI DATA SPESIFIK", persegi merah
+             "LAPOR 3×24 JAM".
+[S3]  VO: "Di Privasimu Nexus, semua rambu itu ada di satu peta: RoPA, DPIA, DSR, Consent, Insiden."
+      Layar: Papan petunjuk hijau besar berhenti di depan: PRIVASIMU NEXUS → RoPA · DPIA · DSR · Consent ·
+             Insiden (panah).
+[S4]  VO: "Jalan yang aman, dengan rambu yang jelas. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Rambu yang jelas, jalan yang aman.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Rambu = kewajiban yang ditangani modul Nexus: catat pemrosesan (RoPA), data spesifik menandai risiko tinggi &
+  DPIA (ropa/dpia), pemberitahuan insiden 3×24 jam (breach; UU PDP Pasal 46) — fakta_produk.json.
+- Bentuk rambu generik; tanpa lambang instansi atau rambu resmi tertentu.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

@@ -1,0 +1,32 @@
+/* TY55 · TABEL PERIODIK — papan biru gelap bergaris halus; kotak unsur berwarna per golongan (warna sendiri), lambang Space Grotesk */
+body { background: #0F172A; color: #fff; }
+#stage { background: #0F172A; }
+#vignette { opacity: .45; }
+#grain { opacity: .06; }
+.tp-sel { position: absolute; left: 0; top: 0; border-radius: 14px; box-sizing: border-box; padding: 10px 12px; display: flex; flex-direction: column; justify-content: space-between; opacity: 0; transform-origin: 50% 50%; color: #0F172A; box-shadow: 0 14px 30px rgba(0,0,0,.45), inset 0 0 0 3px rgba(255,255,255,.35); font-family: 'Space Grotesk', sans-serif; }
+.tp-sel i { font: 500 18px/1 'Inter', sans-serif; font-style: normal; opacity: .75; }
+.tp-sel b { font: 700 64px/1 'Space Grotesk', sans-serif; letter-spacing: -.02em; }
+.v .tp-sel b { font-size: 50px; }
+.tp-sel span { font: 500 15px/1.1 'Inter', sans-serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.v .tp-sel span { font-size: 13px; }
+.v .tp-sel { padding: 8px 9px; border-radius: 10px; }
+.g-catatan { background: #7DD3FC; } .g-nilai { background: #C4B5FD; } .g-hak { background: #86EFAC; } .g-insiden { background: #FCA5A5; } .g-pihak { background: #FDBA74; } .g-kelola { background: #5EEAD4; }
+.tp-sel.nyala { box-shadow: 0 0 0 4px #fff, 0 0 40px rgba(255,255,255,.7), 0 14px 30px rgba(0,0,0,.45); }
+.tp-sel.merah { box-shadow: 0 0 0 4px #FF3B3B, 0 0 46px rgba(255,59,59,.85), 0 14px 30px rgba(0,0,0,.45); }
+.tp-tag { position: absolute; left: 0; top: 0; padding: 8px 14px; border-radius: 999px; font: 700 22px/1 'Inter', sans-serif; white-space: nowrap; opacity: 0; transform-origin: 0 50%; box-shadow: 0 8px 20px rgba(0,0,0,.4); }
+.v .tp-tag { font-size: 20px; padding: 7px 12px; }
+.tp-tag.merah { background: #FF3B3B; color: #fff; }
+.tp-tag.ungu { background: #C4B5FD; color: #1E1B4B; }
+.tp-panah { position: absolute; left: 0; top: 0; width: 200px; opacity: 0; transform-origin: 50% 50%; }
+.tp-panah path { fill: none; stroke: #fff; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; filter: drop-shadow(0 0 8px rgba(255,255,255,.7)); }
+.tp-titik { position: absolute; left: 0; top: 0; font: 700 64px/1 'Space Grotesk', sans-serif; color: #fff; opacity: 0; }
+.tp-nexus { position: absolute; left: 0; top: 0; display: flex; align-items: center; gap: 24px; opacity: 0; transform-origin: 50% 50%; }
+.tp-nexus span { font: 700 80px/1 'Space Grotesk', sans-serif; color: #FFD166; }
+.tp-nexus .nx { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 18px 34px; border-radius: 20px; background: #0B1B4D; box-shadow: 0 0 0 4px #FFD166, 0 0 50px rgba(255,209,102,.6); }
+.tp-nexus img { width: 260px; }
+.v .tp-nexus img { width: 220px; }
+.tp-nexus em { font: 700 18px/1 'Inter', sans-serif; letter-spacing: .5em; color: #FFD166; font-style: normal; }
+.tp-teks { position: absolute; left: 160px; right: 160px; top: 80px; text-align: center; font: 700 50px/1.2 'Inter', sans-serif; color: #F1F5F9; }
+.v .tp-teks { left: 60px; right: 60px; top: 300px; font-size: 50px; }
+.tp-teks em { font-style: normal; color: #FFD166; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Space Grotesk', sans-serif; --pd-acc: #FFD166; --pd-btn: #7DD3FC; --pd-btn-ink: #0F172A; --pd-tirai: rgba(15,23,42,.97); }

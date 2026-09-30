@@ -1,0 +1,33 @@
+/* SN07 · POTONGAN KERTAS — palet 3 warna: krem #F1E4C8, jingga bata #C8502A, biru tua #1F2A6B; kertas bertepi kasar, bayangan berlapis, huruf Fraunces miring tebal */
+body { background: #F1E4C8; color: #1F2A6B; }
+#stage { background: #F1E4C8; }
+#vignette { opacity: .3; }
+#grain { opacity: .08; }
+.pk-lapisan { position: absolute; inset: -80px; }
+.pk-bentuk { position: absolute; filter: drop-shadow(0 18px 18px rgba(60,30,0,.28)); }
+.pk-bentuk.bata { background: #C8502A; } .pk-bentuk.biru { background: #1F2A6B; } .pk-bentuk.krem { background: #E6D3AA; }
+.pk-bentuk.garis { height: 70px !important; transform: rotate(-18deg); }
+.pk-tirai { position: absolute; top: -40px; bottom: -40px; width: 62%; background: #C8502A; filter: drop-shadow(0 0 30px rgba(0,0,0,.35)); z-index: 30; }
+.pk-tirai.t0 { left: -6%; } .pk-tirai.t1 { right: -6%; }
+.pk-kredit { position: absolute; left: 50%; top: 50%; padding: 26px 60px; background: #1F2A6B; color: #F1E4C8; font: 900 54px/1.1 'Fraunces', serif; font-style: italic; letter-spacing: .04em; white-space: nowrap; opacity: 0; filter: drop-shadow(0 20px 24px rgba(60,30,0,.35)); --buka: 100%; }
+.pk-kredit span { display: block; clip-path: inset(0 var(--buka) 0 0); }
+.pk-kredit.k0 { top: 300px; font-size: 40px; background: #E6D3AA; color: #1F2A6B; font-style: normal; letter-spacing: .3em; padding: 18px 40px; }
+.pk-kredit.k1 { top: 520px; font-size: 76px; background: #C8502A; padding: 30px 60px; }
+.pk-kredit.k2 { top: 130px; font-size: 40px; background: #E6D3AA; color: #1F2A6B; font-style: normal; letter-spacing: .3em; padding: 18px 40px; }
+.v .pk-kredit.k0 { top: 520px; font-size: 34px; } .v .pk-kredit.k1 { top: 800px; font-size: 54px; padding: 26px 40px; white-space: normal; text-align: center; width: 860px; box-sizing: border-box; } .v .pk-kredit.k2 { top: 300px; font-size: 34px; }
+.pk-modul { position: absolute; left: 0; top: 0; padding: 22px 46px; background: #E6D3AA; color: #1F2A6B; font: 900 66px/1 'Fraunces', serif; font-style: italic; white-space: nowrap; opacity: 0; filter: drop-shadow(0 16px 20px rgba(60,30,0,.32)); }
+.pk-modul.m1, .pk-modul.m4 { background: #C8502A; color: #F1E4C8; }
+.pk-modul.m2, .pk-modul.m5 { background: #1F2A6B; color: #F1E4C8; }
+.v .pk-modul { font-size: 58px; padding: 18px 36px; }
+.pk-perisai { position: absolute; left: 0; top: 0; width: 460px; height: 552px; opacity: 0; filter: drop-shadow(0 30px 40px rgba(60,30,0,.4)); }
+.v .pk-perisai { width: 520px; height: 624px; }
+.pk-perisai svg { width: 100%; height: 100%; }
+.pk-perisai .p0 { fill: #1F2A6B; } .pk-perisai .p1 { fill: #C8502A; } .pk-perisai .p2 { fill: #E6D3AA; }
+.pk-logo { position: absolute; left: 0; top: 0; opacity: 0; text-align: center; z-index: 40; }
+.pk-logo img { width: 300px; display: block; filter: drop-shadow(0 8px 14px rgba(0,0,0,.35)); }
+.v .pk-logo img { width: 340px; }
+.pk-logo em { display: block; margin-top: 4px; font: 800 22px/1 'Inter', sans-serif; letter-spacing: .5em; color: #1F2A6B; font-style: normal; }
+.pk-sub { position: absolute; left: 50%; top: 940px; padding: 14px 30px; background: #1F2A6B; color: #F1E4C8; font: 700 30px/1 'Inter', sans-serif; letter-spacing: .04em; white-space: nowrap; opacity: 0; z-index: 40; }
+.v .pk-sub { top: 1330px; font-size: 28px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Fraunces', serif; --pd-acc: #C8502A; --pd-btn: #1F2A6B; --pd-btn-ink: #F1E4C8; --pd-tirai: rgba(241,228,200,.97); --pd-ink: #1F2A6B; --pd-mute: rgba(31,42,107,.66); --pd-logo: brightness(0); }
+.pd-tag { font-style: italic; }

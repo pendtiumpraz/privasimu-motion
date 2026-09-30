@@ -1,0 +1,48 @@
+NASKAH TY21 — "LEBIH TUA DARI UNDANG-UNDANGNYA" · GAYA: CORET & TULIS ULANG (KOREKSI EDITOR)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Coret & tulis ulang (koreksi editor) — halaman kebijakan privasi putih bergaya web lama; pena merah
+             melingkari tahun, mencoret frasa usang, menulis pengganti dengan tulisan tangan
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik situs/produk digital, legal, DPO/PPDP
+Hook       : anomali — "Kebijakan privasi di situsmu mungkin lebih tua dari UU PDP."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty21-coret). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY21_S1, TY21_S2, TY21_S3, TY21_S4 (atau satu file utuh TY21 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kebijakan privasi di situsmu, mungkin lebih tua dari undang-undangnya."
+      Layar: Halaman "Kebijakan Privasi · Terakhir diperbarui 12 Maret 2019". Di "lebih tua", pena merah
+             melingkari 2019 dan menulis "UU PDP: 2022!".
+[S2]  VO: "Bab dua: dianggap setuju. Coret. Persetujuan harus eksplisit. Bab lima: hubungi kami via email. Coret. Formulir permohonan, tenggat tujuh puluh dua jam."
+      Layar: Bab 2: frasa "dengan menggunakan situs ini Anda dianggap setuju" dicoret, tulisan tangan
+             "persetujuan eksplisit (UU PDP Ps. 20)". Bab 5: "hubungi kami via email" dicoret → "formulir
+             permohonan · tenggat 72 jam".
+[S3]  VO: "Telaah Kebijakan menandai temuan per bab, dengan rekomendasi dan rujukan pasal dari knowledge base."
+      Layar: Halaman bergeser; kartu Telaah Kebijakan asli (ringkasan portofolio, dinilai terhadap UU PDP & PP
+             33/2026) masuk; cip "temuan per bab", "rekomendasi", "rujukan pasal".
+[S4]  VO: "Perbarui sebelum diperiksa. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Perbarui sebelum diperiksa.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Telaah Kebijakan: telaah per bab dengan temuan dan rekomendasi; bunyi pasal dari knowledge base regulasi;
+  harmonisasi antar dokumen (fakta_produk.json: policy-review). Layar = assets/app/policy-review.png (angka 38%
+  = data demo).
+- UU PDP (UU 27/2022) disahkan Oktober 2022; persetujuan harus eksplisit (Pasal 20 ayat 2); tenggat DSR 72 jam =
+  fitur Nexus (fakta_produk.json: dsr). Cek ulang rujukan pasal sebelum tayang.
+- Kutipan kebijakan lama ("dianggap setuju", "hubungi kami via email") = contoh ilustrasi umum, bukan kutipan
+  situs mana pun.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

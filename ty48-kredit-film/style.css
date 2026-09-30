@@ -1,0 +1,28 @@
+/* TY48 · KREDIT AKHIR FILM — hitam bioskop, huruf putih gading (Cormorant Garamond), judul bagian emas berjarak lebar */
+body { background: #050403; color: #F3EAD8; }
+#stage { background: #050403; }
+#vignette { opacity: .9; }
+#grain { opacity: .11; }
+.kr-hitam { position: absolute; inset: 0; background: transparent; }
+.kr-gulung { position: absolute; left: 0; top: 0; width: 100%; display: flex; flex-direction: column; align-items: center; color: #F3EAD8; }
+.kr-tepi { position: absolute; inset: 0; background: linear-gradient(180deg, #050403 0%, rgba(5,4,3,0) 17%, rgba(5,4,3,0) 80%, #050403 100%); }
+.v .kr-tepi { background: linear-gradient(180deg, #050403 6%, rgba(5,4,3,0) 22%, rgba(5,4,3,0) 70%, #050403 84%); }
+.kr-judul { margin: 96px 0 34px; font: 600 30px/1 'Jost', sans-serif; letter-spacing: .56em; margin-right: -.56em; color: #D9B76A; }
+.v .kr-judul { font-size: 32px; letter-spacing: .44em; margin-top: 110px; }
+.kr-baris { display: flex; align-items: baseline; width: 1500px; padding: 17px 0; font: 600 62px/1.08 'Cormorant Garamond', serif; letter-spacing: .01em; }
+.v .kr-baris { width: 980px; font-size: 47px; padding: 18px 0; }
+.kr-baris .p { flex: 1 1 0; text-align: right; font-weight: 500; font-style: italic; color: rgba(243,234,216,.82); }
+.kr-baris i { flex: 0 0 70px; }
+.v .kr-baris i { flex-basis: 40px; }
+.kr-baris .n { flex: 1 1 0; text-align: left; font-weight: 700; letter-spacing: .04em; }
+.v .kr-baris .p { flex: 1.22 1 0; }
+.v .kr-baris .n { flex: 1 1 0; }
+.kr-satu { padding: 14px 0; font: italic 500 58px/1.1 'Cormorant Garamond', serif; color: rgba(243,234,216,.82); }
+.kr-logo { margin: 8px 0 30px; display: flex; flex-direction: column; align-items: center; }
+.kr-logo img { width: 620px; display: block; }
+.v .kr-logo img { width: 640px; }
+.kr-logo span { margin-top: 14px; font: 600 30px/1 'Jost', sans-serif; letter-spacing: .6em; margin-right: -.6em; color: #D9B76A; }
+.pd-cta { --pd-font: 'Jost', sans-serif; --pd-head: 'Cormorant Garamond', serif; --pd-ink: #F3EAD8; --pd-mute: rgba(243,234,216,.62); --pd-acc: #D9B76A; --pd-btn: #F3EAD8; --pd-btn-ink: #0A0806; }
+.pd-tag { font-weight: 600; font-size: 84px; letter-spacing: 0; }
+.v .pd-tag { font-size: 88px; }
+.pd-tag em { font-style: italic; }

@@ -1,0 +1,48 @@
+NASKAH TY56 — "HALAMAN 482" · GAYA: DAFTAR ISI BERTITIK
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Daftar isi bertitik — halaman putih bergaya buku (serif) berjudul DAFTAR ISI; tiap bab muncul dengan
+             titik penuntun yang tumbuh dan nomor halaman yang menghitung naik; penanda merah di bab 1; halaman
+             terlipat lalu kartu dasbor asli muncul
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Bab 1 … hlm. 3. Bab 12 … hlm. 482*. Direksi berhenti di hlm. 2."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty56-daftar-isi). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY56_S1, TY56_S2, TY56_S3, TY56_S4 (atau satu file utuh TY56 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. dashboard-postur
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Bab satu… halaman tiga. Bab dua belas… halaman empat ratus delapan puluh dua. Direksi berhenti di halaman dua."
+      Layar: Halaman DAFTAR ISI: "Bab 1 Pendahuluan ……… 3" muncul; bab 2–11 menyusul cepat; "Bab 12 Lampiran ………
+             482*"; penanda merah "direksi berhenti di sini" di bab 1.
+[S2]  VO: "Laporan kepatuhan memang harus lengkap. Tapi yang dibaca direksi: skor, tren, dan status."
+      Layar: Halaman bergulir pelan; tiga bab yang relevan (RoPA, DPIA, Insiden) disorot saat "skor, tren,
+             status".
+[S3]  VO: "Privasimu Nexus melipatnya jadi satu layar: postur kepatuhan, tren per modul, skor GAP."
+      Layar: Halaman terlipat ke belakang; kartu asli "Postur Kepatuhan" (tren bulanan + Compliance Score 81%)
+             naik menggantikannya.
+[S4]  VO: "Daftar isi boleh panjang, ringkasannya satu layar. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Daftar isi boleh panjang, ringkasannya satu layar.", tombol privasimu.com,
+             kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Postur Kepatuhan = tangkapan asli assets/app/dashboard-postur.png (tren bulanan per modul + Compliance Score
+  81%).
+- Dukungan PPDP (fakta_produk.json): dasbor kepatuhan lintas modul.
+- Nomor halaman & "482 halaman" = ilustrasi (ditandai *ilustrasi di halaman).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

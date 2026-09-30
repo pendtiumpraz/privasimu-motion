@@ -1,0 +1,44 @@
+NASKAH TY49 — "KATA PALING SERING TAHUN INI" · GAYA: AWAN KATA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Awan kata — latar krem; awan kata warna-warni (Inter tebal) tumbuh satu per satu dari pusat spiral,
+             "revisi" terbesar dan berdenyut; kata baru "tercatat" biru menyala di tengah sementara awan lama
+             meredup; logo Nexus kecil
+Durasi     : ± 25 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Kata yang paling sering diucapkan DPO tahun ini: 'revisi'."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty49-awan-kata). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY49_S1, TY49_S2, TY49_S3, TY49_S4 (atau satu file utuh TY49 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kata yang paling sering diucapkan DPO tahun ini: "revisi"."
+      Layar: Awan kata tumbuh cepat dari pusat (rapat, form, tenggat, draf, kopi…); pada "revisi" kata REVISI
+             raksasa muncul di tengah dan berdenyut.
+[S2]  VO: "Disusul: rapat, form, tenggat, "sebentar", dan "final" yang tidak pernah final."
+      Layar: Kata yang disebut menyala bergantian; "FINAL" bergetar; label kecil "*frekuensi ilustrasi".
+[S3]  VO: "Tahun depan, kata paling seringnya bisa berbeda: "tercatat". Di Privasimu Nexus, semuanya tercatat."
+      Layar: Awan lama meredup & mengecil; kata baru "TERCATAT" biru menyala membesar di tengah dengan logo Nexus
+             kecil di bawahnya.
+[S4]  VO: "Ganti kata paling seringmu. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Ganti kata paling seringmu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Privasimu Nexus (fakta_produk.json): RoPA/DPIA/DSR/Consent/Insiden tercatat dengan kode otomatis, riwayat
+  perubahan, dan log audit — "tercatat" sebagai kata kunci brand.
+- Frekuensi kata & daftar kata = ilustrasi (ditandai *ilustrasi); tanpa nama orang/merek.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

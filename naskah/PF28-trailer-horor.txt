@@ -1,0 +1,50 @@
+NASKAH PF28 — "JANGAN BUKA FILE ITU" · GAYA: TRAILER HOROR
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Trailer horor — layar hitam bervinyet pekat; kartu teks trailer serif tinggi (Cinzel) yang memudar
+             masuk & berkedip kilat; meja kerja gelap disapu senter (radial gradient bergerak): ikon file
+             RoPA_FINAL_final_v7.xlsx, tab beranak-pinak, jam 03:00, notifikasi; teks bergetar saat dentuman;
+             lampu menyala jadi terang biru muda
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 20% edukasi · 80% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : reverse psychology — "Jangan buka file itu."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf28-trailer-horor). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF28_S1, PF28_S2, PF28_S3, PF28_S4 (atau satu file utuh PF28 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Di sebuah kantor, seseorang membuka file itu."
+      Layar: Hitam; kartu "DI SEBUAH KANTOR…" memudar masuk & berkedip; senter menyapu meja gelap dan berhenti di
+             ikon file "RoPA_FINAL_final_v7.xlsx"; DENTUM.
+[S2]  VO: "Musim ini: RoPA yang tak pernah final. Empat belas tab, jam tiga pagi, audit besok."
+      Layar: Kartu "MUSIM INI" → "RoPA YANG TAK PERNAH FINAL"; jendela spreadsheet terbuka: tab beranak-pinak
+             sampai 14 (Sheet1 (2), rev_final, FIX…); jam 03:00 merah; notifikasi "Audit besok" menghantam; teks
+             bergetar.
+[S3]  VO: "Kecuali, lampunya dinyalakan. Privasimu Nexus: unggah dokumen lama, AI membantu mengisi RoPA. Kode otomatis, alur persetujuan."
+      Layar: Kartu "KECUALI…"; pada "dinyalakan" layar jadi terang biru muda; nama file dicoret →
+             ROPA-IT-2026-002; kartu register RoPA asli masuk; label "Impor Dokumen · AI membantu mengisi".
+[S4]  VO: "Akhiri sekuelnya. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Akhiri sekuelnya. Impor, lalu final.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): pengisian otomatis berbantuan AI berdasarkan nama kegiatan; kode rekaman otomatis
+  ROPA-TAHUN-NOMOR; alur Maker, Reviewer, Approver dengan riwayat perubahan (tidak ada lagi "final_final_v7").
+- Menu "Impor Dokumen" tampak di sidebar tangkapan asli assets/app/ropa-list-baru.png; register RoPA (5 rekaman,
+  kode ROPA-IT-2026-002 dst.) = tangkapan asli, crop tanpa nama organisasi.
+- "14 tab", "03:00", "audit besok" = lelucon trailer (ilustrasi).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

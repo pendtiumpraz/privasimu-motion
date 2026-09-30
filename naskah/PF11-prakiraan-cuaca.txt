@@ -1,0 +1,46 @@
+NASKAH PF11 — "PRAKIRAAN KEPATUHAN" · GAYA: PRAKIRAAN CUACA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Prakiraan cuaca — grafis TV cuaca biru: peta wilayah berbentuk blob berlabel divisi (Legal, IT,
+             Marketing, HR, Finance, CS), ikon matahari/awan/petir/hujan/angin bergerak, lower-third "PRAKIRAAN
+             KEPATUHAN · HARI INI", strip skor per divisi (*ilustrasi); kartu skor GAP per area asli
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 60% edukasi · 40% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Prakiraan kepatuhan hari ini: cerah di Legal, badai lokal di Marketing."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf11-prakiraan-cuaca). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF11_S1, PF11_S2, PF11_S3, PF11_S4 (atau satu file utuh PF11 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. gap-hasil
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Prakiraan kepatuhan hari ini: cerah di Legal, badai lokal di Marketing."
+      Layar: Peta divisi muncul + lower-third; matahari terbit di Legal pada "cerah"; awan petir menyambar di
+             Marketing pada "badai".
+[S2]  VO: "Berawan di IT: kebijakan lama belum diperbarui. Hujan ringan di HR: formulir persetujuan tertinggal. Angin kencang di CS: permintaan hapus data menumpuk."
+      Layar: Awan di IT, hujan di HR, garis angin di CS muncul saat disebut; strip skor per divisi* di bawah
+             peta; ticker "Peringatan dini: tenggat DSR 72 jam".
+[S3]  VO: "Prakiraan bisa akurat kalau ada datanya. Dasbor Privasimu Nexus: skor GAP per area, dan tren per modul."
+      Layar: Peta meredup; kartu asli "Statistik Assessment per Area" (72% · 85% · 75%) naik di depan.
+[S4]  VO: "Cuaca kepatuhan bisa diprakirakan. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Cuaca kepatuhan bisa diprakirakan.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment (fakta_produk.json): skor kepatuhan dan rencana remediasi; kartu "Statistik Assessment per
+  Area" = tangkapan asli assets/app/gap-hasil.png (Tata Kelola 72%, Siklus Proses PDP 85%, Governance 75%).
+- Dukungan PPDP: dasbor kepatuhan lintas modul. Cuaca per divisi & skor di strip = ilustrasi (ditandai *).
+- DSR: tenggat otomatis 72 jam (peringatan dini di ticker).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

@@ -1,0 +1,34 @@
+/* TY24 · TUTS KEYBOARD — meja gelap kebiruan, tuts abu-abu terang berbayang, layar kecil, aksen merah & oranye */
+body { background: #0F121B; color: #fff; }
+#stage { background: #0F121B; }
+#vignette { opacity: .5; }
+#grain { opacity: .06; }
+.kb-layar { position: absolute; left: 50%; width: 900px; margin-left: -450px; border-radius: 22px; background: #F5F6FA; color: #1C2130; box-shadow: 0 30px 80px rgba(0,0,0,.5); overflow: hidden; }
+.v .kb-layar { width: 900px; }
+.kb-layar .bar { display: flex; gap: 9px; padding: 16px 20px; background: #E3E6EE; }
+.kb-layar .bar i { width: 14px; height: 14px; border-radius: 50%; background: #C3C8D6; }
+.kb-layar .isi { padding: 40px 44px 44px; font: 600 44px/1.2 'JetBrains Mono', monospace; white-space: nowrap; }
+.kb-layar .typo { color: #E5484D; background: rgba(229,72,77,.15); }
+.kb-layar.undo .typo { display: none; }
+.kb-layar .kursor { display: inline-block; width: 4px; height: 44px; margin-left: 4px; vertical-align: -6px; background: #1C2130; }
+.kb-layar .cek { position: absolute; right: 30px; top: 22px; font: 700 26px/1 'Inter', sans-serif; color: #18B26B; opacity: 0; }
+.kb-layar.undo .cek { opacity: 1; }
+.kb-layar .bocor { display: none; padding: 40px 44px 44px; font: 800 48px/1.15 'Inter', sans-serif; color: #E5484D; letter-spacing: .02em; }
+.kb-layar.bocor .isi, .kb-layar.bocor .cek { display: none; }
+.kb-layar.bocor .bocor { display: block; }
+.kb-tuts { position: absolute; width: 300px; height: 300px; border-radius: 34px; background: linear-gradient(180deg, #F2F3F7, #D7DAE3); color: #1C2130; display: flex; align-items: center; justify-content: center; font: 800 96px/1 'Inter', sans-serif; letter-spacing: -.02em; box-shadow: 0 12px 0 #1C2130, 0 26px 40px rgba(0,0,0,.45); }
+.kb-tuts.lebar { width: 400px; font-size: 84px; }
+.kb-tuts.on { background: linear-gradient(180deg, #DDE0E8, #C5C9D4); }
+.kb-tuts.drill { width: 900px; height: 240px; font-size: 92px; letter-spacing: .04em; background: linear-gradient(180deg, #FF7A45, #E5484D); color: #fff; opacity: 0; }
+.v .kb-tuts { width: 260px; height: 260px; font-size: 84px; }
+.v .kb-tuts.lebar { width: 380px; }
+.v .kb-tuts.drill { width: 800px; height: 220px; font-size: 76px; }
+.kb-plus { position: absolute; font: 800 110px/1 'Inter', sans-serif; color: rgba(255,255,255,.6); }
+.v .kb-plus { font-size: 90px; }
+.kb-tip { position: absolute; padding: 14px 26px 16px; border-radius: 16px; background: #E5484D; color: #fff; font: 700 30px/1 'Inter', sans-serif; transform-origin: 50% 50%; opacity: 0; white-space: nowrap; }
+.kb-cip { position: absolute; padding: 12px 26px 14px; border-radius: 999px; background: #fff; color: #1C2130; font: 800 28px/1 'Inter', sans-serif; transform-origin: 50% 50%; opacity: 0; white-space: nowrap; }
+.kb-teks { position: absolute; left: 100px; right: 100px; top: 20px; text-align: center; font: 800 54px/1.16 'Inter', sans-serif; letter-spacing: -.02em; color: #fff; }
+.v .kb-teks { left: 60px; right: 60px; top: 1500px; font-size: 52px; }
+.h .kb-teks { top: auto; bottom: 40px; }
+.kb-teks em { font-style: normal; color: #FF7A45; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-acc: #FF7A45; --pd-btn: #FF7A45; --pd-btn-ink: #1C2130; --pd-tirai: rgba(15,18,27,.96); }

@@ -1,0 +1,48 @@
+NASKAH TY07 — "SATU BARIS YANG SERING DILUPAKAN" · GAYA: EDITOR KODE (SYNTAX HIGHLIGHT)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Editor kode (syntax highlight) — editor gelap (bilah tab, nomor baris, minimap tipis); kode diketik
+             per karakter dengan warna sintaks; baris disorot merah/hijau; panel log terminal di bawah; kartu
+             integrasi Consent asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Tombol 'Setuju' itu satu baris kode. Buktinya ada di baris mana?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty07-editor-kode). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY07_S1, TY07_S2, TY07_S3, TY07_S4 (atau satu file utuh TY07 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. consent-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tombol "Setuju" itu satu baris kode. Buktinya… ada di baris mana?"
+      Layar: Editor: baris 1–4 diketik cepat (<button onClick={setuju}>Setuju</button>, function setuju…); baris
+             1 disorot; pada "Buktinya" komentar merah "// lalu buktinya?" diketik di baris 4.
+[S2]  VO: "Di Privasimu Nexus, persetujuan dicatat lewat API, lengkap dengan bukti. Penarikan disinkronkan lewat webhook ke sistem internal."
+      Layar: Baris 6–8 diketik: komentar "// versi Privasimu Nexus", consent.record({...bukti...}),
+             webhook.on('consent.withdrawn', …); baris API & webhook disorot hijau saat disebut.
+[S3]  VO: "Setiap subjek punya log persetujuan beserta buktinya. Satu baris yang tidak lagi dilupakan."
+      Layar: Panel log di bawah editor: "✔ tercatat CNT-2026-011 · bukti tersimpan · webhook → CRM"; kartu
+             integrasi Consent asli muncul.
+[S4]  VO: "Satu baris kode, satu baris bukti. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Satu baris kode, satu baris bukti.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Consent & Cookie (fakta_produk.json): log persetujuan beserta bukti untuk setiap subjek; API dan webhook untuk
+  sinkronisasi ke sistem internal; penarikan dihormati di seluruh kanal.
+- Kartu integrasi (Consent Form Embed · Preference Center · Consent Items Editor) = tangkapan asli
+  assets/app/consent-detail.png (header organisasi dipotong).
+- Kode di layar = ilustrasi (bukan dokumentasi API); kode rekaman CNT-2026-011 dari tangkapan asli.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

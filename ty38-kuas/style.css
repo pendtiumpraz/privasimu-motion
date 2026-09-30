@@ -1,0 +1,23 @@
+/* TY38 · KALIGRAFI KUAS — kertas beras krem, tinta hitam Caveat Brush, stempel merah cinnabar */
+body { background: #F1E9D6; color: #1A1714; }
+#stage { background: #F1E9D6; }
+#vignette { opacity: .3; }
+#grain { opacity: .08; }
+.ku-kata { position: absolute; left: 0; right: 0; text-align: center; transform-origin: 50% 50%; font: 400 520px/1 'Caveat Brush', cursive; color: #1A1714; letter-spacing: .02em; opacity: 0; }
+.v .ku-kata { font-size: 330px; }
+.ku-cipr { position: absolute; left: 0; top: 0; border-radius: 50% 40% 55% 45%; background: #1A1714; opacity: 0; }
+.ku-stempel { position: absolute; left: 50%; top: 50%; margin: -120px 0 0 300px; width: 240px; padding: 22px 0; border: 8px solid #C0392B; border-radius: 16px; color: #C0392B; text-align: center; font: 800 62px/1 'Rubik', sans-serif; letter-spacing: .04em; opacity: 0; transform-origin: 50% 50%; mix-blend-mode: multiply; }
+.v .ku-stempel { margin: -330px 0 0 170px; width: 200px; font-size: 50px; }
+.ku-kuas { position: absolute; left: 0; top: 0; font: 130px/1 'Noto Color Emoji', sans-serif; transform-origin: 20% 90%; filter: drop-shadow(0 12px 14px rgba(0,0,0,.25)); }
+.ku-tetes { position: absolute; left: 0; top: 0; width: 22px; height: 30px; border-radius: 50% 50% 55% 55%; background: #1A1714; opacity: 0; }
+.ku-baris { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; font: 400 76px/1.15 'Caveat Brush', cursive; color: #1A1714; }
+.v .ku-baris { font-size: 66px; }
+.ku-baris div { opacity: 0; padding: 0 20px; }
+.ku-tanggal { position: absolute; right: 120px; bottom: 90px; font: 800 30px/1 'Rubik', sans-serif; letter-spacing: .1em; color: #C0392B; opacity: 0; }
+.v .ku-tanggal { right: 70px; bottom: 380px; }
+.ku-teks { position: absolute; left: 100px; right: 100px; top: 880px; text-align: center; font: 800 52px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #1A1714; }
+.v .ku-teks { left: 60px; right: 60px; top: 1400px; font-size: 50px; }
+.ku-teks em { font-style: normal; color: #C0392B; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-head: 'Caveat Brush', cursive; --pd-ink: #1A1714; --pd-mute: rgba(26,23,20,.62); --pd-acc: #C0392B; --pd-btn: #1A1714; --pd-btn-ink: #F1E9D6; --pd-tirai: rgba(241,233,214,.97); --pd-logo: brightness(0); }
+.pd-tag { font-weight: 400; font-size: 96px; }
+.ku-kata .isi { display: inline-block; }

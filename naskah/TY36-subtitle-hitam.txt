@@ -1,0 +1,48 @@
+NASKAH TY36 — "SELAMAT PAGI, KAMI DARI TIM AUDIT" · GAYA: SUBTITLE SAJA DI LAYAR HITAM
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Subtitle saja di layar hitam — layar hitam; hanya teks subtitle putih dan keterangan suara dalam
+             kurung siku; gambar pertama baru muncul setelah ± 12 detik
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "[pintu diketuk] Selamat pagi, kami dari tim audit."
+Pengisi    : 2 suara: auditor (S1, S2) dan narator (S4, S5); boleh satu orang dengan dua gaya
+Video      : SUDAH DIRAKIT (folder motion/ty36-subtitle-hitam). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY36_S1, TY36_S2, TY36_S4, TY36_S5 (atau satu file utuh TY36 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. S1 dan S2 dibaca sebagai auditor yang ramah tapi resmi. S4 dan S5 dibaca narator yang tenang.
+5. S3 tanpa suara (hening, jangkrik, detak jantung disintesis).
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Selamat pagi. Kami dari tim audit."
+      Layar: Layar hitam. Subtitle: [pintu diketuk] → "– Selamat pagi. Kami dari tim audit."
+[S2]  VO: "Boleh kami lihat bukti kepatuhan data pribadinya?"
+      Layar: Layar hitam. Subtitle: [langkah kaki mendekat] → "– Boleh kami lihat bukti kepatuhan data
+             pribadinya?"
+[S3]  VO: (tanpa suara)
+      Layar: Layar hitam. Subtitle: [hening panjang] → [suara jangkrik] → [jantung berdebar]
+[S4]  VO: "Atau, jawab dengan satu layar. Dasbor kepatuhan Privasimu Nexus."
+      Layar: Subtitle: [klik. layar menyala] → dasbor kepatuhan asli menyala seperti monitor di ruang gelap.
+             Subtitle mengikuti narator.
+[S5]  VO: "Siap diperiksa kapan saja. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup di atas hitam: logo Privasimu Nexus, "Siap diperiksa kapan saja.", tombol
+             privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dasbor kepatuhan lintas modul + antrean pekerjaan = perangkat kerja PPDP/DPO (fakta_produk.json: ppdp).
+- Layar yang tampil = dasbor asli (assets/app/dashboard.png, dipotong tanpa nama organisasi); angka 81%, 4, 20 =
+  data demo.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

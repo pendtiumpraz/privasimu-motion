@@ -1,0 +1,49 @@
+NASKAH PF35 — "KARTU MODUL" · GAYA: KARTU KOLEKSI
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kartu koleksi — meja beludru ungu; kartu koleksi bertepi emas (punggung berpola logo) dibalik satu
+             per satu: gambar ikon modul, nama, label kelangkaan, kemampuan, angka kekuatan menghitung, kilau
+             holografik menyapu; akhir: kipas 7 kartu "SET LENGKAP"
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 40% edukasi · 60% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Kartu langka: DPIA. Kemampuan: menilai sebelum terlambat."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf35-kartu-koleksi). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF35_S1, PF35_S2, PF35_S3, PF35_S4 (atau satu file utuh PF35 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Kartu langka: DPIA. Kemampuan: menilai sebelum terlambat."
+      Layar: Tiga kartu tertutup di meja; kartu tengah (DPIA) dibalik dengan kilau: gambar perisai-matriks,
+             "SANGAT LANGKA", kemampuan, kekuatan 25 (matriks 5×5) menghitung.
+[S2]  VO: "Kartu awal: RoPA, mencatat semuanya dalam tujuh langkah. Kartu penjaga: DSR, tenggat tujuh puluh dua jam otomatis."
+      Layar: Kartu kiri (RoPA) dibalik: kekuatan 7 langkah; kartu kanan (DSR) dibalik: kekuatan 72 jam; kilau
+             menyapu tiap kartu.
+[S3]  VO: "Kumpulkan semuanya: Consent, Insiden, Pihak ketiga, Transfer. Satu set lengkap, di Privasimu Nexus."
+      Layar: Empat kartu lagi muncul di belakang membentuk kipas; lencana emas "SET LENGKAP 7/7".
+[S4]  VO: "Kumpulkan set lengkapnya. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Kumpulkan set lengkapnya.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA: wizard bertahap 7 langkah (tujuan, dasar, kategori data, subjek, penerima, retensi, pengamanan); data
+  spesifik → risiko TINGGI; kode ROPA-TAHUN-NOMOR.
+- DPIA: matriks kemungkinan × dampak 5×5 (25 sel); register risiko + rencana mitigasi; draf otomatis dari RoPA
+  berisiko TINGGI.
+- DSR: tenggat otomatis 72 jam; verifikasi identitas; alur Handler–Reviewer–Approver; formulir yang dapat
+  disematkan.
+- Set lengkap = modul platform (fakta_produk.json): RoPA, DPIA, DSR, Consent, Insiden, Pihak ketiga, Transfer
+  lintas negara. Label kelangkaan = lelucon.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

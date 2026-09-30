@@ -1,0 +1,49 @@
+NASKAH TY35 — "README.MD" · GAYA: ASCII ART
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : ASCII art — terminal hijau-di-hitam dengan glow fosfor; blok <pre> monospace: banner PRIVASIMU dari
+             #, diagram integrasi dari karakter, gembok ASCII; karakter acak menetap jadi gambar baris demi
+             baris; kartu metode integrasi Consent asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : reverse psychology — "Jangan baca README ini kalau integrasimu sudah mencatat bukti persetujuan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty35-ascii). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY35_S1, TY35_S2, TY35_S3, TY35_S4 (atau satu file utuh TY35 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. consent-detail
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Jangan baca README ini… kalau integrasimu sudah mencatat bukti persetujuan."
+      Layar: Terminal: `$ cat README.md` diketik; banner blok PRIVASIMU muncul dari karakter acak; baris
+             peringatan "> JANGAN BACA kalau bukti persetujuan sudah tercatat".
+[S2]  VO: "Tiga langkah: sematkan formulir persetujuan, kirim lewat API, dan dengarkan webhook saat persetujuan ditarik."
+      Layar: Bagian "## 3 langkah" dengan diagram ASCII: [browser]--consent-form.js-->[Nexus]; POST /consent;
+             webhook consent.withdrawn --> [CRM]; tiap baris "menetap" saat disebut.
+[S3]  VO: "Setiap "setuju" jadi bukti: siapa, kapan, versi formulir apa. Terkunci di Privasimu Nexus."
+      Layar: Gembok ASCII besar terbentuk dari karakter acak; baris `[✓] bukti: subjek · waktu · versi formulir`;
+             kartu metode integrasi asli muncul di samping/bawah.
+[S4]  VO: "README dibaca, bukti tercatat. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "README dibaca, bukti tercatat.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Consent & Cookie (fakta_produk.json): banner cookie & pusat preferensi yang dapat disematkan; log persetujuan
+  beserta bukti tiap subjek; penarikan dihormati di seluruh kanal; API dan webhook untuk sinkronisasi ke sistem
+  internal.
+- Kartu metode integrasi (Consent Form Embed · Preference Center · Consent Items Editor) = tangkapan asli
+  assets/app/consent-detail.png.
+- Nama berkas/endpoint di README = ilustrasi, bukan dokumentasi API.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

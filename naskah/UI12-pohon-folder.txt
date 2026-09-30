@@ -1,0 +1,50 @@
+NASKAH UI12 — "BARU (2)" · GAYA: POHON FOLDER
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Pohon folder — jendela penjelajah berkas generik (panel pohon kiri, daftar kanan, breadcrumb, kotak
+             cari); folder terbuka bertingkat makin dalam dengan nama makin putus asa; kursor panah mengejar &
+             mengeklik; panel biru "Privasimu Nexus · Impor Dokumen" menerima seret-lepas; kartu register RoPA
+             asli
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Folder 'Baru' di dalam 'Baru (2)' di dalam 'FIX banget'."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui12-pohon-folder). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI12_S1, UI12_S2, UI12_S3, UI12_S4 (atau satu file utuh UI12 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Folder "Baru"… di dalam "Baru dua"… di dalam "FIX banget"."
+      Layar: Jendela penjelajah: kursor mengeklik Shared Drive → Kepatuhan → Baru → Baru (2) → FIX banget; pohon
+             makin menjorok, breadcrumb makin panjang.
+[S2]  VO: "Di dasarnya: empat RoPA "final", kontrak pihak ketiga yang lama, dan satu folder yang sebaiknya tidak ada. Cari: tujuh hasil."
+      Layar: Folder FINAL_beneran terbuka: daftar berkas muncul satu-satu (4 versi RoPA final,
+             kontrak_pihak_ketiga_2019.pdf, formulir_consent_lama.docx, scan_ktp_karyawan/ ⚠); kotak cari diketik
+             "RoPA final" → 7 hasil*.
+[S3]  VO: "Seret semuanya ke Privasimu Nexus: impor dokumen, isi otomatis berbantuan AI. Jadilah satu register RoPA, final beneran."
+      Layar: Semua berkas terpilih → diseret ke panel "Privasimu Nexus · Impor Dokumen"; progres per berkas
+             berjalan dan tercentang; kartu register RoPA asli muncul; breadcrumb menyusut jadi "Nexus / RoPA".
+[S4]  VO: "Pensiunkan folder "Baru dua". Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Pensiunkan folder Baru (2).", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): wizard bertahap; pengisian otomatis berbantuan AI berdasarkan nama kegiatan; kode
+  otomatis ROPA-TAHUN-NOMOR; register = tangkapan asli assets/app/ropa-list-baru.png (menu "Impor Dokumen"
+  tampak di sidebar tangkapan yang sama).
+- Nama berkas/folder & "7 hasil" = ilustrasi keseharian kantor (ditandai *), bukan data pelanggan; tanpa nama
+  orang.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

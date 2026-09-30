@@ -1,0 +1,19 @@
+/* TY09 · LIQUID — latar merah-cokelat hangat berubah biru es; Archivo Black jingga meleleh → biru beku */
+body { background: #301410; color: #fff; }
+#stage { background: #301410; }
+#vignette { opacity: .5; }
+#grain { opacity: .07; }
+.lq-kata { position: absolute; left: 0; right: 0; text-align: center; filter: url(#lq-leleh); }
+.lq-kata span { display: inline-block; font: 400 360px/1 'Archivo Black', sans-serif; letter-spacing: -.03em; color: #FF7A2F; background: linear-gradient(180deg, #FFB25C 0%, #FF6A1A 55%, #D9401A 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; transform-origin: 50% 0; }
+.v .lq-kata span { font-size: 250px; }
+.lq-kata.beku span { background: linear-gradient(180deg, #EAF6FF 0%, #9DD6FF 55%, #4EA8F0 100%); -webkit-background-clip: text; background-clip: text; filter: drop-shadow(0 0 22px rgba(160,220,255,.55)); }
+.lq-tetes { position: absolute; top: 300px; height: 0; border-radius: 0 0 40px 40px; background: linear-gradient(180deg, #D9401A, #FF6A1A); opacity: 0; }
+.v .lq-tetes { top: 210px; }
+.lq-surel { position: absolute; left: 0; top: 0; font: 90px/1 'Noto Color Emoji', sans-serif; opacity: 0; }
+.lq-pil { border-radius: 26px; box-shadow: 0 0 0 8px #fff, 0 0 0 11px #4EA8F0, 0 30px 70px rgba(0,0,0,.4) !important; transform-origin: 50% 50%; }
+.lq-ket { position: absolute; left: 0; right: 0; top: 840px; text-align: center; font: 700 26px/1.2 'JetBrains Mono', monospace; letter-spacing: .04em; color: rgba(255,255,255,.7); opacity: 0; }
+.v .lq-ket { top: 1290px; }
+.lq-teks { position: absolute; left: 100px; right: 100px; top: 70px; text-align: center; font: 800 56px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #fff; }
+.v .lq-teks { left: 60px; right: 60px; top: 1500px; font-size: 52px; }
+.lq-teks em { font-style: normal; color: #FFB25C; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-acc: #9DD6FF; --pd-btn: #9DD6FF; --pd-btn-ink: #0B1B4D; }

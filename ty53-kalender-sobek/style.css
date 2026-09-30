@@ -1,0 +1,36 @@
+/* TY53 · KALENDER SOBEK — dinding abu terang, kalender putih berbingkai hitam, pita bulan hitam, lembar akhir merah */
+body { background: #DDE3E9; color: #111; }
+#stage { background: #DDE3E9; }
+#vignette { opacity: .25; }
+#grain { opacity: .05; }
+.kal { position: absolute; left: 0; top: 0; width: 560px; height: 660px; transform-origin: 50% 50%; }
+.v .kal { width: 620px; height: 720px; }
+.kal-ring { position: absolute; left: 0; right: 0; top: -22px; display: flex; justify-content: space-between; padding: 0 130px; z-index: 5; }
+.kal-ring i { width: 26px; height: 60px; border-radius: 14px; border: 8px solid #8E969F; border-bottom: 0; box-sizing: border-box; }
+.kal-hal { position: absolute; inset: 0; background: #FFFFFF; border: 6px solid #15181C; box-shadow: 0 24px 50px rgba(0,0,0,.28); text-align: center; display: flex; flex-direction: column; align-items: center; transform-origin: 50% 0; backface-visibility: hidden; }
+.kal-hal.sobek { opacity: 0; z-index: 3; }
+.kal-hal.tetap { z-index: 2; }
+.kal-bulan { width: 100%; padding: 22px 0 18px; background: #15181C; color: #fff; font: 800 34px/1 'Inter', sans-serif; letter-spacing: .22em; }
+.v .kal-bulan { font-size: 36px; }
+.kal-angka { flex: 1 1 0; display: flex; align-items: center; font: 400 340px/1 'Anton', sans-serif; color: #15181C; letter-spacing: -.02em; }
+.v .kal-angka { font-size: 380px; }
+.kal-nama { padding-bottom: 8px; font: 700 40px/1 'Inter', sans-serif; letter-spacing: .28em; color: #5B6470; }
+.kal-kaki { min-height: 50px; padding: 6px 0 22px; font: 800 30px/1 'Inter', sans-serif; letter-spacing: .12em; color: #fff; }
+.kal-hal.merah { background: #D9262C; border-color: #7F0F13; }
+.kal-hal.merah .kal-bulan { background: #7F0F13; }
+.kal-hal.merah .kal-angka, .kal-hal.merah .kal-nama { color: #fff; }
+.kal.mendarat { animation: none; }
+.kal-daftar { position: absolute; left: 0; top: 0; width: 760px; padding: 34px 44px 30px; background: #fff; border-radius: 24px; box-shadow: 0 24px 50px rgba(0,0,0,.2); opacity: 0; }
+.v .kal-daftar { width: 900px; padding: 26px 40px 22px; }
+.kd-judul { font: 800 44px/1 'Inter', sans-serif; letter-spacing: .2em; color: #D9262C; padding-bottom: 18px; margin-bottom: 8px; border-bottom: 4px solid #EEF1F4; }
+.v .kd-judul { font-size: 40px; }
+.kd-item { display: flex; align-items: center; gap: 22px; padding: 14px 0; font: 700 52px/1 'Inter', sans-serif; color: #B6BEC8; }
+.v .kd-item { padding: 9px 0; font-size: 46px; }
+.kd-item i { width: 58px; height: 58px; border-radius: 14px; border: 5px solid #B6BEC8; box-sizing: border-box; position: relative; flex: 0 0 auto; }
+.kd-item.on { color: #15181C; }
+.kd-item.on i { background: #15181C; border-color: #15181C; }
+.kd-item.on i::after { content: ''; position: absolute; left: 16px; top: 6px; width: 16px; height: 30px; border: solid #fff; border-width: 0 6px 6px 0; transform: rotate(45deg) scale(var(--k, 1)); }
+.kal-teks { position: absolute; left: 160px; right: 160px; top: 930px; text-align: center; font: 700 52px/1.2 'Inter', sans-serif; color: #15181C; }
+.v .kal-teks { left: 60px; right: 60px; top: 1280px; font-size: 52px; }
+.kal-teks em { font-style: normal; color: #D9262C; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Anton', sans-serif; --pd-acc: #FFD166; --pd-btn: #fff; --pd-btn-ink: #D9262C; --pd-tirai: rgba(217,38,44,.97); }

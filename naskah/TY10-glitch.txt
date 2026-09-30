@@ -1,0 +1,43 @@
+NASKAH TY10 — "03.00" · GAYA: GLITCH / RGB SPLIT
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Glitch / RGB split — layar gelap; jam 03:00 berkedip; teks pecah menjadi kanal merah-hijau-biru yang
+             bergeser dengan irisan horizontal; glitch mereda saat daftar periksa muncul
+Durasi     : ± 24 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : tim TI/keamanan, DPO/PPDP, manajemen
+Hook       : anomali — "Jam 03.00. Tulisan ini muncul di layar: dugaan kebocoran data."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty10-glitch). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY10_S1, TY10_S2, TY10_S3, TY10_S4 (atau satu file utuh TY10 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Jam tiga pagi. Tulisan ini muncul di layar."
+      Layar: Jam 03:00 berkedip di pojok; teks "DUGAAN KEBOCORAN DATA" muncul pecah-pecah (RGB split, irisan).
+[S2]  VO: "Tiga kali dua puluh empat jam untuk memberi tahu. Penghitungnya mulai."
+      Layar: Penghitung mundur 71:59:59 muncul besar (masih berglitch); kode BRC-2026-… berkedip.
+[S3]  VO: "Di Privasimu Nexus, daftar periksa penahanan dan linimasa sudah siap begitu insiden dicatat. Glitch selesai. Kerja dimulai."
+      Layar: Glitch mereda; layar detail insiden asli (fase Terdeteksi → Assessment → Containment → Notifikasi →
+             Ditutup) masuk bersih; cip daftar periksa · linimasa · templat pemberitahuan.
+[S4]  VO: "Siap sebelum jam tiga pagi. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Siap sebelum jam 03.00.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Insiden: daftar periksa penahanan dan log linimasa dibuat otomatis saat insiden dicatat; penghitung
+  mundur 3 x 24 jam; templat pemberitahuan; kode BRC otomatis (fakta_produk.json: breach). UU PDP Pasal 46:
+  pemberitahuan paling lambat 3 x 24 jam.
+- Layar = assets/app/breach-detail.png (label HIGH/Wajib Notifikasi, stepper 5 fase; data demo).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

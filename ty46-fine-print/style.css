@@ -1,0 +1,38 @@
+/* TY46 · FINE PRINT ZOOM — latar biru pucat, formulir putih bersih (Manrope), catatan kaki mikro */
+body { background: #E9EEF9; color: #0B1B4D; }
+#stage { background: #E9EEF9; }
+#vignette { opacity: .18; }
+#grain { opacity: .04; }
+#fp-lapis { transform-origin: 0 0; }
+.fp-form { position: absolute; padding: 48px 56px 30px; border-radius: 28px; background: #fff; box-shadow: 0 40px 100px rgba(11,27,77,.16), 0 0 0 1px rgba(11,27,77,.06); font-family: 'Manrope', sans-serif; color: #0B1B4D; }
+.fp-judul { font-size: 54px; font-weight: 800; letter-spacing: -.02em; margin-bottom: 30px; }
+.fp-field { margin-bottom: 22px; }
+.fp-field label { display: block; font-size: 22px; font-weight: 700; color: #6B7597; margin-bottom: 8px; }
+.fp-field .in { padding: 18px 22px; border-radius: 14px; border: 2px solid #D9E0F0; font-size: 28px; font-weight: 500; color: #3A4468; }
+.fp-cb { display: flex; align-items: center; gap: 16px; margin: 10px 0 26px; font-size: 26px; font-weight: 600; color: #3A4468; }
+.fp-cb i { width: 34px; height: 34px; border-radius: 9px; border: 2px solid #C9D2E8; background: #fff; flex: 0 0 auto; position: relative; }
+.fp-cb.on i { background: #2F6BFF; border-color: #2F6BFF; }
+.fp-cb.on i::after { content: ''; position: absolute; left: 10px; top: 4px; width: 9px; height: 17px; border: solid #fff; border-width: 0 4px 4px 0; transform: rotate(45deg); }
+.fp-cb b { color: #2F6BFF; }
+.fp-btn { display: inline-block; padding: 18px 56px 20px; border-radius: 999px; background: #2F6BFF; color: #fff; font-size: 32px; font-weight: 800; transform-origin: 50% 50%; box-shadow: 0 10px 24px rgba(47,107,255,.35); }
+.fp-btn.on { background: #1E56E0; box-shadow: 0 4px 10px rgba(47,107,255,.3); }
+.fp-kaki { position: relative; margin-top: 34px; font-size: 13px; font-weight: 600; color: #8A93B3; letter-spacing: 0; }
+.fp-kaki .fp-bintang { position: relative; display: inline-block; color: #2F6BFF; font-weight: 800; margin-right: 2px; }
+.fp-form.jauh .fp-judul, .fp-form.jauh .fp-field, .fp-form.jauh .fp-cb, .fp-form.jauh .fp-btn { visibility: hidden; }
+.fp-dot { position: absolute; border-radius: 50%; background: #F4F7FF; transform-origin: 50% 50%; overflow: hidden; }
+.fp-log { position: absolute; border-radius: 28px; background: #fff; box-shadow: 0 40px 100px rgba(11,27,77,.18), 0 0 0 1px rgba(11,27,77,.08); overflow: hidden; font-family: 'Manrope', sans-serif; color: #0B1B4D; }
+.fp-lh { display: flex; justify-content: space-between; align-items: baseline; padding: 28px 40px; font-size: 36px; font-weight: 800; letter-spacing: -.01em; border-bottom: 2px solid #EEF1F8; }
+.fp-lh span { font-size: 20px; font-weight: 600; color: #8A93B3; }
+.v .fp-lh { flex-direction: column; gap: 6px; font-size: 34px; }
+.fp-row { display: flex; padding: 20px 40px; font-size: 26px; font-weight: 600; color: #3A4468; border-bottom: 1px solid #EEF1F8; }
+.v .fp-row { font-size: 23px; padding: 18px 26px; }
+.fp-row.h { font-size: 20px; font-weight: 800; color: #8A93B3; text-transform: uppercase; letter-spacing: .08em; }
+.fp-row span { flex: 1 1 0; padding: 6px 8px; border-radius: 10px; }
+.fp-row span:nth-child(2) { flex: 1.5 1 0; }
+.fp-row span:last-child { flex: 0 0 90px; text-align: center; color: #18B26B; font-weight: 800; }
+.fp-row span.sorot { background: #FFF2C2; color: #0B1B4D; }
+.fp-teks { position: absolute; left: 120px; right: 120px; top: 850px; text-align: center; font: 800 62px/1.14 'Manrope', sans-serif; letter-spacing: -.02em; color: #0B1B4D; }
+.v .fp-teks { left: 60px; right: 60px; top: 1290px; font-size: 60px; }
+.fp-teks em { font-style: normal; color: #2F6BFF; }
+.pd-cta { --pd-font: 'Manrope', sans-serif; --pd-acc: #2F6BFF; --pd-tirai: rgba(233,238,249,.97); }
+.v .fp-kaki { max-width: 250px; line-height: 1.35; }

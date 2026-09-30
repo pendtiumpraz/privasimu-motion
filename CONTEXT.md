@@ -2,7 +2,7 @@
 
 > Untuk Claude (sesi/akun lain) atau AI apa pun yang melanjutkan pekerjaan di `motion/`.
 > `README.md` = cara pakai. Berkas ini = latar belakang, aturan, isi kepala, dan status terakhir.
-> Terakhir diperbarui: 29-09-2026.
+> Terakhir diperbarui: 30-09-2026.
 
 ## 0. Ringkasan 30 detik
 
@@ -11,7 +11,8 @@
 - Motion **tidak mengubah aplikasi** (frontend/backend). Ia hanya **membaca** screenshot aplikasi dan dokumen fakta produk.
 - **Pengguna yang merender** lewat `RENDER.bat` (supaya tidak "membakar token"). AI menyiapkan naskah, visual, musik,
   lalu memeriksa hasil dengan beberapa still, bukan render penuh.
-- Semua **17 video sudah dirender** (per 29-09-2026). Rancangan puluhan video lain ada di `rancangan/*.xlsx`.
+- **17 video sudah dirender** (N01–N11, M01, M02, A22, T01–T03); **GB05 “Satu Garis” sudah dirakit, tinggal render**.
+  Peta 253 gaya + rancangan puluhan video lain ada di `rancangan/*.xlsx`.
 - Repo git sendiri: `github.com/pendtiumpraz/privasimu-motion` (**PUBLIK**), branch `main`.
 
 ## 1. Apa ini dan hubungannya dengan aplikasi
@@ -45,7 +46,8 @@ dijalankan karena sumbernya ada di monorepo. Fakta produk ringkas ada di bagian 
    `motion/assets/`.
 2. **Render penuh = tugas pengguna.** Alur AI: tulis `scenes.js`/`style`/`music.js` → `node build.js <folder> --audio-only`
    → `node lib/cek-cue.js <folder>` → QA still dengan `bash lib/qa-sheet.sh …` (kedua format) → perbaiki → tulis naskah
-   di `naskah/` → masukkan folder ke `antrian-render.txt` → beri tahu pengguna untuk klik dua kali `RENDER.bat`.
+   di `naskah/` → beri tahu pengguna untuk klik dua kali `RENDER.bat` (folder baru terdeteksi otomatis; tulis di
+   `antrian-render.txt` hanya bila ingin diprioritaskan).
 3. **Jangan ganggu render pengguna.** Sebelum menjalankan pekerjaan berat, cek apakah ada `node build.js`/`ffmpeg`
    yang berjalan (PowerShell: `Get-CimInstance Win32_Process -Filter "Name='node.exe'"`). Jalankan pekerjaan berat AI
    dengan prioritas rendah: `cmd //c "start /belownormal /wait /b node build.js <folder> --audio-only"` (Git Bash).
@@ -90,6 +92,16 @@ Selain itu, yang boleh ditampilkan adalah yang terlihat di screenshot asli.
   `brightness(0) invert(13%) sepia(40%) saturate(2000%) hue-rotate(205deg)`. Filter ini tertimpa bila elemen yang sama
   diberi `filter: blur()` lewat animasi, jadi bungkus logo dan animasikan pembungkusnya.
 - Warna: navy `#0B1B4D`, biru `#2F6BFF`, ungu `#6D4CFF`. Font utama Plus Jakarta Sans.
+
+**Komposisi edukasi vs meme:** tiap video punya porsi (mis. 90% edukasi · 10% meme, 40% · 60%, atau full meme). Pengguna
+menyerahkan angkanya ke AI; catat di kolom “Meme %” Katalog Gaya dan di komentar kepala `scenes.js`.
+
+**Meme politik (permintaan pengguna 30-09-2026):** pengguna tertarik memakai meme tokoh politik (mis. frasa “yo ndak tahu,
+kok tanya saya”) sebagai pemancing. Keputusan kerja: **FRASA-nya saja** (teks + suara tim/TTS dengan gaya sendiri);
+wajah, foto, video, suara asli, nama, dan tiruan suara tokoh TIDAK dipakai, dan AI tidak mengunduh klip/gambar itu.
+Alasan: UU Hak Cipta 28/2014 Pasal 12 (potret untuk iklan wajib izin tertulis), suara/wajah = data pribadi (UU PDP),
+hak cipta klip siaran, dan netralitas merek B2B. Daftar frasa + tingkat risiko ada di sheet “Hook Frasa Viral”
+(`rancangan/sumber/data_frasa.py`). Frasa berisiko Tinggi dihindari; Sedang hanya untuk konten organik.
 
 **Meme & audio pihak lain:**
 - Format meme dibuat ulang secara orisinal.
@@ -169,7 +181,8 @@ Aset siap pakai:
    - catat sidik jari sumber ke `out/<folder>/render-info.json` (`lib/status-render.js`).
 
 **`RENDER.bat`:**
-- membaca `antrian-render.txt` (baris `#` dilewati);
+- tanpa argumen: menyusun antrean otomatis (subrutin `:otomatis`): folder di `antrian-render.txt` dulu, lalu semua
+  folder lain yang punya `scenes.js`; baris `-nama-folder` = dikecualikan;
 - per folder memanggil `node lib/status-render.js` (kode keluar 10 = sudah jadi & tidak berubah → dilewati);
 - `--paksa` merender ulang;
 - ringkasan di `out/log/antrian-*.txt`.
@@ -248,6 +261,8 @@ dari `sfx-kustom/`.
 
 **Isi Excel:**
 - Ringkasan
+- Ringkasan Gaya, Katalog Gaya (253 gaya dalam 7 keluarga: tipografi, grafis & bentuk, craft, layar & UI, sinematik &
+  retro, parodi format, struktur edit; tiap gaya punya usulan video, hook, komposisi, skor, status), Hook Frasa Viral
 - Flow Semua Modul (unggulan "Perjalanan Satu Data" ± 3 menit + penanda potongan 60/30 dtk)
 - Daftar Video Modul (M01–M22)
 - Flow per Modul (scene, screenshot, crop/blur, teks layar, VO, SFX)
@@ -262,12 +277,17 @@ dari `sfx-kustom/`.
 
 Generator: `rancangan/sumber/buat_excel.py` (data di `data_rancangan.py`, `data_meme.py`).
 
-**Yang sudah dibuat dari Excel:** M01, M02, A22. Sisanya masih rancangan.
+**Yang sudah dibuat dari Excel:** M01, M02, A22, GB05 (one-line art, dari flow unggulan). Sisanya masih rancangan.
+
+**Urutan produksi yang diminta pengguna (30-09-2026):** one-line art dulu (GB05, sudah) → SEMUA gaya tipografi (TY05…,
+ikuti kolom Peringkat) → SEMUA gaya grafis & bentuk → keluarga lain. Kebanyakan berupa video pendek 10–20 detik.
+Kode video = kode gaya (mis. `ty33-…`), satu folder per gaya. Setelah jadi, ubah status barisnya di `gaya_*.py` menjadi
+`Sudah (KODE)` lalu jalankan `buat_excel.py` dan `cek_rumus.py`.
 
 ## 7. Status video (29-09-2026)
 
-Semua 17 video di `README.md` sudah dirender (hasil di `out/`, tidak ikut git). Naskah VN tim untuk semuanya ada di
-`naskah/`. Belum ada rekaman VN tim, jadi semua masih memakai TTS placeholder.
+17 video pertama di `README.md` sudah dirender (hasil di `out/`, tidak ikut git); GB05 sudah dirakit dan lolos cek still,
+belum dirender. Naskah VN tim untuk semuanya ada di `naskah/`. Belum ada rekaman VN tim, jadi semua masih memakai TTS placeholder.
 
 ## 8. Resep tugas umum
 
@@ -278,7 +298,9 @@ Semua 17 video di `README.md` sudah dirender (hasil di `out/`, tidak ikut git). 
   4. Tulis naskah `naskah/Mxx-….txt`.
   5. Tambah ke `antrian-render.txt` dan tabel README.
 - **Gaya baru:** contoh lengkap di `t01-stomp` (kartu per ketukan + musik custom), `t02-tipografi` (kanvas + kamera),
-  `t03-stop-motion` (12 fps + tekstur hash), `a22-rekap-dpo` (slide cerita).
+  `t03-stop-motion` (12 fps + tekstur hash), `a22-rekap-dpo` (slide cerita), `gb05-satu-garis` (satu rangkaian path SVG
+  dengan kelas `Pen`, jadwal potongan otomatis, kamera per stasiun, morf kusut → rapi, bunyi goresan pena di `music.js`;
+  `window.OL_DEBUG()` di halaman mencetak jadwal potongan).
 - **Ganti teks VO:** edit `vo` → `--audio-only` → `cek-cue` (cue `w:` harus tetap ada) → QA still → `RENDER.bat`
   (otomatis dirender ulang karena sumber berubah).
 - **Pasang VN:** taruh file di `vn/` → `RENDER.bat` (otomatis).
@@ -314,6 +336,12 @@ Semua 17 video di `README.md` sudah dirender (hasil di `out/`, tidak ikut git). 
 - Backslash di heredoc bash → Python bisa berubah jadi newline. Untuk kode berisi `\`, pakai tool Write/Edit.
 - `.bat` yang sedang berjalan dibaca ulang dari disk per baris → jangan diedit saat berjalan.
 - Filter drawtext FFmpeg: hindari `:` di label.
+- Excel: di komputer ini tidak ada Excel/LibreOffice → rumus dicek dengan `rancangan/sumber/cek_rumus.py` (pustaka
+  `formulas`). Hindari fungsi Excel baru (XLOOKUP, FILTER, dll.).
+- Mengubah `RENDER.bat` saat ada jendela lama yang masih terbuka: jaga panjang byte bagian lama tetap sama dan taruh
+  tambahan SETELAH akhir lama (didahului `exit /b`), supaya jendela lama tidak membaca potongan baris.
+- Melihat contoh video dari tautan YouTube: buka dengan Playwright, geser `video.currentTime`, ambil tangkapan layar.
+- Heredoc bash berisi tanda kutip tipografis/backtick bisa gagal (“unexpected EOF”): tulis skrip ke file lalu jalankan.
 - `ffprobe … -of csv=p=0` bisa mencetak koma di akhir (`8.333333,`) → ambil kolom pertama, jangan `Number(baris)`.
 - `-shortest` saat mux bisa membuang frame terakhir bila audio 2 ms lebih pendek → untuk versi sales tidak dipakai.
 

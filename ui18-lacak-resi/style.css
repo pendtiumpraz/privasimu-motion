@@ -1,0 +1,36 @@
+/* UI18 · LACAK RESI — latar hijau mint, kartu putih membulat, nomor resi monospace, titik status hijau, pil tenggat oranye */
+body { background: #CFEBDC; color: #0F2A1E; }
+#stage { background: #CFEBDC; }
+#vignette { opacity: .15; }
+#grain { opacity: .04; }
+.lk-kartu { position: absolute; left: 50%; width: 840px; padding: 34px 38px 26px; border-radius: 30px; background: #fff; box-shadow: 0 30px 70px rgba(15,42,30,.18); color: #0F2A1E; opacity: 0; }
+.v .lk-kartu { width: 900px; padding: 40px 44px 30px; }
+.lk-atas { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 22px; border-bottom: 2px dashed #DCE8E1; }
+.lk-judul { font: 800 20px/1 'Inter', sans-serif; letter-spacing: .22em; color: #5B7A6A; }
+.lk-no { margin-top: 12px; font: 600 44px/1 'JetBrains Mono', monospace; color: #0F2A1E; }
+.v .lk-no { font-size: 48px; }
+.lk-sub { margin-top: 10px; font: 600 24px/1.2 'Inter', sans-serif; color: #5B7A6A; }
+.lk-pil { flex: 0 0 auto; padding: 10px 16px; border-radius: 999px; background: #EEF3F0; color: #5B7A6A; font: 700 20px/1 'Inter', sans-serif; white-space: nowrap; }
+.lk-pil.nyala { background: #FFE3C2; color: #A34E00; }
+.v .lk-pil { font-size: 22px; }
+.lk-tl { position: relative; padding: 22px 0 6px; }
+.lk-garis { position: absolute; left: 17px; top: 40px; bottom: 30px; width: 4px; background: #E3ECE7; border-radius: 2px; }
+.lk-isi { position: absolute; left: 17px; width: 4px; height: 0; background: #19A463; border-radius: 2px; }
+.lk-row { position: relative; display: flex; align-items: center; gap: 22px; padding: 12px 0; opacity: .45; }
+.v .lk-row { padding: 14px 0; }
+.lk-row.on { opacity: 1; }
+.lk-dot { position: relative; flex: 0 0 auto; width: 38px; height: 38px; border-radius: 50%; background: #fff; border: 4px solid #C9D8CF; box-sizing: border-box; z-index: 1; }
+.lk-row.on .lk-dot { border-color: #19A463; background: #19A463; box-shadow: 0 0 0 6px rgba(25,164,99,.18); }
+.lk-row.on .lk-dot::after { content: ''; position: absolute; left: 10px; top: 5px; width: 8px; height: 15px; border: solid #fff; border-width: 0 4px 4px 0; transform: rotate(45deg); }
+.lk-row.aktif .lk-dot { box-shadow: 0 0 0 10px rgba(25,164,99,.22); }
+.lk-l { font: 700 30px/1.15 'Inter', sans-serif; }
+.v .lk-l { font-size: 32px; }
+.lk-w { margin-top: 4px; font: 600 20px/1 'JetBrains Mono', monospace; color: #7A9486; }
+.lk-kaki { margin-top: 10px; font: 500 16px/1 'Inter', sans-serif; color: #9AB0A4; text-align: right; }
+.lk-tanya { position: absolute; left: 50%; top: 50%; translate: -50% -50%; font: 800 160px/1 'Inter', sans-serif; color: #E3ECE7; opacity: 0; }
+.lk-kartu.selesai .lk-no { color: #19A463; }
+.lk-teks { position: absolute; left: 160px; right: 160px; top: 880px; text-align: center; font: 700 46px/1.2 'Inter', sans-serif; color: #0F2A1E; }
+.v .lk-teks { left: 60px; right: 60px; top: 1250px; font-size: 48px; }
+.lk-teks em { font-style: normal; color: #A34E00; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #19A463; --pd-btn: #0F2A1E; --pd-btn-ink: #fff; --pd-tirai: rgba(207,235,220,.97); --pd-ink: #0F2A1E; --pd-mute: rgba(15,42,30,.62); --pd-logo: brightness(0); }

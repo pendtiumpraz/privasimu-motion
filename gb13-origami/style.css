@@ -1,0 +1,41 @@
+/* GB13 · ORIGAMI — meja kayu krem, kertas putih gading berpasal, panel lipatan 3D, stempel merah/hijau, pesawat & perisai kertas */
+body { background: #DCCDAF; color: #1B1B1B; }
+#stage { background: #DCCDAF; }
+#vignette { opacity: .25; }
+#grain { opacity: .06; }
+.or-kertas { position: absolute; perspective: 2200px; transform-style: preserve-3d; filter: drop-shadow(0 30px 40px rgba(60,40,10,.35)); }
+.or-panel { position: absolute; top: 0; transform-origin: 0 50%; transform-style: preserve-3d; background: #FBF7EE; backface-visibility: visible; }
+.or-klip { position: absolute; inset: 0; overflow: hidden; }
+.or-potong { position: absolute; top: 0; height: 100%; }
+.or-bayang { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(0,0,0,.35), rgba(0,0,0,0) 40%, rgba(0,0,0,.08)); opacity: 0; pointer-events: none; }
+.or-isi { padding: 44px 44px 30px; height: 100%; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+.or-judul { font: 700 30px/1.2 'Fraunces', serif; text-align: center; color: #1B1B1B; padding-bottom: 16px; margin-bottom: 20px; border-bottom: 2px solid #1B1B1B; letter-spacing: .04em; }
+.v .or-judul { font-size: 32px; }
+.or-pasal { display: flex; align-items: center; gap: 10px; margin: 10px 0; }
+.or-pasal b { font: 700 15px/1 'Inter', sans-serif; color: #3B3B3B; width: 70px; flex: 0 0 auto; }
+.or-pasal i { flex: 1 1 0; height: 8px; border-radius: 4px; background: #D9D2C1; }
+.or-pasal i:nth-child(3) { flex: 0 0 38%; }
+.or-ttd { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 34px; font: 600 14px/1 'Inter', sans-serif; color: #6B6B6B; }
+.or-ttd em { font-style: normal; font-size: 40px; color: #1F2A6B; }
+.or-stempel { position: absolute; width: 300px; padding: 10px 14px; border: 4px solid #C8102E; border-radius: 10px; color: #C8102E; background: rgba(255,255,255,.7); font-family: 'Inter', sans-serif; opacity: 0; transform-origin: 50% 50%; }
+.or-stempel b { display: block; font: 800 22px/1.1 'Inter', sans-serif; letter-spacing: .04em; }
+.or-stempel span { display: block; margin-top: 4px; font: 600 16px/1.2 'Inter', sans-serif; color: #7F1D1D; }
+.or-stempel i { display: none; margin-top: 6px; font: 800 15px/1 'Inter', sans-serif; font-style: normal; color: #1B7F3B; }
+.or-stempel.hijau { border-color: #1B7F3B; color: #1B7F3B; }
+.or-stempel.hijau span { color: #14532D; text-decoration: line-through; }
+.or-stempel.hijau i { display: block; }
+.or-pesawat { position: absolute; left: 0; top: 0; width: 260px; opacity: 0; filter: drop-shadow(0 20px 24px rgba(60,40,10,.35)); }
+.or-pesawat path { fill: #FBF7EE; stroke: #9A8E76; stroke-width: 3; stroke-linejoin: round; }
+.or-pesawat .sayap { fill: #EFE8D8; }
+.or-pesawat .lipat { fill: none; }
+.or-perisai { position: absolute; left: 0; top: 0; width: 420px; opacity: 0; filter: drop-shadow(0 30px 40px rgba(60,40,10,.4)); }
+.or-perisai path { fill: #FBF7EE; stroke: #9A8E76; stroke-width: 4; stroke-linejoin: round; }
+.or-perisai .lipat { fill: none; stroke: #C9BFA8; stroke-width: 3; }
+.or-perisai text { font: 700 44px 'Fraunces', serif; fill: #1F2A6B; text-anchor: middle; }
+.or-panah { position: absolute; left: 0; top: 0; width: 230px; opacity: 0; filter: drop-shadow(0 6px 10px rgba(0,0,0,.25)); }
+.or-panah path { fill: none; stroke: #C8102E; stroke-width: 11; stroke-linecap: round; stroke-linejoin: round; }
+.or-kilat { position: absolute; left: 0; top: 0; width: 160px; height: 160px; border-radius: 50%; border: 10px solid #FFD166; opacity: 0; box-shadow: 0 0 30px rgba(255,209,102,.8); }
+.or-teks { position: absolute; left: 1250px; right: 60px; top: 300px; text-align: left; font: 700 54px/1.2 'Inter', sans-serif; color: #1B1B1B; }
+.v .or-teks { left: 60px; right: 60px; top: 190px; text-align: center; font-size: 50px; }
+.or-teks em { font-style: normal; color: #C8102E; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Fraunces', serif; --pd-acc: #C8102E; --pd-btn: #1F2A6B; --pd-btn-ink: #fff; --pd-tirai: rgba(251,247,238,.97); --pd-ink: #1B1B1B; --pd-mute: rgba(27,27,27,.62); --pd-logo: brightness(0); }

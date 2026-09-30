@@ -1,0 +1,46 @@
+NASKAH UI19 — "KERANJANG 12.12" · GAYA: KERANJANG BELANJA
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Keranjang belanja — halaman keranjang toko fiktif "TokoKita" bergaya e-commerce (jingga), baris
+             barang dengan diskon 90% masuk satu per satu, baris merah "Data pelanggan" menyelip, ringkasan total
+             berubah, banner peringatan; kartu banner Fire Drill asli
+Durasi     : ± 26 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Diskon 90%. Data pelanggan ikut 'diskon'?"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui19-keranjang). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI19_S1, UI19_S2, UI19_S3, UI19_S4 (atau satu file utuh UI19 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. fire-drill-header
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Diskon sembilan puluh persen. Data pelanggan ikut "diskon"?"
+      Layar: Keranjang TokoKita 12.12: tiga barang diskon 90% masuk; pada "Data" baris merah "Data pelanggan ·
+             1,2 juta baris*" menyelip; total berubah.
+[S2]  VO: "Musim promo: trafik naik, tim lembur, celah terbuka. Insiden suka datang saat semua sibuk."
+      Layar: Lencana "trafik 10×*" dan "tim lembur" muncul; banner peringatan merah di atas keranjang: "Insiden
+             suka datang saat semua sibuk".
+[S3]  VO: "Di Privasimu Nexus, latihan dulu: Fire Drill, simulasi insiden. Sebelum dua belas dua belas."
+      Layar: Keranjang meredup; kartu banner Fire Drill asli naik; tombol fiktif "Latihan sekarang" berdenyut.
+[S4]  VO: "Diskon boleh sembilan puluh persen, data jangan ikut. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Diskon boleh 90%, data jangan ikut.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Simulasi & Fire Drill (fakta_produk.json): latihan kesiapan tim menghadapi insiden — kuis, tabletop,
+  walkthrough; skenario kustom berbantuan AI; penilaian rubrik.
+- Manajemen Insiden: penghitung mundur pemberitahuan 3×24 jam.
+- Toko, barang, harga, dan "1,2 juta baris" = fiktif/ilustrasi (ditandai *).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

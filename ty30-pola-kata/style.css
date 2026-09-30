@@ -1,0 +1,16 @@
+/* TY30 · POLA KATA BERULANG — latar abu hangat, grid sel warna-warni beda font, versi seragam navy */
+body { background: #E9E6DF; color: #0B1B4D; }
+#stage { background: #E9E6DF; }
+#vignette { opacity: .2; }
+#grain { opacity: .05; }
+.pk-grid { position: absolute; left: 0; top: 0; width: var(--W); height: var(--H); transform-origin: 0 0; }
+.pk-sel { position: absolute; display: flex; align-items: center; justify-content: center; border-radius: 22px; box-shadow: 0 16px 40px rgba(20,20,40,.14); transform-origin: 50% 50%; opacity: 0; transform-style: preserve-3d; }
+.pk-sel span { font-size: 64px; line-height: 1; text-align: center; padding: 0 16px; letter-spacing: -.01em; backface-visibility: hidden; }
+.v .pk-sel span { font-size: 52px; }
+.pk-sel .pk-ok { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 14px; border-radius: 22px; background: #0B1B4D; color: #fff; font: 800 60px/1 'Archivo', sans-serif; transform: rotateY(180deg) translateZ(1px); backface-visibility: hidden; }
+.v .pk-sel .pk-ok { font-size: 48px; }
+.pk-sel .pk-ok i { font-style: normal; color: #5BE39A; }
+.pk-teks { position: absolute; left: 100px; right: 100px; top: 1000px; text-align: center; font: 800 44px/1.16 'Archivo', sans-serif; letter-spacing: -.015em; color: #0B1B4D; }
+.v .pk-teks { left: 60px; right: 60px; top: 1560px; font-size: 44px; }
+.pk-teks em { font-style: normal; color: #2F6BFF; }
+.pd-cta { --pd-font: 'Archivo', sans-serif; --pd-acc: #FFD34E; --pd-btn: #2F6BFF; --pd-tirai: rgba(11,27,77,.97); }

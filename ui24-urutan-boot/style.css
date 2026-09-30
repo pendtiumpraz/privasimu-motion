@@ -1,0 +1,41 @@
+/* UI24 · URUTAN BOOT — layar POST hitam penuh, mono putih; OK hijau, WARN kuning, FAIL merah; panik = layar merah */
+body { background: #050607; color: #E6EDF3; }
+#stage { background: #050607; }
+#vignette { opacity: .55; }
+#grain { opacity: .08; }
+.bt-layar { position: absolute; inset: 0; padding: 80px 110px; font-family: 'JetBrains Mono', monospace; }
+.v .bt-layar { padding: 230px 60px; }
+.bt-isi { display: flex; flex-direction: column; gap: 10px; }
+.bt-b { display: flex; align-items: baseline; gap: 16px; font: 400 40px/1.35 'JetBrains Mono', monospace; color: #E6EDF3; white-space: nowrap; }
+.v .bt-b { font-size: 30px; flex-wrap: wrap; row-gap: 2px; }
+.bt-b.kop { font-weight: 700; color: #9DA7B3; margin-bottom: 14px; letter-spacing: .02em; }
+.bt-b.kop.nexus { color: #79C0FF; }
+.bt-b .tx i { font-style: normal; visibility: hidden; }
+.bt-b .dots { flex: 1 1 0; border-bottom: 2px dotted #3A4350; translate: 0 -8px; visibility: hidden; min-width: 40px; }
+.v .bt-b .dots { flex: 1 1 40px; }
+.bt-b .st { font-weight: 700; visibility: hidden; padding: 0 6px; }
+.bt-b .st.ok { color: #3FB950; } .bt-b .st.warn { color: #F2CC60; } .bt-b .st.fail { color: #FF4D4F; background: rgba(255,77,79,.14); }
+.bt-b .ct { color: #8B949E; font-size: .8em; visibility: hidden; }
+.v .bt-b .ct { flex-basis: 100%; padding-left: 0; }
+.bt-b.fail .ct { color: #FF9A9A; }
+.bt-kursor { color: #79C0FF; margin-left: 6px; }
+.bt-prog { position: absolute; left: 110px; right: 110px; bottom: 90px; display: flex; align-items: center; gap: 18px; font: 700 24px/1 'JetBrains Mono', monospace; color: #9DA7B3; }
+.v .bt-prog { left: 60px; right: 60px; bottom: auto; top: 1500px; }
+.bt-prog .bar { flex: 1 1 0; height: 22px; border: 2px solid #3A4350; padding: 3px; }
+.bt-prog .bar i { display: block; height: 100%; width: 0; background: #3FB950; }
+.bt-prog .bar i.merah { background: #FF4D4F; }
+.bt-layar.nexus .bt-prog .bar i { background: #79C0FF; }
+.bt-scan { position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(180deg, rgba(255,255,255,.035) 0 2px, transparent 2px 5px); }
+.bt-panik { position: absolute; inset: 0; background: #B3120F; color: #fff; padding: 160px 140px; font-family: 'JetBrains Mono', monospace; opacity: 0; }
+.v .bt-panik { padding: 420px 70px; }
+.bt-panik .pk-j { font: 700 118px/1 'JetBrains Mono', monospace; letter-spacing: .02em; }
+.v .bt-panik .pk-j { font-size: 84px; }
+.bt-panik .pk-s { margin-top: 26px; font: 700 44px/1.3 'JetBrains Mono', monospace; }
+.v .bt-panik .pk-s { font-size: 36px; }
+.bt-panik .pk-k { margin-top: 40px; font: 400 26px/1.5 'JetBrains Mono', monospace; opacity: .85; }
+.v .bt-panik .pk-k { font-size: 22px; }
+.bt-panik .pk-t { margin-top: 60px; font: 400 26px/1 'JetBrains Mono', monospace; opacity: .9; }
+.bt-panik.kedip .pk-t { opacity: .3; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'JetBrains Mono', monospace; --pd-acc: #3FB950; --pd-btn: #79C0FF; --pd-btn-ink: #050607; --pd-tirai: rgba(5,6,7,.97); }
+.pd-tag { font-size: 56px; }

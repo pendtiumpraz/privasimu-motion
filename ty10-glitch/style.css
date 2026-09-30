@@ -1,0 +1,24 @@
+/* TY10 · GLITCH — hitam kebiruan, Space Mono, tiga kanal warna (merah / sian / putih) */
+body { background: #05070D; color: #fff; }
+#stage { background: #05070D; }
+#vignette { opacity: .6; }
+#grain { opacity: .12; }
+.gl-jam { position: absolute; left: 80px; top: 60px; font: 700 54px/1 'Space Mono', monospace; color: #7EE2A8; letter-spacing: .06em; transform-origin: 0 0; }
+.v .gl-jam { left: 60px; top: 220px; font-size: 48px; }
+.gl-t { position: absolute; left: 0; right: 0; text-align: center; font-family: 'Space Mono', monospace; font-weight: 700; line-height: 1; opacity: 0; transform-origin: 50% 50%; }
+.gl-t span { position: absolute; left: 0; right: 0; top: 0; display: block; white-space: nowrap; }
+.gl-t .r { color: #FF3D6E; mix-blend-mode: screen; }
+.gl-t .c { color: #3DE0FF; mix-blend-mode: screen; }
+.gl-t .w { color: #fff; }
+.gl-t.judul { top: 300px; font-size: 118px; letter-spacing: -.02em; }
+.v .gl-t.judul { top: 560px; font-size: 92px; }
+.v .gl-t.judul span { white-space: normal; padding: 0 40px; line-height: 1.05; }
+.gl-t.hitung { top: 500px; font-size: 220px; letter-spacing: -.02em; }
+.v .gl-t.hitung { top: 860px; font-size: 168px; }
+.gl-kode { position: absolute; left: 0; right: 0; top: 780px; text-align: center; font: 400 30px/1 'Space Mono', monospace; letter-spacing: .08em; color: #FF3D6E; opacity: 0; }
+.v .gl-kode { top: 1090px; font-size: 26px; }
+.gl-teks { position: absolute; left: 100px; right: 100px; top: 930px; text-align: center; font: 800 46px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #fff; }
+.v .gl-teks { left: 60px; right: 60px; top: 1500px; font-size: 46px; }
+.gl-teks em { font-style: normal; color: #7EE2A8; }
+.gl-cip { position: absolute; padding: 12px 24px 14px; border-radius: 999px; background: #7EE2A8; color: #05070D; font: 800 26px/1 'Rubik', sans-serif; box-shadow: 0 0 30px rgba(126,226,168,.35); transform-origin: 50% 50%; opacity: 0; white-space: nowrap; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-head: 'Space Mono', monospace; --pd-acc: #7EE2A8; --pd-btn: #7EE2A8; --pd-btn-ink: #05070D; --pd-tirai: rgba(5,7,13,.96); }

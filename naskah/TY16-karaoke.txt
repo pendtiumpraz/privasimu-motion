@@ -1,0 +1,46 @@
+NASKAH TY16 — "LAGU WAJIB RAPAT KEPATUHAN" · GAYA: KARAOKE / LYRIC VIDEO
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Karaoke / lyric video — layar karaoke: latar gradien ungu-magenta berdenyut ikut beat, bintik
+             cahaya; baris lirik besar putih yang terisi kuning per kata; bola kuning memantul parabola dari kata
+             ke kata; judul lagu di pojok dengan ikon mikrofon; hening dramatis di pertanyaan; reff dengan logo
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 30% edukasi · 70% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Nyanyikan bersama: 'Datanya di mana? Di cloud.'"
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty16-karaoke). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY16_S1, TY16_S2, TY16_S3, TY16_S4 (atau satu file utuh TY16 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Datanya di mana? Di cloud. Datanya aman? Katanya."
+      Layar: Layar karaoke; judul "LAGU WAJIB RAPAT KEPATUHAN"; bait 1 dua baris, kata terisi kuning, bola
+             memantul per kata.
+[S2]  VO: "Cloud-nya di negara mana? … … Hening. Semua lihat DPO."
+      Layar: Bait 2: "Cloud-nya di negara mana?" — bola berhenti di udara, musik menipis, teks "(hening)"
+             berkedip, lalu "semua lihat DPO 👀".
+[S3]  VO: "Data pergi ke luar negeri, TIA dulu jangan nanti. Register transfer tercatat rapi, di Privasimu Nexus, pasti."
+      Layar: Reff: empat baris lirik terisi cepat; bola memantul makin semangat; kata terakhir "pasti" → bola
+             mendarat di logo Privasimu Nexus yang muncul dengan denyut & kilau.
+[S4]  VO: "Cloud-nya di mana pun, transfernya tercatat. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Cloud-nya di mana pun, transfernya tercatat.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Transfer Data Lintas Negara (fakta_produk.json, kunci cross-border): register transfer lintas negara; Transfer
+  Impact Assessment (TIA); pemetaan pelindungan yang setara atau memadai.
+- Lirik & melodi orisinal (musik disintesis music-kit, lead bell); tidak meniru lagu apa pun; tanpa merek
+  layanan cloud.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

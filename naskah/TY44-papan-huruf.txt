@@ -1,0 +1,44 @@
+NASKAH TY44 — "SEDANG TAYANG" · GAYA: PAPAN HURUF (LETTER BOARD)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Papan huruf (letter board) — papan kain beralur berbingkai kayu; huruf plastik putih masuk satu-satu
+             dengan klik, beberapa miring; judul berganti seperti papan bioskop
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "SEDANG TAYANG: AUDIT. Tanpa gladi resik."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty44-papan-huruf). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY44_S1, TY44_S2, TY44_S3, TY44_S4 (atau satu file utuh TY44 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. fire-drill-header
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Sedang tayang: audit. Tanpa gladi resik."
+      Layar: Papan huruf kosong; huruf dipasang satu-satu: "SEDANG TAYANG:" / "AUDIT" / "TANPA GLADI RESIK".
+[S2]  VO: "Segera: fire drill. Latihan insiden data, sebelum yang sungguhan."
+      Layar: Huruf lama dicopot, huruf baru dipasang: "SEGERA:" / "FIRE DRILL" / "LATIHAN INSIDEN DATA".
+[S3]  VO: "Di Privasimu Nexus: kuis, tabletop, walkthrough. Skenario dibantu AI, dinilai rubrik."
+      Layar: Baris berganti: "PRIVASIMU NEXUS" / "FIRE DRILL" tetap / "KUIS · TABLETOP · WALKTHROUGH"; kartu
+             banner Fire Drill asli muncul di bawah papan.
+[S4]  VO: "Latihan dulu, baru tayang. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Latihan dulu, baru tayang.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Simulasi & Fire Drill (fakta_produk.json): kuis, tabletop, walkthrough; skenario kustom berbantuan AI;
+  penilaian rubrik dan tindak lanjut.
+- Banner "Fire Drill — Simulasi Insiden Data Breach" = tangkapan layar asli (assets/app/fire-drill-header.png),
+  dipotong tanpa nama organisasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

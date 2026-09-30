@@ -1,0 +1,26 @@
+/* TY35 · ASCII — terminal hitam kehijauan, huruf fosfor #5CFF8F dengan glow, banner # putih-hijau, peringatan kuning */
+body { background: #050907; color: #5CFF8F; }
+#stage { background: #050907; }
+#vignette { opacity: .6; }
+#grain { opacity: .1; }
+.as-term { position: absolute; left: 70px; top: 50px; width: 1240px; }
+.v .as-term { left: 40px; top: 200px; width: 1000px; }
+.as-bar { display: flex; align-items: center; gap: 10px; padding: 0 0 14px; color: #6B7F72; font: 400 22px/1 'JetBrains Mono', monospace; }
+.as-bar i { width: 14px; height: 14px; border-radius: 50%; background: #2E3D34; } .as-bar span { margin-left: 8px; }
+.as-pre { margin: 0; font: 400 32px/1.35 'JetBrains Mono', monospace; color: #5CFF8F; text-shadow: 0 0 8px rgba(92,255,143,.55); white-space: pre; }
+.v .as-pre { font-size: 24px; }
+.as-baris { min-height: 1.35em; }
+.as-baris.cmd { color: #E6FFEE; }
+.as-baris.cmd span:first-child { color: #FFD166; }
+.as-baris.banner { font-weight: 700; font-size: 1.15em; line-height: 1.05; color: #B8FFD0; text-shadow: 0 0 10px rgba(92,255,143,.8); }
+.v .as-baris.banner { font-size: 1.0em; }
+.as-baris.warn { color: #FFD166; text-shadow: 0 0 8px rgba(255,209,102,.5); }
+.as-pre span { display: inline-block; width: .6em; text-align: center; }
+.as-gembok { position: absolute; left: 1490px; top: 130px; opacity: 0; }
+.v .as-gembok { left: 50%; top: 900px; translate: -50% 0; }
+.as-pre-g { margin: 0; font: 700 34px/1.1 'JetBrains Mono', monospace; color: #FFD166; text-shadow: 0 0 12px rgba(255,209,102,.7); white-space: pre; }
+.v .as-pre-g { font-size: 26px; }
+.as-gembok.kunci .as-pre-g { color: #5CFF8F; text-shadow: 0 0 16px rgba(92,255,143,.9); }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'JetBrains Mono', monospace; --pd-acc: #5CFF8F; --pd-btn: #5CFF8F; --pd-btn-ink: #050907; --pd-tirai: rgba(5,9,7,.97); }
+.pd-tag { font-weight: 700; font-size: 58px; }

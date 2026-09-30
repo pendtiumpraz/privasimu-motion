@@ -1,0 +1,45 @@
+NASKAH TY48 — "FILM DENGAN SATU PEMERAN" · GAYA: KREDIT AKHIR FILM
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kredit akhir film — layar hitam ala bioskop; kredit putih gading dua kolom bergulir ke atas, butiran
+             film dan kedip proyektor halus
+Durasi     : ± 25 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : DPO/PPDP yang bekerja sendirian, manajemen yang menunjuknya
+Hook       : relate — "Pemeran. DPO sebagai Legal. DPO sebagai IT. DPO sebagai layanan pelanggan. DPO sebagai
+             humas."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty48-kredit-film). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY48_S1, TY48_S2, TY48_S3, TY48_S4 (atau satu file utuh TY48 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. Gaya narator film: tenang, berwibawa, sedikit jenaka. "IT" dibaca "ai-ti".
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Pemeran. DPO sebagai Legal. DPO sebagai aiti. DPO sebagai layanan pelanggan. DPO sebagai humas."
+      Layar: Kredit bergulir: PEMERAN — Legal … DPO, IT … DPO, Layanan Pelanggan … DPO, Humas … DPO.
+[S2]  VO: "Satu film. Satu pemeran. Pemeran pengganti: tidak ada."
+      Layar: Gulir makin cepat: Notulis Rapat, Pengingat Tenggat, Penjawab "Datanya di Mana?", Pemadam Kebakaran,
+             Penerjemah Pasal … semuanya DPO. Lalu PEMERAN PENGGANTI: (tidak ada).
+[S3]  VO: "Turut membantu: Privasimu Nexus. Antrean kerja, dasbor kepatuhan, dan asisten AI Priva."
+      Layar: TURUT MEMBANTU — logo Privasimu Nexus; Antrean Kerja, Dasbor Kepatuhan, Asisten AI (Priva), Log
+             Audit.
+[S4]  VO: "Sekuelnya lebih ringan. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup di atas hitam: logo, "Sekuelnya lebih ringan.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Dukungan PPDP: dasbor kepatuhan lintas modul, antrean pekerjaan yang menunggu tindakan, asisten AI Priva, log
+  audit (fakta_produk.json: ppdp).
+- Daftar peran (notulis rapat, pengingat tenggat, dst.) = humor empati, bukan data.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

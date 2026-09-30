@@ -1,0 +1,50 @@
+NASKAH SN08 — "AUDITOR DATANG" · GAYA: FILM BISU (KARTU TEKS)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Film bisu (kartu teks) — hitam-putih berkedip dengan goresan film & vinyet tebal; kartu teks hitam
+             berbingkai ornamen dengan huruf serif; adegan siluet kantor (meja, jam, pintu) dan sosok bertopi;
+             gerak patah-patah 12 fps; berubah berwarna saat register RoPA asli muncul
+Durasi     : ± 29 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Pada suatu pagi yang tenang… auditor datang."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn08-film-bisu). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN08_S1, SN08_S2, SN08_S3, SN08_S4, SN08_S5 (atau satu file utuh SN08 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Pada suatu pagi yang tenang…"
+      Layar: Kartu teks "Pada suatu pagi yang tenang…"; lalu adegan siluet kantor: sosok di meja, jam dinding
+             berputar.
+[S2]  VO: "Auditor datang."
+      Layar: Pintu terbuka, sosok bertopi berkoper masuk patah-patah; kartu "— Auditor datang. —".
+[S3]  VO: "RoPA-nya mana? Panik. Laci dibuka. Kertas beterbangan."
+      Layar: Kartu "RoPA-nya mana?!"; adegan panik: sosok berlari bolak-balik patah-patah, laci terbuka, kertas
+             putih beterbangan, tanda "!!".
+[S4]  VO: "Untung, sudah tercatat di Privasimu Nexus. Register RoPA lengkap, kode otomatis, siap ditunjukkan."
+      Layar: Kartu "Untung… sudah tercatat."; film berubah berwarna; kartu register RoPA asli (5 rekaman, kode
+             ROPA-IT-2026-002, dst.).
+[S5]  VO: "Jangan tunggu auditor datang. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup bergaya kartu film: "TAMAT — jangan tunggu auditor datang.", logo, tombol
+             privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): kode rekaman otomatis ROPA-TAHUN-NOMOR; alur Maker–Reviewer–Approver dengan riwayat
+  perubahan; register = tangkapan asli assets/app/ropa-list-baru.png (5 rekaman tenant uji).
+- Semua sosok = siluet bentuk sederhana (tanpa wajah/orang nyata); musik piano disintesis (bukan lagu berhak
+  cipta).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

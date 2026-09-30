@@ -1,8 +1,10 @@
-# Antrean render: satu folder video per baris, dicek berurutan dari atas ke bawah.
-# RENDER.bat hanya merender yang BELUM jadi atau yang sumbernya BERUBAH sejak render terakhir;
-# yang sudah jadi dilewati otomatis, jadi daftar ini boleh berisi semua video.
+# Urutan prioritas render (opsional). RENDER.bat memeriksa SEMUA folder video secara otomatis:
+#   1. folder yang tertulis di sini lebih dulu, sesuai urutan;
+#   2. lalu semua folder lain yang punya scenes.js (video baru ikut tanpa perlu didaftarkan).
+# Yang dirender hanya video yang BELUM jadi atau sumbernya BERUBAH; yang sudah jadi dilewati.
+# Baris diawali # = komentar. Baris "-nama-folder" = jangan dirender.
 # Render ulang paksa: RENDER.bat --paksa nama-folder
-# Baris yang diawali # tidak dicek sama sekali. Perkiraan: 10-15 menit per video yang dirender.
+gb05-satu-garis
 t01-stomp
 t02-tipografi
 t03-stop-motion

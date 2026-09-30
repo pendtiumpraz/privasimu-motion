@@ -1,0 +1,15 @@
+/* TY14 · PAPAN LED — malam gelap, papan hitam berbingkai abu, LED merah & kuning berpendar */
+body { background: #07070A; color: #fff; }
+#stage { background: #07070A; }
+#vignette { opacity: .6; }
+#grain { opacity: .08; }
+.led-papan { position: absolute; border-radius: 18px; border: 14px solid #2A2C33; background: #0A0A0C; overflow: hidden; transform-origin: 50% 0; }
+.led-papan canvas { display: block; }
+.led-teks { position: absolute; left: 100px; right: 100px; top: 700px; text-align: center; font: 800 56px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #fff; }
+.v .led-teks { left: 60px; right: 60px; top: 1300px; font-size: 54px; }
+.led-teks em { font-style: normal; color: #FFC23A; }
+.led-cip { position: absolute; padding: 12px 24px 14px; border-radius: 999px; background: #FF3B2F; color: #fff; font: 800 28px/1 'Rubik', sans-serif; box-shadow: 0 0 30px rgba(255,59,47,.5); transform-origin: 50% 50%; opacity: 0; white-space: nowrap; }
+.v .led-cip { font-size: 26px; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-acc: #FFC23A; --pd-btn: #FF3B2F; }
+.h .led-teks.kiri { left: 90px; right: 1000px; top: 560px; text-align: left; font-size: 52px; }
+.v .led-teks.kiri { top: 1530px; }

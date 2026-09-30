@@ -1,0 +1,30 @@
+/* TY45 · TES MATA — dinding hijau mint ruang periksa, papan putih berhuruf slab hitam, penunjuk merah */
+body { background: #CFE5DC; color: #10151F; }
+#stage { background: #CFE5DC; }
+#vignette { opacity: .2; }
+#grain { opacity: .04; }
+.tm-papan { position: absolute; padding: 0 0 26px; background: #fff; border: 4px solid #10151F; border-radius: 10px; box-shadow: 0 30px 70px rgba(16,40,32,.28), 0 4px 0 rgba(16,21,31,.25); text-align: center; }
+.tm-kepala { display: flex; justify-content: space-between; padding: 14px 22px 12px; margin-bottom: 8px; border-bottom: 3px solid #10151F; font: 700 17px/1 'JetBrains Mono', monospace; letter-spacing: .08em; color: #10151F; }
+.v .tm-kepala { font-size: 21px; padding: 16px 26px 14px; }
+.tm-baris { position: relative; padding: 11px 0; font-family: 'Roboto Slab', serif; font-weight: 900; line-height: 1; color: #10151F; white-space: nowrap; }
+.tm-baris span { display: inline-block; margin-right: -.16em; }
+.tm-baris i { position: absolute; left: 20px; top: 50%; margin-top: -9px; font: 700 18px/1 'JetBrains Mono', monospace; color: rgba(16,21,31,.45); font-style: normal; }
+.v .tm-baris i { font-size: 22px; left: 24px; margin-top: -11px; }
+.tm-baris u { position: absolute; left: 12%; right: 12%; bottom: -3px; height: 6px; border-radius: 3px; }
+.tm-baris u.hijau { background: #1FA971; }
+.tm-baris u.merah { background: #E5484D; }
+.tm-tunjuk { position: absolute; right: -30px; top: 0; width: 120px; height: 0; }
+.tm-tunjuk b { position: absolute; left: 0; top: -13px; width: 26px; height: 26px; border-radius: 50%; background: #E5484D; box-shadow: 0 0 0 7px rgba(229,72,77,.22), 0 6px 12px rgba(0,0,0,.25); }
+.tm-tunjuk::after { content: ''; position: absolute; left: 22px; top: -4px; width: 190px; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #7A4B2A, #A9713F); box-shadow: 0 5px 10px rgba(0,0,0,.2); }
+.tm-cek { position: absolute; right: -40px; top: -40px; width: 96px; height: 96px; overflow: visible; }
+.tm-cek circle { fill: #1FA971; }
+.tm-cek path { fill: none; stroke: #fff; stroke-width: 11; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; }
+.tm-pita { position: absolute; left: 50%; bottom: 58px; transform-origin: 50% 50%; margin-left: -720px; width: 1440px; padding: 24px 40px 28px; border-radius: 26px; background: #10151F; color: #fff;
+  text-align: center; font: 700 56px/1.16 'Roboto Slab', serif; letter-spacing: -.01em; box-shadow: 0 20px 50px rgba(16,21,31,.35); }
+.v .tm-pita { bottom: 500px; margin-left: -490px; width: 980px; font-size: 58px; padding: 26px 34px 30px; }
+.tm-pita em { font-style: normal; color: #FFD34E; }
+.tm-pita .b { display: none; }
+.tm-cat { position: absolute; left: 780px; top: 640px; width: 1060px; text-align: center; font: 700 24px/1.2 'JetBrains Mono', monospace; letter-spacing: .02em; color: rgba(16,21,31,.62); }
+.v .tm-cat { left: 70px; top: 1120px; width: 940px; font-size: 27px; }
+.pd-cta { --pd-font: 'Roboto Slab', serif; --pd-acc: #1B8F61; --pd-btn: #10151F; --pd-ink: #10151F; --pd-mute: rgba(16,21,31,.62); --pd-tirai: rgba(223,238,231,.97); --pd-logo: brightness(0); }
+.v .pd-tag { font-size: 62px; }

@@ -1,0 +1,34 @@
+/* PF24 · SLIP GAJI — meja abu, kertas dot-matrix bergaris hijau muda & berlubang tepi, huruf IBM Plex Mono, stempel merah/hijau */
+body { background: #3A404A; color: #1B1B1B; }
+#stage { background: #3A404A; }
+#vignette { opacity: .45; }
+#grain { opacity: .07; }
+.sg-kertas { position: absolute; left: 50%; top: 100px; width: 1300px; min-height: 900px; background: repeating-linear-gradient(180deg, #F6FAF3 0 72px, #E4F0E0 72px 144px); box-shadow: 0 30px 70px rgba(0,0,0,.45); transform-origin: 50% 0; opacity: 0; }
+.v .sg-kertas { width: 1000px; top: 200px; background: repeating-linear-gradient(180deg, #F6FAF3 0 70px, #E4F0E0 70px 140px); }
+.sg-lubang { position: absolute; top: 0; bottom: 0; width: 60px; background: repeating-linear-gradient(180deg, transparent 0 18px, #3A404A 18px 36px, transparent 36px 72px) 22px 0 / 18px 72px no-repeat; border-right: 2px dashed rgba(0,0,0,.15); }
+.sg-lubang.kiri { left: 0; } .sg-lubang.kanan { right: 0; border-right: 0; border-left: 2px dashed rgba(0,0,0,.15); background-position: 20px 0; }
+.sg-isi { padding: 20px 90px 40px; }
+.sg-baris { display: flex; align-items: baseline; gap: 14px; height: 72px; font: 600 36px/72px 'IBM Plex Mono', monospace; color: #1F2A1E; white-space: nowrap; opacity: 0; }
+.v .sg-baris { height: 70px; line-height: 70px; font-size: 28px; }
+.sg-baris .ki { flex: 0 0 auto; }
+.sg-baris .titik { flex: 1 1 0; border-bottom: 3px dotted rgba(0,0,0,.25); height: 40px; }
+.sg-baris .ka { flex: 0 0 auto; text-align: right; }
+.sg-baris i { font-style: normal; visibility: hidden; }
+.sg-baris.kop { font-weight: 600; letter-spacing: .06em; border-bottom: 3px solid #1F2A1E; margin-bottom: 8px; }
+.sg-baris.kop .titik { border: 0; }
+.sg-baris.sub { color: #5B6B58; letter-spacing: .2em; }
+.sg-baris.sub .titik { border: 0; }
+.sg-baris.merah .ka { color: #C8102E; font-weight: 600; }
+.sg-baris.total { font-size: 44px; border-top: 3px double #1F2A1E; margin-top: 6px; }
+.sg-baris.total .ka { font-size: 60px; color: #C8102E; }
+.sg-baris.hijau .ka, .sg-baris.hijau.total .ka, .sg-baris.kop.hijau { color: #1B7F3B; }
+.sg-baris.kop.hijau { border-color: #1B7F3B; }
+.v .sg-baris.total { font-size: 32px; } .v .sg-baris.total .ka { font-size: 44px; }
+.sg-kepala { position: absolute; left: 0; top: 0; width: 26px; height: 48px; margin-left: -6px; border-radius: 6px; background: #1B1F26; box-shadow: 0 0 0 3px rgba(255,255,255,.4), 0 8px 16px rgba(0,0,0,.4); opacity: 0; }
+.sg-stempel { position: absolute; right: 120px; top: 420px; padding: 12px 24px; border: 8px solid; border-radius: 12px; font: 900 56px/1 'Inter', sans-serif; letter-spacing: .08em; opacity: 0; transform-origin: 50% 50%; }
+.sg-stempel.merah { color: #C8102E; border-color: #C8102E; }
+.sg-stempel.hijau { color: #1B7F3B; border-color: #1B7F3B; top: 300px; }
+.v .sg-stempel { right: 80px; font-size: 48px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'IBM Plex Mono', monospace; --pd-acc: #7CE0A0; --pd-btn: #F6FAF3; --pd-btn-ink: #1F2A1E; --pd-tirai: rgba(31,42,30,.97); }
+.pd-tag { font-weight: 600; font-size: 56px; }
+.v .pd-tag { font-size: 58px; }

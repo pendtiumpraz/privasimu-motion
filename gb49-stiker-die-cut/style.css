@@ -1,0 +1,26 @@
+/* GB49 · STIKER DIE-CUT — tutup laptop hijau tua; stiker warna-warni bergaris tepi putih 10px, huruf Fredoka */
+body { background: #12352D; color: #fff; }
+#stage { background: #12352D; }
+#vignette { opacity: .45; }
+#grain { opacity: .06; }
+.sd-stiker { position: absolute; left: 0; top: 0; opacity: 0; transform-origin: 50% 50%; font-family: 'Fredoka', sans-serif; }
+.sd-stiker .in { border: 10px solid #fff; box-shadow: 0 0 0 2px rgba(0,0,0,.08); display: flex; align-items: center; gap: 14px; white-space: nowrap; }
+.sd-stiker.pil .in { padding: 22px 40px; border-radius: 999px; font: 700 52px/1 'Fredoka', sans-serif; color: #1B1B1B; }
+.sd-stiker.pil i { font-style: normal; font-size: 48px; }
+.sd-stiker.kopi .in { background: #FFB74D; }
+.sd-stiker.file .in { background: #B39DDB; font-size: 42px; }
+.sd-stiker.chat .in { background: #4FC3F7; }
+.sd-stiker.audit .in { background: #F48FB1; font-size: 46px; }
+.sd-stiker.tab .in { background: #C5E1A5; }
+.sd-stiker .badge { padding: 6px 12px; border-radius: 999px; background: #E53935; color: #fff; font-size: 26px; font-weight: 700; }
+.sd-stiker.bulat .in { width: 260px; height: 260px; border-radius: 50%; justify-content: center; flex-direction: column; gap: 0; background: #FFF176; font: 600 40px/1 'Fredoka', sans-serif; color: #1B1B1B; text-align: center; }
+.sd-stiker.bulat b { font-size: 92px; line-height: 1; }
+.sd-stiker.jam .in { background: #FF8A65; }
+.sd-stiker.judul .in { padding: 24px 56px; background: #FFD54F; font: 700 80px/1 'Fredoka', sans-serif; letter-spacing: .04em; color: #1B1B1B; border-radius: 22px; transform: skewX(-6deg); }
+.v .sd-stiker.judul .in { font-size: 60px; padding: 20px 36px; }
+.sd-stiker.logo .in { width: 560px; height: 300px; border-radius: 40px; background: #0B1B4D; flex-direction: column; gap: 6px; justify-content: center; }
+.v .sd-stiker.logo .in { width: 640px; height: 340px; }
+.sd-stiker.logo img { width: 380px; }
+.v .sd-stiker.logo img { width: 440px; }
+.sd-stiker.logo em { font: 800 24px/1 'Inter', sans-serif; letter-spacing: .5em; color: #FFD166; font-style: normal; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Fredoka', sans-serif; --pd-acc: #FFD54F; --pd-btn: #FFD54F; --pd-btn-ink: #1B1B1B; --pd-tirai: rgba(18,53,45,.97); }

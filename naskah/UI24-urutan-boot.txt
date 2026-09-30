@@ -1,0 +1,51 @@
+NASKAH UI24 — "MEMERIKSA…" · GAYA: URUTAN BOOT
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Urutan boot — layar POST hitam penuh, huruf mono putih; baris pemeriksaan muncul berurutan dengan
+             titik-titik penuntun dan status [ OK ] hijau / [WARN] kuning / [FAIL] merah; bilah progres; layar
+             merah PANIK KEPATUHAN bergetar; reboot ke layar Nexus dengan kartu rekomendasi GAP asli
+Durasi     : ± 28 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Memeriksa RoPA… OK. Memeriksa bukti persetujuan… TIDAK DITEMUKAN."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ui24-urutan-boot). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: UI24_S1, UI24_S2, UI24_S3, UI24_S4 (atau satu file utuh UI24 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. gap-rekomendasi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Memeriksa RoPA… OK. Memeriksa bukti persetujuan… tidak ditemukan."
+      Layar: KEPATUHAN-OS v2026.9 boot: "Memeriksa RoPA ..... [ OK ]", "Memeriksa DPIA ..... [WARN] draf",
+             "Memeriksa bukti persetujuan ..... [FAIL] tidak ditemukan"; bilah progres berhenti di 41%.
+[S2]  VO: "Kebijakan retensi: versi 2019. Kontrak pihak ketiga: tiga belum ditelaah. Panik kepatuhan."
+      Layar: Baris lanjut: "Memeriksa kebijakan retensi ..... [FAIL] versi 2019*", "Memeriksa kontrak pihak
+             ketiga ..... [WARN] 3 belum ditelaah*"; lalu layar merah penuh bergetar: PANIK KEPATUHAN — AUDIT
+             MINGGU DEPAN.
+[S3]  VO: "Reboot ke Privasimu Nexus GAP Assessment: kuesioner UU PDP, bukti dianalisis AI, rencana remediasi. Semua OK."
+      Layar: Layar hitam lagi: "PRIVASIMU NEXUS · GAP ASSESSMENT" boot ulang; baris hijau semua: kuesioner UU PDP
+             [ OK ], analisis bukti AI [ OK ], rencana remediasi [ OK ] 11 rekomendasi; bilah progres 100%; kartu
+             asli Rekomendasi Perbaikan muncul.
+[S4]  VO: "Boot kepatuhanmu tanpa FAIL. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Boot kepatuhanmu tanpa [FAIL].", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment (fakta_produk.json): kuesioner penilaian kepatuhan UU PDP; skor kepatuhan dan rencana
+  remediasi; analisis dokumen bukti oleh AI per pertanyaan (1 kredit, hasil dicache).
+- Kartu "Rekomendasi Perbaikan (11): 9 CRITICAL · 1 HIGH · 1 MEDIUM" = tangkapan asli
+  assets/app/gap-rekomendasi.png.
+- "KEPATUHAN-OS" dan hasil pemeriksaan (retensi 2019, 3 kontrak belum ditelaah) = fiktif/ilustrasi (ditandai *);
+  tanpa merek sistem operasi nyata.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

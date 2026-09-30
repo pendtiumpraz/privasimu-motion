@@ -1,0 +1,23 @@
+/* TY06 · TERMINAL — hitam kehijauan, IBM Plex Mono, hijau fosfor untuk hasil, kuning untuk peringatan */
+body { background: #0B0F14; color: #D7E3DD; }
+#stage { background: #0B0F14; }
+#vignette { opacity: .55; }
+#grain { opacity: .08; }
+.tr-jendela { position: absolute; border-radius: 16px; background: #0D1117; border: 1px solid rgba(120,220,160,.25); box-shadow: 0 40px 100px rgba(0,0,0,.6), 0 0 60px rgba(60,220,140,.08); overflow: hidden; }
+.tr-bar { display: flex; align-items: center; gap: 10px; padding: 14px 18px; background: #161B22; border-bottom: 1px solid rgba(255,255,255,.06); font: 500 20px/1 'IBM Plex Mono', monospace; color: #8B949E; }
+.tr-bar i { width: 14px; height: 14px; border-radius: 50%; background: #30363D; }
+.tr-bar i:nth-child(1) { background: #FF5F57; } .tr-bar i:nth-child(2) { background: #FEBC2E; } .tr-bar i:nth-child(3) { background: #28C840; }
+.tr-bar span { margin-left: 12px; }
+.tr-isi { position: absolute; left: 0; right: 0; top: 50px; bottom: 0; padding: 28px 34px; font: 500 40px/1.65 'IBM Plex Mono', monospace; color: #D7E3DD; white-space: pre; }
+.v .tr-isi { font-size: 29px; line-height: 1.7; padding: 24px 24px; white-space: pre-wrap; }
+.tr-b { display: none; }
+.tr-b.ketik { color: #fff; font-weight: 700; }
+.tr-b.ok { color: #7EE2A8; }
+.tr-b.redup { color: #8B949E; }
+.tr-b.peringatan { color: #FFD34E; font-weight: 700; margin-top: 12px; }
+.tr-kursor { display: inline-block; width: .6em; height: 1.1em; vertical-align: -0.2em; background: #7EE2A8; margin-left: 2px; }
+.tr-scan { position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(180deg, rgba(255,255,255,.035) 0 2px, transparent 2px 8px); }
+.tr-teks { position: absolute; left: 100px; right: 100px; top: 1000px; text-align: center; font: 700 40px/1.16 'IBM Plex Mono', monospace; color: #D7E3DD; }
+.v .tr-teks { left: 60px; right: 60px; top: 1520px; font-size: 34px; }
+.tr-teks em { font-style: normal; color: #7EE2A8; }
+.pd-cta { --pd-font: 'IBM Plex Mono', monospace; --pd-acc: #7EE2A8; --pd-btn: #7EE2A8; --pd-btn-ink: #0B0F14; --pd-tirai: rgba(11,15,20,.96); }

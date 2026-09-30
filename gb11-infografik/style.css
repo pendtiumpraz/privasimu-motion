@@ -1,0 +1,66 @@
+/* GB11 · INFOGRAFIK — putih gading berkisi; navy #14213D, aksen biru #2F6FD1, hijau #1B9C85, merah #E5383B, kuning #FFB703 */
+body { background: #F7F5EF; color: #14213D; }
+#stage { background: #F7F5EF; }
+#vignette { opacity: .12; }
+#grain { opacity: .03; }
+.ig-panel { position: absolute; inset: 0; font-family: 'Inter', sans-serif; }
+.ig-panel.B { opacity: 0; }
+/* sakelar */
+.ig-sakelar { position: absolute; left: 50%; top: 220px; translate: -50% 0; text-align: center; opacity: 0; transform-origin: 50% 50%; }
+.v .ig-sakelar { top: 420px; }
+.ig-tanya { font: 900 120px/1 'Inter', sans-serif; letter-spacing: -.02em; margin-bottom: 40px; }
+.v .ig-tanya { font-size: 110px; }
+.ig-pill { position: relative; width: 520px; height: 200px; margin: 0 auto; border-radius: 999px; background: #E9E5DA; box-shadow: inset 0 6px 14px rgba(0,0,0,.12); font: 900 60px/1 'Space Grotesk', sans-serif; color: #14213D; }
+.ig-pill span { position: absolute; top: 50%; translate: 0 -50%; }
+.ig-pill .ya { right: 100%; margin-right: 34px; }
+.ig-pill .tidak { left: 100%; margin-left: 34px; }
+.v .ig-pill { width: 480px; }
+.ig-pill .knob { position: absolute; left: 20px; top: 20px; width: 160px; height: 160px; border-radius: 50%; background: #2F6FD1; box-shadow: 0 10px 24px rgba(47,111,209,.45); }
+.ig-sakelar.salah .knob { background: #9AA0A6; }
+.ig-silang { position: absolute; left: 50%; top: 62%; font: 900 300px/1 'Inter', sans-serif; color: #E5383B; opacity: 0; text-shadow: 0 10px 30px rgba(229,56,59,.35); }
+/* tangga */
+.ig-tangga { position: absolute; left: 140px; top: 200px; display: flex; align-items: flex-end; gap: 12px; height: 560px; opacity: 0; }
+.v .ig-tangga { left: 60px; right: 60px; top: 260px; height: 420px; justify-content: center; }
+.ig-anak { width: 130px; background: #2F6FD1; border-radius: 12px 12px 0 0; transform-origin: 50% 100%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding-top: 14px; color: #fff; opacity: 0; }
+.v .ig-anak { width: 176px; }
+.ig-anak b { font: 900 34px/1 'Inter', sans-serif; }
+.ig-anak span { margin-top: 6px; font: 700 15px/1 'Inter', sans-serif; letter-spacing: .06em; text-transform: uppercase; opacity: .9; }
+.ig-anak.a0 { height: 20%; } .ig-anak.a1 { height: 40%; } .ig-anak.a2 { height: 60%; background: #2559B0; } .ig-anak.a3 { height: 80%; background: #1B4A9A; } .ig-anak.a4 { height: 100%; background: #14213D; }
+/* batang domain */
+.ig-bars { position: absolute; left: 960px; right: 120px; top: 230px; opacity: 0; }
+.v .ig-bars { left: 60px; right: 60px; top: 760px; }
+.ig-bars-judul { font: 900 24px/1 'Inter', sans-serif; letter-spacing: .24em; color: #5B6470; margin-bottom: 22px; }
+.ig-bars-judul i, .ig-tr-judul i { font-style: normal; letter-spacing: 0; font-weight: 500; text-transform: none; margin-left: 10px; color: #9AA0A6; }
+.ig-bar { display: flex; align-items: center; gap: 18px; margin: 18px 0; opacity: 0; }
+.ig-bar .nm { width: 240px; flex: 0 0 auto; font: 700 28px/1.1 'Inter', sans-serif; }
+.v .ig-bar .nm { width: 250px; font-size: 27px; }
+.ig-bar .trk { flex: 1 1 0; height: 34px; border-radius: 999px; background: #E9E5DA; overflow: hidden; }
+.ig-bar .isi { height: 100%; width: 0; border-radius: 999px; background: linear-gradient(90deg, #1B9C85, #2F6FD1); }
+.ig-bar .no { width: 80px; text-align: right; font: 900 32px/1 'Space Grotesk', sans-serif; color: #14213D; }
+/* panel B */
+.ig-donat { position: absolute; left: 160px; top: 200px; width: 520px; height: 520px; }
+.v .ig-donat { left: 50%; translate: -50% 0; top: 220px; width: 460px; height: 460px; }
+.ig-donat svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.ig-donat circle { fill: none; stroke-width: 26; }
+.ig-donat .bg { stroke: #E9E5DA; }
+.ig-donat .target { stroke: #FFB703; stroke-dasharray: 6 10; opacity: .8; }
+.ig-donat .arc { stroke: #2F6FD1; stroke-linecap: round; }
+.ig-dn { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.ig-dn b { font: 900 120px/1 'Space Grotesk', sans-serif; color: #14213D; }
+.v .ig-dn b { font-size: 104px; }
+.ig-dn span { margin-top: 10px; font: 700 20px/1.3 'Inter', sans-serif; color: #5B6470; letter-spacing: .04em; max-width: 220px; }
+.ig-rekom { position: absolute; left: 800px; right: 120px; top: 200px; }
+.v .ig-rekom { left: 60px; right: 60px; top: 720px; }
+.ig-rk-judul { font: 900 24px/1 'Inter', sans-serif; letter-spacing: .24em; color: #5B6470; margin-bottom: 18px; }
+.ig-pil { display: flex; align-items: center; gap: 14px; margin: 12px 0; padding: 18px 24px; border-radius: 16px; background: #fff; box-shadow: 0 10px 30px rgba(20,33,61,.1); font: 700 28px/1.2 'Inter', sans-serif; opacity: 0; border-left: 8px solid #1B9C85; }
+.v .ig-pil { font-size: 26px; padding: 16px 20px; }
+.ig-tren { position: absolute; left: 800px; right: 120px; top: 620px; opacity: 0; }
+.v .ig-tren { left: 60px; right: 60px; top: 1090px; }
+.ig-tr-judul { font: 900 24px/1 'Inter', sans-serif; letter-spacing: .24em; color: #5B6470; margin-bottom: 8px; }
+.ig-tren svg { width: 100%; height: 300px; }
+.v .ig-tren svg { height: 300px; }
+.ig-tren line { stroke: #C9CFD6; stroke-width: 2; }
+.ig-tren .garis { fill: none; stroke: #1B9C85; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.ig-tren .dot { fill: #fff; stroke: #1B9C85; stroke-width: 5; opacity: 0; }
+.ig-tren text { font: 700 16px 'Inter', sans-serif; fill: #5B6470; text-anchor: middle; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #FFB703; --pd-btn: #2F6FD1; --pd-btn-ink: #fff; --pd-tirai: rgba(20,33,61,.97); }

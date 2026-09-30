@@ -1,0 +1,43 @@
+NASKAH TY38 — "SATU KATA UNTUK 2027" · GAYA: KALIGRAFI KUAS
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kaligrafi kuas — kertas beras krem; kata RAPI digores kuas tinta hitam tebal dengan cipratan;
+             stempel merah; langkah-langkah ditulis kuas kecil
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : logika dipatahkan — "Resolusi 2027 kantor ini cukup satu kata."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty38-kuas). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY38_S1, TY38_S2, TY38_S3, TY38_S4 (atau satu file utuh TY38 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Resolusi dua ribu dua puluh tujuh kantor ini, cukup satu kata."
+      Layar: Kertas beras kosong; kuas melayang. Di "satu kata", tetes tinta jatuh.
+[S2]  VO: "Rapi."
+      Layar: Kuas menggores RAPI. besar dari kiri ke kanan dengan cipratan tinta; stempel merah "SIAP PP 33"
+             menghantam.
+[S3]  VO: "Rapi catatannya lewat GAP Assessment. Rapi perbaikannya. Rapi buktinya, sebelum enam belas Januari."
+      Layar: Tiga baris kuas kecil ditulis: catatan → GAP Assessment · perbaikan · bukti; tanggal 16 Jan 2027 di
+             sudut.
+[S4]  VO: "Satu kata, satu platform. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup bergaya kertas: logo, "Satu kata, satu platform.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PP 33/2026 berlaku 16 Januari 2027. GAP Assessment: kuesioner, skor, rencana remediasi (fakta_produk.json:
+  gap-assessment). Langkah "GAP → perbaikan → bukti" = ringkasan program siap PP 33; pastikan program masih
+  ditawarkan.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

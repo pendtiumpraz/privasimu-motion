@@ -1,0 +1,49 @@
+NASKAH PF22 — "CARA MERAKIT KEPATUHAN" · GAYA: PETUNJUK PERAKITAN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Petunjuk perakitan — lembar putih bergaris tepi hitam; gambar garis hitam (orang bertanya, keping
+             berlabel modul, baut, panah) yang tergambar sendiri; nomor langkah besar; versi rapi 7 langkah
+             wizard + kartu modal RoPA asli
+Durasi     : ± 26 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 60% edukasi · 40% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Langkah 1 dari 48. Sisa baut: 3."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf22-petunjuk-rakit). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF22_S1, PF22_S2, PF22_S3, PF22_S4 (atau satu file utuh PF22 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Langkah satu, dari empat puluh delapan. Sisa baut: tiga."
+      Layar: Lembar "PETUNJUK PERAKITAN · KEPATUHAN PDP", langkah 1/48: orang garis kebingungan, tumpukan keping
+             RoPA/DPIA/DSR/CONSENT/INSIDEN, "SISA BAUT: 3" dengan tiga baut.
+[S2]  VO: "Panel A ke lubang B. Ternyata B ada di halaman lain. Panel terbalik. Ulangi dari langkah dua."
+      Layar: Lembar berganti cepat: 2/48 (Panel A → lubang B, "lihat hlm. 31"), 17/48 (keping terbalik, tanda ✗),
+             31/48 (panah memutar "ulangi dari langkah 2", sisa baut 5).
+[S3]  VO: "Di Privasimu Nexus, RoPA dirakit lewat wizard tujuh langkah: dari tujuan, sampai pengamanan. Sisa baut: nol."
+      Layar: Lembar rapi "WIZARD RoPA · 7 LANGKAH": tujuh lingkaran bernomor tercentang saat disebut; "SISA BAUT:
+             0 ✓"; kartu modal "Buat RoPA Baru" asli.
+[S4]  VO: "Rakit kepatuhan tanpa sisa baut. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Rakit kepatuhan, tanpa sisa baut.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): wizard bertahap untuk mencatat tujuan, dasar pemrosesan, kategori data, subjek,
+  penerima, retensi, dan pengamanan; data spesifik menandai risiko TINGGI; RoPA risiko TINGGI otomatis membuat
+  draf DPIA.
+- Modal "Buat RoPA Baru" = tangkapan asli assets/app/ropa-baru.png, dipotong di atas kolom entitas (nama
+  organisasi tidak tampil).
+- "48 langkah" dan "sisa baut" = lelucon petunjuk perakitan; bukan angka produk.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

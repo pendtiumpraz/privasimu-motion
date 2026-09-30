@@ -1,0 +1,25 @@
+/* TY29 · GEMA — navy sangat gelap, Unbounded 900; inti putih padat, gema garis tepi biru muda, label pil, centang hijau */
+body { background: #0A0D1A; color: #fff; }
+#stage { background: #0A0D1A; }
+#vignette { opacity: .5; }
+#grain { opacity: .06; }
+.gm-inti { position: absolute; font: 900 190px/1 'Unbounded', sans-serif; letter-spacing: -.02em; color: #fff; white-space: nowrap; transform-origin: 50% 50%; }
+.v .gm-inti { font-size: 112px; }
+.gm-gema { position: absolute; left: 0; top: 0; opacity: 0; }
+.gm-gema .kt { display: block; font: 900 120px/1 'Unbounded', sans-serif; letter-spacing: -.02em; color: transparent; -webkit-text-stroke: 3px #7FB2FF; white-space: nowrap; }
+.v .gm-gema .kt { font-size: 84px; -webkit-text-stroke: 2.5px #7FB2FF; }
+.gm-gema .lb { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(0); padding: 14px 28px 16px; border-radius: 999px; background: #7FB2FF; color: #0A0D1A; font: 800 34px/1 'Rubik', sans-serif; white-space: nowrap; transform-origin: 50% 50%; margin: -26px 0 0 0; }
+.v .gm-gema .lb { font-size: 28px; padding: 10px 20px 12px; }
+.gm-gema .lb, .gm-gema .ok { transform-origin: 50% 50%; }
+.gm-gema.label .kt { opacity: 0; }
+.gm-gema .ok { position: absolute; left: 50%; top: 50%; width: 70px; height: 70px; margin: -35px 0 0 -35px; border-radius: 50%; background: #18B26B; color: #fff; display: flex; align-items: center; justify-content: center; font: 800 40px/1 'Rubik', sans-serif; transform: scale(0); }
+.gm-gema.cek .lb { display: none; }
+.gm-gema .lb { position: absolute; left: 50%; top: 50%; margin-left: 0; translate: -50% -50%; }
+.gm-skor { position: absolute; transform: translateX(-50%); font: 800 40px/1 'Rubik', sans-serif; color: #7FB2FF; opacity: 0; white-space: nowrap; }
+.gm-skor.selesai { color: #18B26B; }
+.gm-pil { border-radius: 26px; box-shadow: 0 0 0 6px #fff, 0 0 0 9px #7FB2FF, 0 20px 50px rgba(0,0,0,.5) !important; transform-origin: 50% 50%; }
+.gm-teks { position: absolute; left: 100px; right: 100px; top: 920px; text-align: center; font: 800 50px/1.16 'Rubik', sans-serif; letter-spacing: -.01em; color: #fff; }
+.v .gm-teks { left: 60px; right: 60px; top: 1440px; font-size: 48px; }
+.gm-teks em { font-style: normal; color: #7FB2FF; }
+.pd-cta { --pd-font: 'Rubik', sans-serif; --pd-head: 'Unbounded', sans-serif; --pd-acc: #7FB2FF; --pd-btn: #7FB2FF; --pd-btn-ink: #0A0D1A; }
+.pd-tag { font-size: 58px; }

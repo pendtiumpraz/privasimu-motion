@@ -1,0 +1,49 @@
+NASKAH GB27 — "MENCARI SATU DOKUMEN" · GAYA: LABIRIN
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Labirin — labirin biru tua dari atas (dinding garis tebal), titik pencari kuning meninggalkan jejak;
+             jalan buntu berkedip merah berlabel; dinding memudar lalu jalur hijau lurus ke ikon dokumen; kartu
+             GAP asli
+Durasi     : ± 27 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Beginilah rasanya mencari satu dokumen bukti saat audit."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/gb27-labirin). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: GB27_S1, GB27_S2, GB27_S3, GB27_S4 (atau satu file utuh GB27 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. gap-rekomendasi
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Beginilah rasanya mencari satu dokumen bukti, saat audit."
+      Layar: Labirin penuh layar; ikon dokumen "Bukti" di ujung; titik pencari mulai berjalan pada "mencari",
+             meninggalkan jejak.
+[S2]  VO: "Folder tim. Email lama. Laptop yang sudah diganti. Buntu, balik, buntu lagi."
+      Layar: Pencari masuk jalan buntu (kedip merah + label "Folder tim" / "Email 2023" / "Laptop lama"), balik,
+             buntu lagi.
+[S3]  VO: "Di Privasimu Nexus, bukti ditempel per pertanyaan, dianalisis AI, hasilnya tersimpan. Jalurnya lurus."
+      Layar: Dinding labirin memudar; jalur hijau lurus tergambar dari awal ke dokumen; kartu asli "Rekomendasi
+             Perbaikan" GAP muncul.
+[S4]  VO: "Audit bukan labirin, kalau buktinya per pertanyaan. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Audit bukan labirin, kalau bukti per pertanyaan.", tombol privasimu.com,
+             kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- GAP Assessment (fakta_produk.json): analisis dokumen bukti oleh AI per pertanyaan (1 kredit per analisis,
+  hasil dicache); skor kepatuhan dan rencana remediasi.
+- Kartu "Rekomendasi Perbaikan" = tangkapan asli assets/app/gap-rekomendasi.png (CRITICAL/HIGH/MEDIUM,
+  rekomendasi per pasal).
+- Label jalan buntu (Folder tim, Email 2023, Laptop lama) = ilustrasi situasi, bukan fitur.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

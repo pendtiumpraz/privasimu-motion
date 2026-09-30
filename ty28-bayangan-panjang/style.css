@@ -1,0 +1,21 @@
+/* TY28 · LONG SHADOW — oker datar #F2B632, teks putih Montserrat 900, panel putih, aksen hitam */
+body { background: #F2B632; color: #1B1B1B; }
+#stage { background: #F2B632; }
+#vignette { opacity: .12; }
+#grain { opacity: .04; }
+.ls-bulan { position: absolute; left: 126px; top: 120px; font: 900 40px/1 'Montserrat', sans-serif; letter-spacing: .3em; color: #1B1B1B; opacity: 0; }
+.v .ls-bulan { left: 76px; top: 160px; font-size: 36px; }
+.ls-panel { position: absolute; left: 1060px; top: 470px; width: 720px; padding: 30px 40px 26px; border-radius: 22px; background: #fff; box-shadow: 0 26px 60px rgba(60,40,0,.28); opacity: 0; }
+.v .ls-panel { left: 90px; top: 1120px; width: 900px; padding: 26px 36px 22px; }
+.lp-j { font: 900 40px/1 'Montserrat', sans-serif; letter-spacing: .18em; color: #1B1B1B; padding-bottom: 16px; margin-bottom: 8px; border-bottom: 4px solid #F2B632; }
+.lp-i { display: flex; align-items: center; gap: 18px; padding: 10px 0; font: 700 40px/1 'Inter', sans-serif; color: #B9AE95; }
+.v .lp-i { padding: 8px 0; font-size: 38px; }
+.lp-i i { width: 46px; height: 46px; border-radius: 12px; border: 4px solid #D8CDB2; box-sizing: border-box; position: relative; flex: 0 0 auto; }
+.lp-i.on { color: #1B1B1B; }
+.lp-i.on i { background: #1B1B1B; border-color: #1B1B1B; }
+.lp-i.on i::after { content: ''; position: absolute; left: 13px; top: 5px; width: 12px; height: 22px; border: solid #F2B632; border-width: 0 5px 5px 0; transform: rotate(45deg); }
+.ls-teks { position: absolute; left: 1000px; right: 90px; top: 130px; text-align: right; font: 700 50px/1.2 'Inter', sans-serif; color: #1B1B1B; }
+.v .ls-teks { left: 70px; right: 70px; top: 870px; text-align: left; font-size: 48px; color: #fff; text-shadow: 0 3px 0 rgba(0,0,0,.25); }
+.ls-teks em { font-style: normal; color: #fff; text-shadow: 0 4px 0 rgba(0,0,0,.25); }
+.v .ls-teks em { color: #1B1B1B; text-shadow: none; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Montserrat', sans-serif; --pd-acc: #F2B632; --pd-btn: #F2B632; --pd-btn-ink: #1B1B1B; --pd-tirai: rgba(27,27,27,.97); }

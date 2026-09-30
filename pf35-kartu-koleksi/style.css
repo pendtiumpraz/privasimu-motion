@@ -1,0 +1,36 @@
+/* PF35 · KARTU KOLEKSI — beludru ungu; kartu bertepi emas, punggung navy berlogo, depan krem dengan pita warna modul */
+body { background: #1E0F3D; color: #fff; }
+#stage { background: #1E0F3D; }
+#vignette { opacity: .55; }
+#grain { opacity: .07; }
+.kk-kartu { position: absolute; perspective: 1600px; transform-origin: 50% 50%; }
+.kk-3d { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; }
+.kk-belakang, .kk-depan { position: absolute; inset: 0; border-radius: 24px; backface-visibility: hidden; border: 8px solid #E4C36A; box-shadow: 0 30px 60px rgba(0,0,0,.5), inset 0 0 0 3px rgba(0,0,0,.25); }
+.kk-belakang { background: radial-gradient(circle at 50% 50%, #1F3F8F 0%, #0B1B4D 70%); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; transform: rotateY(180deg); }
+.kk-belakang img { width: 62%; opacity: .95; }
+.kk-belakang span { font: 900 20px/1 'Cinzel', serif; letter-spacing: .5em; color: #E4C36A; }
+.kk-depan { background: linear-gradient(180deg, #FBF6E9, #EFE4C8); color: #1B1B1B; display: flex; flex-direction: column; padding: 16px 18px; overflow: hidden; }
+.kk-atas { display: flex; justify-content: space-between; align-items: center; padding: 8px 14px; border-radius: 12px; background: var(--w); color: #fff; }
+.kk-atas b { font: 900 34px/1 'Cinzel', serif; }
+.v .kk-atas b { font-size: 28px; }
+.kk-atas i { font: 800 12px/1 'Inter', sans-serif; letter-spacing: .14em; font-style: normal; padding: 5px 8px; border-radius: 6px; background: rgba(0,0,0,.25); }
+.kk-gambar { margin-top: 14px; height: 200px; border-radius: 14px; background: radial-gradient(circle at 50% 40%, #fff 0%, color-mix(in srgb, var(--w) 35%, #fff) 100%); display: flex; align-items: center; justify-content: center; border: 3px solid #E4C36A; }
+.v .kk-gambar { height: 150px; }
+.kk-gambar span { font-size: 120px; filter: drop-shadow(0 10px 14px rgba(0,0,0,.25)); }
+.v .kk-gambar span { font-size: 92px; }
+.kk-gelar { margin-top: 12px; font: 700 24px/1 'Cinzel', serif; text-align: center; color: #3B2A0F; }
+.v .kk-gelar { font-size: 20px; }
+.kk-mampu { margin-top: 10px; font: 600 17px/1.35 'Inter', sans-serif; color: #4B4032; text-align: center; padding: 0 6px; }
+.v .kk-mampu { font-size: 14px; }
+.kk-kuat { margin-top: auto; display: flex; align-items: baseline; justify-content: center; gap: 10px; padding-top: 8px; border-top: 2px solid #E4C36A; }
+.kk-kuat em { font: 900 56px/1 'Cinzel', serif; font-style: normal; color: var(--w); }
+.v .kk-kuat em { font-size: 46px; }
+.kk-kuat small { font: 700 16px/1 'Inter', sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #6B5E45; }
+.kk-kilau { position: absolute; top: -20%; bottom: -20%; left: 0; width: 45%; background: linear-gradient(90deg, transparent, rgba(255,255,255,.75), rgba(255,220,150,.6), transparent); opacity: 0; mix-blend-mode: screen; pointer-events: none; }
+.kk-set { position: absolute; left: 50%; top: 560px; width: 260px; height: 380px; border-radius: 20px; border: 6px solid #E4C36A; background: linear-gradient(180deg, #FBF6E9, #EFE4C8); color: #1B1B1B; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 20px 40px rgba(0,0,0,.45); opacity: 0; transform-origin: 50% 160%; }
+.v .kk-set { top: 800px; width: 220px; height: 320px; }
+.kk-set .ik { font-size: 70px; }
+.kk-set .nm { font: 900 24px/1 'Cinzel', serif; color: var(--w); text-align: center; }
+.kk-lencana { position: absolute; left: 50%; top: 190px; padding: 16px 36px; border-radius: 999px; background: #E4C36A; color: #3B2A0F; font: 900 40px/1 'Cinzel', serif; letter-spacing: .08em; box-shadow: 0 16px 40px rgba(0,0,0,.45); opacity: 0; white-space: nowrap; }
+.v .kk-lencana { top: 330px; font-size: 36px; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Cinzel', serif; --pd-acc: #E4C36A; --pd-btn: #E4C36A; --pd-btn-ink: #1E0F3D; --pd-tirai: rgba(30,15,61,.97); }

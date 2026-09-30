@@ -1,0 +1,44 @@
+NASKAH TY28 — "BAYANGAN TENGGAT" · GAYA: BAYANGAN PANJANG (LONG SHADOW)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Bayangan panjang (long shadow) — latar kuning oker datar; "16 JAN" putih tebal di kiri atas dengan
+             bayangan diagonal bergradasi yang memanjang menutupi ikon meja kerja datar (kertas berlabel modul,
+             keyboard, cangkir); panel putih Siap PP 33
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Makin dekat tanggalnya, makin panjang bayangannya."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty28-bayangan-panjang). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY28_S1, TY28_S2, TY28_S3, TY28_S4 (atau satu file utuh TY28 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Makin dekat tanggalnya… makin panjang bayangannya."
+      Layar: "16 JAN" muncul dengan bayangan pendek; pada "makin panjang" bayangan mulai memanjang ke
+             kanan-bawah.
+[S2]  VO: "Oktober, masih terang. November, mulai gelap. Desember, seluruh meja tertutup bayangan."
+      Layar: Label bulan berganti; bayangan memanjang bertahap sampai menutupi kertas RoPA/DPIA/DSR, keyboard,
+             dan cangkir di meja.
+[S3]  VO: "Program Siap PP 33 di Privasimu Nexus: RoPA, DPIA, DSR, Consent, Insiden. Siap sebelum tanggalnya, bayangannya pendek lagi."
+      Layar: Panel putih "SIAP PP 33" muncul di meja; tiap modul tercentang saat disebut; bayangan memendek
+             sampai pendek lagi.
+[S4]  VO: "Tanggalnya tetap, bayangannya bisa pendek. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Tanggalnya tetap, bayangannya bisa pendek.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- PP 33/2026 berlaku 16 Januari 2027 (basis yang sama dengan TY40/TY53 & knowledge base regulasi platform).
+- Daftar Siap PP 33 = modul Nexus (fakta_produk.json): RoPA, DPIA, DSR, Consent, Insiden.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

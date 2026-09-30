@@ -1,0 +1,34 @@
+/* SN08 · FILM BISU — hitam-putih, vinyet tebal, kartu teks hitam berornamen putih, serif Playfair; berubah krem-berwarna di akhir */
+body { background: #1A1A1A; color: #EDEDED; }
+#stage { background: #1A1A1A; }
+#vignette { opacity: .9; }
+#grain { opacity: .22; }
+body.warna #vignette { opacity: .3; }
+body.warna #grain { opacity: .06; }
+.fb-kartu { position: absolute; left: 50%; top: 50%; translate: -50% -50%; background: #0B0B0B; display: flex; align-items: center; justify-content: center; text-align: center; opacity: 0; margin-top: -20px; }
+.v .fb-kartu { margin-top: -140px; }
+.fb-orn { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fb-orn rect, .fb-orn path { fill: none; stroke: #E6E1D6; stroke-width: 3; }
+.fb-orn circle { fill: #E6E1D6; }
+.fb-teks { position: relative; padding: 0 70px; font: italic 600 72px/1.25 'Playfair Display', serif; color: #F0EBE0; letter-spacing: .01em; }
+.v .fb-teks { font-size: 66px; padding: 0 60px; }
+.fb-adegan { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 1500px; opacity: 0; margin-top: -10px; }
+.v .fb-adegan { width: 1040px; margin-top: -120px; }
+.fb-adegan rect, .fb-adegan circle, .fb-adegan path { fill: #0B0B0B; stroke: none; }
+.fb-adegan .lantai { stroke: #0B0B0B; stroke-width: 6; }
+.fb-adegan .jam { fill: #E6E1D6; } .fb-adegan .jam circle { fill: #E6E1D6; stroke: #0B0B0B; stroke-width: 6; }
+.fb-adegan .jarum, .fb-adegan .jarum2 { stroke: #0B0B0B; stroke-width: 6; stroke-linecap: round; }
+.fb-adegan .kusen { fill: #E6E1D6; stroke: #0B0B0B; stroke-width: 6; }
+.fb-adegan .pintu { fill: #0B0B0B; }
+.fb-adegan .auditor { opacity: 0; }
+.fb-adegan .laci { fill: #E6E1D6; stroke: #0B0B0B; stroke-width: 5; }
+.fb-adegan .kaki { fill: none; stroke: #0B0B0B; stroke-width: 12; stroke-linecap: round; }
+.fb-adegan .kertas { fill: #E6E1D6; stroke: #0B0B0B; stroke-width: 3; }
+.fb-adegan .seru { fill: #0B0B0B; font: 900 64px 'Cinzel', serif; text-anchor: middle; }
+body:not(.warna) .fb-adegan { filter: drop-shadow(0 0 0 transparent); }
+/* adegan siluet digambar hitam di atas latar putih-abu (bingkai adegan) */
+.fb-adegan { background: radial-gradient(ellipse at 50% 40%, #E6E1D6 0%, #CFC9BC 70%, #9A958A 100%); border-radius: 6px; box-shadow: 0 0 0 10px #0B0B0B; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Cinzel', serif; --pd-acc: #B4261E; --pd-btn: #1A1A1A; --pd-btn-ink: #F1E9DA; --pd-tirai: rgba(241,233,218,.97); --pd-ink: #1A1A1A; --pd-mute: rgba(26,26,26,.62); --pd-logo: brightness(0); }
+.pd-tag { letter-spacing: .04em; }
+.pd-tag em { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 600; letter-spacing: 0; font-size: .72em; }

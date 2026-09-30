@@ -1,0 +1,26 @@
+/* TY13 · MARQUEE BRUTALIST — hitam, putih, kuning asam; Archivo 900 lebar; garis pemisah tebal */
+body { background: #0A0A0A; color: #F2F2F2; }
+#stage { background: #0A0A0A; }
+#vignette { opacity: 0; }
+#grain { opacity: .08; }
+.mq-row { position: absolute; left: 0; width: 100%; overflow: hidden; border-top: 3px solid #F2F2F2; display: flex; align-items: center; font-family: 'Archivo', sans-serif; font-weight: 900; font-stretch: 118%; letter-spacing: -.01em; line-height: 1; white-space: nowrap; color: #F2F2F2; }
+.mq-row.b { background: #F2F2F2; color: #0A0A0A; }
+.mq-row.redup .w:not(.on), .mq-row.redup .dot { opacity: .22; }
+.mq-track { display: inline-flex; align-items: center; will-change: transform; }
+.mq-track .w { position: relative; display: inline-flex; align-items: center; padding: 0 .12em; }
+.mq-track .dot { padding: 0 .2em; color: #D6FF3A; }
+.mq-row.b .dot { color: #0A0A0A; }
+.mq-track .w.on { color: #D6FF3A; }
+.mq-row.b .w.on { color: #0A0A0A; background: #D6FF3A; }
+.mq-kotak { position: relative; display: inline-block; width: .62em; height: .62em; margin-right: .18em; border: .07em solid currentColor; transform: scale(0); transform-origin: 50% 50%; }
+.mq-kotak b { position: absolute; left: .1em; top: -.02em; width: .18em; height: .36em; border: solid currentColor; border-width: 0 .07em .07em 0; transform: rotate(45deg); opacity: 0; }
+.mq-kotak.cek b { opacity: 1; }
+.mq-cap { position: absolute; right: -.35em; top: -.2em; padding: .1em .24em .12em; border: .06em solid #FF3D7F; color: #FF3D7F; background: rgba(10,10,10,.85); font: 900 .46em/1 'Archivo', sans-serif; font-stretch: 100%; letter-spacing: .06em; white-space: nowrap; opacity: 0; transform-origin: 50% 50%; z-index: 2; }
+.mq-row.b .mq-cap { background: rgba(242,242,242,.9); }
+.mq-teks { position: absolute; left: 50%; bottom: 60px; margin-left: -720px; width: 1440px; padding: 22px 40px 26px; background: #D6FF3A; color: #0A0A0A; text-align: center; font: 900 56px/1.1 'Archivo', sans-serif; font-stretch: 110%; letter-spacing: -.02em; box-shadow: 10px 10px 0 #0A0A0A, 10px 10px 0 4px #F2F2F2; }
+.v .mq-teks { bottom: 300px; margin-left: -480px; width: 960px; font-size: 52px; }
+.mq-teks em { font-style: normal; color: #FF3D7F; }
+.pd-cta { --pd-font: 'Archivo', sans-serif; --pd-ink: #F2F2F2; --pd-acc: #D6FF3A; --pd-btn: #D6FF3A; --pd-btn-ink: #0A0A0A; --pd-tirai: rgba(10,10,10,.97); }
+.pd-tag { font-weight: 900; font-stretch: 110%; text-transform: uppercase; }
+.pd-btn { border-radius: 0; box-shadow: 10px 10px 0 #F2F2F2; }
+.v .mq-row { font-stretch: 96%; }

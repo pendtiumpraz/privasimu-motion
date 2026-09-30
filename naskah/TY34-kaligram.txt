@@ -1,0 +1,42 @@
+NASKAH TY34 — "GEMBOK DARI KATA-KATA" · GAYA: KALIGRAM (KATA MEMBENTUK GAMBAR)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Kaligram (kata membentuk gambar) — navy gelap; ratusan kata kecil putih-biru tersusun membentuk
+             gembok; kata yang disebut menyala kuning; sengkang turun mengunci
+Durasi     : ± 23 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 70% edukasi · 30% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "Gembok ini tidak terbuat dari besi, tapi dari catatan."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty34-kaligram). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY34_S1, TY34_S2, TY34_S3, TY34_S4 (atau satu file utuh TY34 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Gembok ini tidak terbuat dari besi. Tapi dari catatan."
+      Layar: Ratusan kata berkumpul cepat membentuk gembok (selesai ± 1,3 detik). Di "catatan", kamera mendekat
+             ke badan gembok sampai kata-katanya terbaca.
+[S2]  VO: "RoPA. DPIA. Bukti persetujuan. Log audit. Tenggat. Semua tercatat di satu tempat."
+      Layar: Kata yang diucapkan menyala kuning di seluruh gembok (RoPA, DPIA, bukti persetujuan, log audit,
+             tenggat). Di "satu tempat", kamera mundur: gembok utuh.
+[S3]  VO: "Privasimu Nexus."
+      Layar: Sengkang gembok turun dan mengunci (bunyi klik logam); logo Privasimu Nexus muncul di bawah gembok.
+[S4]  VO: "Kepatuhan yang terbuat dari catatan. Cek kesiapanmu gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Kepatuhan yang terbuat dari catatan.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Kata-kata di gembok = istilah modul Nexus yang nyata: RoPA, DPIA, DSR, bukti persetujuan, log audit, tenggat,
+  insiden 3×24 jam, pihak ketiga, transfer, TIA, LIA (fakta_produk.json).
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

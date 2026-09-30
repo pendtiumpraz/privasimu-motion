@@ -1,0 +1,48 @@
+NASKAH SN17 — "36 BINGKAI" · GAYA: STRIP FILM / LEMBAR KONTAK
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Strip film / lembar kontak — meja cahaya putih hangat; tiga strip film hitam berlubang sproket, 12
+             bingkai per strip berisi kartu momen kantor bernada sepia; strip bergulir lalu berhenti; lingkaran
+             spidol merah menggambar sendiri; bingkai terpilih membesar ke tengah; kartu Fase 1 asli
+Durasi     : ± 30 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : anomali — "36 bingkai. Hanya 3 yang penting saat insiden."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/sn17-strip-film). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: SN17_S1, SN17_S2, SN17_S3, SN17_S4 (atau satu file utuh SN17 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. breach-fase
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Tiga puluh enam bingkai. Hanya tiga yang penting… saat insiden."
+      Layar: Tiga strip film bergulir masuk di meja cahaya (36 bingkai momen kantor); pada "tiga" strip berhenti;
+             pada "insiden" tiga lingkaran spidol merah menggambar sendiri di bingkai 7, 19, 31.
+[S2]  VO: "Catat: kode otomatis, linimasa langsung berjalan. Tahan: daftar periksa penahanan. Beri tahu: templat pemberitahuan, tiga kali dua puluh empat jam."
+      Layar: Bingkai terpilih ditarik & membesar ke tengah satu per satu: CATAT (BRC-2026-… · linimasa), TAHAN
+             (daftar periksa penahanan), BERI TAHU (templat · 3×24 jam).
+[S3]  VO: "Di Privasimu Nexus, ketiganya sudah tersusun sejak insiden dicatat. Bingkai lain boleh buram."
+      Layar: Lembar kontak meredup & buram; tiga bingkai berjajar rapi di atas; kartu asli "Fase 1: Deteksi &
+             Eskalasi" (4 tugas tercentang) muncul di bawahnya.
+[S4]  VO: "Tiga puluh enam bingkai, tiga yang menyelamatkan. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "36 bingkai, 3 yang menyelamatkan.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- Manajemen Insiden (fakta_produk.json): kode rekaman otomatis BRC-TAHUN-NOMOR; daftar periksa penahanan & log
+  linimasa dibuat otomatis saat insiden dicatat; penghitung mundur pemberitahuan 3×24 jam; templat pemberitahuan
+  ke subjek data & lembaga.
+- Kartu "Fase 1: Deteksi & Eskalasi" = tangkapan asli assets/app/breach-fase.png.
+- "36 bingkai" & isi bingkai lain (rapat, kopi, tab…) = ilustrasi.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

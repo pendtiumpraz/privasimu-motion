@@ -1,0 +1,27 @@
+/* GB27 · LABIRIN — biru tua, dinding putih kebiruan, pencari kuning, buntu merah, solusi hijau */
+body { background: #0F1B33; color: #fff; }
+#stage { background: #0F1B33; }
+#vignette { opacity: .45; }
+#grain { opacity: .06; }
+.lb-svg { position: absolute; left: 0; top: 0; overflow: visible; }
+.lb-dinding { fill: none; stroke: #DCE6F5; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+.v .lb-dinding { stroke-width: 9; }
+.lb-jejak { fill: none; stroke: #FFD166; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; opacity: 0; }
+.v .lb-jejak { stroke-width: 12; }
+.lb-solusi { fill: none; stroke: #4ADE80; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; opacity: 0; filter: drop-shadow(0 0 14px rgba(74,222,128,.7)); }
+.v .lb-solusi { stroke-width: 20; }
+.lb-kepala { fill: #FFD166; stroke: #0F1B33; stroke-width: 4; opacity: 0; filter: drop-shadow(0 0 10px rgba(255,209,102,.9)); }
+.lb-awal circle { fill: #DCE6F5; }
+.lb-awal text, .lb-dok text { fill: #DCE6F5; font: 800 16px 'Inter', sans-serif; text-anchor: middle; letter-spacing: .12em; }
+.v .lb-awal text, .v .lb-dok text { font-size: 22px; }
+.lb-dok rect { fill: #fff; stroke: #4ADE80; stroke-width: 3; }
+.lb-dok path { stroke: #4ADE80; stroke-width: 3; stroke-linecap: round; }
+.lb-buntu { position: absolute; display: flex; align-items: center; gap: 8px; padding: 6px 14px 6px 10px; border-radius: 999px; background: #E5484D; color: #fff; font: 700 24px/1 'Space Grotesk', sans-serif; white-space: nowrap; opacity: 0; box-shadow: 0 8px 20px rgba(0,0,0,.4); }
+.v .lb-buntu { font-size: 28px; padding: 8px 16px 8px 12px; }
+.lb-buntu.kedip { background: #fff; color: #E5484D; }
+.lb-buntu b { font-size: 1.1em; }
+.lb-teks { position: absolute; left: 160px; right: 160px; top: 640px; text-align: center; font: 700 48px/1.2 'Inter', sans-serif; color: #F3F6FB; }
+.v .lb-teks { left: 60px; right: 60px; top: 1250px; font-size: 50px; }
+.lb-teks em { font-style: normal; color: #FFD166; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Inter', sans-serif; --pd-acc: #4ADE80; --pd-btn: #FFD166; --pd-btn-ink: #0F1B33; --pd-tirai: rgba(15,27,51,.97); }

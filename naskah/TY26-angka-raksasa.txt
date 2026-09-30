@@ -1,0 +1,46 @@
+NASKAH TY26 — "2%" · GAYA: ANGKA RAKSASA (BIG NUMBER)
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Angka raksasa (big number) — hitam pekat, angka 2% putih selebar layar dengan aksen merah;
+             keterangan kecil; lalu angka mengecil dan peta kewajiban bersanksi muncul
+Durasi     : ± 21 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 80% edukasi · 20% meme
+Sasaran    : direksi, CFO, manajemen risiko, DPO/PPDP
+Hook       : anomali — "Angka kecil yang bikin CFO berdiri dari kursinya: dua persen."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/ty26-angka-raksasa). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: TY26_S1, TY26_S2, TY26_S3, TY26_S4 (atau satu file utuh TY26 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Angka kecil yang bikin CFO berdiri dari kursinya."
+      Layar: Angka 2% putih raksasa selebar layar menghantam masuk; keterangan kecil "angka kecil" di bawahnya;
+             di "kursinya" layar bergetar.
+[S2]  VO: "Dua persen. Dari pendapatan tahunan."
+      Layar: Angka 2% berdenyut melebar saat disebut; keterangan: "dari pendapatan tahunan" + catatan kecil UU
+             PDP Pasal 57 ayat (3).
+[S3]  VO: "Privasimu Nexus memetakan kewajiban mana yang bersanksi, dan modul mana yang menanganinya."
+      Layar: Angka mengecil ke atas. Peta: Dasar pemrosesan → Consent; Catatan pemrosesan → RoPA; Penilaian
+             dampak → DPIA; Lapor kebocoran 3×24 jam → Insiden.
+[S4]  VO: "Jangan tunggu angkanya jadi tagihan. Konsultasi gratis, di privasimu dot com."
+      Layar: Kartu penutup: logo, "Jangan tunggu angkanya jadi tagihan.", tombol privasimu.com, "Konsultasi
+             gratis", kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- UU PDP (UU 27/2022) Pasal 57 ayat (3): denda administratif paling tinggi 2% dari pendapatan tahunan atau
+  penerimaan tahunan terhadap variabel pelanggaran. Cek ulang bunyi pasal sebelum tayang.
+- Paparan Sanksi Administratif: pemetaan pasal bersanksi ke modul kepatuhan terkait + penilaian paparan sanksi
+  (fakta_produk.json: sanksi). Peta di layar memakai nama kewajiban, bukan nomor pasal.
+- CTA "konsultasi gratis": pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.

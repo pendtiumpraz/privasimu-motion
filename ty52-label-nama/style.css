@@ -1,0 +1,26 @@
+/* TY52 · LABEL NAMA — kertas krem, stiker label nama merah #D7263D / putih, tulisan spidol hitam Permanent Marker */
+body { background: #F3EEE4; color: #1A1A1A; }
+#stage { background: #F3EEE4; }
+#vignette { opacity: .18; }
+#grain { opacity: .06; }
+.nt-stiker { position: absolute; left: 0; top: 0; width: 760px; border-radius: 26px; background: #fff; box-shadow: 0 18px 40px rgba(0,0,0,.22), 0 2px 0 rgba(0,0,0,.08); overflow: hidden; opacity: 0; transform-origin: 50% 50%; }
+.nt-atas { background: #D7263D; color: #fff; text-align: center; padding: 22px 20px 16px; font-family: 'Inter', sans-serif; }
+.nt-atas b { display: block; font-size: 66px; line-height: 1; font-weight: 700; letter-spacing: .14em; }
+.nt-atas span { display: block; margin-top: 6px; font-size: 30px; font-weight: 500; letter-spacing: .04em; opacity: .95; }
+.nt-isi { padding: 26px 30px 36px; text-align: center; min-height: 250px; }
+.nt-nama { font: 400 150px/1 'Permanent Marker', cursive; color: #111; letter-spacing: .02em; }
+.nt-h { display: inline-block; opacity: 0; transform-origin: 50% 80%; }
+.nt-sub { margin-top: 14px; font: 700 50px/1.1 'Caveat', cursive; color: #222; display: flex; justify-content: center; gap: 22px; }
+.nt-lama { position: relative; display: inline-block; }
+.nt-coret { position: absolute; left: -2%; top: 50%; height: 7px; width: 0; background: #D7263D; transform: rotate(-3deg); border-radius: 4px; }
+.nt-siap { color: #1B7F3B; }
+.nt-stiker.kecil { width: 400px; border-radius: 16px; box-shadow: 0 12px 26px rgba(0,0,0,.2); }
+.nt-stiker.kecil .nt-atas { padding: 10px 12px 8px; }
+.nt-stiker.kecil .nt-atas b { font-size: 26px; letter-spacing: .12em; }
+.nt-stiker.kecil .nt-atas span { font-size: 17px; margin-top: 3px; }
+.nt-stiker.kecil .nt-isi { padding: 14px 14px 18px; min-height: 0; }
+.nt-stiker.kecil .nt-nama { font-size: 38px; white-space: nowrap; }
+.nt-stiker.kecil .nt-h { opacity: 1; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'Permanent Marker', cursive; --pd-acc: #D7263D; --pd-btn: #D7263D; --pd-btn-ink: #fff; --pd-tirai: rgba(243,238,228,.97); --pd-ink: #1A1A1A; --pd-mute: rgba(26,26,26,.62); --pd-logo: brightness(0); }
+.pd-tag { font-weight: 400; }
