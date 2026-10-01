@@ -67,7 +67,7 @@
     const parts = [];
     if (v.layar) {
       const L = v.layar, el = PD.layar(root, L.nama, { w: pick(760, 900), potong: L.potong, judul: L.judul });
-      el.style.left = `${pick(1120, (SW - el._w) / 2)}px`; el.style.top = `${pick(760, 1230)}px`;
+      el.style.left = `${pick(1120, (SW - el._w) / 2)}px`; el.style.top = `${pick(760, 1330)}px`;
       const t0 = T(L.at, 1.2);
       parts.push((lt, d) => { const k = E.out3(P(lt, t0, t0 + 0.5)); el.style.opacity = k.toFixed(3); el.style.transform = `translateY(${((1 - k) * 50).toFixed(1)}px)`; });
     }

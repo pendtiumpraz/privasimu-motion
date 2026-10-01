@@ -28,8 +28,8 @@ NASKAH
       Layar: Penutup baja gelap menutup layar, tulisan besar "JANGAN LIHAT." lalu "kalau belum siap."; bayangan
              jarum kabur menari liar di permukaan penutup, bunyi detak.
 [S2]  VO: "Masih nonton? Oke. Tiga, dua, satu."
-      Layar: Tulisan berganti "Masih nonton?" → "Serius. Jangan."; bayangan jarum makin cepat; digit 3 · 2 · 1
-             besar berganti; pada "satu" penutup terbelah atas-bawah dengan kilat.
+      Layar: Tulisan berganti "Masih nonton?" → "Oke. Siap?"; bayangan jarum makin cepat; digit 3 · 2 · 1 besar
+             berganti; pada "satu" penutup terbelah atas-bawah dengan kilat.
 [S3]  VO: "Lima puluh enam. Cukup. Bukan bagus, bukan gawat. Data asli, Privasimu Nexus."
       Layar: Meter terlihat: jarum berayun melewati 56 lalu berhenti tepat di 56, angka menghitung, label CUKUP
              muncul; meter mengecil dan mendarat persis di meter kartu Privacy Posture Score asli (match-cut);

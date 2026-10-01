@@ -54,9 +54,9 @@
     },
     {
       id: 's3', min: 6, voDelay: 0.3, mus: 'main',
-      vo: 'Di Privasimu Nexus, GAP Assessment menyusun rencana remediasinya: RoPA, DPIA, kebijakan, latihan tim, tiap tahap ada jadwalnya.',
+      vo: 'Di Privasimu Nexus, GAP Assessment menyusun rencana remediasinya: RoPA, DPIA, kebijakan, latihan tim. Tinggal kamu jadwalkan.',
       layar: 'Batang mengalir kembali ke barisnya, bertangga dari HARI INI, berganti warna; tiap batang terisi saat namanya disebut; kartu rekomendasi GAP asli muncul di pojok.',
-      sfx: [['w:Nexus', 'whoosh', 0.35], ['w:GAP', 'tick', 0.3], ['w:RoPA', 'tick', 0.3], ['w:DPIA', 'tick', 0.3], ['w:kebijakan', 'tick', 0.3], ['w:latihan', 'tick', 0.3], ['w:tiap', 'ding', 0.35]],
+      sfx: [['w:Nexus', 'whoosh', 0.35], ['w:GAP', 'tick', 0.3], ['w:RoPA', 'tick', 0.3], ['w:DPIA', 'tick', 0.3], ['w:kebijakan', 'tick', 0.3], ['w:latihan', 'tick', 0.3], ['w:Tinggal', 'ding', 0.35]],
       vis: G({ rapi: 'w:Nexus-0.2', isi: ['w:GAP', 'w:RoPA', 'w:DPIA', 'w:kebijakan', 'w:latihan'], layar: { nama: 'gap-rekomendasi', potong: [327, 495, 647, 405], at: 'w:remediasi', judul: 'GAP Assessment · Rekomendasi' } }),
     },
     {

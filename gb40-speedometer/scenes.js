@@ -46,7 +46,7 @@
     {
       id: 's2', min: 3.8, voDelay: 0.3, mus: 'tense',
       vo: 'Masih nonton? Oke. Tiga, dua, satu.',
-      layar: 'Tulisan berganti "Masih nonton?" → "Serius. Jangan."; bayangan jarum makin cepat; digit 3 · 2 · 1 besar berganti; pada "satu" penutup terbelah atas-bawah dengan kilat.',
+      layar: 'Tulisan berganti "Masih nonton?" → "Oke. Siap?"; bayangan jarum makin cepat; digit 3 · 2 · 1 besar berganti; pada "satu" penutup terbelah atas-bawah dengan kilat.',
       sfx: [['w:Masih', 'tick', 0.3], ['w:Oke', 'pop', 0.3], ['w:Tiga', 'tick', 0.35], ['w:dua', 'tick', 0.35], ['w:satu', 'tick', 0.35], ['w:satu+0.25', 'hit', 0.5]],
       vis: S({ masih: 'w:Masih-0.1', serius: 'w:Oke-0.1', hitung: ['w:Tiga-0.1', 'w:dua-0.1', 'w:satu-0.1'], buka: 'w:satu+0.2' }),
     },

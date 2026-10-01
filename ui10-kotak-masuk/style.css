@@ -14,14 +14,17 @@ body { background: #E9EDF4; color: #1B1B1B; }
 .v .em-kepala .jam { font-size: 30px; }
 .em-list { position: absolute; inset: 0; }
 .em-baris { position: absolute; top: 0; height: 92px; border-radius: 16px; background: #fff; box-shadow: 0 6px 18px rgba(11,27,77,.06); display: flex; align-items: center; gap: 18px; padding: 0 22px; box-sizing: border-box; opacity: 0; transform-origin: 50% 50%; font-family: 'Inter', sans-serif; overflow: hidden; }
-.v .em-baris { height: 104px; }
+.v .em-baris { height: 134px; padding: 0 26px; }
+.v .em-baris .av { width: 64px; height: 64px; font-size: 22px; line-height: 64px; }
+.v .em-baris em { font-size: 21px; }
+.v .em-baris .tag { font-size: 20px; }
 .em-baris .av { width: 54px; height: 54px; border-radius: 50%; background: #E3EAF6; color: #0B1B4D; font: 800 19px/54px 'Inter', sans-serif; text-align: center; font-style: normal; flex: 0 0 auto; }
 .em-baris .isi { flex: 1; min-width: 0; display: grid; grid-template-columns: 260px 1fr; grid-template-rows: auto auto; column-gap: 18px; align-items: center; }
 .v .em-baris .isi { grid-template-columns: 1fr; row-gap: 2px; }
 .em-baris b { grid-row: 1 / span 2; font: 700 24px/1.2 'Inter', sans-serif; color: #0B1B4D; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.v .em-baris b { grid-row: auto; font-size: 20px; }
+.v .em-baris b { grid-row: auto; font-size: 24px; }
 .em-baris .subjek { font: 700 24px/1.2 'Inter', sans-serif; color: #1B1B1B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.v .em-baris .subjek { font-size: 24px; }
+.v .em-baris .subjek { font-size: 31px; }
 .em-baris .pra { font: 500 19px/1.2 'Inter', sans-serif; color: #7A869E; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .v .em-baris .pra { display: none; }
 .em-baris em { font: 600 18px/1 'Inter', sans-serif; font-style: normal; color: #7A869E; flex: 0 0 auto; }
@@ -29,7 +32,8 @@ body { background: #E9EDF4; color: #1B1B1B; }
 .em-baris.takut .av { background: #FFE1E4; color: #E63946; }
 .em-baris.takut.sorot { background: #FFF5F5; box-shadow: 0 0 0 4px #E63946, 0 24px 60px rgba(230,57,70,.35); z-index: 5; }
 .em-baris.takut.sorot .subjek { color: #E63946; font-size: 28px; }
-.v .em-baris.takut.sorot .subjek { font-size: 28px; }
+.v .em-baris.takut.sorot .subjek { font-size: 31px; }
+.v .em-baris.takut.hijau em { display: none; } /* ruang untuk label tiket */
 .em-baris.takut.hijau { box-shadow: 0 0 0 4px #1B7F3B, 0 20px 50px rgba(27,127,59,.25); }
 .em-baris.takut.hijau .tag { display: block; }
 .em-baris.takut.hijau .av { background: #E3F5E9; color: #1B7F3B; }
@@ -40,7 +44,9 @@ body { background: #E9EDF4; color: #1B1B1B; }
 .em-avatar.dapat b { transform: scale(1); }
 .em-fwd { position: absolute; left: 0; top: 0; padding: 10px 18px; border-radius: 12px; background: #FFD166; color: #1B1B1B; font: 800 20px/1 'Inter', sans-serif; box-shadow: 0 10px 24px rgba(0,0,0,.2); opacity: 0; }
 .em-balas { position: absolute; left: 0; top: 0; padding: 12px 18px; border-radius: 16px 16px 16px 4px; background: #fff; border: 2px solid #DCE2EC; font: 600 20px/1 'Inter', sans-serif; color: #1B1B1B; white-space: nowrap; box-shadow: 0 10px 24px rgba(11,27,77,.12); opacity: 0; transform-origin: 100% 50%; }
-.v .em-balas { transform-origin: 50% 100%; border-radius: 16px 16px 4px 16px; }
+.v .em-balas { transform-origin: 50% 100%; border-radius: 16px 16px 4px 16px; font-size: 25px; }
+.v .em-avatar span { font-size: 24px; }
+.v .em-alur span { font-size: 26px; }
 .em-tenggat { position: absolute; right: 40px; top: 24px; padding: 12px 20px; border-radius: 14px; background: #0B1B4D; color: #fff; font: 700 20px/1 'Inter', sans-serif; letter-spacing: .1em; opacity: 0; transform-origin: 100% 0; white-space: nowrap; z-index: 6; }
 .v .em-tenggat { top: 44px; right: 40px; }
 .em-tenggat b { font-family: 'JetBrains Mono', monospace; font-size: 28px; margin-left: 8px; color: #FFD166; }

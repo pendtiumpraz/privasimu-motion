@@ -63,7 +63,7 @@
     // 3×24 JAM (baja)
     let goyang = 0; C.coba.forEach((t0) => { if (t >= t0 + 0.2 && t < t0 + 0.42) goyang = (hash(Math.floor(t * 60)) - 0.5) * 5; });
     const kmd = E.io3(P(t, C.mundur, C.mundur + 0.4));
-    regang(el.k2, 1);
+    regang(el.k2, 1); el.gembok.style.left = (X2 + el.k2.total + 14).toFixed(1) + 'px'; // lebar diukur ulang setelah font termuat
     el.k2.el.style.opacity = (t >= C.baja ? 1 : 0) * (1 - kmd);
     el.k2.el.style.transform = `translate(${(X2 + goyang).toFixed(1)}px, ${Y2}px) translateY(-50%) scale(${(t >= C.baja ? E.outBack(Math.max(0.001, P(t, C.baja, C.baja + 0.5))) : 0).toFixed(3)})`;
     const kg = t >= C.kunci ? E.outBack(Math.max(0.001, P(t, C.kunci, C.kunci + 0.4))) * (1 - kmd) : 0;
@@ -73,13 +73,13 @@
     for (let i = 0; i < 3; i++) { // tarikan karet
       const t0 = C.tarik[i]; if (t < t0 - 0.3 || t > t0 + D + HD + 0.4) continue;
       const total = el.k1.total; py = Y1;
-      if (t < t0) { po = P(t, t0 - 0.3, t0 - 0.1); px = X1 + total + 30 + 220 * (1 - E.out3(P(t, t0 - 0.3, t0))); }
-      else if (t <= t0 + D + HD) { po = 1; px = X1 + w1 + 30; }
-      else { const tau = t - t0 - D - HD; po = 1 - P(tau, 0.08, 0.35); px = X1 + lebar(el.k1, S_MAX[i]) + 30 + 140 * E.out3(P(tau, 0, 0.3)); }
+      if (t < t0) { po = P(t, t0 - 0.3, t0 - 0.1); px = X1 + w1 + 50 + 220 * (1 - E.out3(P(t, t0 - 0.3, t0))); } // kejar ujung kata yang masih memantul
+      else if (t <= t0 + D + HD) { po = 1; px = X1 + w1 + 50; }
+      else { const tau = t - t0 - D - HD; po = 1 - P(tau, 0.08, 0.35); px = X1 + lebar(el.k1, S_MAX[i]) + 50 + 140 * E.out3(P(tau, 0, 0.3)); }
     }
     for (let i = 0; i < 3; i++) { // percobaan pada baja
       const t0 = C.coba[i]; if (t < t0 - 0.3 || t > t0 + 1.1) continue;
-      const ujung = X2 + el.k2.total + 30; py = Y2;
+      const ujung = X2 + el.k2.total + 50; py = Y2;
       if (t < t0) { po = P(t, t0 - 0.3, t0 - 0.1); px = ujung + 220 * (1 - E.out3(P(t, t0 - 0.3, t0))); psx = 1; }
       else {
         const kp = E.io3(P(t, t0, t0 + 0.3)), tau = t - t0 - 0.3, melar = i === 0 ? 0.35 : 0.95;

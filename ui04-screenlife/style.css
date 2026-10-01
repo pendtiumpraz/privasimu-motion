@@ -12,12 +12,22 @@ body { background: #3D5C8C; color: #1B1B1B; }
 .sl-body { padding: 18px 20px 22px; }
 .sl-win.chat { left: 90px; top: 110px; width: 700px; }
 .v .sl-win.chat { left: 40px; top: 120px; width: 1000px; }
+.v .sl-judul { font-size: 24px; }
+.v .sl-gelembung { font-size: 28px; }
+.v .sl-gelembung.baru { font-size: 32px; }
+.v .sl-gelembung.baru b { font-size: 18px; }
 .sl-gelembung { max-width: 82%; margin: 8px 0; padding: 12px 16px; border-radius: 16px; background: #EEF2F7; font: 500 22px/1.3 'Inter', sans-serif; color: #33415C; }
 .sl-gelembung.baru { background: #FFE8D6; color: #1B1B1B; font-size: 26px; transform-origin: 0 100%; opacity: 0; border: 2px solid #F2892A; }
 .sl-gelembung.baru b { display: block; font: 800 16px/1 'Inter', sans-serif; letter-spacing: .1em; color: #C2410C; margin-bottom: 6px; text-transform: uppercase; }
 .sl-gelembung u { text-decoration: none; background: #FFD166; padding: 0 4px; border-radius: 4px; }
 .sl-win.alat { left: 860px; top: 200px; width: 760px; }
 .v .sl-win.alat { left: 40px; top: 560px; width: 1000px; }
+.v .sl-baris { font-size: 26px; }
+.v .sl-baris b { font-size: 68px; }
+.v .sl-baris.kecil b { font-size: 26px; }
+.v .sl-baris em { font-size: 20px; }
+.v .sl-filter { font-size: 24px; }
+.v .sl-kirim { font-size: 36px; padding: 24px; }
 .sl-baris { display: flex; align-items: baseline; gap: 14px; padding: 8px 0; font: 600 22px/1 'Inter', sans-serif; color: #6B7A90; }
 .sl-baris b { font: 800 56px/1 'Inter', sans-serif; color: #1B1B1B; }
 .sl-baris.kecil b { font-size: 22px; color: #33415C; }
@@ -32,9 +42,12 @@ body { background: #3D5C8C; color: #1B1B1B; }
 .sl-kirim.hover { filter: brightness(1.1); box-shadow: 0 0 0 6px rgba(229,51,63,.25), 0 10px 24px rgba(229,51,63,.35); }
 .sl-kirim.siap { background: #1B7F3B; box-shadow: 0 10px 24px rgba(27,127,59,.35); }
 .sl-kirim.tekan { transform: scale(.96); }
-.sl-notif { position: absolute; right: 40px; top: 90px; width: 560px; display: flex; gap: 14px; padding: 16px 18px; border-radius: 16px; background: #0B1B4D; color: #fff; box-shadow: 0 20px 50px rgba(0,0,0,.4); opacity: 0; }
+.sl-notif { position: absolute; right: 40px; top: 90px; width: 640px; display: flex; align-items: flex-start; gap: 14px; padding: 16px 18px; border-radius: 16px; background: #0B1B4D; color: #fff; box-shadow: 0 20px 50px rgba(0,0,0,.4); opacity: 0; }
 .v .sl-notif { right: 40px; top: 1070px; width: 1000px; }
-.sl-notif img { width: 90px; height: 90px; object-fit: contain; border-radius: 12px; background: #fff; padding: 8px; flex: 0 0 auto; }
+.sl-notif img { width: 140px; height: 44px; object-fit: contain; border-radius: 10px; background: #2F6FD1; padding: 10px 12px; box-sizing: border-box; flex: 0 0 auto; } /* logo putih → butuh latar berwarna */
+.v .sl-notif img { width: 200px; height: 60px; padding: 14px 16px; }
+.v .sl-notif b { font-size: 22px; }
+.v .sl-notif span { font-size: 27px; }
 .sl-notif b { display: block; font: 800 18px/1 'Inter', sans-serif; color: #FFD166; margin-bottom: 6px; }
 .sl-notif span { font: 500 19px/1.3 'Inter', sans-serif; }
 .sl-notif strong { color: #FF8A80; }

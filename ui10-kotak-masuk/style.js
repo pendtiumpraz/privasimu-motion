@@ -16,9 +16,9 @@
   ];
   const TAKUT = ['?', 'Pelanggan · p•••@•••.id', 'Tolong hapus semua data saya.', 'Saya ingin seluruh data pribadi saya dihapus dari sistem Anda. Mohon konfirmasi…', '08.02'];
   const PRE = ['Re: ', 'Fwd: ', 'Re: ', 'Fwd: '], ORANG = ['CS', 'Legal', 'IT', 'DPO'], BALAS = ['sudah ditangani?', 'belum, kamu?', 'cc DPO ya', '…'];
-  const LX = pick(300, 40), LW = pick(1160, 1000), TOP = pick(140, 180), RH = pick(104, 118);
-  const AV = ORANG.map((_, i) => V ? [180 + i * 240, 1330] : [1700, 250 + i * 150]);
-  const FC = V ? [540, 760] : [880, 540]; // pusat formulir/bar
+  const LX = pick(300, 40), LW = pick(1160, 1000), TOP = pick(140, 180), RH = pick(104, 148);
+  const AV = ORANG.map((_, i) => V ? [180 + i * 240, 1580] : [1700, 250 + i * 150]);
+  const FC = V ? [540, 820] : [880, 540]; // pusat formulir/bar
   const C = { mulai: 9e9, takut: 9e9, sorot: 9e9, fwd: 9e9, balas: 9e9, mundur: 9e9, tiket: 9e9, detail: 9e9, alur: 9e9, kembali: 9e9, arsip: 9e9, tutup: 9e9 };
   let lapis = null, el = null;
 
@@ -37,7 +37,7 @@
     el.balas = BALAS.map((s, i) => { const d = h(`<div class="em-balas" style="left:${AV[i][0]}px;top:${AV[i][1]}px">${esc(s)}</div>`); lapis.appendChild(d); return d; });
     el.tenggat = h('<div class="em-tenggat">TENGGAT <b>72:00:00</b></div>'); lapis.appendChild(el.tenggat); el.tenggatB = el.tenggat.querySelector('b');
     el.selesai = h('<div class="em-selesai">✓ tercatat · 1 menit*</div>'); lapis.appendChild(el.selesai);
-    el.alur = h(`<div class="em-alur" style="left:${V ? 540 : 880}px;top:${V ? 1330 : 740}px"><span>Handler</span><i>→</i><span>Reviewer</span><i>→</i><span>Approver</span></div>`); lapis.appendChild(el.alur);
+    el.alur = h(`<div class="em-alur" style="left:${V ? 540 : 880}px;top:${V ? 1580 : 740}px"><span>Handler</span><i>→</i><span>Reviewer</span><i>→</i><span>Approver</span></div>`); lapis.appendChild(el.alur);
   }
   const jam = (s) => [Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60].map((n) => String(n).padStart(2, '0')).join(':');
   function gambar(t) {

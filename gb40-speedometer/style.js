@@ -29,7 +29,7 @@
     el.kilat = h('<div class="sp-kilat"></div>'); lapis.appendChild(el.kilat);
   }
   function teksTutup(t) {
-    const urut = [[C.mulai, 'JANGAN LIHAT.', '', 0], [C.sub, 'JANGAN LIHAT.', 'kalau belum siap.', 0], [C.masih, 'Masih nonton?', '', 0], [C.serius, 'Serius. Jangan.', '', 0], [C.hitung[0], '3', 'masih nonton?', 1], [C.hitung[1], '2', 'masih nonton?', 1], [C.hitung[2], '1', '', 1]];
+    const urut = [[C.mulai, 'JANGAN LIHAT.', '', 0], [C.sub, 'JANGAN LIHAT.', 'kalau belum siap.', 0], [C.masih, 'Masih nonton?', '', 0], [C.serius, 'Oke. Siap?', '', 0], [C.hitung[0], '3', 'masih nonton?', 1], [C.hitung[1], '2', 'masih nonton?', 1], [C.hitung[2], '1', '', 1]];
     let pilih = null; urut.forEach((u) => { if (t >= u[0] && (!pilih || u[0] >= pilih[0])) pilih = u; });
     return pilih;
   }

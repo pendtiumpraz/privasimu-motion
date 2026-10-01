@@ -5,10 +5,12 @@
 (function () {
   const { V, SW, SH, h, esc, rich, $, pick } = KIT;
   const { P, cl, lerp, E, hash, tf } = MG;
-  const N = 7, LEMAH = 3, PITCH = pick(200, 104), LW = pick(220, 118), LH = pick(100, 58), Y = pick(520, 900);
+  const N = 7, LEMAH = 3, PITCH = pick(200, 170), LW = pick(220, 192), LH = pick(100, 94), Y = pick(520, 880);
   const X0 = SW / 2 - (N - 1) * PITCH / 2;
   const PIHAK = ['kamu', 'payroll*', 'cloud*', 'call center*', 'logistik*', 'percetakan*', 'pelanggan'];
   const SKOR = [null, 82, 76, 41, 88, 79, null];
+  const JUDUL = [['mulai', 'Sekuat yang terlemah.'], ['putus', 'Putus di pihak ketiga.'], ['tautan', 'Ukur sebelum ditarik.'], ['tempa', 'Tempa dulu, baru tarik.']];
+  const LX = (i) => (V ? cl(X0 + i * PITCH, 90, SW - 90) : X0 + i * PITCH); // 9:16: rantai lebih besar, ujungnya keluar layar
   const C = { mulai: 9e9, tarik: 9e9, retak: 9e9, catat: 9e9, putus: 9e9, tautan: 9e9, kuesioner: 9e9, skor: 9e9, tempa: 9e9, las: 9e9, tarik2: 9e9, tahan: 9e9, tutup: 9e9 };
   let lapis = null, el = null;
 
@@ -16,6 +18,7 @@
     if (lapis) return;
     lapis = PD.lapis('rt-lapis');
     el = {};
+    el.kop = h('<div class="rt-kop"></div>'); lapis.appendChild(el.kop);
     el.brankas = h(`<div class="rt-blok kiri" style="left:${X0 - PITCH * pick(1, 0.9) - pick(40, 10)}px;top:${Y}px"><i></i>DATAMU</div>`); lapis.appendChild(el.brankas);
     el.beban = h(`<div class="rt-blok kanan" style="left:${X0 + (N - 1) * PITCH + PITCH * pick(1, 0.9) + pick(40, 10)}px;top:${Y}px">TARIK<b>→</b></div>`); lapis.appendChild(el.beban);
     el.kiri = h('<div class="rt-grup"></div>'); el.kanan = h('<div class="rt-grup"></div>'); lapis.appendChild(el.kiri); lapis.appendChild(el.kanan);
@@ -23,15 +26,15 @@
     for (let i = 0; i < N; i++) {
       const grup = i < LEMAH ? el.kiri : (i > LEMAH ? el.kanan : null);
       const buat = (klip) => {
-        const m = h(`<div class="rt-mata ${i % 2 ? '' : 'samping'} ${klip || ''}" style="width:${i % 2 ? LW : LW * 0.5}px;height:${i % 2 ? LH : LH * 0.38}px"><svg class="retak" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M52 0 L44 22 L58 38 L46 56 L56 74 L48 100" pathLength="100"/></svg></div>`);
+        const m = h(`<div class="rt-mata ${i % 2 ? '' : 'samping'} ${klip ? 'lemah ' + klip : ''}" style="width:${i % 2 ? LW : LW * 0.5}px;height:${i % 2 ? LH : LH * 0.38}px"><svg class="retak" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M52 0 L44 22 L58 38 L46 56 L56 74 L48 100" pathLength="100"/></svg></div>`);
         (klip === 'kiriPotong' ? el.kiri : klip === 'kananPotong' ? el.kanan : grup).appendChild(m); return m;
       };
       if (i === LEMAH) el.mata.push([buat('kiriPotong'), buat('kananPotong')]); else el.mata.push(buat());
-      const lb = h(`<div class="rt-label" style="left:${X0 + i * PITCH}px;top:${Y + LH / 2 + 26}px">${esc(PIHAK[i])}</div>`); lapis.appendChild(lb); el.label.push(lb);
-      const sk = h(`<div class="rt-skor" style="left:${X0 + i * PITCH}px;top:${Y - LH / 2 - 30}px">${SKOR[i] == null ? '' : SKOR[i]}</div>`); lapis.appendChild(sk); el.skor.push(sk);
+      const lb = h(`<div class="rt-label${i === N - 1 ? ' ujung' : ''}" style="left:${LX(i)}px;top:${Y + LH / 2 + 26}px">${esc(PIHAK[i])}</div>`); lapis.appendChild(lb); el.label.push(lb);
+      const sk = h(`<div class="rt-skor" style="left:${LX(i)}px;top:${Y - LH / 2 - 30}px">${SKOR[i] == null ? '' : SKOR[i]}</div>`); lapis.appendChild(sk); el.skor.push(sk);
     }
     el.dok = Array.from({ length: 7 }, (_, i) => { const d = h('<div class="rt-dok"><i></i><i></i><i></i></div>'); lapis.appendChild(d); return d; });
-    el.tautan = h(`<div class="rt-tautan" style="left:${X0 + LEMAH * PITCH}px;top:${Y - LH / 2 - 120}px"><i></i>tautan asesmen publik · tanpa akun</div>`); lapis.appendChild(el.tautan);
+    el.tautan = h(`<div class="rt-tautan" style="left:${X0 + LEMAH * PITCH}px;top:${Y - LH / 2 - pick(120, 150)}px"><i></i>tautan asesmen publik · tanpa akun</div>`); lapis.appendChild(el.tautan);
     el.kartu = h(`<div class="rt-kartu"><b>Asesmen Pihak Ketiga · 12 pertanyaan*</b>${['Kebijakan pelindungan data', 'Enkripsi & kontrol akses', 'Sub-pemroses & transfer', 'Penanganan insiden'].map((s) => `<div class="baris"><i></i><span>${s}</span><em>bukti · AI</em></div>`).join('')}</div>`); lapis.appendChild(el.kartu);
     el.barisK = Array.from(el.kartu.querySelectorAll('.baris'));
     el.tahan = h('<div class="rt-tahan">TAHAN ✓</div>'); lapis.appendChild(el.tahan);
@@ -62,6 +65,7 @@
       [a, b].forEach((m) => {
         m.style.opacity = t >= C.mulai + 0.1 + i * 0.06 ? 1 : 0;
         m.classList.toggle('merah', t >= C.retak && !utuh); m.classList.toggle('las', las > 0); m.classList.toggle('utuh', utuh);
+        m.querySelector('.retak').style.visibility = t >= C.retak && !utuh ? 'visible' : 'hidden';
         m.querySelector('path').style.strokeDashoffset = utuh ? 100 : (100 - 100 * E.out3(kr)).toFixed(1);
         m.style.boxShadow = las > 0 ? `0 0 ${(40 * las).toFixed(0)}px ${(12 * las).toFixed(0)}px rgba(255,140,40,${(0.9 * las).toFixed(2)})` : '';
       });
@@ -92,6 +96,9 @@
     });
     const kth = t >= C.tahan ? E.outBack(Math.max(0.001, P(t, C.tahan, C.tahan + 0.4))) : 0;
     el.tahan.style.opacity = kth > 0.001 ? 1 : 0; el.tahan.style.transform = `translate(-50%, -50%) rotate(-8deg) scale(${kth.toFixed(3)})`;
+    let jud = null, tj = 0; JUDUL.forEach(([k, s]) => { if (t >= C[k] && C[k] >= tj) { jud = s; tj = C[k]; } });
+    if (jud != null && el.kop.textContent !== jud) el.kop.textContent = jud;
+    const kj = E.out3(P(t, tj, tj + 0.35)); el.kop.style.opacity = jud ? kj : 0; el.kop.style.transform = `translateX(-50%) translateY(${((1 - kj) * 16).toFixed(1)}px)`;
     el.catatan.style.opacity = t >= C.mulai + 1 ? 0.8 : 0;
     lapis.style.opacity = (1 - P(t, C.tutup, C.tutup + 0.3)).toFixed(3);
   }

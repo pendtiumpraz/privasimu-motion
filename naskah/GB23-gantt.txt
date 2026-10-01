@@ -32,7 +32,7 @@ NASKAH
       Layar: Batang abu-abu tumbuh berurutan mulai dari kolom DES, saling menyambung, menjulur melewati bendera
              tenggat ke zona merah; batang memerah, bendera bergetar, stempel "LEWAT TENGGAT" menghantam; catatan
              "*jadwal ilustrasi".
-[S3]  VO: "Di Privasimu Nexus, GAP Assessment menyusun rencana remediasinya: RoPA, DPIA, kebijakan, latihan tim, tiap tahap ada jadwalnya."
+[S3]  VO: "Di Privasimu Nexus, GAP Assessment menyusun rencana remediasinya: RoPA, DPIA, kebijakan, latihan tim. Tinggal kamu jadwalkan."
       Layar: Batang mengalir kembali ke barisnya, bertangga dari HARI INI, berganti warna; tiap batang terisi
              saat namanya disebut; kartu rekomendasi GAP asli muncul di pojok.
 [S4]  VO: "Saat hitung mundur habis, yang tersisa tinggal centang."
