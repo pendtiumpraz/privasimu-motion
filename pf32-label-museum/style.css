@@ -1,0 +1,67 @@
+/* PF32 · LABEL MUSEUM — aula gelap kecokelatan; dinding berpanel, lantai kayu; sorot hangat; kaca vitrin; kartu krem serif (EB Garamond); cap merah, plakat hijau */
+body { background: #16120F; color: #F1EAD8; }
+#stage { background: #16120F; }
+#vignette { opacity: .55; }
+#grain { opacity: .08; }
+.mu-dunia { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.mu-dinding { position: absolute; background: repeating-linear-gradient(90deg, #2A231D 0 236px, #241E19 236px 240px), #2A231D; }
+.mu-lantai { position: absolute; background: linear-gradient(#1C1611, #120E0B 30%), #120E0B; border-top: 6px solid #3A2F25; }
+.mu-rel { position: absolute; top: 0; height: 22px; background: #0E0B09; box-shadow: 0 6px 18px rgba(0,0,0,.6); }
+.mu-kasus { position: absolute; top: 0; width: 0; height: 0; }
+.mu-sorot { position: absolute; top: 0; opacity: 0; pointer-events: none; clip-path: polygon(44% 0, 56% 0, 100% 100%, 0 100%); background: radial-gradient(ellipse at 50% 0%, rgba(255,232,190,.42), rgba(255,226,180,.16) 45%, rgba(255,220,170,0) 75%); }
+.mu-isi { position: absolute; left: 0; top: 0; }
+.mu-alas { position: absolute; background: linear-gradient(90deg, #2E2721, #3B322A 45%, #2A231E); border-top: 8px solid #4A3F34; box-shadow: 0 30px 60px rgba(0,0,0,.6); box-sizing: border-box; }
+.mu-alas .pakai { position: absolute; left: 50%; top: 40px; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 30px; background: rgba(0,0,0,.45); font: 800 20px/1 'Inter', sans-serif; letter-spacing: .12em; color: #8FE3A8; white-space: nowrap; }
+.v .mu-alas .pakai { font-size: 28px; top: 60px; padding: 12px 22px; }
+.mu-alas .pakai i { width: 14px; height: 14px; border-radius: 50%; background: #3DDC84; box-shadow: 0 0 14px #3DDC84; }
+.mu-art { position: absolute; display: flex; align-items: center; justify-content: center; }
+.mu-kaca { position: absolute; border: 3px solid rgba(255,255,255,.32); border-bottom: 0; box-sizing: border-box; background: linear-gradient(125deg, rgba(255,255,255,.10), rgba(255,255,255,.02) 38%, rgba(255,255,255,.12) 52%, rgba(255,255,255,.02) 66%); box-shadow: inset 0 0 40px rgba(255,255,255,.05); }
+/* artefak 1: spreadsheet */
+.mu-sheet { position: relative; width: 82%; height: 76%; background: #FBFAF4; transform: rotate(-3deg); box-shadow: 0 18px 40px rgba(0,0,0,.5); font-family: 'Inter', sans-serif; overflow: hidden; }
+.mu-sheet .judul { height: 34px; background: #1F7A45; color: #fff; font: 700 17px/34px 'Inter', sans-serif; padding: 0 12px; white-space: nowrap; overflow: hidden; }
+.v .mu-sheet .judul { height: 40px; font-size: 21px; line-height: 40px; }
+.mu-sheet .grid { position: absolute; left: 0; right: 0; top: 34px; bottom: 40px; background-image: repeating-linear-gradient(#E1E4DA 0 1px, transparent 1px 28px), repeating-linear-gradient(90deg, #E1E4DA 0 1px, transparent 1px 90px); }
+.mu-sheet .grid span { position: absolute; font: 600 15px/1 'Inter', sans-serif; color: #4A4F45; white-space: nowrap; }
+.v .mu-sheet .grid span { font-size: 18px; }
+.mu-sheet .grid b { position: absolute; width: 90px; height: 28px; background: rgba(47,111,209,.25); }
+.mu-sheet .grid b.kuning { background: rgba(244,197,66,.55); width: 180px; }
+.mu-sheet .grid b.merah { background: rgba(230,57,70,.35); }
+.mu-sheet .tab { position: absolute; left: 0; right: 0; bottom: 0; height: 40px; background: #E9EBE4; display: flex; gap: 2px; padding: 6px 6px 0; box-sizing: border-box; overflow: hidden; }
+.mu-sheet .tab u { text-decoration: none; flex: 0 0 auto; padding: 0 10px; background: #F6F7F2; border: 1px solid #CBD0C4; border-bottom: 0; font: 600 13px/32px 'Inter', sans-serif; color: #4A4F45; white-space: nowrap; }
+.mu-sheet .tab u.aktif { background: #fff; color: #C0392B; font-weight: 800; }
+/* artefak 2: cetakan surel */
+.mu-surel { position: relative; width: 74%; height: 80%; background: #FBFAF4; transform: rotate(2.5deg); box-shadow: 0 18px 40px rgba(0,0,0,.5); padding: 22px 24px; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+.mu-surel .kop b { display: block; font: 800 19px/1.25 'Inter', sans-serif; color: #1B1B1B; }
+.v .mu-surel .kop b { font-size: 23px; }
+.mu-surel .kop span { display: block; margin: 8px 0 14px; font: 500 14px/1 'Inter', sans-serif; color: #6B6F66; }
+.mu-surel i { display: block; height: 9px; margin: 0 0 11px; border-left: 4px solid #B8BDB0; background: repeating-linear-gradient(90deg, #CFD3C8 0 70%, transparent 70% 100%); background-size: 64px 100%; }
+.mu-surel em { position: absolute; right: -18px; top: -18px; padding: 10px 16px; border-radius: 30px; background: #E63946; color: #fff; font: 900 20px/1 'Inter', sans-serif; font-style: normal; transform: rotate(8deg); box-shadow: 0 8px 18px rgba(0,0,0,.4); }
+.v .mu-surel em { font-size: 26px; }
+/* kartu keterangan museum */
+.mu-kartu { position: absolute; padding: 22px 26px 24px; background: #F1EAD8; color: #2A231D; box-shadow: 0 14px 34px rgba(0,0,0,.55); border: 1px solid #D9CFB6; box-sizing: border-box; opacity: 0; font-family: 'EB Garamond', serif; }
+.v .mu-kartu { padding: 28px 34px 30px; }
+.mu-kartu .no { font: 600 17px/1 'Inter', sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #8A7C66; margin-bottom: 12px; }
+.v .mu-kartu .no { font-size: 22px; }
+.mu-kartu h3 { margin: 0; font: 700 40px/1.08 'EB Garamond', serif; color: #1E1915; opacity: 0; }
+.v .mu-kartu h3 { font-size: 56px; }
+.mu-kartu .b1, .mu-kartu .b2 { margin-top: 10px; font: 400 25px/1.25 'EB Garamond', serif; color: #3A3129; opacity: 0; }
+.v .mu-kartu .b1, .v .mu-kartu .b2 { font-size: 34px; margin-top: 12px; }
+.mu-kartu.baru { border-top: 6px solid #2F6FD1; }
+.mu-kartu em { display: block; margin-top: 8px; font: 800 20px/1.2 'Inter', sans-serif; font-style: normal; color: #1B7F3B; letter-spacing: .02em; }
+.v .mu-kartu em { font-size: 28px; }
+.mu-cap, .mu-plakat { position: absolute; left: 50%; top: 58%; padding: 10px 18px; white-space: nowrap; font: 900 42px/1 'Inter', sans-serif; letter-spacing: .04em; opacity: 0; transform-origin: 50% 50%; }
+.v .mu-cap, .v .mu-plakat { font-size: 64px; padding: 12px 24px; }
+.mu-cap { border: 6px solid #D62839; border-radius: 12px; color: #D62839; background: rgba(241,234,216,.82); }
+.mu-plakat { border-radius: 12px; color: #fff; background: #1B7F3B; box-shadow: 0 14px 34px rgba(0,0,0,.5); font-size: 60px; padding: 14px 26px; z-index: 3; }
+.v .mu-plakat { font-size: 84px; padding: 16px 30px; }
+/* papan atas & catatan (tetap di layar) */
+.mu-papan { position: absolute; left: 50%; top: 40px; transform: translateX(-50%); text-align: center; opacity: 0; white-space: nowrap; }
+.v .mu-papan { top: 70px; }
+.mu-papan b { display: block; font: 700 26px/1 'EB Garamond', serif; letter-spacing: .34em; color: #E9DCC0; }
+.v .mu-papan b { font-size: 34px; }
+.mu-papan span { display: block; margin-top: 8px; font: italic 400 24px/1 'EB Garamond', serif; color: #BFAF92; }
+.v .mu-papan span { font-size: 32px; }
+.mu-catatan { position: absolute; right: 36px; bottom: 26px; font: 600 16px/1 'Inter', sans-serif; color: rgba(241,234,216,.6); opacity: 0; }
+.v .mu-catatan { bottom: 40px; font-size: 20px; }
+.pd-layar { opacity: 0; }
+.pd-cta { --pd-font: 'Inter', sans-serif; --pd-head: 'EB Garamond', serif; --pd-acc: #E2B65B; --pd-btn: #F1EAD8; --pd-btn-ink: #1E1915; --pd-tirai: rgba(22,18,15,.97); }

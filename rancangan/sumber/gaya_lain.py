@@ -758,7 +758,7 @@ ROWS = [
     R('PF32', 'Label museum',
       'Benda di etalase dengan kartu keterangan museum.',
       'Etalase; lampu sorot; kartu keterangan serif.',
-      'Bisa', 2, 9, 8,
+      'Sudah (PF32)', 2, 9, 8,
       'Artefak', 'Relate', '“Artefak: spreadsheet RoPA, sekitar 2019. Bahan: 14 tab, 1 orang yang paham.”',
       'Artefak 1–2 → “koleksi terbaru: register terpusat” → CTA',
       'RoPA', 'ropa-list-baru', '15 dtk', 'M04 (varian)'),

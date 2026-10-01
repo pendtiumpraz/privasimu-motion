@@ -1,0 +1,54 @@
+NASKAH PF32 — "ARTEFAK" · GAYA: LABEL MUSEUM
+================================================================
+Jenis      : video pendek satu gaya (seri katalog gaya)
+Gaya       : Label museum — aula museum gelap berpanel kayu; tiga vitrin kaca di atas alas, masing-masing dengan
+             lampu sorot kerucut dan kartu keterangan krem bergaya museum (huruf serif, nomor koleksi, tahun
+             miring, bahan); papan atas "MUSEUM KEPATUHAN"; kamera bergeser & mundur; cap merah MASIH DIPAKAI* di
+             kartu, plakat hijau DIPENSIUNKAN ✓ di depan kaca; register RoPA asli di vitrin terbaru
+Durasi     : ± 31 detik
+Format     : 16:9 dan 9:16 (subtitle tidak dibakar karena teks di layar sudah memuat ucapan; .srt tetap tersedia)
+Komposisi  : 50% edukasi · 50% meme
+Sasaran    : pemilik bisnis, manajemen, DPO/PPDP
+Hook       : relate — "Artefak: spreadsheet RoPA, sekitar 2019. Bahan: 14 tab, 1 orang yang paham."
+Pengisi    : 1 suara (bebas pria/wanita)
+Video      : SUDAH DIRAKIT (folder motion/pf32-label-museum). Suara sementara = TTS
+
+
+CARA REKAM
+----------------------------------------------------------------
+1. Satu bagian = satu file: PF32_S1, PF32_S2, PF32_S3, PF32_S4, PF32_S5 (atau satu file utuh PF32 dengan jeda 2 detik antarbagian).
+2. Baca PERSIS sesuai teks VO: gambar di layar mengikuti kata yang diucapkan.
+3. Ruangan senyap, jarak mulut ke HP/mic ± 20 cm, sisakan ± 1 detik hening di awal dan akhir.
+4. ropa-list-baru
+
+
+NASKAH
+----------------------------------------------------------------
+[S1]  VO: "Artefak: spreadsheet RoPA. Bahan: empat belas tab, satu orang yang paham."
+      Layar: Aula gelap; lampu sorot menyala (klik) ke vitrin No. 014: lembar spreadsheet tua dengan deretan tab;
+             kartu keterangan museum muncul baris demi baris: "Spreadsheet RoPA", "ca. 2019", "Bahan: 14 tab, 1
+             orang yang paham*".
+[S2]  VO: "Sebelahnya: surel berantai soal data pelanggan. Tiga puluh tujuh balasan, nol keputusan."
+      Layar: Kamera bergeser ke vitrin No. 015 (lampu menyala): cetakan surel dengan subjek RE: FW: RE: FW: data
+             pelanggan dan kutipan bertingkat; kartu: "ca. 2021", "37 balasan, 0 keputusan*".
+[S3]  VO: "Masalahnya, dua artefak ini masih dipakai di banyak kantor."
+      Layar: Kamera mundur memperlihatkan kedua vitrin; cap merah "MASIH DIPAKAI*" menghantam kartu keterangan
+             keduanya.
+[S4]  VO: "Privasimu Nexus: RoPA terpusat, berkode, ada riwayatnya. Spreadsheet itu? Resmi jadi artefak."
+      Layar: Kamera meluncur ke vitrin No. 016 "Koleksi terbaru": register RoPA asli; kartu: "Register RoPA
+             terpusat · Privasimu Nexus", "kode ROPA-TAHUN-NOMOR · riwayat perubahan", "Status: dipakai setiap
+             hari"; kamera kembali ke dua vitrin lama (bingkai sama dengan twist): cap merah berganti plakat
+             hijau besar "DIPENSIUNKAN ✓" di depan kaca.
+[S5]  VO: "Pensiunkan artefakmu. Cek kesiapanmu gratis di privasimu dot com."
+      Layar: Kartu penutup: logo, "Pensiunkan artefakmu.", tombol privasimu.com, kontak.
+
+
+DASAR FAKTA (untuk tim, tidak dibaca)
+----------------------------------------------------------------
+- RoPA (fakta_produk.json): satu register terpusat dengan kode rekaman ROPA-TAHUN-NOMOR; setiap perubahan
+  tercatat di log audit (riwayat); sebelum: catatan pemrosesan tersebar di spreadsheet per divisi.
+- Register RoPA = tangkapan asli assets/app/ropa-list-baru.png (dipotong, tanpa nama organisasi).
+- Artefak, tahun, "14 tab", "1 orang", "37 balasan", "folder Baru (3)" = ilustrasi (ditandai *); museum fiktif.
+- "Cek kesiapan gratis" = Start Pre Check: pastikan penawaran masih berlaku sebelum tayang.
+- Musik & efek suara disintesis sendiri. Kontak: support@privasimu.com · 0851 8318 2722.
+- Suara TTS hanya sementara; untuk tayang pakai rekaman tim atau TTS berlisensi.
