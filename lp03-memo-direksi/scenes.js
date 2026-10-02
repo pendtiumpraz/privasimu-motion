@@ -1,4 +1,4 @@
-// LP03 — "MEMO UNTUK DEWAN DIREKSI" · video landing page, TANPA voice-over, 16:9 utama + 9:16.
+// LP03 — "MEMO UNTUK DEWAN DIREKSI" · video landing page, voice-over edge-tts (wanita), 16:9 utama + 9:16.
 // Gaya: editorial mewah — memo direksi cetak premium di atas kertas ivory. Formula n07-konsultan: kertas digambar
 // SEKALI di `bg`, satu tipe scene kustom per halaman (style.js, awalan mm-), transisi di `frame` (balik halaman /
 // garis tinta / lembar diangkat), logo diwarnai ulang navy lewat canvas. Tinta navy = "cetakan"; biru #2F6BFF HANYA
@@ -35,9 +35,11 @@
     naskah: 'LP03',
     beat: BEAT,
     tail: 0,
-    burnCaptions: false, // tanpa VO; seluruh pesan ada di layar
+    burnCaptions: false, // seluruh pesan sudah ada di layar
+    voice: 'id-ID-GadisNeural',
+    voiceRate: '-4%',
     music: { bpm: BPM, root: 51, mode: 'major', lead: 'keys', drums: 'none', sonic: true },
-    mix: { musicGain: 0.9, sfxGain: 0.72 },
+    mix: { duckTo: 0.45, musicGain: 0.9, sfxGain: 0.72 },
     meta: {
       judul: 'Memo untuk Dewan Direksi',
       gaya: 'Editorial mewah — memo direksi cetak di kertas ivory (tinta navy, tanda pena biru)',
@@ -56,7 +58,7 @@
   const SCENES = [
     // ---------- 1 · sampul memo (hook): kop, "Memo.", Kepada / Dari / Perihal / Tanggal ----------
     {
-      id: 's1', vo: '', min: beats(12), theme: 'ivory', mus: 'calm',
+      id: 's1', vo: 'Kepada dewan direksi. Perihal: pelindungan data pribadi.', voDelay: 0.4, min: beats(12), theme: 'ivory', mus: 'calm',
       sfx: [[0.02, 'paper', 0.22], [b(0.75), 'shimmer', 0.05], [b(2.5), 'tick', 0.06], [b(3.5), 'tick', 0.06], [b(4.5), 'tick', 0.06], [b(5.5), 'tick', 0.06]],
       vis: PG('mm-cover', {
         page: 1, letterhead: 'Memo — Rahasia', title: 'Memo.',
@@ -66,7 +68,7 @@
     },
     // ---------- 2 · landasan: UU PDP berlaku penuh sejak Oktober 2024 ----------
     {
-      id: 's2', vo: '', min: beats(10), theme: 'ivory', mus: 'calm',
+      id: 's2', vo: 'Sejak Oktober dua ribu dua puluh empat, undang-undang pelindungan data pribadi berlaku penuh.', voDelay: 0.4, min: beats(10), theme: 'ivory', mus: 'calm',
       sfx: [...TURN, [b(4.25), 'tick', 0.05], [b(5), 'tick', 0.06], [b(6.5), 'tick', 0.05], [b(7.25), 'key', 0.05]],
       vis: PG('mm-law', {
         page: 2, trans: 'turn', sec: '01 — Landasan hukum',
@@ -86,7 +88,7 @@
     },
     // ---------- 3 · PP 33/2026 berlaku 16 Januari 2027 (angka besar ala laporan tahunan) ----------
     {
-      id: 's3', vo: '', min: beats(10), theme: 'ivory', mus: 'calm',
+      id: 's3', vo: 'Peraturan pelaksananya, P P tiga puluh tiga, mulai berlaku enam belas Januari dua ribu dua puluh tujuh.', voDelay: 0.4, min: beats(10), theme: 'ivory', mus: 'calm',
       sfx: [...WIPE, [b(2), 'tick', 0.06], [b(3.5), 'tick', 0.05], [b(5), 'tick', 0.04], [b(6.75), 'key', 0.05]],
       vis: PG('mm-date', {
         page: 3, trans: 'wipe', sec: '02 — Peraturan pelaksana',
@@ -99,7 +101,7 @@
     },
     // ---------- 4 · ruang lingkup: bukan lagi urusan satu divisi ----------
     {
-      id: 's4', vo: '', min: beats(12), theme: 'ivory', mus: 'calm',
+      id: 's4', vo: 'Pelindungan data pribadi bukan lagi urusan satu divisi. Ia menyentuh setiap bagian perusahaan.', voDelay: 0.4, min: beats(12), theme: 'ivory', mus: 'calm',
       sfx: [...TURN, [b(5.5), 'tick', 0.05], [b(6.5), 'tick', 0.05], [b(7.5), 'tick', 0.05]],
       vis: PG('mm-scope', {
         page: 4, trans: 'turn', sec: '03 — Ruang lingkup',
@@ -111,7 +113,7 @@
     },
     // ---------- 5 · taruhan: 2% · 3×24 jam ----------
     {
-      id: 's5', vo: '', min: beats(14), theme: 'ivory', mus: 'tense',
+      id: 's5', vo: 'Taruhannya: denda hingga dua persen dari pendapatan tahunan, dan batas pemberitahuan tiga kali dua puluh empat jam.', voDelay: 0.4, min: beats(14), theme: 'ivory', mus: 'tense',
       sfx: [...LIFT, [b(1.5), 'tick', 0.06], [b(4), 'key', 0.05], [b(6.5), 'tick', 0.05],
         [b(7), 'tock', 0.06], [b(8), 'tock', 0.06], [b(9), 'tock', 0.06], [b(10), 'tock', 0.07], [b(10.75), 'key', 0.05]],
       vis: PG('mm-stakes', {
@@ -123,7 +125,7 @@
     },
     // ---------- 6 · kutipan: "Tunjukkan buktinya." ----------
     {
-      id: 's6', vo: '', min: beats(10), theme: 'ivory', mus: 'hush',
+      id: 's6', vo: 'Pertanyaan pemeriksa selalu sama: tunjukkan buktinya.', voDelay: 0.4, min: beats(10), theme: 'ivory', mus: 'hush',
       sfx: [...WIPE, [b(1.25), 'shimmer', 0.05], [b(5.5), 'key', 0.04]],
       vis: PG('mm-quote', {
         page: 6, trans: 'wipe', sec: '05 — Pertanyaan pemeriksa',
@@ -135,7 +137,7 @@
     },
     // ---------- 7 · usulan: Privasimu menyiapkan bukti itu, setiap hari ----------
     {
-      id: 's7', vo: '', min: beats(22), theme: 'ivory', mus: 'main',
+      id: 's7', vo: 'Privasimu menyiapkan bukti itu, setiap hari. Register pemrosesan, penilaian dampak, hak subjek data, insiden, pihak ketiga, transfer lintas negara, dan dukungan pejabat P D P.', voDelay: 0.4, min: beats(22), theme: 'ivory', mus: 'main',
       sfx: [...TURN, ...[4, 6, 8, 10, 12, 14, 16].flatMap((n) => [[b(n), 'tick', 0.06], [b(n) + 0.7, 'key', 0.035]])],
       vis: PG('mm-list', {
         page: 7, trans: 'turn', sec: '06 — Usulan',
@@ -156,7 +158,7 @@
     },
     // ---------- 8 · arsitektur (kapabilitas platform; tampilan holding tidak ada di fakta → tidak diklaim) ----------
     {
-      id: 's8', vo: '', min: beats(10), theme: 'ivory', mus: 'main',
+      id: 's8', vo: 'Mengikuti kebijakan T I perusahaan: SaaS atau on-premise, basis data terdedikasi, dan log audit yang tahan rusak.', voDelay: 0.4, min: beats(10), theme: 'ivory', mus: 'main',
       sfx: [...WIPE, [b(2.5), 'tick', 0.05], [b(4), 'tick', 0.05], [b(5.5), 'tick', 0.05]],
       vis: PG('mm-arch', {
         page: 8, trans: 'wipe', sec: '07 — Arsitektur',
@@ -171,7 +173,7 @@
     },
     // ---------- 9 · rekomendasi: mulai dari Pre-Check · paraf Kantor DPO · stempel DISETUJUI ----------
     {
-      id: 's9', vo: '', min: beats(12), theme: 'ivory', mus: 'calm',
+      id: 's9', vo: 'Rekomendasi kami: mulai dari Pre-Check.', voDelay: 0.4, min: beats(12), theme: 'ivory', mus: 'calm',
       sfx: [...TURN, [b(3.25), 'tick', 0.04], [b(8), 'stamp', 0.95], [b(8) + 0.03, 'paper', 0.12]],
       vis: PG('mm-close', {
         page: 9, trans: 'turn', sec: '08 — Rekomendasi',
@@ -184,7 +186,7 @@
     },
     // ---------- 10 · CTA (bebas, ≥ 6 dtk) ----------
     {
-      id: 's10', vo: '', min: 9.6, free: true, theme: 'ivory', mus: 'outro',
+      id: 's10', vo: 'Konsultasi gratis, atau jadwalkan demo di privasimu titik com.', voDelay: 0.4, min: 9.6, free: true, theme: 'ivory', mus: 'outro',
       sfx: [...LIFT, [b(1.5), 'shimmer', 0.12], [b(4.25), 'tick', 0.05]],
       vis: PG('mm-cta', {
         trans: 'lift', push: 0.012,
