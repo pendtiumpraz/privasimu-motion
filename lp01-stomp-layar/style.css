@@ -1,0 +1,61 @@
+/* T01 · STOMP — tipografi menghentak: Anton raksasa, warna blok keras, pita label miring, screenshot menghantam */
+body { background: #07080F; }
+#vignette { opacity: .18; }
+#grain { opacity: .05; }
+#st-wm { position: absolute; z-index: 30; left: 56px; top: 44px; width: 210px; mix-blend-mode: difference; pointer-events: none; }
+.v #st-wm { left: 50%; top: 150px; width: 250px; transform: translateX(-50%); }
+.st-card { position: absolute; inset: 0; overflow: hidden; display: none; transform-origin: 50% 50%; }
+.st-in { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.st-num { font: 400 100px/0.86 'Anton', sans-serif; letter-spacing: -.02em; white-space: nowrap; }
+.st-bigbox { display: flex; flex-direction: column; align-items: center; transform-origin: 50% 50%; }
+.st-big { font: 400 100px/0.9 'Anton', sans-serif; white-space: nowrap; letter-spacing: -.005em; }
+.st-kick { font: 400 60px/1 'Anton', sans-serif; letter-spacing: .12em; margin-bottom: .1em; color: var(--acc); -webkit-text-stroke: 0; }
+.st-sub { margin-top: 26px; font: 800 56px/1.15 'Plus Jakarta Sans', sans-serif; letter-spacing: -.01em; text-align: center; max-width: 1500px; }
+.v .st-sub { max-width: 900px; }
+.st-band { position: absolute; left: -6%; right: -6%; top: 50%; padding: 14px 0 10px; background: var(--acc); color: var(--accfg); text-align: center; box-shadow: 0 18px 40px rgba(0,0,0,.28); }
+.st-band span { display: inline-block; font: 400 100px/1 'Anton', sans-serif; white-space: nowrap; letter-spacing: .01em; }
+.st-emo, .st-emo2 { font-family: 'Noto Color Emoji', sans-serif; line-height: 1; }
+.st-emo { font-size: 360px; }
+.st-emo2 { position: absolute; right: 7%; bottom: 8%; font-size: 260px; }
+.v .st-emo2 { right: 50%; bottom: 14%; margin-right: -130px; }
+.st-mq { position: absolute; left: 0; white-space: nowrap; font: 400 150px/1 'Anton', sans-serif; color: transparent; -webkit-text-stroke: 2px var(--fg); opacity: .13; }
+.v .st-mq { font-size: 170px; }
+.st-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(29,138,78,.35) 2px, transparent 2px), linear-gradient(90deg, rgba(29,138,78,.35) 2px, transparent 2px); background-size: 160px 64px; background-position: 0 44px; }
+.st-grid .hd { position: absolute; left: 0; right: 0; top: 0; height: 44px; display: flex; background: #1D8A4E; }
+.st-grid .hd i { flex: 0 0 160px; color: #fff; font: 800 24px/44px 'Plus Jakarta Sans', sans-serif; text-align: center; font-style: normal; }
+.st-grid b { position: absolute; padding: 6px 14px; background: #fff; border: 3px solid #E23D3D; color: #E23D3D; font: 800 34px 'JetBrains Mono', monospace; }
+.st-chat { position: absolute; right: 5%; bottom: 9%; display: flex; flex-direction: column; gap: 18px; align-items: flex-end; }
+.v .st-chat { right: 50%; transform: translateX(50%); bottom: 12%; align-items: center; }
+.st-chat .pill { display: flex; align-items: center; gap: 14px; padding: 16px 26px; border-radius: 999px; background: #fff; color: #07080F; font: 800 34px 'Plus Jakarta Sans', sans-serif; box-shadow: 0 16px 36px rgba(0,0,0,.3); white-space: nowrap; }
+.st-chat .pill span { font-family: 'Plus Jakarta Sans', sans-serif; }
+.st-chat .pill b { padding: 4px 14px; border-radius: 999px; background: #FF3B3B; color: #fff; font-size: 28px; }
+.st-rays { position: absolute; left: 50%; top: 50%; width: 3200px; height: 3200px; border-radius: 50%;
+  background: repeating-conic-gradient(rgba(47,107,255,.22) 0 9deg, rgba(47,107,255,0) 9deg 24deg); transform: translate(-50%, -50%); }
+.st-logo { display: flex; flex-direction: column; align-items: center; }
+.st-logo img { width: 900px; }
+.v .st-logo img { width: 820px; }
+.st-logo .nx { margin-top: 14px; font: 800 64px/1 'Plus Jakarta Sans', sans-serif; letter-spacing: .6em; margin-right: -.6em; color: #7FB2FF; }
+.st-shot { position: absolute; left: 50%; top: 50%; background: #fff; border-radius: 20px; overflow: visible; box-shadow: 0 40px 90px rgba(0,0,0,.45); }
+.st-shot .vp { position: relative; overflow: hidden; border-radius: 20px; }
+.st-shot .vp img { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.st-shot .lb { position: absolute; z-index: 2; left: -18px; top: -34px; padding: 10px 22px; background: #07080F; color: #fff; font: 400 44px/1 'Anton', sans-serif; letter-spacing: .04em; transform: rotate(-3deg); }
+.st-tag { position: absolute; z-index: 2; right: -24px; bottom: -34px; padding: 16px 30px; border-radius: 999px; background: #FFE14D; color: #07080F; font: 800 40px 'Plus Jakarta Sans', sans-serif; white-space: nowrap; box-shadow: 0 14px 30px rgba(0,0,0,.3); }
+.v .st-tag { right: 50%; transform-origin: 50% 50%; margin-right: -0px; font-size: 36px; }
+.st-chip { position: absolute; left: 0; top: 0; padding: 14px 28px; border-radius: 999px; border: 3px solid rgba(255,255,255,.7); background: #1B2A5E; color: #fff; font: 800 42px 'Plus Jakarta Sans', sans-serif; white-space: nowrap; box-shadow: 0 10px 24px rgba(0,0,0,.4); }
+.st-ticker { position: absolute; left: 0; right: 0; bottom: 16%; overflow: hidden; white-space: nowrap; }
+.v .st-ticker { bottom: 30%; }
+.st-ticker div { display: inline-block; font: 800 40px 'Plus Jakarta Sans', sans-serif; color: rgba(255,255,255,.85); }
+.st-flash { position: absolute; inset: 0; opacity: 0; pointer-events: none; }
+.st-cta .st-rays { opacity: .8; }
+.st-ctabox { position: absolute; left: 50%; top: 50%; display: flex; flex-direction: column; align-items: center; text-align: center; transform: translate(-50%, -50%); }
+.st-ctabox .st-logo img { width: 640px; }
+.v .st-ctabox .st-logo img { width: 700px; }
+.st-ctabox .st-logo .nx { font-size: 46px; }
+.st-ctabox .l1 { margin-top: 44px; font: 400 100px/0.95 'Anton', sans-serif; white-space: nowrap; color: #fff; }
+.st-ctabox .l2 { margin-top: 10px; font: 400 60px/1 'Anton', sans-serif; white-space: nowrap; color: #FFE14D; letter-spacing: .02em; }
+.st-ctabox .btn { margin-top: 44px; padding: 22px 64px; border-radius: 999px; background: #fff; color: #0B1B4D; font: 800 64px/1 'Plus Jakarta Sans', sans-serif; box-shadow: 0 20px 50px rgba(0,0,0,.35); }
+.st-ctabox .chips { margin-top: 30px; display: flex; gap: 18px; justify-content: center; }
+.st-ctabox .chips span { padding: 12px 26px; border-radius: 999px; border: 3px solid rgba(255,255,255,.55); font: 800 32px 'Plus Jakarta Sans', sans-serif; white-space: nowrap; }
+.st-ctabox .chips span.y { background: #FFE14D; border-color: #FFE14D; color: #07080F; }
+.st-ctabox .foot { margin-top: 26px; font: 600 28px 'Plus Jakarta Sans', sans-serif; color: rgba(255,255,255,.75); }
+.v .st-ctabox .chips { flex-direction: column; align-items: center; }

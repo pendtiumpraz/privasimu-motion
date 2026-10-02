@@ -98,6 +98,7 @@ video yang tidak berubah; rekaman VN baru di `vn/` otomatis memicu render ulang 
 | T02 | `t02-tipografi` | Awareness → tools (full typography) | Kinetic type tanpa gambar: kamera menjelajah satu kanvas teks lalu mundur jadi poster | 53,6 dtk |
 | T03 | `t03-stop-motion` | Relate → tools (stop motion) | Papan gabus 12 fps: huruf guntingan, sticky note, stempel nilai 1/10…0/10 → 10/10 | 51,4 dtk |
 | GB05 | `gb05-satu-garis` | Film merek → tools (one-line art) | Satu garis tinta tanpa putus menggambar perjalanan satu data; saat kamera mundur, garisnya membentuk gembok | 64,1 dtk |
+| LP01 | `lp01-stomp-layar` | Landing page · produk → Pre-Check (stomp, VO edge-tts pria) | Tipografi menghentak 100 bpm + screenshot aplikasi asli berisi data demo Arunika (RoPA, DPIA, Discovery, transfer, TIA, LIA, dasbor, holding, telaah, RTP) | ± 62 dtk (belum dirender) |
 | LP02 | `lp02-satu-kanvas` | Landing page · awareness → platform (kinetic typography, VO edge-tts pria) | Satu kanvas tinta: 9 kewajiban UU PDP + PP 33/2026, kamera menjelajah tiap stasiun lalu mundur menjadi satu poster dengan logo Privasimu | 97,4 dtk |
 | LP03 | `lp03-memo-direksi` | Landing page · direksi → konsultasi (editorial mewah, VO edge-tts wanita) | Memo RAHASIA untuk Dewan Direksi di kertas gading: UU PDP berlaku penuh, PP 33/2026 16 Januari 2027, 2% & 3×24 jam, "Tunjukkan buktinya.", daftar modul berpasal, paraf + stempel DISETUJUI | 102,9 dtk |
 
