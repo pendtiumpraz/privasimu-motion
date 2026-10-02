@@ -24,6 +24,11 @@ RENDER.bat --audio-only                :: cepat: timeline + audio saja (cek nask
 `antrian-render.txt` sekarang opsional: isinya urutan prioritas (folder yang tertulis dirender lebih dulu), dan baris
 `-nama-folder` berarti jangan dirender.
 
+**Video landing page (LP01–LP03):** klik dua kali **`RENDER-LANDING.bat`** — render ulang ketiganya dengan voice-over
+edge-tts, musik, dan SFX, lalu buat WebP-nya. Untuk website, salin hasilnya ke
+`priva-front/public/landing/video/<nama>/` sebagai `poster.webp`, `cuplikan.webp` (±10 dtk), dan `film.webp`
+(`node lib/webp.js <folder> --sisi=960 --fps=12 --q=60 --paksa` untuk film; satu bingkai untuk poster).
+
 **WebP animasi (pratinjau ringan):** klik dua kali **`KONVERSI-WEBP.bat`**. Semua `out/*/*.mp4` diubah menjadi
 `.webp` berdampingan (`out/<folder>/<folder>-16x9.webp`, sisi terpanjang 720 px, 15 fps, ± 5 MB per 40 dtk). MP4 asli
 tidak disentuh; yang sudah punya `.webp` dilewati, jadi aman dijalankan berulang (MP4 yang dirender ulang dikonversi lagi).
@@ -93,7 +98,7 @@ video yang tidak berubah; rekaman VN baru di `vn/` otomatis memicu render ulang 
 | T02 | `t02-tipografi` | Awareness → tools (full typography) | Kinetic type tanpa gambar: kamera menjelajah satu kanvas teks lalu mundur jadi poster | 53,6 dtk |
 | T03 | `t03-stop-motion` | Relate → tools (stop motion) | Papan gabus 12 fps: huruf guntingan, sticky note, stempel nilai 1/10…0/10 → 10/10 | 51,4 dtk |
 | GB05 | `gb05-satu-garis` | Film merek → tools (one-line art) | Satu garis tinta tanpa putus menggambar perjalanan satu data; saat kamera mundur, garisnya membentuk gembok | 64,1 dtk |
-| LP02 | `lp02-satu-kanvas` | Landing page · awareness → platform (kinetic typography, tanpa VO) | Satu kanvas tinta: 9 kewajiban UU PDP + PP 33/2026, kamera menjelajah tiap stasiun lalu mundur menjadi satu poster dengan logo Privasimu | 97,4 dtk |
+| LP02 | `lp02-satu-kanvas` | Landing page · awareness → platform (kinetic typography, VO edge-tts pria) | Satu kanvas tinta: 9 kewajiban UU PDP + PP 33/2026, kamera menjelajah tiap stasiun lalu mundur menjadi satu poster dengan logo Privasimu | 97,4 dtk |
 | LP03 | `lp03-memo-direksi` | Landing page · direksi → konsultasi (editorial mewah, tanpa VO) | Memo RAHASIA untuk Dewan Direksi di kertas gading: UU PDP berlaku penuh, PP 33/2026 16 Januari 2027, 2% & 3×24 jam, "Tunjukkan buktinya.", daftar modul berpasal, paraf + stempel DISETUJUI | 102,9 dtk |
 
 Hasil tiap video: `out/<folder>/<folder>-16x9.mp4` (1920×1080) dan `-9x16.mp4` (1080×1920, subtitle karaoke dibakar

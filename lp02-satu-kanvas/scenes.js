@@ -1,4 +1,4 @@
-// LP02 — "SATU KANVAS, SATU UNDANG-UNDANG" · video landing page (hero/galeri), TANPA voice-over, 16:9 utama + 9:16.
+// LP02 — "SATU KANVAS, SATU UNDANG-UNDANG" · video landing page (hero/galeri), voice-over edge-tts (pria), 16:9 utama + 9:16.
 // Gaya: kinetic typography murni (tanpa gambar) di SATU kanvas raksasa (#kv-world). Tiap kalimat = satu "stasiun"
 // teks di kanvas; kamera meluncur diagonal antarstasiun sebagai fungsi murni waktu global, grid hairline ikut bergerak.
 // Di akhir kamera mundur: seluruh kanvas terbaca sebagai SATU poster — sembilan kewajiban mengelilingi satu pusat,
@@ -41,9 +41,11 @@
     naskah: 'LP02',
     beat: BEAT,
     tail: 0,
-    burnCaptions: false, // tanpa VO, seluruh pesan ada di layar
+    burnCaptions: false, // seluruh pesan sudah ada di layar
+    voice: 'id-ID-ArdiNeural',
+    voiceRate: '+0%',
     music: { bpm: BPM, root: 50, mode: 'minor', lead: 'keys', drums: 'light', sonic: true },
-    mix: { musicGain: 0.92, sfxGain: 0.7 },
+    mix: { duckTo: 0.45, musicGain: 0.92, sfxGain: 0.7 },
     meta: {
       judul: 'Satu Kanvas, Satu Undang-Undang',
       gaya: 'Kinetic typography satu kanvas (kamera menjelajah lalu mundur jadi poster)',
@@ -181,7 +183,27 @@
       },
     },
   ];
-  SCENES.forEach((s) => { s.vo = ''; s.theme = 'ink'; });
+  // Voice-over edge-tts (dirender lokal lewat RENDER.bat / RENDER-LANDING.bat). Kalimat pendek agar muat di
+  // durasi scene; angka ditulis sebagai kata supaya dibaca benar. Scene yang VO-nya lebih panjang dari `min`
+  // otomatis memanjang (dibulatkan ke ketukan).
+  const VO = {
+    s1: 'Satu undang-undang. Ratusan proses bisnis. Satu pertanyaan: sudahkah terlindungi?',
+    s2: 'U U P D P berlaku penuh sejak Oktober dua ribu dua puluh empat. P P tiga puluh tiga berlaku enam belas Januari dua ribu dua puluh tujuh.',
+    s3: 'Catat setiap kegiatan pemrosesan.',
+    s4: 'Nilai dampaknya, sebelum berisiko.',
+    s5: 'Hormati hak subjek data, dengan tenggat yang dihitung otomatis.',
+    s6: 'Minta persetujuan yang sah, dan buktikan.',
+    s7: 'Lindungi data anak dan penyandang disabilitas.',
+    s8: 'Kendalikan pihak ketiga yang memproses data atas nama Anda.',
+    s9: 'Jaga data yang menyeberang negara.',
+    s10: 'Laporkan kegagalan pelindungan dalam tiga kali dua puluh empat jam.',
+    s11: 'Tunjuk pejabat pelindungan data pribadi.',
+    s12: 'Sanksinya: denda hingga dua persen dari pendapatan tahunan.',
+    s13: 'Sembilan kewajiban. Puluhan divisi. Satu platform.',
+    s14: 'Privasimu.',
+    s15: 'Jadwalkan demo di privasimu titik com.',
+  };
+  SCENES.forEach((s) => { s.vo = VO[s.id] || ''; s.voDelay = s.vo ? 0.35 : 0; s.theme = 'ink'; });
 
   const api = { CONFIG, SCENES, BPM, BEAT };
   if (typeof module !== 'undefined') module.exports = api; else root.PRV = api;
