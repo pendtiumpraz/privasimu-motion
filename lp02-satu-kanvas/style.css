@@ -1,0 +1,94 @@
+/* LP02 · SATU KANVAS — tinta pekat + teks gading, satu aksen biru Privasimu (#2F6BFF) yang dipakai hemat.
+   Instrument Serif miring = penekanan (kata kerja kewajiban), Inter Tight = teks, JetBrains Mono = nomor & rujukan pasal.
+   Semua ukuran di bawah dalam satuan dunia (kamera yang menskalakan). */
+:root { --ink: #0B1020; --ivory: #F2EDE3; --mute: rgba(242,237,227,.6); --faint: rgba(242,237,227,.46); --pv: #2F6BFF; }
+body, #stage { background: var(--ink); color: var(--ivory); }
+#grain { opacity: .035; }
+#vignette { background: radial-gradient(ellipse at center, transparent 52%, rgba(2,4,10,.5) 100%); }
+
+#kv-view { position: absolute; inset: 0; overflow: hidden; }
+#kv-world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.kv-logo { position: absolute; transform-origin: 50% 50%; visibility: hidden; }
+.kv-logo img { display: block; width: 100%; }
+
+/* ---------- blok & baris ---------- */
+.kv-blk { position: absolute; left: 0; top: 0; display: flex; flex-direction: column; align-items: flex-start; --hot: #2F6BFF;
+  color: var(--ivory); font-family: 'Inter Tight', sans-serif; white-space: nowrap; }
+.kv-blk.turn { align-items: center; text-align: center; }
+.ln { position: relative; }
+.ln .row { display: flex; align-items: baseline; }
+.ln .w { display: inline-block; }
+.ln .w + .w { margin-left: .26em; }
+.ln .w .i, .ln > .i { display: inline-block; }
+.ln .w.em .i, .ln .em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: var(--hot); letter-spacing: -.005em; }
+.ln .w.it .i, .ln .it { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: var(--ivory); letter-spacing: -.005em; }
+.ln .w.em, .ln .w.it { font-size: 1.24em; }
+.ln .w.em + .w, .ln .w + .w.em, .ln .w + .w.it { margin-left: .2em; }
+.ln .ch { display: inline-block; }
+
+/* nomor stasiun + garis + label modul */
+.ln.kick { display: flex; align-items: center; font: 500 30px/1 'JetBrains Mono', monospace; letter-spacing: .16em; color: var(--mute); }
+.ln.kick .no { color: var(--ivory); letter-spacing: .08em; }
+.ln.kick .rule { display: block; width: 132px; height: 2px; margin: 0 26px 0 22px; background: rgba(242,237,227,.5); transform-origin: 0 50%; transform: scaleX(0); }
+
+/* stasiun kewajiban */
+.ln.verb { margin-top: 30px; font-size: 272px; line-height: .92; }
+.ln.verb .i { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; color: var(--hot); letter-spacing: -.01em;
+  padding: .02em .2em .1em .06em; margin: -.02em -.2em -.1em -.06em; }
+.ln.rest { margin-top: 22px; font-size: 96px; font-weight: 400; line-height: 1.08; letter-spacing: -.028em; }
+.ln.rest + .ln.rest { margin-top: 0; }
+.ln.rest.mute { color: var(--mute); font-weight: 300; }
+.ln.deck { margin-top: 22px; font-size: 56px; font-weight: 300; line-height: 1.18; letter-spacing: -.012em; color: var(--mute); }
+.ln.note { margin-top: 40px; font-size: 52px; font-weight: 500; line-height: 1.16; letter-spacing: -.015em; color: var(--ivory); padding-left: 1.05em; }
+.ln.note .mk { position: absolute; left: 0; top: .34em; width: .5em; height: .5em; background: var(--pv); opacity: 0; }
+.ln.tag { margin-top: 46px; font: 500 28px/1.3 'JetBrains Mono', monospace; letter-spacing: .13em; color: var(--faint); }
+.ln .bar { position: absolute; left: 0; right: 0; bottom: -.16em; height: 4px; background: rgba(242,237,227,.14); opacity: 0; }
+.ln .bar b { position: absolute; inset: 0; background: rgba(242,237,227,.7); transform-origin: 0 50%; transform: scaleX(0); }
+
+/* hook */
+.hook .ln.big { font-size: 156px; font-weight: 500; line-height: 1.04; letter-spacing: -.04em; }
+.hook .ln.mid { margin: 34px 0 6px; font-size: 92px; font-weight: 300; letter-spacing: -.025em; }
+.ln.mute { color: var(--mute); }
+
+/* konteks hukum */
+.ctx .ln.law { margin-top: 30px; font-size: 132px; font-weight: 500; line-height: 1.02; letter-spacing: -.035em; }
+.ctx .ln.when { margin-top: 8px; font-size: 76px; font-weight: 300; line-height: 1.12; letter-spacing: -.02em; color: var(--mute); }
+.ctx .ln.when .w.em, .ctx .ln.when .w.it { font-size: 1.3em; }
+.ctx .ln.sep { width: 100%; height: 2px; margin: 58px 0 10px; }
+.ctx .ln.sep .rule { display: block; width: 100%; height: 2px; background: rgba(242,237,227,.22); transform-origin: 0 50%; transform: scaleX(0); }
+
+/* taruhan: 2% */
+.stakes .ln.giga { margin: 10px 0 0 -.03em; font-size: 720px; line-height: .8; }
+.stakes .ln.giga .i { font-family: 'Instrument Serif', serif; font-style: italic; color: var(--hot); letter-spacing: -.02em; transform-origin: 30% 60%;
+  padding: .04em .12em .06em .04em; margin: -.04em -.12em -.06em -.04em; }
+.stakes .ln.rest { margin-top: 30px; }
+.stakes .ln.rest.mute { margin-top: 36px; }
+
+/* balik: pusat kanvas */
+.turn .ln.big { font-size: 150px; font-weight: 500; line-height: 1.06; letter-spacing: -.04em; }
+.turn .ln .row { justify-content: center; }
+
+/* ---------- 9:16: kolom sempit ---------- */
+.v .ln.verb { font-size: 250px; }
+.v .ln.rest { font-size: 92px; }
+.v .hook .ln.big { font-size: 100px; }
+.v .hook .ln.mid { font-size: 72px; }
+.v .ctx .ln.law { font-size: 104px; }
+.v .ctx .ln.when { font-size: 64px; }
+.v .stakes .ln.giga { font-size: 560px; }
+.v .turn .ln.big { font-size: 104px; }
+
+/* ---------- CTA (ruang layar, di atas kanvas yang diredupkan) ---------- */
+.kv-cta { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; text-align: center; color: var(--ivory); }
+.kv-cta .tagline { font: 300 54px/1.2 'Inter Tight', sans-serif; letter-spacing: -.02em; }
+.kv-cta .btn { margin-top: 54px; display: flex; align-items: center; gap: 22px; padding: 22px 46px 24px; border-radius: 999px; background: var(--pv);
+  font: 600 44px/1 'Inter Tight', sans-serif; letter-spacing: -.01em; color: #fff; }
+.kv-cta .btn .dash { opacity: .7; font-weight: 300; }
+.kv-cta .btn .b2 { font-weight: 400; }
+.kv-cta .foot { margin-top: 40px; font: 500 26px/1.3 'JetBrains Mono', monospace; letter-spacing: .06em; color: var(--mute); }
+.v .kv-cta { padding: 0 70px; }
+.v .kv-cta .tagline { font-size: 58px; max-width: 900px; white-space: normal; text-wrap: balance; }
+.v .kv-cta .btn { margin-top: 64px; flex-direction: column; gap: 10px; padding: 30px 60px 32px; border-radius: 44px; font-size: 52px; }
+.v .kv-cta .btn .dash { display: none; }
+.v .kv-cta .btn .b2 { font-size: 40px; opacity: .92; }
+.v .kv-cta .foot { margin-top: 46px; font-size: 27px; }

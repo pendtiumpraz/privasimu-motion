@@ -93,6 +93,7 @@ video yang tidak berubah; rekaman VN baru di `vn/` otomatis memicu render ulang 
 | T02 | `t02-tipografi` | Awareness → tools (full typography) | Kinetic type tanpa gambar: kamera menjelajah satu kanvas teks lalu mundur jadi poster | 53,6 dtk |
 | T03 | `t03-stop-motion` | Relate → tools (stop motion) | Papan gabus 12 fps: huruf guntingan, sticky note, stempel nilai 1/10…0/10 → 10/10 | 51,4 dtk |
 | GB05 | `gb05-satu-garis` | Film merek → tools (one-line art) | Satu garis tinta tanpa putus menggambar perjalanan satu data; saat kamera mundur, garisnya membentuk gembok | 64,1 dtk |
+| LP02 | `lp02-satu-kanvas` | Landing page · awareness → platform (kinetic typography, tanpa VO) | Satu kanvas tinta: 9 kewajiban UU PDP + PP 33/2026, kamera menjelajah tiap stasiun lalu mundur menjadi satu poster dengan logo Privasimu | 97,4 dtk |
 
 Hasil tiap video: `out/<folder>/<folder>-16x9.mp4` (1920×1080) dan `-9x16.mp4` (1080×1920, subtitle karaoke dibakar
 kecuali video tipografi), 30 fps, AAC 48 kHz, -14 LUFS, plus `<folder>.srt`. Folder `out/` tidak ikut repo git.
